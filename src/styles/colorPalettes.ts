@@ -113,6 +113,31 @@ export const SAPPHIRE_PALETTE: ColorPalette = {
   rawColors: ['#35627A', '#E5AEA9', '#B46258', '#A6A9D0', '#F5F5F5', '#8E9A98']
 }
 
+// Palette 4: Pihla Folk
+export const PIHLA_FOLK_PALETTE: ColorPalette = {
+  name: 'Pihla Folk',
+  description: 'Bold red and black brand identity with clean gray backgrounds',
+  colors: {
+    bgPrimary: '#f4f4f4',      // Light gray background
+    bgSecondary: '#ffffff',    // White sections
+    bgAccent: '#ff0000',       // Red highlights
+
+    textPrimary: '#0c0c0c',    // Black text
+    textHeading: '#0c0c0c',    // Black headings
+    textMuted: '#666666',      // Gray secondary text
+
+    accentPrimary: '#ff0000',  // Red primary accent
+    accentSecondary: '#cc0000',// Darker red secondary
+    accentTertiary: '#0c0c0c', // Black tertiary
+
+    borderColor: '#dddddd',    // Light gray borders
+    dividerColor: '#ff0000',   // Red dividers
+    hoverColor: '#cc0000',     // Darker red hover
+    activeColor: '#ff0000'     // Red active state
+  },
+  rawColors: ['#ff0000', '#0c0c0c', '#f4f4f4']
+}
+
 // Combined/Recommended Palette (starting point)
 // Combines best elements from all three
 export const COMBINED_PALETTE: ColorPalette = {
@@ -148,12 +173,13 @@ export const PALETTES = {
   driftwood: DRIFTWOOD_PALETTE,
   graphite: GRAPHITE_PALETTE,
   sapphire: SAPPHIRE_PALETTE,
+  pihlafolk: PIHLA_FOLK_PALETTE,
   combined: COMBINED_PALETTE
 } as const
 
 // CHANGE THIS to switch active palette
-// Options: 'driftwood' | 'graphite' | 'sapphire' | 'combined'
-export const ACTIVE_PALETTE_KEY: keyof typeof PALETTES = 'driftwood'
+// Options: 'driftwood' | 'graphite' | 'sapphire' | 'pihlafolk' | 'combined'
+export const ACTIVE_PALETTE_KEY: keyof typeof PALETTES = 'pihlafolk'
 
 // Active palette (use this in components)
 export const ACTIVE_PALETTE = PALETTES[ACTIVE_PALETTE_KEY]
