@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { HomePage } from './pages/HomePage';
-import { GalleryPage } from './pages/GalleryPage';
+import { ArtistsPage } from './pages/ArtistsPage';
 import { AboutPage } from './pages/AboutPage';
-import { MediaPage } from './pages/MediaPage';
-import { CVPage } from './pages/CVPage';
+import { ServicesPage } from './pages/ServicesPage';
+import { ProductionsPage } from './pages/ProductionsPage';
 import { ContactPage } from './pages/ContactPage';
 import { NotFoundPage } from './pages/NotFoundPage';
 
@@ -13,11 +13,11 @@ import { NotFoundPage } from './pages/NotFoundPage';
  *
  * React Router routing structure:
  * - / -> HomePage (Etusivu)
- * - /artistit -> GalleryPage (will become ArtistsPage)
- * - /tietoa -> AboutPage
- * - /palvelut -> MediaPage (will become ServicesPage)
- * - /tuotannot -> CVPage (will become ProductionsPage)
- * - /yhteystiedot -> ContactPage
+ * - /artistit -> ArtistsPage (Artists represented by Pihla Folk)
+ * - /tietoa -> AboutPage (About Pihla Folk and Mari Pääkkönen)
+ * - /palvelut -> ServicesPage (Services offered)
+ * - /tuotannot -> ProductionsPage (Ongoing and past productions)
+ * - /yhteystiedot -> ContactPage (Contact information)
  */
 
 export const PortfolioSite: React.FC = () => {
@@ -25,10 +25,10 @@ export const PortfolioSite: React.FC = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/artistit" element={<GalleryPage />} />
+        <Route path="/artistit" element={<ArtistsPage />} />
         <Route path="/tietoa" element={<AboutPage />} />
-        <Route path="/palvelut" element={<MediaPage />} />
-        <Route path="/tuotannot" element={<CVPage />} />
+        <Route path="/palvelut" element={<ServicesPage />} />
+        <Route path="/tuotannot" element={<ProductionsPage />} />
         <Route path="/yhteystiedot" element={<ContactPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
