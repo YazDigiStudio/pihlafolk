@@ -77,7 +77,7 @@ export const Navigation: React.FC<NavigationProps> = ({ showName = true }) => {
         left: 0,
         right: 0,
         zIndex: 100,
-        backgroundColor: 'rgba(0, 0, 0, 0.3)',
+        backgroundColor: 'rgba(12, 12, 12, 0.95)',
         backdropFilter: 'blur(10px)',
         WebkitBackdropFilter: 'blur(10px)',
         borderBottom: '1px solid rgba(255, 255, 255, 0.1)'
@@ -87,26 +87,31 @@ export const Navigation: React.FC<NavigationProps> = ({ showName = true }) => {
         style={{
           maxWidth: '1400px',
           margin: '0 auto',
-          padding: isMobile ? '1rem 1.5rem' : '1rem 2rem',
+          padding: isMobile ? '0.25rem 1.5rem' : '0.25rem 2rem',
           display: 'flex',
           justifyContent: showName ? 'space-between' : 'flex-end',
           alignItems: 'center'
         }}
       >
-        {/* Logo/Name - Only show if showName is true */}
+        {/* Logo - Only show if showName is true */}
         {showName && (
           <Link
             to="/"
             style={{
-              color: '#FFFFFF',
               textDecoration: 'none',
-              fontSize: isMobile ? '1rem' : '1.25rem',
-              fontWeight: 600,
-              letterSpacing: '0.05em',
-              textShadow: '1px 1px 2px rgba(0,0,0,0.5)'
+              display: 'flex',
+              alignItems: 'center'
             }}
           >
-            Pihla Folk
+            <img
+              src="/assets/pihla-folk-logo.png"
+              alt="Pihla Folk"
+              style={{
+                height: isMobile ? '60px' : '80px',
+                width: 'auto',
+                display: 'block'
+              }}
+            />
           </Link>
         )}
 

@@ -1,0 +1,48 @@
+{
+  "artists": [
+    {
+      "id": "frander",
+      "name": "FRÄNDER",
+      "type": "booking",
+      "image": "/assets/artists/frander.jpg",
+      "website": "https://www.frander.se/",
+      "excerpt": "Born from a thunderstorm, FRÄNDER emerged like lightning — a fusion of Nordic roots and modern attitude became HEAVY FOLK. From the deep forest of Sweden & Estonia, they deliver heavy grooves and seductive harmonies.",
+      "bio": "Born from a thunderstorm, FRÄNDER emerged like lightning — a fusion of Nordic roots and modern attitude became HEAVY FOLK. From the deep forest of Sweden & Estonia, with energy and a warm presence they deliver heavy grooves and seductive harmonies that weave a mesmerizing soundscape.\n\n\"FRÄNDER II is a perfect, magnificent masterpiece\" – LIRA.se\n\nFollowing their acclaimed debut and global touring, the band's groundbreaking second album FRÄNDER II pushes the limits of what folk can be – with subtle echoes of Led Zeppelin and Jethro Tull meeting the pulse of Nordic tradition they blend folk music with the raw power and weight of hard rock in an incomparable way, they craft a sound that's both ancient and modern, acoustic yet heavy, mystical yet fiercely alive – they make the folk music tradition their own. Expect a live show where folk music becomes a living, breathing force!\n\n\"To miss out on hearing Fränder II would be to do yourself a grave disservice. No matter your preferred genre, it is the kind of music that feeds the senses and helps to complete the soul.\" SPILLMAGAZINE.com\n\nFRÄNDER is one of Sweden's biggest folk music exports. In 2024 alone, they completed three U.S. tours and they have surpassed 100 concerts only in Canada. They continue building cultural bridges beyond the stage through their festivals in Uppsala, Sweden and Nordic Nights Festival at Lincoln Center in New York City — bringing the power of modern Nordic tradition to audiences around the world.",
+      "featured": true,
+      "order": 1
+    },
+    {
+      "id": "ensemble-gamut",
+      "name": "Ensemble Gamut",
+      "type": "booking",
+      "image": "/assets/artists/ensemble-gamut.jpg",
+      "website": "",
+      "excerpt": "Ensemble Gamut! is a fresh, experimental collective of early music and folk music specialists, constantly searching for new ways to perform early music. Led by Aino Peltomaa, they combine medieval music with Finnish folk songs.",
+      "bio": "Ensemble Gamut! is a fresh, experimental collective of early music and folk music specialists, who are constantly searching for new ways to perform early music. Led by Aino Peltomaa, they have created their unique sound by combining and daringly rearranging elements from medieval music and Finnish folk songs with improvisation and electronic soundscapes.\n\nThe name of the ensemble is derived from medieval music theory (Guido of Arezzo), but also means a colour reproduction, a subset of colours. Kamut means \"friends\" in Finnish, and the word Kamu is also short for \"kansanmusiikki\", meaning folk music.\n\nMI, the third album of Ensemble Gamut! weaves together medieval repertoire with Peltomaa's own compositions and texts inspired by Arctic endangered flowers. Their sophomore album RE was nominated in the Finnish music awards Emma Gaala (\"Ethno of the year\"). Their albums UT, RE and MI have attracted widespread interest among international music critics across genres, and have frequently been featured among the best albums in yearly listings of classical, early as well as progressive music.\n\nEnsemble Gamut!'s imaginative style has been described as \"refreshing, soothing, intriguing and enlightening\". Their acclaimed performances have enchanted audiences from club gigs to museums, medieval churches and concert halls.\n\nClassical:NEXT showcase artist 2024\nEmma Gaala (\"Ethno of the Year\") nomination 2024\nYLE (Finnish Broadcasting Company) record of the year nomination 2021\nEarly Music Achievement of the Year 2020 (Finnish Early Music Association)",
+      "featured": true,
+      "order": 2
+    },
+    {
+      "id": "dankki-briha",
+      "name": "Dänkki Briha",
+      "type": "booking",
+      "image": "/assets/artists/dankki-briha.jpg",
+      "website": "",
+      "excerpt": "Dänkki Briha on etnofuturistinen bängerikone, joka inspiroituu inkeriläis-karjalais-suomalaisesta kansanperinteestä, myyteistä ja urbaanista estetiikasta. Se yhdistelee teatterillista ilmaisua ja futuristista äänimaisemaa.",
+      "bio": "Dänkki Briha on etnofuturistinen bängerikone, joka inspiroituu inkeriläis-karjalais-suomalaisesta kansanperinteestä, myyteistä ja urbaanista estetiikasta. Se yhdistelee teatterillista ilmaisua, ammoisia loruja ja futuristista äänimaisemaa.\n\nLappeenrantalais-helsinkiläisessä folktronica-yhtyeessä Juho Liiran ajattomat vokaalit, Matias Kontulan herkkä sähköviulu ja Manu Penttilän kokeellinen tuotanto luovat sykettä nostattavan kokonaisuuden, joka toimii niin levyltä kuin livenäkin. Lauluissa kuullaan niin Suomen kielen kaakkoismurretta kuin pienempiä lähisukukansojen kieliä ja murteita, muun muassa livvinkarjalaa ja vepsää.\n\nPsykedeelisen kansallisromanttinen debyyttialbumi Viipurin Kingpin julkaistiin kesäkuussa 2024 Sick Boogie Recordingsin kautta. Suosittu ja soitettu albumi vie kuulijat Laatokalta Saimaalle ja Lapista Viroon, matkalle, jossa menneisyys ja tulevaisuus kietoutuvat yhteen. Viimeisin EP, Future Kantele Hiisi Master, julkaistiin huhtikuussa 2025. Seuraava kokopitkä julkaistaan kesällä 2026, jolta kuullaan maistiaisia Lapin kiertueella.\n\nDänkki Briha sijoittui Marjut-kappaleellaan kolmanneksi Etno-Espan Kansanlaulu 2050 -biisikilpailussa 2024, ja esiintyi Kaustinen Showcasessa 2025.\n\n\"Musiikin sekä ilmaisun rajat ovat siis periaatteessa olemassa, mutta käytännössä en osaa sanoa, missä perinnetieto loppuu ja mistä moderni aika alkaa. Mikä osa tekstiä – jos mikään – on vuosisatojen takaista kansanrunoutta. Vaan ehkäpä tuntemattomuus, arvaamattomuus ja siten saavutettu vapaus ovat itsessään syy ja tarkoitus kuullulle äänitaiteelle. Sanat saavat uusia merkityksiä, ajat muuttuvat ja silti samanhenkiset ihmiset liikkuvat samoilla rannoilla.\" - Mika Roth / Desibeli Dänkki Brihan debyyttisinglestä Piikapaimen 2/2024",
+      "featured": true,
+      "order": 3
+    },
+    {
+      "id": "aizhan-sultan",
+      "name": "Aizhan Sultan",
+      "type": "management",
+      "image": "/assets/artists/aizhan-sultan.jpg",
+      "website": "",
+      "excerpt": "Aizhan Sultan on Suomessa asuva laulaja, lauluntekijä ja tohtorikoulutettava, joka on alunperin kotoisin Kazakstanista. Hänen työ keskittyy Keski-Aasian dekolonisaation ja radikaalin inkluusion teemoihin.",
+      "bio": "Aizhan Sultan on Suomessa asuva laulaja, lauluntekijä ja tohtorikoulutettava, joka on alunperin kotoisin Kazakstanista. Hänen sävellyksensä ammentavat inspiraatiota kazakialaisesta perinteisestä ja modernista musiikista. Hänen taiteensa heijastaa hänen matkaansa ympäri maailmaa sekä hänen sisäisiä poliittisia ja sosiaalisia kokemuksiaan.\n\nAizhanin työ keskittyy Keski-Aasian dekolonisaation ja radikaalin inkluusion teemoihin. Akondroplasiaa sairastavana naisena hänellä on läheinen suhde valtaan sorron lähteenä, mutta myös solidaarisuuteen ja taiteeseen vapauttavana voimana. Perinteinen kazakialainen improvisoitu laulu, kurkkulaulu ja shanqobyzin (juuriharppu) ääni yhdistyvät live-elektroniikkaan. Live-elektroniikka tuo suomalaisen musiikin modernia sointia kazakkien paimentolaiskulttuuriin.\n\nHänen päätavoitteensa on tuoda Keski-Aasian, erityisesti Kazakstanin, musiikki ja taide kansainvälisen yleisön ulottuville ja tehdä niistä saavutettavia. Tekijä tarjoaa yleisölle mahdollisuuden tutustua syvemmin kazakkien taiteeseen ja historiaan. Aizhan Sultan saa inspiraatiota musiikkiinsa paimentolaiskulttuurin historiasta ja perinteistä, yhdistäen ne moderniin muotoon.",
+      "featured": true,
+      "order": 4
+    }
+  ]
+}

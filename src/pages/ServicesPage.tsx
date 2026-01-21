@@ -95,16 +95,6 @@ export const ServicesPage: React.FC = () => {
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             filter: 'brightness(0.4)',
-            zIndex: -3
-          }}
-        />
-
-        {/* White overlay for readability */}
-        <div
-          style={{
-            position: 'fixed',
-            inset: 0,
-            backgroundColor: 'rgba(255, 255, 255, 0.4)',
             zIndex: -2
           }}
         />

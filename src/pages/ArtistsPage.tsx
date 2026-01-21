@@ -23,10 +23,8 @@ interface Artist {
   type: 'booking' | 'management';
   image: string;
   website: string;
-  bio: {
-    fi: string;
-    en: string;
-  };
+  excerpt: string;
+  bio: string;
   featured: boolean;
   order: number;
 }
@@ -37,7 +35,7 @@ interface ArtistsContent {
 
 export const ArtistsPage: React.FC = () => {
   const palette = ACTIVE_PALETTE;
-  const { isMobile, isTablet } = useScreenSize();
+  const { isMobile } = useScreenSize();
   const [selectedArtist, setSelectedArtist] = useState<Artist | null>(null);
   const [filter, setFilter] = useState<'all' | 'booking' | 'management'>('all');
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
@@ -89,8 +87,7 @@ export const ArtistsPage: React.FC = () => {
         style={{
           position: 'relative',
           width: '100%',
-          minHeight: '100vh',
-          overflow: 'hidden'
+          minHeight: '100vh'
         }}
       >
         {/* Background Wallpaper - Full page */}
@@ -101,38 +98,18 @@ export const ArtistsPage: React.FC = () => {
             backgroundImage: 'url(/assets/wallpaper-bg.jpg)',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
-            filter: 'brightness(0.4)',
-            zIndex: -3
-          }}
-        />
-
-        {/* White background layer for readability */}
-        <div
-          style={{
-            position: 'fixed',
-            inset: 0,
-            backgroundColor: 'rgba(255, 255, 255, 0.4)',
-            zIndex: -2
-          }}
-        />
-
-        {/* Overlay gradient */}
-        <div
-          style={{
-            position: 'fixed',
-            inset: 0,
-            background: 'linear-gradient(to bottom, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0.3) 100%)',
             zIndex: -1
           }}
         />
 
-        {/* Page Content */}
+        {/* Fixed Header: Title and Filter Buttons */}
         <div
           style={{
-            position: 'relative',
-            zIndex: 1,
+            position: 'sticky',
+            top: '0',
+            zIndex: 10,
             paddingTop: '6rem',
-            paddingBottom: '4rem'
+            paddingBottom: '1.5rem'
           }}
         >
           {/* Title Section */}
@@ -140,8 +117,7 @@ export const ArtistsPage: React.FC = () => {
             style={{
               textAlign: 'center',
               color: palette.colors.textHeading,
-              padding: '2rem',
-              marginBottom: '2rem'
+              marginBottom: '1.5rem'
             }}
           >
             <h1
@@ -149,8 +125,7 @@ export const ArtistsPage: React.FC = () => {
                 fontSize: 'clamp(2rem, 6vw, 3.5rem)',
                 fontWeight: 700,
                 letterSpacing: '0.05em',
-                margin: 0,
-                textShadow: '2px 2px 4px rgba(255,255,255,0.5)'
+                margin: 0
               }}
             >
               {t.artists.title}
@@ -163,7 +138,6 @@ export const ArtistsPage: React.FC = () => {
               display: 'flex',
               justifyContent: 'center',
               gap: '1rem',
-              marginBottom: '3rem',
               flexWrap: 'wrap',
               padding: '0 2rem'
             }}
@@ -180,23 +154,25 @@ export const ArtistsPage: React.FC = () => {
                   padding: '0.75rem 2rem',
                   fontSize: '1rem',
                   fontWeight: 600,
-                  border: `2px solid ${palette.colors.accentPrimary}`,
+                  border: filter === btn.key ? `2px solid ${palette.colors.accentPrimary}` : '2px solid rgba(0, 0, 0, 0.2)',
                   backgroundColor: filter === btn.key ? palette.colors.accentPrimary : 'rgba(255, 255, 255, 0.9)',
                   color: filter === btn.key ? '#FFFFFF' : palette.colors.textHeading,
                   borderRadius: '4px',
                   cursor: 'pointer',
                   transition: 'all 0.3s ease',
-                  boxShadow: '0 2px 8px rgba(0,0,0,0.1)'
+                  boxShadow: filter === btn.key ? '0 4px 12px rgba(255, 0, 0, 0.2)' : '0 2px 8px rgba(0,0,0,0.1)',
+                  position: 'relative',
+                  overflow: 'hidden'
                 }}
                 onMouseEnter={(e) => {
                   if (filter !== btn.key) {
-                    e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 1)';
+                    e.currentTarget.style.borderColor = palette.colors.accentPrimary;
                     e.currentTarget.style.transform = 'translateY(-2px)';
                   }
                 }}
                 onMouseLeave={(e) => {
                   if (filter !== btn.key) {
-                    e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.9)';
+                    e.currentTarget.style.borderColor = 'rgba(0, 0, 0, 0.2)';
                     e.currentTarget.style.transform = 'translateY(0)';
                   }
                 }}
@@ -205,8 +181,17 @@ export const ArtistsPage: React.FC = () => {
               </button>
             ))}
           </div>
+        </div>
 
-          {/* Artists Grid */}
+        {/* Scrollable Artists List */}
+        <div
+          style={{
+            position: 'relative',
+            zIndex: 1,
+            paddingTop: '3rem',
+            paddingBottom: '4rem'
+          }}
+        >
           <div
             style={{
               maxWidth: '1400px',
@@ -216,118 +201,141 @@ export const ArtistsPage: React.FC = () => {
           >
             <div
               style={{
-                display: 'grid',
-                gridTemplateColumns: isMobile
-                  ? '1fr'
-                  : isTablet
-                  ? 'repeat(2, 1fr)'
-                  : 'repeat(3, 1fr)',
+                display: 'flex',
+                flexDirection: 'column',
                 gap: isMobile ? '2rem' : '3rem',
                 marginBottom: '4rem'
               }}
             >
-              {artists.map((artist, index) => (
-                <div
-                  key={artist.id}
-                  onClick={() => openModal(artist)}
-                  style={{
-                    position: 'relative',
-                    cursor: 'pointer',
-                    borderRadius: '8px',
-                    overflow: 'hidden',
-                    backgroundColor: 'rgba(255, 255, 255, 0.95)',
-                    boxShadow: '0 4px 12px rgba(0,0,0,0.15)',
-                    transition: 'all 0.3s ease'
-                  }}
-                  onMouseEnter={(e) => {
-                    setHoveredIndex(index);
-                    e.currentTarget.style.transform = 'translateY(-8px)';
-                    e.currentTarget.style.boxShadow = '0 12px 24px rgba(0,0,0,0.25)';
-                  }}
-                  onMouseLeave={(e) => {
-                    setHoveredIndex(null);
-                    e.currentTarget.style.transform = 'translateY(0)';
-                    e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
-                  }}
-                >
-                  {/* Artist Image */}
-                  <img
-                    src={artist.image}
-                    alt={artist.name}
-                    style={{
-                      width: '100%',
-                      height: 'auto',
-                      display: 'block',
-                      aspectRatio: '3/2',
-                      objectFit: 'cover'
-                    }}
-                  />
-
-                  {/* Artist Info */}
+              {artists.map((artist, index) => {
+                const imageOnRight = index % 2 === 0;
+                return (
                   <div
+                    key={artist.id}
+                    onClick={() => openModal(artist)}
                     style={{
-                      padding: '1.5rem'
+                      position: 'relative',
+                      cursor: 'pointer',
+                      borderRadius: '8px',
+                      overflow: 'hidden',
+                      backgroundColor: 'rgba(255, 255, 255, 0.95)',
+                      boxShadow: '0 4px 12px rgba(0,0,0,0.15)',
+                      transition: 'all 0.3s ease',
+                      display: 'flex',
+                      flexDirection: isMobile ? 'column' : (imageOnRight ? 'row' : 'row-reverse')
+                    }}
+                    onMouseEnter={(e) => {
+                      setHoveredIndex(index);
+                      e.currentTarget.style.transform = 'translateY(-8px)';
+                      e.currentTarget.style.boxShadow = '0 12px 24px rgba(0,0,0,0.25)';
+                    }}
+                    onMouseLeave={(e) => {
+                      setHoveredIndex(null);
+                      e.currentTarget.style.transform = 'translateY(0)';
+                      e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
                     }}
                   >
-                    <h2
+                    {/* Artist Image */}
+                    <div
                       style={{
-                        fontSize: '1.5rem',
-                        fontWeight: 700,
-                        margin: '0 0 0.5rem 0',
-                        color: palette.colors.textHeading
+                        flex: isMobile ? '0 0 auto' : '0 0 50%',
+                        width: isMobile ? '100%' : '50%'
                       }}
                     >
-                      {artist.name}
-                    </h2>
-                    <p
-                      style={{
-                        margin: '0 0 1rem 0',
-                        fontSize: '0.9rem',
-                        fontWeight: 600,
-                        color: palette.colors.accentPrimary,
-                        textTransform: 'uppercase',
-                        letterSpacing: '0.05em'
-                      }}
-                    >
-                      {artist.type === 'booking' ? t.artists.booking : t.artists.management}
-                    </p>
-                    <p
-                      style={{
-                        margin: 0,
-                        fontSize: '1rem',
-                        lineHeight: '1.6',
-                        color: palette.colors.textMuted,
-                        display: '-webkit-box',
-                        WebkitLineClamp: 3,
-                        WebkitBoxOrient: 'vertical',
-                        overflow: 'hidden'
-                      }}
-                    >
-                      {artist.bio.fi.split('\n')[0]}
-                    </p>
-                  </div>
+                      <img
+                        src={artist.image}
+                        alt={artist.name}
+                        style={{
+                          width: '100%',
+                          height: '100%',
+                          display: 'block',
+                          objectFit: 'cover',
+                          minHeight: isMobile ? '300px' : '400px'
+                        }}
+                      />
+                    </div>
 
-                  {/* Hover Overlay */}
-                  <div
-                    style={{
-                      position: 'absolute',
-                      bottom: '1.5rem',
-                      right: '1.5rem',
-                      padding: '0.5rem 1rem',
-                      backgroundColor: palette.colors.accentPrimary,
-                      color: '#FFFFFF',
-                      fontSize: '0.875rem',
-                      fontWeight: 600,
-                      borderRadius: '4px',
-                      opacity: hoveredIndex === index ? 1 : 0,
-                      transition: 'opacity 0.3s ease',
-                      pointerEvents: 'none'
-                    }}
-                  >
-                    Lue lisää →
+                    {/* Artist Info */}
+                    <div
+                      style={{
+                        flex: '1',
+                        padding: isMobile ? '2rem' : '3rem',
+                        display: 'flex',
+                        flexDirection: 'column',
+                        justifyContent: 'center'
+                      }}
+                    >
+                      <h2
+                        style={{
+                          fontSize: 'clamp(1.75rem, 4vw, 2.5rem)',
+                          fontWeight: 700,
+                          margin: '0 0 0.5rem 0',
+                          color: palette.colors.textHeading,
+                          position: 'relative',
+                          display: 'inline-block'
+                        }}
+                      >
+                        {artist.name}
+                        {/* Animated underline on hover */}
+                        <span
+                          style={{
+                            position: 'absolute',
+                            bottom: 0,
+                            left: 0,
+                            right: 0,
+                            height: '3px',
+                            backgroundColor: palette.colors.accentPrimary,
+                            transformOrigin: 'left',
+                            transform: hoveredIndex === index ? 'scaleX(1)' : 'scaleX(0)',
+                            transition: 'transform 0.4s ease-out'
+                          }}
+                        />
+                      </h2>
+                      <p
+                        style={{
+                          margin: '0 0 1.5rem 0',
+                          fontSize: '1rem',
+                          fontWeight: 600,
+                          color: palette.colors.accentPrimary,
+                          textTransform: 'uppercase',
+                          letterSpacing: '0.05em'
+                        }}
+                      >
+                        {artist.type === 'booking' ? t.artists.booking : t.artists.management}
+                      </p>
+                      <p
+                        style={{
+                          margin: 0,
+                          fontSize: '1.05rem',
+                          lineHeight: '1.7',
+                          color: palette.colors.textMuted
+                        }}
+                      >
+                        {artist.excerpt}
+                      </p>
+
+                      {/* Read More Button */}
+                      <div
+                        style={{
+                          marginTop: '2rem',
+                          padding: '0.75rem 1.5rem',
+                          backgroundColor: hoveredIndex === index ? palette.colors.accentPrimary : 'transparent',
+                          color: hoveredIndex === index ? '#FFFFFF' : palette.colors.accentPrimary,
+                          fontSize: '0.95rem',
+                          fontWeight: 600,
+                          borderRadius: '4px',
+                          display: 'inline-block',
+                          alignSelf: 'flex-start',
+                          border: `2px solid ${palette.colors.accentPrimary}`,
+                          transition: 'all 0.3s ease'
+                        }}
+                      >
+                        Lue lisää →
+                      </div>
+                    </div>
                   </div>
-                </div>
-              ))}
+                );
+              })}
             </div>
           </div>
         </div>
@@ -343,9 +351,9 @@ export const ArtistsPage: React.FC = () => {
             zIndex: 1000,
             backgroundColor: 'rgba(0, 0, 0, 0.9)',
             display: 'flex',
-            alignItems: 'center',
+            alignItems: 'flex-start',
             justifyContent: 'center',
-            padding: isMobile ? '1rem' : '2rem',
+            padding: isMobile ? '6rem 1rem 2rem 1rem' : '8rem 2rem 4rem 2rem',
             cursor: 'pointer',
             overflowY: 'auto'
           }}
@@ -403,9 +411,11 @@ export const ArtistsPage: React.FC = () => {
               style={{
                 width: '100%',
                 height: 'auto',
-                maxHeight: '400px',
-                objectFit: 'cover',
-                display: 'block'
+                maxHeight: '500px',
+                objectFit: 'contain',
+                display: 'block',
+                backgroundColor: '#f5f5f5',
+                paddingTop: '2rem'
               }}
             />
 
@@ -416,11 +426,41 @@ export const ArtistsPage: React.FC = () => {
                   fontSize: 'clamp(1.75rem, 4vw, 2.5rem)',
                   fontWeight: 700,
                   margin: '0 0 0.5rem 0',
-                  color: palette.colors.textHeading
+                  color: palette.colors.textHeading,
+                  position: 'relative',
+                  display: 'inline-block'
                 }}
               >
                 {selectedArtist.name}
+                {/* Animated highlight marker */}
+                <span
+                  style={{
+                    position: 'absolute',
+                    bottom: '0.1em',
+                    left: '-0.2em',
+                    right: '-0.2em',
+                    height: '0.4em',
+                    backgroundColor: palette.colors.accentPrimary,
+                    opacity: 0.2,
+                    zIndex: -1,
+                    animation: 'drawHighlight 0.6s ease-out forwards'
+                  }}
+                />
               </h2>
+              <style>
+                {`
+                  @keyframes drawHighlight {
+                    from {
+                      transform: scaleX(0);
+                      transform-origin: left;
+                    }
+                    to {
+                      transform: scaleX(1);
+                      transform-origin: left;
+                    }
+                  }
+                `}
+              </style>
               <p
                 style={{
                   margin: '0 0 2rem 0',
@@ -444,7 +484,7 @@ export const ArtistsPage: React.FC = () => {
                   marginBottom: '2rem'
                 }}
               >
-                {selectedArtist.bio.fi}
+                {selectedArtist.bio}
               </div>
 
               {/* Website Link */}
@@ -457,24 +497,28 @@ export const ArtistsPage: React.FC = () => {
                   style={{
                     display: 'inline-block',
                     padding: '0.875rem 2rem',
-                    backgroundColor: palette.colors.accentPrimary,
-                    color: '#FFFFFF',
+                    backgroundColor: 'transparent',
+                    color: palette.colors.accentPrimary,
                     textDecoration: 'none',
+                    border: `2px solid ${palette.colors.accentPrimary}`,
                     borderRadius: '4px',
                     fontSize: '1rem',
                     fontWeight: 600,
                     transition: 'all 0.3s ease',
-                    boxShadow: '0 4px 12px rgba(0,0,0,0.15)'
+                    position: 'relative',
+                    overflow: 'hidden'
                   }}
                   onMouseEnter={(e) => {
-                    e.currentTarget.style.backgroundColor = palette.colors.hoverColor;
+                    e.currentTarget.style.backgroundColor = palette.colors.accentPrimary;
+                    e.currentTarget.style.color = '#FFFFFF';
                     e.currentTarget.style.transform = 'translateY(-2px)';
-                    e.currentTarget.style.boxShadow = '0 6px 16px rgba(0,0,0,0.2)';
+                    e.currentTarget.style.boxShadow = '0 6px 16px rgba(255, 0, 0, 0.3)';
                   }}
                   onMouseLeave={(e) => {
-                    e.currentTarget.style.backgroundColor = palette.colors.accentPrimary;
+                    e.currentTarget.style.backgroundColor = 'transparent';
+                    e.currentTarget.style.color = palette.colors.accentPrimary;
                     e.currentTarget.style.transform = 'translateY(0)';
-                    e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
+                    e.currentTarget.style.boxShadow = 'none';
                   }}
                 >
                   {t.artists.website} →
