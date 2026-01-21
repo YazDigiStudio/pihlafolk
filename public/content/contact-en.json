@@ -1,19 +1,50 @@
 {
-  "email": "your.email@example.com",
-  "socialMedia": [
-    {
-      "platform": "instagram",
-      "url": "https://instagram.com/yourusername"
+  "contact": {
+    "title": {
+      "fi": "Yhteystiedot",
+      "en": "Contact"
     },
-    {
-      "platform": "facebook",
-      "url": "https://facebook.com/yourusername"
+    "description": {
+      "fi": "Ota yhteyttä keikkamyyntiin, artist managementiin tai muihin yhteistyömahdollisuuksiin liittyen.",
+      "en": "Contact us regarding concert booking, artist management, or other collaboration opportunities."
     }
-  ],
-  "relatedLinks": [
-    {
-      "url": "https://example.com",
-      "text": "Your Website or Agency"
+  },
+  "info": {
+    "name": "Mari Pääkkönen",
+    "company": "Pihla Folk",
+    "email": "info@pihlafolk.fi",
+    "phone": "",
+    "location": {
+      "fi": "Kuhmo, Suomi",
+      "en": "Kuhmo, Finland"
     }
-  ]
+  },
+  "booking": {
+    "title": {
+      "fi": "Keikkamyynti",
+      "en": "Booking"
+    },
+    "description": {
+      "fi": "Keikkamyyntiin liittyvät tiedustelut",
+      "en": "Booking inquiries"
+    },
+    "email": "booking@pihlafolk.fi"
+  },
+  "management": {
+    "title": {
+      "fi": "Managerointi",
+      "en": "Management"
+    },
+    "description": {
+      "fi": "Artistimanagerointiin liittyvät tiedustelut",
+      "en": "Artist management inquiries"
+    },
+    "email": "management@pihlafolk.fi"
+  },
+  "social": {
+    "facebook": "",
+    "instagram": "",
+    "linkedin": "",
+    "youtube": ""
+  }
 }

@@ -1,0 +1,62 @@
+{
+  "ongoing": {
+    "title": {
+      "fi": "Käynnissä olevat",
+      "en": "Ongoing"
+    },
+    "productions": [
+      {
+        "id": "laulettu-kalevala",
+        "title": "Laulettu Kalevala",
+        "type": "audiobook",
+        "status": "ongoing",
+        "year": "2020-",
+        "image": "/assets/productions/laulettu-kalevala.jpg",
+        "description": {
+          "fi": "Laulettu Kalevala on pitkäkestoinen äänikirjaprojekti, joka tuo Kalevalan runot eloon perinteisen kansanmusiikin ja -laulun keinoin.",
+          "en": "Sung Kalevala is a long-term audiobook project that brings the poems of Kalevala to life through traditional folk music and singing."
+        },
+        "link": ""
+      },
+      {
+        "id": "piot",
+        "title": "Ilona Korhonen Ensemble: Piot",
+        "subtitle": "The Feast",
+        "type": "performance",
+        "status": "ongoing",
+        "year": "2024-",
+        "image": "/assets/productions/piot.jpg",
+        "description": {
+          "fi": "Ilona Korhonen Ensemblen Piot-teos on taiteilija Ilona Korhosen johdolla toteutettava pohjoiskarjalaista perinnettä hyödyntävä esitysteos.",
+          "en": "Ilona Korhonen Ensemble's Piot is a performance work led by artist Ilona Korhonen, utilizing North Karelian traditions."
+        },
+        "link": ""
+      }
+    ]
+  },
+  "past": {
+    "title": {
+      "fi": "Menneet",
+      "en": "Past"
+    },
+    "productions": [
+      {
+        "id": "terveh-viro",
+        "title": "Terveh Viro!",
+        "type": "project",
+        "status": "completed",
+        "year": "2023",
+        "image": "",
+        "description": {
+          "fi": "Kansainvälisen suomalais-ugrilaisen yhteistyön aloittaminen Virossa yhdessä Sattuma duon kanssa. Rahoitus: Opetus- ja kulttuuriministeriö, Musiikin edistämissäätiö.",
+          "en": "Starting international Finno-Ugric cooperation in Estonia together with Sattuma duo. Funding: Ministry of Education and Culture, Music Promotion Foundation."
+        },
+        "funding": {
+          "fi": ["Opetus- ja kulttuuriministeriö", "Musiikin edistämissäätiö"],
+          "en": ["Ministry of Education and Culture", "Music Promotion Foundation"]
+        },
+        "link": ""
+      }
+    ]
+  }
+}
