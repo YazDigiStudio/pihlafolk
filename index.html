@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="fi">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary Meta Tags -->
+    <title>Portfolio - Professional</title>
+    <meta name="title" content="Portfolio - Professional" />
+    <meta name="description" content="Professional portfolio showcasing experience and expertise. View gallery, CV, and contact information." />
+    <meta name="keywords" content="portfolio, professional, gallery, CV, contact" />
+    <meta name="author" content="Client Name" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://clientdomain.com/" />
+    <meta property="og:title" content="Portfolio - Professional" />
+    <meta property="og:description" content="Professional portfolio showcasing experience and expertise. View gallery, CV, and contact information." />
+    <meta property="og:image" content="https://clientdomain.com/og-image.jpg" />
+    <meta property="og:locale" content="fi_FI" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://clientdomain.com/" />
+    <meta property="twitter:title" content="Portfolio - Professional" />
+    <meta property="twitter:description" content="Professional portfolio showcasing experience and expertise. View gallery, CV, and contact information." />
+    <meta property="twitter:image" content="https://clientdomain.com/og-image.jpg" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://clientdomain.com/" />
+
+    <!-- Language Alternates -->
+    <link rel="alternate" hreflang="fi" href="https://clientdomain.com/" />
+    <link rel="alternate" hreflang="en" href="https://clientdomain.com/?lang=en" />
+    <link rel="alternate" hreflang="x-default" href="https://clientdomain.com/" />
+
+    <!-- JSON-LD Structured Data for Person -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Client Name",
+      "jobTitle": "Professional Title",
+      "description": "Professional portfolio showcasing experience and expertise",
+      "url": "https://clientdomain.com",
+      "image": "https://clientdomain.com/og-image.jpg"
+    }
+    </script>
+
+    <!-- JSON-LD Structured Data for Image Gallery -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageGallery",
+      "name": "Professional Gallery",
+      "description": "Professional portfolio gallery showcasing work and experience",
+      "url": "https://clientdomain.com/#gallery",
+      "author": {
+        "@type": "Person",
+        "name": "Client Name"
+      }
+    }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+
+    <!-- Netlify Identity Widget -->
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
+  </body>
+</html>

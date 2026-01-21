@@ -1,0 +1,19 @@
+{
+  "email": "sinun.sahkoposti@example.com",
+  "socialMedia": [
+    {
+      "platform": "instagram",
+      "url": "https://instagram.com/kayttajanimesi"
+    },
+    {
+      "platform": "facebook",
+      "url": "https://facebook.com/kayttajanimesi"
+    }
+  ],
+  "relatedLinks": [
+    {
+      "url": "https://example.com",
+      "text": "Verkkosivustosi tai Toimistosi"
+    }
+  ]
+}

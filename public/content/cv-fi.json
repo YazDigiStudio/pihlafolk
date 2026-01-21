@@ -1,0 +1,19 @@
+{
+  "sections": [
+    {
+      "title": "Koulutus",
+      "content": "Lisää koulutustietosi tähän.\n\nEsimerkki:\n2020 - Taiteen kandidaatti, Esimerkki Yliopisto\n2015 - Ylioppilas"
+    },
+    {
+      "title": "Työkokemus",
+      "content": "Lisää työkokemuksesi tähän.\n\nEsimerkki:\nAmmattinäyttelijä vuodesta 2015"
+    },
+    {
+      "title": "Taidot",
+      "content": "Listaa taitosi tähän.\n\nEsimerkki:\nNäytteleminen, Laulaminen, Tanssiminen\nSuomi, Englanti, Ruotsi"
+    }
+  ],
+  "showDownloadButton": false,
+  "cvFile": "",
+  "downloadButtonText": "⬇ Lataa CV"
+}

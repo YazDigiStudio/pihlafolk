@@ -1,0 +1,19 @@
+{
+  "sections": [
+    {
+      "title": "Education",
+      "content": "Add your education details here.\n\nExample:\n2020 - Bachelor of Arts, Example University\n2015 - High School Graduate"
+    },
+    {
+      "title": "Work Experience",
+      "content": "Add your work experience here.\n\nExample:\nProfessional Actor since 2015"
+    },
+    {
+      "title": "Skills",
+      "content": "List your skills here.\n\nExample:\nActing, Singing, Dancing\nEnglish, Finnish, Swedish"
+    }
+  ],
+  "showDownloadButton": false,
+  "cvFile": "",
+  "downloadButtonText": "⬇ Download CV"
+}

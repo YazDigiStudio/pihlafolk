@@ -1,0 +1,12 @@
+{
+  "showButton1": true,
+  "showButton2": true,
+  "ctaButton1Link": "#galleria",
+  "ctaButton2Link": "#media",
+  "name": "YOUR NAME HERE",
+  "subtitle": "Actor • Performer • Artist",
+  "ctaButton1Text": "Gallery",
+  "heroParagraph1": "This is your introduction paragraph. Tell your audience who you are and what you're passionate about.",
+  "ctaButton2Text": "Media",
+  "heroParagraph2": "Add a second paragraph to highlight your experience, skills, or unique qualities."
+}

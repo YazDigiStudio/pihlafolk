@@ -1,0 +1,11 @@
+# robots.txt for Portfolio Template
+
+# Allow all search engines
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://clientdomain.com/sitemap.xml
+
+# Disallow admin/CMS area
+Disallow: /admin/

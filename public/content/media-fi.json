@@ -1,0 +1,17 @@
+{
+  "sections": [
+    {
+      "type": "showreel",
+      "title": "Showreel",
+      "videos": [],
+      "externalLinks": []
+    },
+    {
+      "type": "voice-samples",
+      "title": "Ääninäytteet",
+      "videos": [],
+      "audioFiles": [],
+      "externalLinks": []
+    }
+  ]
+}

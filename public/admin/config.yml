@@ -1,0 +1,281 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# Enable local development mode (reads/writes actual files)
+local_backend: true
+
+# Enable editorial workflow (draft/review/publish)
+publish_mode: editorial_workflow
+
+media_folder: "public/images/downloads"
+public_folder: "/images/downloads"
+
+collections:
+  # FINNISH CONTENT
+  - name: "pages-fi"
+    label: "Pages (Finnish)"
+    files:
+      # HomePage - Finnish
+      - label: "Home Page"
+        name: "home-fi"
+        file: "public/content/home-fi.json"
+        fields:
+          - {label: "Name", name: "name", widget: "string"}
+          - {label: "Subtitle", name: "subtitle", widget: "string"}
+          - {label: "Hero Paragraph 1", name: "heroParagraph1", widget: "text"}
+          - {label: "Hero Paragraph 2", name: "heroParagraph2", widget: "text"}
+          - {label: "Show Button 1", name: "showButton1", widget: "boolean", default: true}
+          - {label: "Button 1 Text", name: "ctaButton1Text", widget: "string", default: "Katso galleria"}
+          - label: "Button 1 Link"
+            name: "ctaButton1Link"
+            widget: "select"
+            default: "#galleria"
+            options:
+              - { label: "Gallery", value: "#galleria" }
+              - { label: "Media", value: "#media" }
+              - { label: "CV", value: "#cv" }
+              - { label: "About", value: "#tietoa" }
+              - { label: "Contact", value: "#yhteystiedot" }
+          - {label: "Show Button 2", name: "showButton2", widget: "boolean", default: true}
+          - {label: "Button 2 Text", name: "ctaButton2Text", widget: "string", default: "Showreel & Media"}
+          - label: "Button 2 Link"
+            name: "ctaButton2Link"
+            widget: "select"
+            default: "#media"
+            options:
+              - { label: "Gallery", value: "#galleria" }
+              - { label: "Media", value: "#media" }
+              - { label: "CV", value: "#cv" }
+              - { label: "About", value: "#tietoa" }
+              - { label: "Contact", value: "#yhteystiedot" }
+
+      # AboutPage - Finnish
+      - label: "About Page"
+        name: "about-fi"
+        file: "public/content/about-fi.json"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - label: "Bio Paragraphs"
+            name: "bioParagraphs"
+            widget: "list"
+            field: {label: "Paragraph", name: "paragraph", widget: "text"}
+
+      # GalleryPage - Finnish
+      - label: "Gallery"
+        name: "gallery-fi"
+        file: "public/content/gallery-fi.json"
+        fields:
+          - {label: "Intro Text", name: "introText", widget: "text"}
+          - label: "Images"
+            name: "images"
+            widget: "list"
+            fields:
+              - {label: "High-Res Image", name: "downloadSrc", widget: "image"}
+              - {label: "Alt Text", name: "alt", widget: "string"}
+              - {label: "Photographer", name: "photographer", widget: "string"}
+              - {label: "Category", name: "category", widget: "select", options: ["Headshots", "Production", "Promotional"]}
+
+      # MediaPage - Finnish
+      - label: "Media Page"
+        name: "media-fi"
+        file: "public/content/media-fi.json"
+        fields:
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {label: "Section Type", name: "type", widget: "string", hint: "e.g. commercials, showreel, voice-samples, tv-appearances"}
+              - {label: "Section Title", name: "title", widget: "string"}
+              - label: "Videos"
+                name: "videos"
+                widget: "list"
+                required: false
+                fields:
+                  - {label: "Video Type", name: "type", widget: "select", options: ["youtube", "vimeo", "direct"]}
+                  - {label: "Video URL", name: "url", widget: "string"}
+                  - {label: "Title/Caption", name: "title", widget: "string"}
+                  - {label: "Description", name: "description", widget: "text", required: false}
+              - label: "Audio Files"
+                name: "audioFiles"
+                widget: "list"
+                required: false
+                fields:
+                  - {label: "Audio File", name: "url", widget: "file"}
+                  - {label: "Title", name: "title", widget: "string"}
+                  - {label: "Description", name: "description", widget: "text", required: false}
+              - label: "External Links"
+                name: "externalLinks"
+                widget: "list"
+                required: false
+                fields:
+                  - {label: "URL", name: "url", widget: "string"}
+                  - {label: "Button Text", name: "buttonText", widget: "string"}
+
+      # CVPage - Finnish
+      - label: "CV Page"
+        name: "cv-fi"
+        file: "public/content/cv-fi.json"
+        fields:
+          - label: "CV Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {label: "Section Title", name: "title", widget: "string"}
+              - {label: "Content", name: "content", widget: "markdown"}
+          - {label: "Show Download Button", name: "showDownloadButton", widget: "boolean", default: true}
+          - {label: "CV File", name: "cvFile", widget: "file"}
+          - {label: "Download Button Text", name: "downloadButtonText", widget: "string"}
+
+      # ContactPage - Finnish
+      - label: "Contact Page"
+        name: "contact-fi"
+        file: "public/content/contact-fi.json"
+        fields:
+          - {label: "Email", name: "email", widget: "string"}
+          - label: "Social Media"
+            name: "socialMedia"
+            widget: "list"
+            fields:
+              - {label: "Platform", name: "platform", widget: "select", options: ["facebook", "instagram", "youtube", "twitter", "linkedin"]}
+              - {label: "URL", name: "url", widget: "string"}
+          - label: "Related Links"
+            name: "relatedLinks"
+            widget: "list"
+            fields:
+              - {label: "URL", name: "url", widget: "string"}
+              - {label: "Display Text", name: "text", widget: "string"}
+
+  # ENGLISH CONTENT
+  - name: "pages-en"
+    label: "Pages (English)"
+    files:
+      # HomePage - English
+      - label: "Home Page"
+        name: "home-en"
+        file: "public/content/home-en.json"
+        fields:
+          - {label: "Name", name: "name", widget: "string"}
+          - {label: "Subtitle", name: "subtitle", widget: "string"}
+          - {label: "Hero Paragraph 1", name: "heroParagraph1", widget: "text"}
+          - {label: "Hero Paragraph 2", name: "heroParagraph2", widget: "text"}
+          - {label: "Show Button 1", name: "showButton1", widget: "boolean", default: true}
+          - {label: "Button 1 Text", name: "ctaButton1Text", widget: "string", default: "View Gallery"}
+          - label: "Button 1 Link"
+            name: "ctaButton1Link"
+            widget: "select"
+            default: "#galleria"
+            options:
+              - { label: "Gallery", value: "#galleria" }
+              - { label: "Media", value: "#media" }
+              - { label: "CV", value: "#cv" }
+              - { label: "About", value: "#tietoa" }
+              - { label: "Contact", value: "#yhteystiedot" }
+          - {label: "Show Button 2", name: "showButton2", widget: "boolean", default: true}
+          - {label: "Button 2 Text", name: "ctaButton2Text", widget: "string", default: "Showreel & Media"}
+          - label: "Button 2 Link"
+            name: "ctaButton2Link"
+            widget: "select"
+            default: "#media"
+            options:
+              - { label: "Gallery", value: "#galleria" }
+              - { label: "Media", value: "#media" }
+              - { label: "CV", value: "#cv" }
+              - { label: "About", value: "#tietoa" }
+              - { label: "Contact", value: "#yhteystiedot" }
+
+      # AboutPage - English
+      - label: "About Page"
+        name: "about-en"
+        file: "public/content/about-en.json"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - label: "Bio Paragraphs"
+            name: "bioParagraphs"
+            widget: "list"
+            field: {label: "Paragraph", name: "paragraph", widget: "text"}
+
+      # GalleryPage - English
+      - label: "Gallery"
+        name: "gallery-en"
+        file: "public/content/gallery-en.json"
+        fields:
+          - {label: "Intro Text", name: "introText", widget: "text"}
+          - label: "Images"
+            name: "images"
+            widget: "list"
+            fields:
+              - {label: "High-Res Image", name: "downloadSrc", widget: "image"}
+              - {label: "Alt Text", name: "alt", widget: "string"}
+              - {label: "Photographer", name: "photographer", widget: "string"}
+              - {label: "Category", name: "category", widget: "select", options: ["Headshots", "Production", "Promotional"]}
+
+      # MediaPage - English
+      - label: "Media Page"
+        name: "media-en"
+        file: "public/content/media-en.json"
+        fields:
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {label: "Section Type", name: "type", widget: "string", hint: "e.g. commercials, showreel, voice-samples, tv-appearances"}
+              - {label: "Section Title", name: "title", widget: "string"}
+              - label: "Videos"
+                name: "videos"
+                widget: "list"
+                required: false
+                fields:
+                  - {label: "Video Type", name: "type", widget: "select", options: ["youtube", "vimeo", "direct"]}
+                  - {label: "Video URL", name: "url", widget: "string"}
+                  - {label: "Title/Caption", name: "title", widget: "string"}
+                  - {label: "Description", name: "description", widget: "text", required: false}
+              - label: "Audio Files"
+                name: "audioFiles"
+                widget: "list"
+                required: false
+                fields:
+                  - {label: "Audio File", name: "url", widget: "file"}
+                  - {label: "Title", name: "title", widget: "string"}
+                  - {label: "Description", name: "description", widget: "text", required: false}
+              - label: "External Links"
+                name: "externalLinks"
+                widget: "list"
+                required: false
+                fields:
+                  - {label: "URL", name: "url", widget: "string"}
+                  - {label: "Button Text", name: "buttonText", widget: "string"}
+
+      # CVPage - English
+      - label: "CV Page"
+        name: "cv-en"
+        file: "public/content/cv-en.json"
+        fields:
+          - label: "CV Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {label: "Section Title", name: "title", widget: "string"}
+              - {label: "Content", name: "content", widget: "markdown"}
+          - {label: "Show Download Button", name: "showDownloadButton", widget: "boolean", default: true}
+          - {label: "CV File", name: "cvFile", widget: "file"}
+          - {label: "Download Button Text", name: "downloadButtonText", widget: "string"}
+
+      # ContactPage - English
+      - label: "Contact Page"
+        name: "contact-en"
+        file: "public/content/contact-en.json"
+        fields:
+          - {label: "Email", name: "email", widget: "string"}
+          - label: "Social Media"
+            name: "socialMedia"
+            widget: "list"
+            fields:
+              - {label: "Platform", name: "platform", widget: "select", options: ["facebook", "instagram", "youtube", "twitter", "linkedin"]}
+              - {label: "URL", name: "url", widget: "string"}
+          - label: "Related Links"
+            name: "relatedLinks"
+            widget: "list"
+            fields:
+              - {label: "URL", name: "url", widget: "string"}
+              - {label: "Display Text", name: "text", widget: "string"}

@@ -1,0 +1,12 @@
+{
+  "showButton1": true,
+  "showButton2": true,
+  "ctaButton1Link": "#galleria",
+  "ctaButton2Link": "#media",
+  "name": "NIMESI TÄHÄN",
+  "subtitle": "Näyttelijä • Esiintyjä • Taiteilija",
+  "ctaButton1Text": "Galleria",
+  "heroParagraph1": "Tämä on esittelykappaleesi. Kerro yleisöllesi kuka olet ja mistä olet intohimoinen.",
+  "ctaButton2Text": "Media",
+  "heroParagraph2": "Lisää toinen kappale korostaaksesi kokemustasi, taitojasi tai ainutlaatuisia ominaisuuksiasi."
+}
