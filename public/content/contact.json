@@ -1,0 +1,50 @@
+{
+  "contact": {
+    "title": {
+      "fi": "Yhteystiedot",
+      "en": "Contact"
+    },
+    "description": {
+      "fi": "Ota yhteyttä keikkamyyntiin, artist managementiin tai muihin yhteistyömahdollisuuksiin liittyen.",
+      "en": "Contact us regarding concert booking, artist management, or other collaboration opportunities."
+    }
+  },
+  "info": {
+    "name": "Mari Pääkkönen",
+    "company": "Pihla Folk",
+    "email": "info@pihlafolk.fi",
+    "phone": "",
+    "location": {
+      "fi": "Kuhmo, Suomi",
+      "en": "Kuhmo, Finland"
+    }
+  },
+  "booking": {
+    "title": {
+      "fi": "Keikkamyynti",
+      "en": "Booking"
+    },
+    "description": {
+      "fi": "Keikkamyyntiin liittyvät tiedustelut",
+      "en": "Booking inquiries"
+    },
+    "email": "booking@pihlafolk.fi"
+  },
+  "management": {
+    "title": {
+      "fi": "Managerointi",
+      "en": "Management"
+    },
+    "description": {
+      "fi": "Artistimanagerointiin liittyvät tiedustelut",
+      "en": "Artist management inquiries"
+    },
+    "email": "management@pihlafolk.fi"
+  },
+  "social": {
+    "facebook": "",
+    "instagram": "",
+    "linkedin": "",
+    "youtube": ""
+  }
+}
