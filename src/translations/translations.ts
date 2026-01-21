@@ -3,9 +3,12 @@ export const translations = {
     // Navigation
     nav: {
       home: 'Etusivu',
+      artists: 'Artistit',
       gallery: 'Galleria',
       about: 'Tietoa',
+      services: 'Palvelut',
       media: 'Media',
+      productions: 'Tuotannot',
       cv: 'CV',
       contact: 'Yhteystiedot'
     },
@@ -37,6 +40,14 @@ export const translations = {
     contact: {
       title: 'Yhteystiedot',
       contactLabel: 'Yhteydenotot:'
+    },
+    // 404 Not Found
+    notFound: {
+      title: 'Sivua ei löytynyt',
+      heading: 'Sivua ei löytynyt',
+      message: 'Etsimääsi sivua ei löytynyt. Se on saatettu poistaa tai siirtää toiseen osoitteeseen.',
+      homeButton: 'Palaa etusivulle',
+      description: 'Sivua ei löydy. Palaa Pihla Folk -etusivulle.'
     },
     // SEO
     seo: {
@@ -70,9 +81,12 @@ export const translations = {
     // Navigation
     nav: {
       home: 'Home',
+      artists: 'Artists',
       gallery: 'Gallery',
       about: 'About',
+      services: 'Services',
       media: 'Media',
+      productions: 'Productions',
       cv: 'CV',
       contact: 'Contact'
     },
@@ -104,6 +118,14 @@ export const translations = {
     contact: {
       title: 'Contact',
       contactLabel: 'Contact:'
+    },
+    // 404 Not Found
+    notFound: {
+      title: 'Page Not Found',
+      heading: 'Page Not Found',
+      message: 'The page you are looking for does not exist. It may have been removed or moved to a different address.',
+      homeButton: 'Return to Home',
+      description: 'Page not found. Return to Pihla Folk homepage.'
     },
     // SEO
     seo: {

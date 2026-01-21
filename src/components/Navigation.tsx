@@ -1,10 +1,11 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import { useScreenSize } from '../hooks/useScreenSize';
 import { LanguageSwitcher } from './LanguageSwitcher';
 import { useTranslations } from '../hooks/useTranslations';
 
 /**
- * Responsive navigation header for Portfolio Template
+ * Responsive navigation header for Pihla Folk
  *
  * Features:
  * - Desktop: Horizontal menu with all links visible
@@ -13,6 +14,7 @@ import { useTranslations } from '../hooks/useTranslations';
  * - Fixed to top of page
  * - Click outside to close mobile menu
  * - Optional name/logo display (hidden on homepage where name is in hero)
+ * - Uses React Router Link components for proper routing
  */
 
 interface NavigationProps {
@@ -25,6 +27,7 @@ export const Navigation: React.FC<NavigationProps> = ({ showName = true }) => {
   const menuRef = useRef<HTMLDivElement>(null);
   const buttonRef = useRef<HTMLButtonElement>(null);
   const t = useTranslations();
+  const location = useLocation();
 
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!mobileMenuOpen);
@@ -58,12 +61,12 @@ export const Navigation: React.FC<NavigationProps> = ({ showName = true }) => {
   }, [mobileMenuOpen]);
 
   const navLinks = [
-    { label: t.nav.home, href: '#home' },
-    { label: t.nav.about, href: '#tietoa' },
-    { label: t.nav.gallery, href: '#galleria' },
-    { label: t.nav.media, href: '#media' },
-    { label: t.nav.cv, href: '#cv' },
-    { label: t.nav.contact, href: '#yhteystiedot' }
+    { label: t.nav.home, to: '/' },
+    { label: t.nav.artists, to: '/artistit' },
+    { label: t.nav.about, to: '/tietoa' },
+    { label: t.nav.services, to: '/palvelut' },
+    { label: t.nav.productions, to: '/tuotannot' },
+    { label: t.nav.contact, to: '/yhteystiedot' }
   ];
 
   return (
@@ -92,8 +95,8 @@ export const Navigation: React.FC<NavigationProps> = ({ showName = true }) => {
       >
         {/* Logo/Name - Only show if showName is true */}
         {showName && (
-          <a
-            href="#home"
+          <Link
+            to="/"
             style={{
               color: '#FFFFFF',
               textDecoration: 'none',
@@ -103,8 +106,8 @@ export const Navigation: React.FC<NavigationProps> = ({ showName = true }) => {
               textShadow: '1px 1px 2px rgba(0,0,0,0.5)'
             }}
           >
-            CLIENT NAME
-          </a>
+            Pihla Folk
+          </Link>
         )}
 
         {/* Desktop Navigation */}
@@ -119,30 +122,35 @@ export const Navigation: React.FC<NavigationProps> = ({ showName = true }) => {
               alignItems: 'center'
             }}
           >
-            {navLinks.map((link) => (
-              <li key={link.href}>
-                <a
-                  href={link.href}
-                  style={{
-                    color: '#FFFFFF',
-                    textDecoration: 'none',
-                    fontSize: '1rem',
-                    fontWeight: 400,
-                    transition: 'opacity 0.3s ease',
-                    opacity: 0.9,
-                    textShadow: '1px 1px 2px rgba(0,0,0,0.5)'
-                  }}
-                  onMouseEnter={(e) => {
-                    e.currentTarget.style.opacity = '1';
-                  }}
-                  onMouseLeave={(e) => {
-                    e.currentTarget.style.opacity = '0.9';
-                  }}
-                >
-                  {link.label}
-                </a>
-              </li>
-            ))}
+            {navLinks.map((link) => {
+              const isActive = location.pathname === link.to;
+              return (
+                <li key={link.to}>
+                  <Link
+                    to={link.to}
+                    style={{
+                      color: '#FFFFFF',
+                      textDecoration: 'none',
+                      fontSize: '1rem',
+                      fontWeight: isActive ? 600 : 400,
+                      transition: 'opacity 0.3s ease',
+                      opacity: isActive ? 1 : 0.9,
+                      textShadow: '1px 1px 2px rgba(0,0,0,0.5)',
+                      borderBottom: isActive ? '2px solid #FFFFFF' : 'none',
+                      paddingBottom: '2px'
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.opacity = '1';
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.opacity = isActive ? '1' : '0.9';
+                    }}
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              );
+            })}
             <li>
               <LanguageSwitcher />
             </li>
@@ -214,7 +222,7 @@ export const Navigation: React.FC<NavigationProps> = ({ showName = true }) => {
             maxWidth: '200px',
             width: 'auto',
             minWidth: '180px',
-            backgroundColor: '#8E9A98', // Gray-green from Sapphire Ash Morning palette
+            backgroundColor: '#ff0000', // Pihla Folk red
             borderRadius: '8px',
             boxShadow: '0 8px 24px rgba(0, 0, 0, 0.4)',
             border: '1px solid rgba(255, 255, 255, 0.2)',
@@ -230,37 +238,45 @@ export const Navigation: React.FC<NavigationProps> = ({ showName = true }) => {
               padding: '0.5rem 0'
             }}
           >
-            {navLinks.map((link) => (
-              <li key={link.href}>
-                <a
-                  href={link.href}
-                  onClick={() => setMobileMenuOpen(false)}
-                  style={{
-                    display: 'block',
-                    color: '#FFFFFF',
-                    textDecoration: 'none',
-                    fontSize: '1rem',
-                    fontWeight: 500,
-                    padding: '0.875rem 1.5rem',
-                    transition: 'all 0.2s ease',
-                    borderLeft: '3px solid transparent',
-                    textShadow: '1px 1px 2px rgba(0,0,0,0.3)'
-                  }}
-                  onMouseEnter={(e) => {
-                    e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.2)';
-                    e.currentTarget.style.borderLeftColor = '#FFFFFF';
-                    e.currentTarget.style.paddingLeft = '1.75rem';
-                  }}
-                  onMouseLeave={(e) => {
-                    e.currentTarget.style.backgroundColor = 'transparent';
-                    e.currentTarget.style.borderLeftColor = 'transparent';
-                    e.currentTarget.style.paddingLeft = '1.5rem';
-                  }}
-                >
-                  {link.label}
-                </a>
-              </li>
-            ))}
+            {navLinks.map((link) => {
+              const isActive = location.pathname === link.to;
+              return (
+                <li key={link.to}>
+                  <Link
+                    to={link.to}
+                    onClick={() => setMobileMenuOpen(false)}
+                    style={{
+                      display: 'block',
+                      color: '#FFFFFF',
+                      textDecoration: 'none',
+                      fontSize: '1rem',
+                      fontWeight: isActive ? 600 : 500,
+                      padding: '0.875rem 1.5rem',
+                      transition: 'all 0.2s ease',
+                      borderLeft: isActive ? '3px solid #FFFFFF' : '3px solid transparent',
+                      textShadow: '1px 1px 2px rgba(0,0,0,0.3)',
+                      backgroundColor: isActive ? 'rgba(0, 0, 0, 0.2)' : 'transparent'
+                    }}
+                    onMouseEnter={(e) => {
+                      if (!isActive) {
+                        e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.2)';
+                        e.currentTarget.style.borderLeftColor = '#FFFFFF';
+                        e.currentTarget.style.paddingLeft = '1.75rem';
+                      }
+                    }}
+                    onMouseLeave={(e) => {
+                      if (!isActive) {
+                        e.currentTarget.style.backgroundColor = 'transparent';
+                        e.currentTarget.style.borderLeftColor = 'transparent';
+                        e.currentTarget.style.paddingLeft = '1.5rem';
+                      }
+                    }}
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              );
+            })}
             <li style={{ padding: '0.875rem 1.5rem', borderTop: '1px solid rgba(255, 255, 255, 0.2)' }}>
               <LanguageSwitcher />
             </li>
