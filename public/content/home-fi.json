@@ -1,12 +1,16 @@
 {
   "showButton1": true,
   "showButton2": true,
-  "ctaButton1Link": "#galleria",
-  "ctaButton2Link": "#media",
-  "name": "NIMESI TÄHÄN",
-  "subtitle": "Näyttelijä • Esiintyjä • Taiteilija",
-  "ctaButton1Text": "Galleria",
-  "heroParagraph1": "Tämä on esittelykappaleesi. Kerro yleisöllesi kuka olet ja mistä olet intohimoinen.",
-  "ctaButton2Text": "Media",
-  "heroParagraph2": "Lisää toinen kappale korostaaksesi kokemustasi, taitojasi tai ainutlaatuisia ominaisuuksiasi."
+  "ctaButton1Link": "/productions",
+  "ctaButton2Link": "/about",
+  "name": "pihla folk",
+  "subtitle": "kansanmusiikin ja -perinteen pioneeri vuodesta 2002",
+  "ctaButton1Text": "Tuotannot",
+  "heroParagraph1": "pihla folk on kansanmusiikin ja -perinteen pioneeritoimijoita luovalla tuotanto- ja välittäjätoiminnallaan.",
+  "ctaButton2Text": "Tietoa meistä",
+  "heroParagraph2": "Keskitymme itämerensuomalaisiin perinteisiin ja kieliin Karjala-painotuksella. Moderniin toimintaamme mahtuvat niin akustinen ja arkaainen musiikki kuin fuusiokin.",
+  "showMedia": true,
+  "mediaType": "image",
+  "mediaUrl": "/assets/ilona-korhonen-ensemble-piot.jpg",
+  "additionalText": "Hyvä tietämys ja tuntemus perinteistä, sensitiivinen työskentelyote ja monipuoliset verkostot auttavat toimimaan ylirajaisten ja myös kiistanalaistenkin perinteiden kanssa onnistuneesti.\n\nSuomalais-ugrilaisuus on oleellinen, laajempi maailma. pihla folkin arvomaailma kumpuaa näistä juurista haastaen aikamme yksilökeskeistä ja tempovaa ihmis- ja maailmankuvaa."
 }

@@ -1,16 +1,48 @@
 {
   "sections": [
     {
-      "type": "showreel",
-      "title": "Showreel",
-      "videos": [],
-      "externalLinks": []
+      "type": "carousel",
+      "title": "Photo Gallery",
+      "subtitle": "Images from our productions and performances",
+      "carousel": [
+        {
+          "image": "/assets/carousel-1.jpg",
+          "alt": "Ilona Korhonen Ensemble - Piot"
+        },
+        {
+          "image": "/assets/carousel-2.jpg",
+          "alt": "Laulettu Kalevala"
+        },
+        {
+          "image": "/assets/carousel-3.jpg",
+          "alt": "Koski"
+        },
+        {
+          "image": "/assets/carousel-4.jpg",
+          "alt": "Etnogaala - Phenomenon of the Year"
+        },
+        {
+          "image": "/assets/carousel-5.jpg",
+          "alt": "Mari Pääkkönen"
+        }
+      ]
     },
     {
-      "type": "voice-samples",
-      "title": "Voice Samples",
-      "videos": [],
-      "audioFiles": [],
+      "type": "videos",
+      "title": "Videos",
+      "subtitle": "Watch videos from our performances and productions",
+      "videos": []
+    },
+    {
+      "type": "audio",
+      "title": "Audio Samples",
+      "subtitle": "Listen to samples of our music",
+      "audioFiles": []
+    },
+    {
+      "type": "links",
+      "title": "Media Links",
+      "subtitle": "Links to our media content",
       "externalLinks": []
     }
   ]

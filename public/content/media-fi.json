@@ -1,16 +1,48 @@
 {
   "sections": [
     {
-      "type": "showreel",
-      "title": "Showreel",
-      "videos": [],
-      "externalLinks": []
+      "type": "carousel",
+      "title": "Kuvagalleria",
+      "subtitle": "Kuvia tuotannoistamme ja esiintymisistämme",
+      "carousel": [
+        {
+          "image": "/assets/carousel-1.jpg",
+          "alt": "Ilona Korhonen Ensemble - Piot"
+        },
+        {
+          "image": "/assets/carousel-2.jpg",
+          "alt": "Laulettu Kalevala"
+        },
+        {
+          "image": "/assets/carousel-3.jpg",
+          "alt": "Koski"
+        },
+        {
+          "image": "/assets/carousel-4.jpg",
+          "alt": "Etnogaala - Vuoden ilmiö"
+        },
+        {
+          "image": "/assets/carousel-5.jpg",
+          "alt": "Mari Pääkkönen"
+        }
+      ]
     },
     {
-      "type": "voice-samples",
+      "type": "videos",
+      "title": "Videot",
+      "subtitle": "Katso videoita esityksistämme ja tuotannoistamme",
+      "videos": []
+    },
+    {
+      "type": "audio",
       "title": "Ääninäytteet",
-      "videos": [],
-      "audioFiles": [],
+      "subtitle": "Kuuntele ääninäytteitä musiikistamme",
+      "audioFiles": []
+    },
+    {
+      "type": "links",
+      "title": "Media-linkit",
+      "subtitle": "Linkkejä mediasisältöihimme",
       "externalLinks": []
     }
   ]

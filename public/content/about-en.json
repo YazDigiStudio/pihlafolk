@@ -1,61 +1,24 @@
 {
-  "pihlaFolk": {
-    "title": {
-      "en": "Pihla Folk",
-      "fi": "Pihla Folk"
+  "sections": [
+    {
+      "header": "pihla folk",
+      "text": "pihla folk is a pioneer in folk music and traditions through creative production and promotion activities.\n\nWhat makes it special is its focus and deep immersion in Baltic Finnic traditions and languages with an emphasis on Karelia. Finno-Ugric culture is also an essential, broader world. pihla folk's values stem from these roots, challenging our era's individualistic and fast-paced worldview.",
+      "image": "/assets/mari-etnogaala.jpg",
+      "imagePosition": "left",
+      "maxTextLength": 500
     },
-    "founded": "2002",
-    "description": {
-      "fi": "pihla folk on kansanmusiikin ja -perinteen pioneeritoimijoita luovalla tuotanto- ja välittäjätoiminnallaan. Erityisen siitä tekee keskittyminen ja syventyminen itämerensuomalaisiin perinteisiin ja kieliin Karjala-painotuksella. Suomalais-ugrilaisuus on myös oleellinen, laajempi maailma. pihla folkin arvomaailma kumpuaakin näistä juurista haastaen aikamme yksilökeskeistä ja tempovaa ihmis- ja maailmankuvaa.\n\npihla folkin moderniin toimintaan mahtuvat niin akustinen ja arkaainen musiikki kuin fuusiokin. Perinteet elävät ja kehittyvät myös akustisesti ja hienovaraisemmin, toisaalta voimakkaampi genrejenvälisyys voi avata parhaimmillaan uusia, omaleimaisia soundeja. Fuusioissa keskeisenä elementtinä on useimmiten elektroniikka.\n\nHyvä tietämys ja tuntemus perinteistä, sensitiivinen työskentelyote ja monipuoliset verkostot auttavat toimimaan ylirajaisten ja myös kiistanalaistenkin perinteiden kanssa onnistuneesti.\n\nTyöpöydälle mahtuu osittain muutakin, mutta niissäkin tapauksissa on hyvä kommunikoivuus pihla folkin profiilin kanssa.\n\npihla folk on yleisesti rauhan puolella maapallolla, mutta sen profiloitumisesta johtuen on painotettava, että pihla folk on Ukrainan sotaa ja Putinin hallintoa vastaan.",
-      "en": "pihla folk is a pioneer in folk music and tradition through its creative production and agency work. What makes it special is its focus and deep immersion in Finnic traditions and languages with an emphasis on Karelia. Finno-Ugric culture is also an essential, broader world. pihla folk's values stem from these roots, challenging our time's individualistic and fast-paced worldview.\n\npihla folk's modern approach embraces acoustic and archaic music as well as fusion. Traditions live and evolve acoustically and more subtly, while stronger genre-crossing can open up new, distinctive sounds at its best. Electronics are often a central element in fusions.\n\nStrong knowledge and understanding of traditions, a sensitive working approach, and diverse networks help to work successfully with cross-border and even controversial traditions.\n\nOther projects also find their way to the desk, but in those cases too, there is good communication with pihla folk's profile.\n\npihla folk is generally on the side of peace in the world, but due to its profile, it must be emphasized that pihla folk stands against the war in Ukraine and Putin's regime."
+    {
+      "text": "pihla folk's modern approach embraces acoustic and archaic music as well as fusion. Traditions live and evolve acoustically and more subtly, while stronger genre-crossing can open up new, distinctive sounds at its best. Electronics are often a central element in fusions.\n\nStrong knowledge and understanding of traditions, a sensitive working approach, and diverse networks help to work successfully with cross-border and even controversial traditions.\n\nOther projects also find their way to the desk, but in those cases too, there is good communication with pihla folk's profile.\n\npihla folk is generally on the side of peace in the world, but due to its profile, it must be emphasized that pihla folk stands against the war in Ukraine and Putin's regime."
+    },
+    {
+      "header": "Mari Pääkkönen",
+      "text": "I am Mari Pääkkönen, founder of pihla folk. I was born in Kuhmo, on the eastern border of Kainuu. My interest and enthusiasm for folk tradition began as a child, and as a student in my early twenties, I properly discovered the world of archaic folk music. During the spring of my first university year, it became clear to me that I wanted to work in the cultural field, and I haven't seriously questioned that since.",
+      "image": "/assets/mari-jani-snellman.jpg",
+      "imagePosition": "right",
+      "maxTextLength": 600
+    },
+    {
+      "text": "I studied speech communication (now communication) as my major, with two focus areas: management communication and interaction in work communities, and technology-mediated interaction. My minor subjects include drama education, music administration and production, the Culture Keys study module (including musicology, philosophy of art and art history), philosophy, entrepreneurial economics, and service design. I graduated as a Bachelor of Arts in 2008 and Master of Philosophy in 2010. My master's thesis topic was Management Communication at a Festival - a case study of Kuhmo Chamber Music. I started as a professional in the cultural field in 2009.\n\nIn the field of folk and world music, I have extensive work history in various production roles, from artist management, international cultural projects, festival production, and arts communication with key institutions, organizations, and actors in the field, including Musiikkijuhla Sommelo, Kainuu Folk Music Association, Folk Music Institute, Kaustinen Folk Music Festival, World Music Centre / Etnosoi! festival, Etno-Espa.\n\nIn the independent field, I've always been fascinated by precisely that freedom. Exciting works and productions have included Blood, Porn and Propaganda, DAMMIT! - a feminist folk music series 2018-2020 (Amanda Kauranne), which was awarded Phenomenon of the Year at Etno-gala 2020. Singing Bird Trip - a hybrid nature trip 2021 (Jimmy Träskelin). Longer production arcs have always taken me furthest forward. This has been the case with the Sung Kalevala audiobook project ongoing since 2020.\n\nThe East drew me irresistibly to Karelian, Baltic Finnic, and even more broadly Finno-Ugric peoples and their traditions, cultures, and languages. The timing was, of course, bad. My heart broke on the morning of February 24, 2022. It broke for the Ukrainians. It broke for all those people living in Russia who have never voted for Putin and oppose the war.\n\nI believe that better times will come when we can create new, ethically sustainable ways of cross-border cooperation. Recent years have opened Estonia to me even more intensively, and I rejoice greatly in that. And during the worst Corona time, when most of the world was closed, it happened that I started strategic internationalization, and it is still one important and inspiring cornerstone of my work.\n\nAnd in the wave and waves of all these things, I decided to start a company, and pihla folk was born on August 1, 2022. Currently, I have the honor of being a board member of the foundation behind Juminkeko - the Kalevala and Karelian Culture Centre located in Kuhmo, starting from February 2025."
     }
-  },
-  "founder": {
-    "name": "Mari Pääkkönen",
-    "title": {
-      "en": "Founder",
-      "fi": "Perustaja"
-    },
-    "image": "/assets/mari-paakkonen.jpg",
-    "bio": {
-      "fi": "Olen Mari Pääkkönen, pihla folkin perustaja. Syntyisin olen Kuhmosta, itärajalta Kainuusta. Kiinnostus ja innostus kansanperinteeseen syntyi jo lapsena, reilu kaksikymppisenä opiskelijana löysin kunnolla kansanmusiikin arkaaisen musiikin maailmassa. Ensimmäisen yliopistovuoteni keväällä minulla oli selvää, että haluan työskennellä kulttuurialalla, enkä ole sitä sen jälkeen suuremmin kyseenalaistanut.\n\nOpiskelin pääaineenani puheviestintää (nykyisin viestintä), jossa minulla oli kaksi painopistealuetta johtamisviestintä ja vuorovaikutus työyhteisöissä ja teknologiavälitteinen vuorovaikutus. Sivuaineista löytyy draamakasvatusta, musiikkihallintoa ja -tuotantoa, Kulttuurin avaimet -opintokokonaisuus (mm. musiikkitiede, taidefilosofia ja -historia), filosofia, yrittäjyystaloustiede, palvelumuotoilu. Valmistuin humanististen tieteiden kandidaatiksi 2008, filosofian maisteriksi 2010. Pro graduni aiheena oli Johtamisviestintä festivaalilla - tapaustutkimuksena Kuhmon Kamarimusiikki. Ammattilaisena aloitin kulttuurialalla 2009.\n\nKansanmusiikin ja maailmanmusiikin kentällä minulla on työhistoriaa laajasti tuotannon eri rooleissa, artistimanageroinnista, kansainvälisistä kulttuuriprojekteista, festivaalituotannosta ja taideviestinnästä alan keskeisten instituuttien, organisaatioiden ja toimijoiden parissa, mm. Musiikkijuhla Sommelo, Kainuun Kansanmusiikkiyhdistys, Kansanmusiikki-Instituutti, Kaustisen Kansanmusiikkijuhla, Maailmanmusiikin Keskus / Etnosoi! festivaali, Etno-Espa.\n\nVapaalla kentällä minua on kiehtonut aina juurikin se vapaus. Riemastuttavia töitä ja tuotantoja ovat olleet, mm. Verta, pornoa ja propagandaa, JUMALAUTA! - feministinen kansanmusiikkisarja 2018-2020 (Amanda Kauranne), joka palkitiin Etno-gaalan 2020 Vuoden ilmiönä. Soiva linturetki - hybridi luontoretki 2021 (Jimmy Träskelin). Pitemmät tuotantokaaret ovat vieneet minua aina eniten eteenpäin. Niin on käynyt 2020 vuodesta lähtien käynissä olevan Laulettu Kalevala -äänikirjan kanssa.\n\nItä veti vastustamattomasti puoleensa karjalaisten, itämerensuomalaisten ja vielä laajemmin suomalais-ugrilaisten kansojen ja heidän perinteiden, kulttuurien ja kielten pariin. Ajoitus oli toki huono. Sydämeni särkyi aamulla 24.2.2022. Se särkyi ukrainalaisten puolesta. Se särkyi kaikkien niiden Venäjällä asuvien ihmisten puolesta, jotka eivät ole ikinä äänestäneet Putinia ja vastustavat sotaa.\n\nUskon, että parempi aika vielä koittaa, jolloin meillä on mahdollista luoda uusia, eettisesti kestäviä tapoja ylirajaiseen yhteistyöhön. Viime vuodet ovat avanneet minulle taas sitäkin intensiivisemmin Viroa, ja siitä iloitsen suuresti. Ja pahimpaan korona-aikaan, kun suurin osa maailmasta oli kiinni, kävi kuitenkin niin, että aloitin strategisen kansainvälistymisen, ja se on edelleen yksi tärkeä ja inspiroiva kulmakivi työssäni.\n\nJa näiden kaikkien asioiden aallossa ja aalloissa päätin perustaa yrityksen, ja pihla folk syntyi 1. elokuuta 2022. Tällä hetkellä minulla on kunnia olla Kuhmossa sijaitsevan Juminkeko - Kalevalan ja karjalaisen kulttuurin keskuksen taustalla olevan säätiön hallituksen jäsen alkaen helmikuusta 2025.",
-      "en": "I am Mari Pääkkönen, founder of pihla folk. I was born in Kuhmo, on the eastern border of Kainuu. My interest and enthusiasm for folk tradition began as a child, and as a student in my early twenties, I properly discovered the world of archaic folk music. During the spring of my first university year, it became clear to me that I wanted to work in the cultural field, and I haven't seriously questioned that since.\n\nI studied speech communication (now communication) as my major, with two focus areas: management communication and interaction in work communities, and technology-mediated interaction. My minor subjects include drama education, music administration and production, the Culture Keys study module (including musicology, philosophy of art and art history), philosophy, entrepreneurial economics, and service design. I graduated as a Bachelor of Arts in 2008 and Master of Philosophy in 2010. My master's thesis topic was Management Communication at a Festival - a case study of Kuhmo Chamber Music. I started as a professional in the cultural field in 2009.\n\nIn the field of folk and world music, I have extensive work history in various production roles, from artist management, international cultural projects, festival production, and arts communication with key institutions, organizations, and actors in the field, including Musiikkijuhla Sommelo, Kainuu Folk Music Association, Folk Music Institute, Kaustinen Folk Music Festival, World Music Centre / Etnosoi! festival, Etno-Espa.\n\nIn the independent field, I've always been fascinated by precisely that freedom. Exciting works and productions have included Blood, Porn and Propaganda, DAMMIT! - a feminist folk music series 2018-2020 (Amanda Kauranne), which was awarded Phenomenon of the Year at Etno-gala 2020. Singing Bird Trip - a hybrid nature trip 2021 (Jimmy Träskelin). Longer production arcs have always taken me furthest forward. This has been the case with the Sung Kalevala audiobook project ongoing since 2020.\n\nThe East drew me irresistibly to Karelian, Baltic Finnic, and even more broadly Finno-Ugric peoples and their traditions, cultures, and languages. The timing was, of course, bad. My heart broke on the morning of February 24, 2022. It broke for the Ukrainians. It broke for all those people living in Russia who have never voted for Putin and oppose the war.\n\nI believe that better times will come when we can create new, ethically sustainable ways of cross-border cooperation. Recent years have opened Estonia to me even more intensively, and I rejoice greatly in that. And during the worst Corona time, when most of the world was closed, it happened that I started strategic internationalization, and it is still one important and inspiring cornerstone of my work.\n\nAnd in the wave and waves of all these things, I decided to start a company, and pihla folk was born on August 1, 2022. Currently, I have the honor of being a board member of the foundation behind Juminkeko - the Kalevala and Karelian Culture Centre located in Kuhmo, starting from February 2025."
-    },
-    "experience": {
-      "fi": [
-        "Musiikkijuhla Sommelo",
-        "Kainuun Kansanmusiikkiyhdistys",
-        "Kansanmusiikki-Instituutti",
-        "Kaustisen Kansanmusiikkijuhla",
-        "Maailmanmusiikin Keskus / Etnosoi! festivaali",
-        "Etno-Espa",
-        "Kuhmon Kamarimusiikki"
-      ],
-      "en": [
-        "Musiikkijuhla Sommelo",
-        "Kainuu Folk Music Association",
-        "Folk Music Institute",
-        "Kaustinen Folk Music Festival",
-        "World Music Centre / Etnosoi! festival",
-        "Etno-Espa",
-        "Kuhmo Chamber Music"
-      ]
-    },
-    "international": {
-      "title": {
-        "fi": "Kansainväliset ammattilaistapahtumat",
-        "en": "International Professional Events"
-      },
-      "events": [
-        "Tallinn Music Week 2021–2025",
-        "WOMEX 2019, 2021-2023, 2025",
-        "European Folk Network Conference 2024",
-        "Budapest RITMO, Hungary 2024",
-        "by:Larm Norway 2023",
-        "Folkelarm, Norway 2022 & 2024",
-        "Music x Media 2021, 2022, 2023",
-        "Folk Alliance: Folk Unlocked Virtual Conference 2021"
-      ]
-    }
-  }
+  ]
 }

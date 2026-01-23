@@ -1,6 +1,7 @@
 import React from 'react';
 import { ACTIVE_PALETTE } from '../styles/colorPalettes';
 import { Navigation } from '../components/Navigation';
+import { Footer } from '../components/Footer';
 import { useScreenSize } from '../hooks/useScreenSize';
 import { useContentData } from '../hooks/useContentData';
 import { useTranslations } from '../hooks/useTranslations';
@@ -13,7 +14,7 @@ import { usePageMeta } from '../hooks/usePageMeta';
  * - Hero section with wallpaper background
  * - Ongoing productions section
  * - Past productions section
- * - Production cards with images and descriptions
+ * - Production sections with images and descriptions
  */
 
 interface Production {
@@ -54,7 +55,7 @@ interface ProductionsContent {
 
 export const ProductionsPage: React.FC = () => {
   const palette = ACTIVE_PALETTE;
-  const { isMobile, isTablet } = useScreenSize();
+  const { isMobile } = useScreenSize();
   const data = useContentData<ProductionsContent>('productions.json');
   const t = useTranslations();
 
@@ -82,23 +83,7 @@ export const ProductionsPage: React.FC = () => {
   }
 
   const ProductionCard: React.FC<{ production: Production }> = ({ production }) => (
-    <div
-      style={{
-        backgroundColor: 'rgba(255, 255, 255, 0.95)',
-        borderRadius: '8px',
-        overflow: 'hidden',
-        boxShadow: '0 4px 12px rgba(0,0,0,0.15)',
-        transition: 'all 0.3s ease'
-      }}
-      onMouseEnter={(e) => {
-        e.currentTarget.style.transform = 'translateY(-8px)';
-        e.currentTarget.style.boxShadow = '0 12px 24px rgba(0,0,0,0.25)';
-      }}
-      onMouseLeave={(e) => {
-        e.currentTarget.style.transform = 'translateY(0)';
-        e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
-      }}
-    >
+    <div>
       {/* Production Image */}
       {production.image && (
         <img
@@ -115,7 +100,7 @@ export const ProductionsPage: React.FC = () => {
       )}
 
       {/* Production Info */}
-      <div style={{ padding: isMobile ? '1.5rem' : '2rem' }}>
+      <div style={{ marginTop: '1rem' }}>
         {/* Year Badge */}
         <div
           style={{
@@ -138,7 +123,7 @@ export const ProductionsPage: React.FC = () => {
             fontSize: '1.5rem',
             fontWeight: 700,
             margin: '0 0 0.5rem 0',
-            color: palette.colors.textHeading
+            color: '#ff0000'
           }}
         >
           {production.title}
@@ -226,30 +211,9 @@ export const ProductionsPage: React.FC = () => {
           style={{
             position: 'fixed',
             inset: 0,
-            backgroundImage: 'url(/assets/wallpaper-bg.jpg)',
+            backgroundImage: 'url(/assets/wallpaper-productions-bg.jpg)',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
-            filter: 'brightness(0.4)',
-            zIndex: -3
-          }}
-        />
-
-        {/* White overlay for readability */}
-        <div
-          style={{
-            position: 'fixed',
-            inset: 0,
-            backgroundColor: 'rgba(255, 255, 255, 0.4)',
-            zIndex: -2
-          }}
-        />
-
-        {/* Gradient overlay */}
-        <div
-          style={{
-            position: 'fixed',
-            inset: 0,
-            background: 'linear-gradient(to bottom, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0.3) 100%)',
             zIndex: -1
           }}
         />
@@ -263,62 +227,48 @@ export const ProductionsPage: React.FC = () => {
             paddingBottom: '4rem'
           }}
         >
-          {/* Title Section */}
-          <div
-            style={{
-              textAlign: 'center',
-              color: palette.colors.textHeading,
-              padding: '2rem',
-              marginBottom: '3rem'
-            }}
-          >
-            <h1
-              style={{
-                fontSize: 'clamp(2rem, 6vw, 3.5rem)',
-                fontWeight: 700,
-                letterSpacing: '0.05em',
-                margin: 0,
-                textShadow: '2px 2px 4px rgba(255,255,255,0.5)'
-              }}
-            >
-              {t.productions.title}
-            </h1>
-          </div>
-
-          {/* Main Content */}
+          {/* Outer Container for width control */}
           <div
             style={{
               maxWidth: '1200px',
+              width: '95%',
               margin: '0 auto',
-              padding: isMobile ? '0 1rem' : '0 2rem'
+              padding: isMobile ? '1rem' : '2rem'
             }}
           >
+            {/* Inner Content Container */}
+            <div
+              style={{
+                padding: isMobile ? '1rem' : '3rem',
+                backgroundColor: 'rgba(245, 242, 235, 0.95)',
+                borderRadius: '12px',
+                boxShadow: '0 8px 32px rgba(0, 0, 0, 0.2)',
+                minHeight: '600px'
+              }}
+            >
             {/* Ongoing Productions */}
-            <div style={{ marginBottom: '5rem' }}>
+            <div style={{ marginBottom: '4rem' }}>
               <h2
                 style={{
                   fontSize: 'clamp(1.5rem, 4vw, 2rem)',
                   fontWeight: 700,
                   marginBottom: '2rem',
-                  color: palette.colors.textHeading,
-                  textShadow: '1px 1px 3px rgba(255,255,255,0.6)'
+                  color: '#ff0000',
+                  paddingBottom: '1rem',
+                  borderBottom: '2px solid rgba(255, 0, 0, 0.2)'
                 }}
               >
                 {t.productions.ongoing}
               </h2>
-              <div
-                style={{
-                  display: 'grid',
-                  gridTemplateColumns: isMobile
-                    ? '1fr'
-                    : isTablet
-                    ? '1fr'
-                    : 'repeat(2, 1fr)',
-                  gap: isMobile ? '2rem' : '3rem'
-                }}
-              >
-                {data.ongoing.productions.map((production) => (
-                  <ProductionCard key={production.id} production={production} />
+              <div>
+                {data.ongoing.productions.map((production, index) => (
+                  <div key={production.id} style={{
+                    marginBottom: index < data.ongoing.productions.length - 1 ? '3rem' : '0',
+                    paddingBottom: index < data.ongoing.productions.length - 1 ? '3rem' : '0',
+                    borderBottom: index < data.ongoing.productions.length - 1 ? '1px solid rgba(0, 0, 0, 0.1)' : 'none'
+                  }}>
+                    <ProductionCard production={production} />
+                  </div>
                 ))}
               </div>
             </div>
@@ -330,31 +280,30 @@ export const ProductionsPage: React.FC = () => {
                   fontSize: 'clamp(1.5rem, 4vw, 2rem)',
                   fontWeight: 700,
                   marginBottom: '2rem',
-                  color: palette.colors.textHeading,
-                  textShadow: '1px 1px 3px rgba(255,255,255,0.6)'
+                  color: '#ff0000',
+                  paddingBottom: '1rem',
+                  borderBottom: '2px solid rgba(255, 0, 0, 0.2)'
                 }}
               >
                 {t.productions.past}
               </h2>
-              <div
-                style={{
-                  display: 'grid',
-                  gridTemplateColumns: isMobile
-                    ? '1fr'
-                    : isTablet
-                    ? '1fr'
-                    : 'repeat(2, 1fr)',
-                  gap: isMobile ? '2rem' : '3rem'
-                }}
-              >
-                {data.past.productions.map((production) => (
-                  <ProductionCard key={production.id} production={production} />
+              <div>
+                {data.past.productions.map((production, index) => (
+                  <div key={production.id} style={{
+                    marginBottom: index < data.past.productions.length - 1 ? '3rem' : '0',
+                    paddingBottom: index < data.past.productions.length - 1 ? '3rem' : '0',
+                    borderBottom: index < data.past.productions.length - 1 ? '1px solid rgba(0, 0, 0, 0.1)' : 'none'
+                  }}>
+                    <ProductionCard production={production} />
+                  </div>
                 ))}
               </div>
+            </div>
             </div>
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };

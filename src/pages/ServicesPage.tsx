@@ -77,37 +77,15 @@ export const ServicesPage: React.FC = () => {
       {/* Navigation Header */}
       <Navigation />
 
-      {/* Full Page Container with Wallpaper Background */}
+      {/* Full Page Container with White Background */}
       <div
         style={{
           position: 'relative',
           width: '100%',
           minHeight: '100vh',
-          overflow: 'hidden'
+          backgroundColor: '#FFFFFF'
         }}
       >
-        {/* Background Wallpaper */}
-        <div
-          style={{
-            position: 'fixed',
-            inset: 0,
-            backgroundImage: 'url(/assets/wallpaper-bg.jpg)',
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-            filter: 'brightness(0.4)',
-            zIndex: -2
-          }}
-        />
-
-        {/* Gradient overlay */}
-        <div
-          style={{
-            position: 'fixed',
-            inset: 0,
-            background: 'linear-gradient(to bottom, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0.3) 100%)',
-            zIndex: -1
-          }}
-        />
 
         {/* Page Content */}
         <div
@@ -186,60 +164,83 @@ export const ServicesPage: React.FC = () => {
                 <div
                   key={service.id}
                   style={{
-                    backgroundColor: 'rgba(255, 255, 255, 0.95)',
+                    position: 'relative',
                     borderRadius: '8px',
-                    padding: isMobile ? '2rem 1.5rem' : '2.5rem 2rem',
-                    boxShadow: '0 4px 12px rgba(0,0,0,0.15)',
+                    padding: isMobile ? '2.5rem 1.5rem' : '3rem 2rem',
                     transition: 'all 0.3s ease',
-                    border: `2px solid ${palette.colors.borderColor}`
+                    overflow: 'hidden',
+                    backgroundImage: 'url(/assets/pattern-bg.jpg)',
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',
+                    border: '1px solid rgba(255, 255, 255, 0.3)'
                   }}
                   onMouseEnter={(e) => {
                     e.currentTarget.style.transform = 'translateY(-8px)';
-                    e.currentTarget.style.boxShadow = '0 12px 24px rgba(0,0,0,0.25)';
-                    e.currentTarget.style.borderColor = palette.colors.accentPrimary;
+                    e.currentTarget.style.boxShadow = '0 12px 24px rgba(0,0,0,0.2)';
                   }}
                   onMouseLeave={(e) => {
                     e.currentTarget.style.transform = 'translateY(0)';
-                    e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
-                    e.currentTarget.style.borderColor = palette.colors.borderColor;
+                    e.currentTarget.style.boxShadow = 'none';
                   }}
                 >
-                  {/* Icon */}
+                  {/* White overlay for readability */}
                   <div
                     style={{
-                      fontSize: '3rem',
-                      marginBottom: '1rem',
-                      textAlign: 'center'
+                      position: 'absolute',
+                      inset: 0,
+                      backgroundColor: 'rgba(255, 255, 255, 0.85)',
+                      zIndex: 0
                     }}
-                  >
-                    {service.icon}
+                  />
+
+                  {/* Content */}
+                  <div style={{ position: 'relative', zIndex: 1 }}>
+                    {/* Logo Icon */}
+                    <div
+                      style={{
+                        marginBottom: '1.5rem',
+                        textAlign: 'center',
+                        display: 'flex',
+                        justifyContent: 'center'
+                      }}
+                    >
+                      <img
+                        src="/assets/pihla-folk-icon.png"
+                        alt="Pihla Folk"
+                        style={{
+                          height: '60px',
+                          width: 'auto',
+                          display: 'block'
+                        }}
+                      />
+                    </div>
+
+                    {/* Title */}
+                    <h2
+                      style={{
+                        fontSize: '1.5rem',
+                        fontWeight: 700,
+                        margin: '0 0 1rem 0',
+                        color: palette.colors.textHeading,
+                        textAlign: 'center'
+                      }}
+                    >
+                      {service.title.fi}
+                    </h2>
+
+                    {/* Description */}
+                    <p
+                      style={{
+                        fontSize: '1rem',
+                        lineHeight: '1.7',
+                        color: palette.colors.textMuted,
+                        margin: 0,
+                        textAlign: 'center'
+                      }}
+                    >
+                      {service.description.fi}
+                    </p>
                   </div>
-
-                  {/* Title */}
-                  <h2
-                    style={{
-                      fontSize: '1.5rem',
-                      fontWeight: 700,
-                      margin: '0 0 1rem 0',
-                      color: palette.colors.textHeading,
-                      textAlign: 'center'
-                    }}
-                  >
-                    {service.title.fi}
-                  </h2>
-
-                  {/* Description */}
-                  <p
-                    style={{
-                      fontSize: '1rem',
-                      lineHeight: '1.7',
-                      color: palette.colors.textMuted,
-                      margin: 0,
-                      textAlign: 'center'
-                    }}
-                  >
-                    {service.description.fi}
-                  </p>
                 </div>
               ))}
             </div>

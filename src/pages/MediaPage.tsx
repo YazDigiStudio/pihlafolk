@@ -1,10 +1,16 @@
 import React from 'react';
 import { Navigation } from '../components/Navigation';
+import { Footer } from '../components/Footer';
+import { ImageCarousel } from '../components/ImageCarousel';
 import { useScreenSize } from '../hooks/useScreenSize';
 import { useContentData } from '../hooks/useContentData';
 import { useTranslations } from '../hooks/useTranslations';
-import { ACTIVE_PALETTE } from '../styles/colorPalettes';
 import { usePageMeta } from '../hooks/usePageMeta';
+
+interface CarouselImage {
+  image: string;
+  alt: string;
+}
 
 interface MediaVideo {
   type: 'youtube' | 'vimeo' | 'direct';
@@ -25,8 +31,10 @@ interface MediaExternalLink {
 }
 
 interface MediaSection {
-  type: string;
-  title: string;
+  type: 'carousel' | 'videos' | 'audio' | 'links' | string;
+  title?: string;
+  subtitle?: string;
+  carousel?: CarouselImage[];
   videos?: MediaVideo[];
   audioFiles?: MediaAudioFile[];
   externalLinks?: MediaExternalLink[];
@@ -43,7 +51,6 @@ interface MediaContent {
 
 export const MediaPage: React.FC = () => {
   const { isMobile } = useScreenSize();
-  const palette = ACTIVE_PALETTE;
   const data = useContentData<MediaContent>('media.json');
   const t = useTranslations();
 
@@ -74,7 +81,7 @@ export const MediaPage: React.FC = () => {
     <>
       <Navigation />
 
-      {/* Full Page Container with Background */}
+      {/* Full Page Container with Wallpaper Background */}
       <div
         style={{
           position: 'relative',
@@ -83,35 +90,14 @@ export const MediaPage: React.FC = () => {
           overflow: 'hidden'
         }}
       >
-        {/* Background Image */}
+        {/* Background Wallpaper - Same as Productions */}
         <div
           style={{
             position: 'fixed',
             inset: 0,
-            backgroundImage: 'url(/assets/hero-bg.jpg)',
+            backgroundImage: 'url(/assets/wallpaper-productions-bg.jpg)',
             backgroundSize: 'cover',
-            backgroundPosition: 'center 42%',
-            filter: 'brightness(0.5)',
-            zIndex: -3
-          }}
-        />
-
-        {/* White background layer */}
-        <div
-          style={{
-            position: 'fixed',
-            inset: 0,
-            backgroundColor: 'rgba(255, 255, 255, 0.35)',
-            zIndex: -2
-          }}
-        />
-
-        {/* Overlay gradient */}
-        <div
-          style={{
-            position: 'fixed',
-            inset: 0,
-            background: 'linear-gradient(to bottom, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0.2) 100%)',
+            backgroundPosition: 'center',
             zIndex: -1
           }}
         />
@@ -125,61 +111,82 @@ export const MediaPage: React.FC = () => {
             paddingBottom: '4rem'
           }}
         >
-          {/* Title Section */}
+          {/* Outer Container for width control */}
           <div
             style={{
-              textAlign: 'center',
-              color: palette.colors.textHeading,
-              padding: '2rem',
-              marginBottom: '3rem'
+              maxWidth: '1200px',
+              width: '95%',
+              margin: '0 auto',
+              padding: isMobile ? '1rem' : '2rem'
             }}
           >
-            <h1
+            {/* Inner Content Container */}
+            <div
               style={{
-                fontSize: 'clamp(2rem, 6vw, 3.5rem)',
-                fontWeight: 300,
-                letterSpacing: '0.1em',
-                margin: 0,
-                textTransform: 'uppercase',
-                textShadow: '1px 1px 2px rgba(255,255,255,0.3)'
+                padding: isMobile ? '1rem' : '3rem',
+                backgroundColor: 'rgba(0, 0, 0, 0.3)',
+                backdropFilter: 'blur(15px)',
+                borderRadius: '16px',
+                boxShadow: '0 12px 40px rgba(0, 0, 0, 0.5)',
+                minHeight: '600px'
               }}
             >
-              {t.media.title}
-            </h1>
-          </div>
-
-          {/* Content Container */}
-          <div
-            style={{
-              maxWidth: '1000px',
-              margin: '0 auto',
-              padding: isMobile ? '0 1rem' : '0 2rem'
-            }}
-          >
             {/* Dynamic Sections */}
             {data.sections.map((section, sectionIndex) => {
               // Skip sections with no content
+              const hasCarousel = section.carousel && section.carousel.length > 0;
               const hasVideos = section.videos && section.videos.length > 0;
               const hasAudio = section.audioFiles && section.audioFiles.length > 0;
               const hasLinks = section.externalLinks && section.externalLinks.length > 0;
 
-              if (!hasVideos && !hasAudio && !hasLinks) {
+              if (!hasCarousel && !hasVideos && !hasAudio && !hasLinks) {
                 return null;
               }
 
               return (
                 <div key={sectionIndex} style={{ marginBottom: '4rem' }}>
-                  <h2
-                    style={{
-                      fontSize: '1.8rem',
-                      fontWeight: 600,
-                      color: palette.colors.textHeading,
-                      marginBottom: '1.5rem',
-                      textAlign: 'center'
-                    }}
-                  >
-                    {section.title}
-                  </h2>
+                  {section.title && (
+                    <div style={{ marginBottom: '2rem' }}>
+                      <h2
+                        style={{
+                          fontSize: 'clamp(1.5rem, 4vw, 2rem)',
+                          fontWeight: 700,
+                          marginBottom: section.subtitle ? '1rem' : '0',
+                          color: '#FFFFFF'
+                        }}
+                      >
+                        {section.title}
+                      </h2>
+                      {section.subtitle && (
+                        <p
+                          style={{
+                            fontSize: 'clamp(1rem, 2vw, 1.1rem)',
+                            lineHeight: '1.6',
+                            color: 'rgba(255, 255, 255, 0.85)',
+                            maxWidth: '800px',
+                            marginTop: '0.5rem'
+                          }}
+                        >
+                          {section.subtitle}
+                        </p>
+                      )}
+                      <div
+                        style={{
+                          marginTop: '1rem',
+                          height: '2px',
+                          background: 'linear-gradient(to right, rgba(255, 255, 255, 0.3), transparent)',
+                          maxWidth: '200px'
+                        }}
+                      />
+                    </div>
+                  )}
+
+                  {/* Render Carousel */}
+                  {hasCarousel && section.carousel && (
+                    <div style={{ marginBottom: '2rem' }}>
+                      <ImageCarousel images={section.carousel} autoPlayInterval={5000} />
+                    </div>
+                  )}
 
                   {/* Render Videos */}
                   {hasVideos && section.videos!.map((video, videoIndex) => (
@@ -211,7 +218,7 @@ export const MediaPage: React.FC = () => {
                       </div>
                       <p
                         style={{
-                          color: palette.colors.textPrimary,
+                          color: '#FFFFFF',
                           textAlign: 'center',
                           marginTop: '1rem',
                           opacity: 0.9
@@ -227,7 +234,7 @@ export const MediaPage: React.FC = () => {
                     <div key={audioIndex} style={{ marginBottom: '2rem' }}>
                       <p
                         style={{
-                          color: palette.colors.textPrimary,
+                          color: '#FFFFFF',
                           textAlign: 'center',
                           marginBottom: '1rem',
                           fontSize: '1.1rem',
@@ -254,7 +261,7 @@ export const MediaPage: React.FC = () => {
                       {audio.description && (
                         <p
                           style={{
-                            color: palette.colors.textMuted,
+                            color: 'rgba(255, 255, 255, 0.7)',
                             textAlign: 'center',
                             marginTop: '0.5rem',
                             fontSize: '0.9rem'
@@ -307,9 +314,11 @@ export const MediaPage: React.FC = () => {
                 </div>
               );
             })}
+            </div>
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };

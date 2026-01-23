@@ -1,24 +1,41 @@
 import React from 'react';
 import { Navigation } from '../components/Navigation';
+import { Footer } from '../components/Footer';
 import { useScreenSize } from '../hooks/useScreenSize';
-import { ACTIVE_PALETTE } from '../styles/colorPalettes';
 import { useContentData } from '../hooks/useContentData';
 import { useTranslations } from '../hooks/useTranslations';
 import { usePageMeta } from '../hooks/usePageMeta';
 
+interface AboutSection {
+  header?: string;
+  text: string;
+  image?: string;
+  imagePosition?: 'left' | 'right';
+  maxTextLength?: number;
+}
+
 interface AboutContent {
-  title: string;
-  bioParagraphs: string[];
+  sections: AboutSection[];
 }
 
 /**
- * AboutPage for Portfolio Template
- * Bio page with rounded text box
+ * AboutPage - Pihla Folk Information
+ *
+ * Full-page design matching HomePage:
+ * - Same background image as homepage
+ * - Frosted glass container with semi-transparent background
+ * - Flexible sections with configurable image positioning
+ * - Text truncation for sections with images
+ * - Managed through Decap CMS
  */
+
+const truncateText = (text: string, maxLength: number): string => {
+  if (text.length <= maxLength) return text;
+  return text.substring(0, maxLength).trim() + '...';
+};
 
 export const AboutPage: React.FC = () => {
   const { isMobile } = useScreenSize();
-  const palette = ACTIVE_PALETTE;
   const data = useContentData<AboutContent>('about.json');
   const t = useTranslations();
 
@@ -31,7 +48,7 @@ export const AboutPage: React.FC = () => {
   if (!data) {
     return (
       <>
-        <Navigation />
+        <Navigation showName={true} />
         <div style={{
           display: 'flex',
           alignItems: 'center',
@@ -47,117 +64,187 @@ export const AboutPage: React.FC = () => {
 
   return (
     <>
-      <Navigation />
+      {/* Navigation Header */}
+      <Navigation showName={true} />
 
-      {/* Full Page Container with Background */}
+      {/* Hero Section */}
       <div
         style={{
           position: 'relative',
           width: '100%',
           minHeight: '100vh',
-          overflow: 'hidden'
+          overflow: 'hidden',
+          display: 'flex',
+          alignItems: isMobile ? 'flex-start' : 'center',
+          justifyContent: 'center',
+          fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif'
         }}
       >
-        {/* Background Image */}
+        {/* Full-page Background Wallpaper */}
         <div
           style={{
-            position: 'fixed',
+            position: 'absolute',
             inset: 0,
-            backgroundImage: 'url(/assets/hero-bg.jpg)',
+            backgroundImage: 'url(/assets/wallpaper-home-bg.jpg)',
             backgroundSize: 'cover',
-            backgroundPosition: 'center 42%',
-            filter: 'brightness(0.5)',
-            zIndex: -3
-          }}
-        />
-
-        {/* White background layer */}
-        <div
-          style={{
-            position: 'fixed',
-            inset: 0,
-            backgroundColor: 'rgba(255, 255, 255, 0.35)',
-            zIndex: -2
-          }}
-        />
-
-        {/* Overlay gradient */}
-        <div
-          style={{
-            position: 'fixed',
-            inset: 0,
-            background: 'linear-gradient(to bottom, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0.2) 100%)',
+            backgroundPosition: 'center',
             zIndex: -1
           }}
         />
 
-        {/* Page Content */}
+        {/* Outer Container for width control */}
         <div
           style={{
             position: 'relative',
-            zIndex: 1,
-            paddingTop: '6rem',
-            paddingBottom: '4rem'
+            zIndex: 10,
+            maxWidth: '1200px',
+            width: '95%',
+            margin: '0 auto',
+            padding: isMobile ? '1rem' : '2rem',
+            marginTop: isMobile ? '80px' : '120px'
           }}
         >
-          {/* Title Section */}
           <div
             style={{
-              textAlign: 'center',
-              color: palette.colors.textHeading,
-              padding: '2rem',
-              marginBottom: '3rem'
+              backgroundColor: 'rgba(0, 0, 0, 0.3)',
+              backdropFilter: 'blur(15px)',
+              borderRadius: '16px',
+              padding: isMobile ? '1.5rem' : '2.5rem',
+              boxShadow: '0 12px 40px rgba(0, 0, 0, 0.5)',
+              display: 'flex',
+              flexDirection: 'column',
+              gap: isMobile ? '2rem' : '3rem',
+              minHeight: '600px'
             }}
           >
-            <h1
-              style={{
-                fontSize: 'clamp(2rem, 6vw, 3.5rem)',
-                fontWeight: 300,
-                letterSpacing: '0.1em',
-                margin: 0,
-                textTransform: 'uppercase',
-                textShadow: '1px 1px 2px rgba(255,255,255,0.3)'
-              }}
-            >
-              {data.title}
-            </h1>
-          </div>
+            {/* Render Sections */}
+            {data.sections && data.sections.map((section, index) => {
+              const hasImage = !!section.image;
+              const imagePosition = section.imagePosition || 'left';
+              const maxLength = section.maxTextLength || (hasImage ? 800 : 10000);
+              const displayText = truncateText(section.text, maxLength);
 
-          {/* Content Container */}
-          <div
-            style={{
-              maxWidth: '900px',
-              margin: '0 auto',
-              padding: isMobile ? '0 1rem' : '0 2rem'
-            }}
-          >
-            {/* Bio Text Box */}
-            <div
-              style={{
-                backgroundColor: 'rgba(204, 205, 199, 0.7)',
-                borderRadius: '16px',
-                padding: isMobile ? '2rem 1.5rem' : '3rem 3.5rem',
-                boxShadow: '0 8px 24px rgba(0,0,0,0.1)',
-                border: `2px solid ${palette.colors.borderColor}`
-              }}
-            >
-              {data.bioParagraphs.map((paragraph, index) => (
-                <p
+              if (!hasImage) {
+                // Text-only section
+                return (
+                  <div
+                    key={index}
+                    style={{
+                      width: '100%',
+                      color: '#FFFFFF'
+                    }}
+                  >
+                    {section.header && (
+                      <h2
+                        style={{
+                          fontSize: isMobile ? '1.5rem' : '2rem',
+                          fontWeight: 700,
+                          color: '#ff0000',
+                          marginTop: 0,
+                          marginBottom: '1rem'
+                        }}
+                      >
+                        {section.header}
+                      </h2>
+                    )}
+                    <p
+                      style={{
+                        fontSize: isMobile ? '0.95rem' : '1.1rem',
+                        lineHeight: 1.8,
+                        color: 'rgba(255, 255, 255, 0.95)',
+                        whiteSpace: 'pre-wrap',
+                        margin: 0
+                      }}
+                    >
+                      {displayText}
+                    </p>
+                  </div>
+                );
+              }
+
+              // Section with image
+              return (
+                <div
                   key={index}
                   style={{
-                    fontSize: '1.1rem',
-                    lineHeight: '1.8',
-                    color: palette.colors.textPrimary,
-                    margin: index === data.bioParagraphs.length - 1 ? 0 : '0 0 1.5rem 0'
+                    width: '100%'
                   }}
                 >
-                  {paragraph}
-                </p>
-              ))}
-            </div>
+                  {section.header && (
+                    <h2
+                      style={{
+                        fontSize: isMobile ? '1.5rem' : '2rem',
+                        fontWeight: 700,
+                        color: '#ff0000',
+                        marginTop: 0,
+                        marginBottom: '1rem'
+                      }}
+                    >
+                      {section.header}
+                    </h2>
+                  )}
+                  <div
+                    style={{
+                      display: 'flex',
+                      flexDirection: isMobile
+                        ? 'column'
+                        : imagePosition === 'left' ? 'row' : 'row-reverse',
+                      alignItems: 'flex-start',
+                      gap: isMobile ? '1.5rem' : '2rem',
+                      width: '100%'
+                    }}
+                  >
+                    {/* Image */}
+                    <div
+                      style={{
+                        maxWidth: isMobile ? '100%' : '40%',
+                        width: '100%',
+                        borderRadius: '8px',
+                        overflow: 'hidden',
+                        boxShadow: '0 8px 24px rgba(0, 0, 0, 0.4)',
+                        flexShrink: 0
+                      }}
+                    >
+                      <img
+                        src={section.image}
+                        alt={`Section ${index + 1}`}
+                        style={{
+                          width: '100%',
+                          height: 'auto',
+                          display: 'block'
+                        }}
+                      />
+                    </div>
+
+                    {/* Text */}
+                    <div
+                      style={{
+                        flex: 1,
+                        color: '#FFFFFF',
+                        display: 'flex',
+                        alignItems: 'center'
+                      }}
+                    >
+                      <p
+                        style={{
+                          fontSize: isMobile ? '0.95rem' : '1.1rem',
+                          lineHeight: 1.8,
+                          color: 'rgba(255, 255, 255, 0.95)',
+                          whiteSpace: 'pre-wrap',
+                          margin: 0
+                        }}
+                      >
+                        {displayText}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };

@@ -1,6 +1,6 @@
 import React from 'react';
-import { ACTIVE_PALETTE } from '../styles/colorPalettes';
 import { Navigation } from '../components/Navigation';
+import { Footer } from '../components/Footer';
 import { useScreenSize } from '../hooks/useScreenSize';
 import { useContentData } from '../hooks/useContentData';
 import { useTranslations } from '../hooks/useTranslations';
@@ -17,6 +17,10 @@ interface HomeContent {
   showButton2: boolean;
   ctaButton2Text: string;
   ctaButton2Link: string;
+  showMedia?: boolean;
+  mediaType?: 'image' | 'video';
+  mediaUrl?: string;
+  additionalText?: string;
 }
 
 /**
@@ -31,8 +35,7 @@ interface HomeContent {
  */
 
 export const HomePage: React.FC = () => {
-  const palette = ACTIVE_PALETTE;
-  const { isMobile, isTablet } = useScreenSize();
+  const { isMobile } = useScreenSize();
   const data = useContentData<HomeContent>('home.json');
   const t = useTranslations();
 
@@ -45,7 +48,7 @@ export const HomePage: React.FC = () => {
   if (!data) {
     return (
       <>
-        <Navigation showName={false} />
+        <Navigation showName={true} />
         <div style={{
           display: 'flex',
           alignItems: 'center',
@@ -61,8 +64,8 @@ export const HomePage: React.FC = () => {
 
   return (
     <>
-      {/* Navigation Header - Hide name since it's in the hero */}
-      <Navigation showName={false} />
+      {/* Navigation Header - Show Pihla Folk logo */}
+      <Navigation showName={true} />
 
       {/* Hero Section */}
       <div
@@ -77,178 +80,178 @@ export const HomePage: React.FC = () => {
         fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif'
       }}
     >
-      {/* Full-page Background Image */}
+      {/* Full-page Background Wallpaper */}
       <div
         style={{
           position: 'absolute',
           inset: 0,
-          backgroundImage: 'url(/assets/hero-bg.jpg)',
+          backgroundImage: 'url(/assets/wallpaper-home-bg.jpg)',
           backgroundSize: 'cover',
-          backgroundPositionX: 'center',
-          backgroundPositionY: isMobile ? '85%' : '42%',
-          filter: isMobile ? 'brightness(1)' : 'brightness(1)'
+          backgroundPosition: 'center',
+          zIndex: -1
         }}
       />
 
-      {/* White overlay for mobile to lighten background */}
-      {isMobile && (
-        <div
-          style={{
-            position: 'absolute',
-            inset: 0,
-            backgroundColor: 'rgba(255, 255, 255, 0.3)'
-          }}
-        />
-      )}
-
-      {/* Overlay gradient for text readability */}
+      {/* Outer Container for width control */}
       <div
         style={{
-          position: 'absolute',
-          inset: 0,
-          background: isMobile
-            ? 'linear-gradient(to bottom, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.4) 100%)'
-            : 'linear-gradient(to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.6) 100%)'
-        }}
-      />
-
-      {/* Content Container - All content overlaid */}
-      <div
-        style={{
-          marginTop: isMobile ? '45vh' : isTablet ? '6rem' : '8rem',
           position: 'relative',
           zIndex: 10,
-          textAlign: 'center',
-          color: '#FFFFFF',
-          padding: isMobile ? '1rem' : isTablet ? '1.5rem' : '2rem',
-          maxWidth: '900px',
-          width: '100%'
+          maxWidth: '1200px',
+          width: '95%',
+          margin: '0 auto',
+          padding: isMobile ? '1rem' : '2rem',
+          marginTop: isMobile ? '80px' : '120px'
         }}
       >
-        {/* Name */}
-        <h1
-          style={{
-            fontSize: 'clamp(2.5rem, 8vw, 5rem)',
-            fontWeight: 300,
-            letterSpacing: '0.15em',
-            margin: '0 0 1.5rem 0',
-            textTransform: 'uppercase',
-            textShadow: '2px 4px 8px rgba(0,0,0,0.6)',
-            fontFamily: '"Helvetica Neue", Arial, sans-serif'
-          }}
-        >
-          {data.name}
-        </h1>
-
-        {/* Subtitle */}
-        <p
-          style={{
-            fontSize: 'clamp(1rem, 2.5vw, 1.5rem)',
-            fontWeight: 300,
-            letterSpacing: '0.1em',
-            margin: '0 0 2.5rem 0',
-            textShadow: '1px 2px 4px rgba(0,0,0,0.5)',
-            opacity: 0.95
-          }}
-        >
-          {data.subtitle}
-        </p>
-
-        {/* Bio Text */}
         <div
           style={{
-            fontSize: 'clamp(1rem, 2vw, 1.25rem)',
-            lineHeight: '1.8',
-            marginBottom: '2.5rem',
-            textShadow: '1px 2px 4px rgba(0,0,0,0.6)',
-            maxWidth: '700px',
-            margin: '0 auto 2.5rem auto'
-          }}
-        >
-          <p style={{ margin: '0 0 1.5rem 0', opacity: 0.95 }}>
-            {data.heroParagraph1}
-          </p>
-          <p style={{ margin: 0, opacity: 0.95 }}>
-            {data.heroParagraph2}
-          </p>
-        </div>
-
-        {/* Call to Action Buttons */}
-        <div
-          style={{
+            backgroundColor: 'rgba(0, 0, 0, 0.3)',
+            backdropFilter: 'blur(15px)',
+            borderRadius: '16px',
+            padding: isMobile ? '1.5rem' : '2.5rem',
+            boxShadow: '0 12px 40px rgba(0, 0, 0, 0.5)',
             display: 'flex',
-            gap: '1rem',
-            justifyContent: 'center',
-            flexWrap: 'wrap'
+            flexDirection: 'column',
+            alignItems: 'flex-start',
+            gap: isMobile ? '2rem' : '3rem',
+            minHeight: '600px'
           }}
         >
-          {data.showButton1 && (
-            <a
-              href={data.ctaButton1Link}
+          {/* Top Row: Image and Text Side by Side */}
+          <div
+            style={{
+              display: 'flex',
+              flexDirection: isMobile ? 'column' : 'row',
+              alignItems: 'flex-start',
+              gap: isMobile ? '2rem' : '3rem',
+              width: '100%'
+            }}
+          >
+            {/* Media Container - Image or Video */}
+            {data.showMedia && data.mediaUrl && (
+              <div
+                style={{
+                  maxWidth: isMobile ? '80%' : '45vw',
+                  width: '100%',
+                  borderRadius: '8px',
+                  overflow: 'hidden',
+                  boxShadow: '0 8px 24px rgba(0, 0, 0, 0.4)',
+                  backgroundColor: 'rgba(0, 0, 0, 0.2)',
+                  backdropFilter: 'blur(10px)',
+                  marginTop: isMobile ? '0' : '2.5rem'
+                }}
+              >
+                {data.mediaType === 'video' ? (
+                  <video
+                    src={data.mediaUrl}
+                    controls
+                    style={{
+                      width: '100%',
+                      height: 'auto',
+                      display: 'block'
+                    }}
+                  />
+                ) : (
+                  <img
+                    src={data.mediaUrl}
+                    alt="Media"
+                    style={{
+                      width: '100%',
+                      height: 'auto',
+                      display: 'block'
+                    }}
+                  />
+                )}
+              </div>
+            )}
+
+            {/* Text Container */}
+            <div
               style={{
-                display: 'inline-block',
-                padding: '0.875rem 2.5rem',
-                backgroundColor: 'rgba(255, 255, 255, 0.95)',
-                color: palette.colors.textPrimary,
-                textDecoration: 'none',
-                borderRadius: '4px',
-                fontSize: '1rem',
-                fontWeight: 600,
-                transition: 'all 0.3s ease',
-                border: 'none',
-                cursor: 'pointer',
-                boxShadow: '0 4px 12px rgba(0,0,0,0.3)'
-              }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.backgroundColor = '#FFFFFF';
-                e.currentTarget.style.transform = 'translateY(-2px)';
-                e.currentTarget.style.boxShadow = '0 6px 16px rgba(0,0,0,0.4)';
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.95)';
-                e.currentTarget.style.transform = 'translateY(0)';
-                e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.3)';
-              }}
-            >
-              {data.ctaButton1Text}
-            </a>
-          )}
-          {data.showButton2 && (
-            <a
-              href={data.ctaButton2Link}
-              style={{
-                display: 'inline-block',
-                padding: '0.875rem 2.5rem',
-                backgroundColor: 'transparent',
+                flex: 1,
+                maxWidth: isMobile ? '100%' : '500px',
+                padding: isMobile ? '0' : '0 1rem',
                 color: '#FFFFFF',
-                textDecoration: 'none',
-                borderRadius: '4px',
-                fontSize: '1rem',
-                fontWeight: 600,
-                transition: 'all 0.3s ease',
-                border: '2px solid rgba(255, 255, 255, 0.9)',
-                cursor: 'pointer',
-                boxShadow: '0 4px 12px rgba(0,0,0,0.2)'
-              }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.15)';
-                e.currentTarget.style.borderColor = '#FFFFFF';
-                e.currentTarget.style.transform = 'translateY(-2px)';
-                e.currentTarget.style.boxShadow = '0 6px 16px rgba(0,0,0,0.3)';
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.backgroundColor = 'transparent';
-                e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.9)';
-                e.currentTarget.style.transform = 'translateY(0)';
-                e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.2)';
+                display: 'flex',
+                flexDirection: 'column',
+                justifyContent: 'flex-start'
               }}
             >
-              {data.ctaButton2Text}
-            </a>
+              <h1
+                style={{
+                  fontSize: isMobile ? '2rem' : '3rem',
+                  fontWeight: 700,
+                  marginTop: 0,
+                  marginBottom: '0.5rem',
+                  color: '#FFFFFF'
+                }}
+              >
+                {data.name}
+              </h1>
+
+              <h2
+                style={{
+                  fontSize: isMobile ? '1rem' : '1.25rem',
+                  fontWeight: 400,
+                  marginBottom: '2rem',
+                  color: 'rgba(255, 255, 255, 0.9)',
+                  opacity: 0.9
+                }}
+              >
+                {data.subtitle}
+              </h2>
+
+              <p
+                style={{
+                  fontSize: isMobile ? '0.95rem' : '1.1rem',
+                  lineHeight: 1.6,
+                  marginBottom: '1rem',
+                  color: 'rgba(255, 255, 255, 0.95)'
+                }}
+              >
+                {data.heroParagraph1}
+              </p>
+
+              <p
+                style={{
+                  fontSize: isMobile ? '0.95rem' : '1.1rem',
+                  lineHeight: 1.6,
+                  marginBottom: '0',
+                  color: 'rgba(255, 255, 255, 0.95)'
+                }}
+              >
+                {data.heroParagraph2}
+              </p>
+            </div>
+          </div>
+
+          {/* Additional Text Area - Full Width Below */}
+          {data.additionalText && (
+            <div
+              style={{
+                width: '100%',
+                padding: isMobile ? '1.5rem 0 0 0' : '0',
+                color: '#FFFFFF'
+              }}
+            >
+              <p
+                style={{
+                  fontSize: isMobile ? '0.95rem' : '1.1rem',
+                  lineHeight: 1.8,
+                  color: 'rgba(255, 255, 255, 0.95)',
+                  whiteSpace: 'pre-wrap',
+                  margin: 0
+                }}
+              >
+                {data.additionalText}
+              </p>
+            </div>
           )}
         </div>
       </div>
     </div>
+    <Footer />
     </>
   );
 };

@@ -62,35 +62,50 @@ export const Navigation: React.FC<NavigationProps> = ({ showName = true }) => {
 
   const navLinks = [
     { label: t.nav.home, to: '/' },
-    { label: t.nav.artists, to: '/artistit' },
     { label: t.nav.about, to: '/tietoa' },
-    { label: t.nav.services, to: '/palvelut' },
+    { label: t.nav.artists, to: '/artistit' },
     { label: t.nav.productions, to: '/tuotannot' },
+    { label: t.nav.media, to: '/media' },
     { label: t.nav.contact, to: '/yhteystiedot' }
+    // { label: t.nav.services, to: '/palvelut' }, // Hidden for now
   ];
 
   return (
-    <header
-      style={{
-        position: 'fixed',
-        top: 0,
-        left: 0,
-        right: 0,
-        zIndex: 100,
-        backgroundColor: 'rgba(12, 12, 12, 0.95)',
-        backdropFilter: 'blur(10px)',
-        WebkitBackdropFilter: 'blur(10px)',
-        borderBottom: '1px solid rgba(255, 255, 255, 0.1)'
-      }}
-    >
+    <>
+      <style>
+        {`
+          @keyframes expandUnderline {
+            from {
+              transform: scaleX(0);
+            }
+            to {
+              transform: scaleX(1);
+            }
+          }
+        `}
+      </style>
+      <header
+        style={{
+          position: 'fixed',
+          top: 0,
+          left: 0,
+          right: 0,
+          zIndex: 100,
+          backgroundColor: 'rgba(12, 12, 12, 0.95)',
+          backdropFilter: 'blur(10px)',
+          WebkitBackdropFilter: 'blur(10px)',
+          borderBottom: '1px solid rgba(255, 255, 255, 0.1)'
+        }}
+      >
       <nav
         style={{
           maxWidth: '1400px',
           margin: '0 auto',
-          padding: isMobile ? '0.25rem 1.5rem' : '0.25rem 2rem',
+          padding: isMobile ? '0.75rem 1.5rem' : '2rem 2rem',
           display: 'flex',
-          justifyContent: showName ? 'space-between' : 'flex-end',
-          alignItems: 'center'
+          justifyContent: 'center',
+          alignItems: 'center',
+          position: 'relative'
         }}
       >
         {/* Logo - Only show if showName is true */}
@@ -98,6 +113,8 @@ export const Navigation: React.FC<NavigationProps> = ({ showName = true }) => {
           <Link
             to="/"
             style={{
+              position: 'absolute',
+              left: isMobile ? '1.5rem' : '2rem',
               textDecoration: 'none',
               display: 'flex',
               alignItems: 'center'
@@ -117,49 +134,74 @@ export const Navigation: React.FC<NavigationProps> = ({ showName = true }) => {
 
         {/* Desktop Navigation */}
         {!isMobile && (
-          <ul
-            style={{
-              listStyle: 'none',
-              margin: 0,
-              padding: 0,
-              display: 'flex',
-              gap: '2rem',
-              alignItems: 'center'
-            }}
-          >
-            {navLinks.map((link) => {
-              const isActive = location.pathname === link.to;
-              return (
-                <li key={link.to}>
-                  <Link
-                    to={link.to}
-                    style={{
-                      color: '#FFFFFF',
-                      textDecoration: 'none',
-                      fontSize: '1rem',
-                      fontWeight: isActive ? 600 : 400,
-                      transition: 'opacity 0.3s ease',
-                      opacity: isActive ? 1 : 0.9,
-                      textShadow: '1px 1px 2px rgba(0,0,0,0.5)',
-                      borderBottom: isActive ? '2px solid #FFFFFF' : 'none',
-                      paddingBottom: '2px'
-                    }}
-                    onMouseEnter={(e) => {
-                      e.currentTarget.style.opacity = '1';
-                    }}
-                    onMouseLeave={(e) => {
-                      e.currentTarget.style.opacity = isActive ? '1' : '0.9';
-                    }}
-                  >
-                    {link.label}
-                  </Link>
-                </li>
-              );
-            })}
-            <li>
+          <>
+            <ul
+              style={{
+                listStyle: 'none',
+                margin: 0,
+                padding: 0,
+                display: 'flex',
+                gap: '2rem',
+                alignItems: 'center'
+              }}
+            >
+              {navLinks.map((link) => {
+                const isActive = location.pathname === link.to;
+                return (
+                  <li key={link.to}>
+                    <Link
+                      to={link.to}
+                      style={{
+                        position: 'relative',
+                        display: 'inline-block',
+                        color: isActive ? '#ff0000' : '#FFFFFF',
+                        textDecoration: 'none',
+                        fontSize: isActive ? '1.5rem' : '1rem',
+                        fontWeight: isActive ? 700 : 400,
+                        transition: 'all 0.4s ease',
+                        textShadow: '1px 1px 2px rgba(0,0,0,0.5)',
+                        paddingBottom: '4px'
+                      }}
+                      onMouseEnter={(e) => {
+                        if (!isActive) {
+                          e.currentTarget.style.color = '#ff0000';
+                        }
+                      }}
+                      onMouseLeave={(e) => {
+                        if (!isActive) {
+                          e.currentTarget.style.color = '#FFFFFF';
+                        }
+                      }}
+                    >
+                      {link.label}
+                      {isActive && (
+                        <span
+                          style={{
+                            position: 'absolute',
+                            bottom: 0,
+                            left: 0,
+                            right: 0,
+                            height: '3px',
+                            backgroundColor: '#ff0000',
+                            transformOrigin: 'left',
+                            animation: 'expandUnderline 0.6s ease-out forwards'
+                          }}
+                        />
+                      )}
+                    </Link>
+                  </li>
+                );
+              })}
+            </ul>
+            <div
+              style={{
+                position: 'absolute',
+                right: '2rem'
+              }}
+            >
               <LanguageSwitcher />
-            </li>
-          </ul>
+            </div>
+          </>
         )}
 
         {/* Mobile Hamburger Button */}
@@ -289,5 +331,6 @@ export const Navigation: React.FC<NavigationProps> = ({ showName = true }) => {
         </div>
       )}
     </header>
+    </>
   );
 };

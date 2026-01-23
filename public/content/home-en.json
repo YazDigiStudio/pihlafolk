@@ -1,12 +1,16 @@
 {
   "showButton1": true,
   "showButton2": true,
-  "ctaButton1Link": "#galleria",
-  "ctaButton2Link": "#media",
-  "name": "YOUR NAME HERE",
-  "subtitle": "Actor • Performer • Artist",
-  "ctaButton1Text": "Gallery",
-  "heroParagraph1": "This is your introduction paragraph. Tell your audience who you are and what you're passionate about.",
-  "ctaButton2Text": "Media",
-  "heroParagraph2": "Add a second paragraph to highlight your experience, skills, or unique qualities."
+  "ctaButton1Link": "/productions",
+  "ctaButton2Link": "/about",
+  "name": "pihla folk",
+  "subtitle": "pioneering folk music and traditions since 2002",
+  "ctaButton1Text": "Productions",
+  "heroParagraph1": "pihla folk is a pioneer in folk music and traditions through creative production and promotion activities.",
+  "ctaButton2Text": "About Us",
+  "heroParagraph2": "We focus on Baltic Finnic traditions and languages with an emphasis on Karelia. Our modern approach encompasses both acoustic and archaic music as well as fusion.",
+  "showMedia": true,
+  "mediaType": "image",
+  "mediaUrl": "/assets/ilona-korhonen-ensemble-piot.jpg",
+  "additionalText": "Our deep knowledge and understanding of traditions, sensitive working approach, and diverse networks help us work successfully with cross-border and even controversial traditions.\n\nFinno-Ugric culture is an essential, broader world. pihla folk's values stem from these roots, challenging our era's individualistic and fast-paced view of humanity and the world."
 }

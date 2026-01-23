@@ -18,10 +18,8 @@
       "url": "https://youtube.com/@pihlafolk"
     }
   ],
-  "relatedLinks": [
-    {
-      "url": "https://www.pihlafolk.fi",
-      "text": "www.pihlafolk.fi"
-    }
-  ]
+  "credit": {
+    "text": "Verkkosivut: yazdigistudio.com",
+    "url": "https://yazdigistudio.com"
+  }
 }

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { ACTIVE_PALETTE } from '../styles/colorPalettes';
 import { Navigation } from '../components/Navigation';
+import { Footer } from '../components/Footer';
 import { useScreenSize } from '../hooks/useScreenSize';
 import { useContentData } from '../hooks/useContentData';
 import { useTranslations } from '../hooks/useTranslations';
@@ -102,36 +103,13 @@ export const ArtistsPage: React.FC = () => {
           }}
         />
 
-        {/* Fixed Header: Title and Filter Buttons */}
+        {/* Filter Buttons Section */}
         <div
           style={{
-            position: 'sticky',
-            top: '0',
-            zIndex: 10,
-            paddingTop: '6rem',
+            paddingTop: 'calc(6rem + 20px)',
             paddingBottom: '1.5rem'
           }}
         >
-          {/* Title Section */}
-          <div
-            style={{
-              textAlign: 'center',
-              color: palette.colors.textHeading,
-              marginBottom: '1.5rem'
-            }}
-          >
-            <h1
-              style={{
-                fontSize: 'clamp(2rem, 6vw, 3.5rem)',
-                fontWeight: 700,
-                letterSpacing: '0.05em',
-                margin: 0
-              }}
-            >
-              {t.artists.title}
-            </h1>
-          </div>
-
           {/* Filter Buttons */}
           <div
             style={{
@@ -154,19 +132,19 @@ export const ArtistsPage: React.FC = () => {
                   padding: '0.75rem 2rem',
                   fontSize: '1rem',
                   fontWeight: 600,
-                  border: filter === btn.key ? `2px solid ${palette.colors.accentPrimary}` : '2px solid rgba(0, 0, 0, 0.2)',
-                  backgroundColor: filter === btn.key ? palette.colors.accentPrimary : 'rgba(255, 255, 255, 0.9)',
+                  border: filter === btn.key ? '2px solid #000000' : '2px solid rgba(0, 0, 0, 0.2)',
+                  backgroundColor: filter === btn.key ? '#000000' : 'rgba(255, 255, 255, 0.9)',
                   color: filter === btn.key ? '#FFFFFF' : palette.colors.textHeading,
                   borderRadius: '4px',
                   cursor: 'pointer',
                   transition: 'all 0.3s ease',
-                  boxShadow: filter === btn.key ? '0 4px 12px rgba(255, 0, 0, 0.2)' : '0 2px 8px rgba(0,0,0,0.1)',
+                  boxShadow: filter === btn.key ? '0 4px 12px rgba(0, 0, 0, 0.3)' : '0 2px 8px rgba(0,0,0,0.1)',
                   position: 'relative',
                   overflow: 'hidden'
                 }}
                 onMouseEnter={(e) => {
                   if (filter !== btn.key) {
-                    e.currentTarget.style.borderColor = palette.colors.accentPrimary;
+                    e.currentTarget.style.borderColor = '#000000';
                     e.currentTarget.style.transform = 'translateY(-2px)';
                   }
                 }}
@@ -340,6 +318,8 @@ export const ArtistsPage: React.FC = () => {
           </div>
         </div>
       </div>
+
+      <Footer />
 
       {/* Artist Bio Modal */}
       {selectedArtist && (
