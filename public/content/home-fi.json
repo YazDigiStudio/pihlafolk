@@ -5,7 +5,7 @@
   "ctaButton1Link": "/tuotannot",
   "ctaButton2Link": "/tietoa",
   "name": "pihla folk",
-  "mediaUrl": "/images/web/home/hero-image.jpg",
+  "mediaUrl": "/uploads/home/hero-image.jpg",
   "logoPositionHorizontal": "left",
   "logoPositionVertical": "middle",
   "sections": [

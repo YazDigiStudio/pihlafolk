@@ -11,7 +11,7 @@
         "type": "audiobook",
         "status": "ongoing",
         "year": "2020-",
-        "image": "/images/web/productions/laulettu-kalevala.jpg",
+        "image": "/uploads/productions/laulettu-kalevala.jpg",
         "description": {
           "fi": "Laulettu Kalevala on pitkäkestoinen äänikirjaprojekti, joka tuo Kalevalan runot eloon perinteisen kansanmusiikin ja -laulun keinoin.",
           "en": "Sung Kalevala is a long-term audiobook project that brings the poems of Kalevala to life through traditional folk music and singing."
@@ -25,7 +25,7 @@
         "type": "performance",
         "status": "ongoing",
         "year": "2024-",
-        "image": "/images/web/productions/piot.jpg",
+        "image": "/uploads/productions/piot.jpg",
         "description": {
           "fi": "Ilona Korhonen Ensemblen Piot-teos on taiteilija Ilona Korhosen johdolla toteutettava pohjoiskarjalaista perinnettä hyödyntävä esitysteos.",
           "en": "Ilona Korhonen Ensemble's Piot is a performance work led by artist Ilona Korhonen, utilizing North Karelian traditions."
