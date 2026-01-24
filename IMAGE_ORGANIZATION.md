@@ -50,32 +50,38 @@ public/
 ### For Content Managers (via CMS)
 
 1. **Uploading through CMS:**
-   - Upload images through the Decap CMS at `/admin`
-   - CMS saves to: `public/images/web/`
-   - High-res backup kept in: `public/images/uploads/`
+   - Upload images through the Decap CMS at `/admin` (on Netlify)
+   - CMS saves high-res originals to: `public/uploads/` (committed to Git)
+   - Build process optimizes to: `public/images/web/` (not committed)
+   - Site references: `/images/web/` in JSON files
 
 2. **Accessing high-resolution images:**
-   - All original uploads are in `public/images/uploads/`
-   - These are full-resolution files for archival/download purposes
+   - All original uploads are in `public/uploads/`
+   - These are full-resolution files preserved in Git
+   - Optimized versions are generated during build
 
-### Image Optimization
+### Image Optimization Workflow
 
 The `optimize-images.js` script:
-- Optimizes images in `public/images/web/` (recursively)
-- Optimizes images in `public/assets/` (logos, wallpapers)
-- Backs up originals to `public/images/uploads/` before optimization
-- Maintains folder structure in backups
-- Reduces file sizes by 50-97% without visible quality loss
+- **CMS uploads** → Saved to `public/uploads/` (original quality, committed to Git)
+- **Build process** → Optimizes from `uploads/` to `public/images/web/` (optimized, not committed)
+- **Site displays** → References `/images/web/` paths
+- **Maintains folder structure** in both locations
+- **Reduces file sizes** by 50-97% without visible quality loss
 
-**Run optimization:**
+**Run optimization manually:**
 ```bash
 npm run optimize
 ```
 
-**Restore originals:**
+**Optimize assets (logos, wallpapers):**
 ```bash
-node optimize-images.js --restore
+node optimize-images.js --assets
 ```
+
+**Automatic optimization:**
+- Runs automatically before every build (`prebuild` script)
+- Netlify runs this before deploying
 
 ## File Paths in Code
 
@@ -93,14 +99,15 @@ node optimize-images.js --restore
 The Decap CMS is configured as follows:
 
 ```yaml
-media_folder: "public/images/web"
+media_folder: "public/uploads"
 public_folder: "/images/web"
 ```
 
 This means:
-- Uploaded files are saved to `public/images/web/`
-- JSON references use `/images/web/` paths
-- Optimization happens automatically on build
+- CMS uploads files to `public/uploads/` (Git source of truth)
+- JSON references use `/images/web/` paths (optimized output)
+- Build process converts uploads → web automatically
+- Git only tracks originals in `uploads/`, not optimized versions
 
 ## Benefits
 

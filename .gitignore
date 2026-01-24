@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 
+# Optimized images (generated during build from public/uploads)
+public/images/web
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

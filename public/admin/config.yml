@@ -2,10 +2,11 @@ backend:
   name: git-gateway
   branch: main
 
-# Media configuration for Vite
-# Files are saved to public/images/web (physical location)
-# But referenced as /images/web in JSON (served by Vite from public folder)
-media_folder: "public/images/web"
+# Media configuration for Vite and Netlify
+# CMS uploads high-res originals to public/uploads (easier for Git Gateway)
+# Build process optimizes them to public/images/web
+# JSON references use /images/web (served by Vite from public folder)
+media_folder: "public/uploads"
 public_folder: "/images/web"
 
 collections:
