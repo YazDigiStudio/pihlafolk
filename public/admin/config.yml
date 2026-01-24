@@ -3,11 +3,10 @@ backend:
   branch: main
 
 # Media configuration for Vite and Netlify
-# CMS uploads high-res originals to public/uploads (easier for Git Gateway)
-# Build process optimizes them to public/images/web
-# JSON references use /images/web (served by Vite from public folder)
+# CMS uploads to public/uploads and references /uploads in JSON
+# Both paths must match for uploads to work correctly
 media_folder: "public/uploads"
-public_folder: "/images/web"
+public_folder: "/uploads"
 
 collections:
   # ==========================================

@@ -6,6 +6,7 @@ import { useScreenSize } from '../hooks/useScreenSize';
 import { useContentData } from '../hooks/useContentData';
 import { useTranslations } from '../hooks/useTranslations';
 import { usePageMeta } from '../hooks/usePageMeta';
+import { getOptimizedImagePath } from '../utils/imageUtils';
 
 interface CarouselImage {
   image: string;
@@ -185,7 +186,13 @@ export const MediaPage: React.FC = () => {
                   {/* Render Carousel */}
                   {hasCarousel && section.carousel && (
                     <div style={{ marginBottom: '2rem' }}>
-                      <ImageCarousel images={section.carousel} autoPlayInterval={5000} />
+                      <ImageCarousel
+                        images={section.carousel.map(img => ({
+                          ...img,
+                          image: getOptimizedImagePath(img.image)
+                        }))}
+                        autoPlayInterval={5000}
+                      />
                     </div>
                   )}
 

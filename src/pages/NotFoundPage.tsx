@@ -18,8 +18,8 @@ export const NotFoundPage: React.FC = () => {
 
   // Set page metadata for SEO
   usePageMeta({
-    title: '404 - ' + (t as any).notFound?.title || 'Page Not Found',
-    description: (t as any).notFound?.description || 'The page you are looking for does not exist.'
+    title: '404 - ' + t.notFound.title,
+    description: t.notFound.description
   });
 
   return (
@@ -56,7 +56,7 @@ export const NotFoundPage: React.FC = () => {
             margin: '0 0 1rem 0'
           }}
         >
-          {(t as any).notFound?.heading || 'Sivua ei löytynyt'}
+          {t.notFound.heading}
         </h2>
         <p
           style={{
@@ -66,7 +66,7 @@ export const NotFoundPage: React.FC = () => {
             maxWidth: '600px'
           }}
         >
-          {(t as any).notFound?.message || 'Etsimääsi sivua ei löytynyt. Se on saatettu poistaa tai siirtää toiseen osoitteeseen.'}
+          {t.notFound.message}
         </p>
         <Link
           to="/"
@@ -93,7 +93,7 @@ export const NotFoundPage: React.FC = () => {
             e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
           }}
         >
-          {(t as any).notFound?.homeButton || 'Palaa etusivulle'}
+          {t.notFound.homeButton}
         </Link>
       </div>
     </>

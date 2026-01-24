@@ -6,6 +6,7 @@ import { useScreenSize } from '../hooks/useScreenSize';
 import { useContentData } from '../hooks/useContentData';
 import { useTranslations } from '../hooks/useTranslations';
 import { usePageMeta } from '../hooks/usePageMeta';
+import { getOptimizedImagePath } from '../utils/imageUtils';
 
 /**
  * ArtistsPage - Pihla Folk Artists Showcase
@@ -221,7 +222,7 @@ export const ArtistsPage: React.FC = () => {
                       }}
                     >
                       <img
-                        src={artist.image}
+                        src={getOptimizedImagePath(artist.image)}
                         alt={artist.name}
                         style={{
                           width: '100%',
@@ -386,7 +387,7 @@ export const ArtistsPage: React.FC = () => {
           >
             {/* Artist Image */}
             <img
-              src={selectedArtist.image}
+              src={getOptimizedImagePath(selectedArtist.image)}
               alt={selectedArtist.name}
               style={{
                 width: '100%',

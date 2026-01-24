@@ -6,6 +6,7 @@ import { useScreenSize } from '../hooks/useScreenSize';
 import { useContentData } from '../hooks/useContentData';
 import { useTranslations } from '../hooks/useTranslations';
 import { usePageMeta } from '../hooks/usePageMeta';
+import { getOptimizedImagePath } from '../utils/imageUtils';
 
 /**
  * ProductionsPage - Pihla Folk Productions
@@ -87,7 +88,7 @@ export const ProductionsPage: React.FC = () => {
       {/* Production Image */}
       {production.image && (
         <img
-          src={production.image}
+          src={getOptimizedImagePath(production.image)}
           alt={production.title}
           style={{
             width: '100%',

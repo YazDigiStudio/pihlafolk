@@ -5,6 +5,7 @@ import { useScreenSize } from '../hooks/useScreenSize';
 import { useContentData } from '../hooks/useContentData';
 import { useTranslations } from '../hooks/useTranslations';
 import { usePageMeta } from '../hooks/usePageMeta';
+import { getOptimizedImagePath } from '../utils/imageUtils';
 
 interface AboutSection {
   header?: string;
@@ -206,7 +207,7 @@ export const AboutPage: React.FC = () => {
                       }}
                     >
                       <img
-                        src={section.image}
+                        src={getOptimizedImagePath(section.image || "")}
                         alt={`Section ${index + 1}`}
                         style={{
                           width: '100%',
