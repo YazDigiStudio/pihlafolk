@@ -10,6 +10,7 @@ import { usePageMeta } from '../hooks/usePageMeta';
 interface CarouselImage {
   image: string;
   alt: string;
+  photographer?: string;
 }
 
 interface MediaVideo {

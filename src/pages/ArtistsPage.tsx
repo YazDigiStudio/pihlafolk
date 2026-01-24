@@ -308,7 +308,7 @@ export const ArtistsPage: React.FC = () => {
                           transition: 'all 0.3s ease'
                         }}
                       >
-                        Lue lisää →
+                        {t.artists.readMore} →
                       </div>
                     </div>
                   </div>

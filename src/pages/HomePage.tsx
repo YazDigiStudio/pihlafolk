@@ -6,6 +6,14 @@ import { useContentData } from '../hooks/useContentData';
 import { useTranslations } from '../hooks/useTranslations';
 import { usePageMeta } from '../hooks/usePageMeta';
 
+interface HomeSection {
+  header?: string;
+  text: string;
+  image?: string;
+  imagePosition?: 'left' | 'right';
+  maxTextLength?: number;
+}
+
 interface HomeContent {
   name: string;
   subtitle: string;
@@ -21,6 +29,7 @@ interface HomeContent {
   mediaType?: 'image' | 'video';
   mediaUrl?: string;
   additionalText?: string;
+  sections?: HomeSection[];
 }
 
 /**
@@ -32,7 +41,13 @@ interface HomeContent {
  * - Clean, dramatic presentation
  * - Fixed navigation header
  * - Responsive spacing for mobile/tablet/desktop
+ * - Optional additional sections below hero
  */
+
+const truncateText = (text: string, maxLength: number): string => {
+  if (text.length <= maxLength) return text;
+  return text.substring(0, maxLength).trim() + '...';
+};
 
 export const HomePage: React.FC = () => {
   const { isMobile } = useScreenSize();
@@ -248,6 +263,133 @@ export const HomePage: React.FC = () => {
               </p>
             </div>
           )}
+
+          {/* Additional Sections */}
+          {data.sections && data.sections.map((section, index) => {
+            const hasImage = !!section.image;
+            const imagePosition = section.imagePosition || 'left';
+            const maxLength = section.maxTextLength || (hasImage ? 800 : 10000);
+            const displayText = truncateText(section.text, maxLength);
+
+            if (!hasImage) {
+              // Text-only section
+              return (
+                <div
+                  key={index}
+                  style={{
+                    width: '100%',
+                    color: '#FFFFFF',
+                    paddingTop: isMobile ? '1rem' : '2rem'
+                  }}
+                >
+                  {section.header && (
+                    <h2
+                      style={{
+                        fontSize: isMobile ? '1.5rem' : '2rem',
+                        fontWeight: 700,
+                        color: '#ff0000',
+                        marginTop: 0,
+                        marginBottom: '1rem'
+                      }}
+                    >
+                      {section.header}
+                    </h2>
+                  )}
+                  <p
+                    style={{
+                      fontSize: isMobile ? '0.95rem' : '1.1rem',
+                      lineHeight: 1.8,
+                      color: 'rgba(255, 255, 255, 0.95)',
+                      whiteSpace: 'pre-wrap',
+                      margin: 0
+                    }}
+                  >
+                    {displayText}
+                  </p>
+                </div>
+              );
+            }
+
+            // Section with image
+            return (
+              <div
+                key={index}
+                style={{
+                  width: '100%',
+                  paddingTop: isMobile ? '1rem' : '2rem'
+                }}
+              >
+                {section.header && (
+                  <h2
+                    style={{
+                      fontSize: isMobile ? '1.5rem' : '2rem',
+                      fontWeight: 700,
+                      color: '#ff0000',
+                      marginTop: 0,
+                      marginBottom: '1rem'
+                    }}
+                  >
+                    {section.header}
+                  </h2>
+                )}
+                <div
+                  style={{
+                    display: 'flex',
+                    flexDirection: isMobile
+                      ? 'column'
+                      : imagePosition === 'left' ? 'row' : 'row-reverse',
+                    alignItems: 'flex-start',
+                    gap: isMobile ? '1.5rem' : '2rem',
+                    width: '100%'
+                  }}
+                >
+                  {/* Image */}
+                  <div
+                    style={{
+                      maxWidth: isMobile ? '100%' : '40%',
+                      width: '100%',
+                      borderRadius: '8px',
+                      overflow: 'hidden',
+                      boxShadow: '0 8px 24px rgba(0, 0, 0, 0.4)',
+                      flexShrink: 0
+                    }}
+                  >
+                    <img
+                      src={section.image}
+                      alt={`Section ${index + 1}`}
+                      style={{
+                        width: '100%',
+                        height: 'auto',
+                        display: 'block'
+                      }}
+                    />
+                  </div>
+
+                  {/* Text */}
+                  <div
+                    style={{
+                      flex: 1,
+                      color: '#FFFFFF',
+                      display: 'flex',
+                      alignItems: 'center'
+                    }}
+                  >
+                    <p
+                      style={{
+                        fontSize: isMobile ? '0.95rem' : '1.1rem',
+                        lineHeight: 1.8,
+                        color: 'rgba(255, 255, 255, 0.95)',
+                        whiteSpace: 'pre-wrap',
+                        margin: 0
+                      }}
+                    >
+                      {displayText}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            );
+          })}
         </div>
       </div>
     </div>

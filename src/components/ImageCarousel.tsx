@@ -10,6 +10,7 @@ import { useScreenSize } from '../hooks/useScreenSize';
 interface CarouselImage {
   image: string;
   alt: string;
+  photographer?: string;
 }
 
 interface ImageCarouselProps {
@@ -269,16 +270,37 @@ export const ImageCarousel: React.FC<ImageCarouselProps> = ({
           color: '#FFFFFF',
           padding: '8px 20px',
           borderRadius: '20px',
-          fontSize: '0.9rem',
-          fontWeight: 500,
           zIndex: 20,
-          whiteSpace: 'nowrap',
           maxWidth: '80%',
-          overflow: 'hidden',
-          textOverflow: 'ellipsis'
+          textAlign: 'center'
         }}
       >
-        {images[currentIndex].alt}
+        <div
+          style={{
+            fontSize: '0.9rem',
+            fontWeight: 500,
+            whiteSpace: 'nowrap',
+            overflow: 'hidden',
+            textOverflow: 'ellipsis'
+          }}
+        >
+          {images[currentIndex].alt}
+        </div>
+        {images[currentIndex].photographer && (
+          <div
+            style={{
+              fontSize: '0.75rem',
+              fontWeight: 400,
+              marginTop: '4px',
+              opacity: 0.8,
+              whiteSpace: 'nowrap',
+              overflow: 'hidden',
+              textOverflow: 'ellipsis'
+            }}
+          >
+            Kuva: {images[currentIndex].photographer}
+          </div>
+        )}
       </div>
     </div>
   );

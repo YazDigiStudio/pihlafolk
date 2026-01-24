@@ -4,7 +4,7 @@
       "id": "frander",
       "name": "FRÄNDER",
       "type": "booking",
-      "image": "/assets/artists/frander.jpg",
+      "image": "/images/web/artists/frander.jpg",
       "website": "https://www.frander.se/",
       "bio": {
         "en": "Born from a thunderstorm, FRÄNDER emerged like lightning — a fusion of Nordic roots and modern attitude became HEAVY FOLK. From the deep forest of Sweden & Estonia, with energy and a warm presence they deliver heavy grooves and seductive harmonies that weave a mesmerizing soundscape.\n\nFollowing their acclaimed debut and global touring, the band's groundbreaking second album FRÄNDER II pushes the limits of what folk can be – with subtle echoes of Led Zeppelin and Jethro Tull meeting the pulse of Nordic tradition they blend folk music with the raw power and weight of hard rock in an incomparable way, they craft a sound that's both ancient and modern, acoustic yet heavy, mystical yet fiercely alive.\n\nFRÄNDER is one of Sweden's biggest folk music exports. In 2024 alone, they completed three U.S. tours and they have surpassed 100 concerts only in Canada. They continue building cultural bridges beyond the stage through their festivals in Uppsala, Sweden and Nordic Nights Festival at Lincoln Center in New York City.",
@@ -17,7 +17,7 @@
       "id": "ensemble-gamut",
       "name": "Ensemble Gamut",
       "type": "booking",
-      "image": "/assets/artists/ensemble-gamut.jpg",
+      "image": "/images/web/artists/ensemble-gamut.jpg",
       "website": "",
       "bio": {
         "en": "Ensemble Gamut description will be extracted from the DOCX file.",
@@ -30,7 +30,7 @@
       "id": "dankki-briha",
       "name": "Dänkki Briha",
       "type": "booking",
-      "image": "/assets/artists/dankki-briha.jpg",
+      "image": "/images/web/artists/dankki-briha.jpg",
       "website": "",
       "bio": {
         "en": "Dänkki Briha description will be extracted from the DOCX file.",
@@ -43,7 +43,7 @@
       "id": "aizhan-sultan",
       "name": "Aizhan Sultan",
       "type": "management",
-      "image": "/assets/artists/aizhan-sultan.jpg",
+      "image": "/images/web/artists/aizhan-sultan.jpg",
       "website": "",
       "bio": {
         "en": "Aizhan Sultan description will be extracted from the DOCX file.",

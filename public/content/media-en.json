@@ -6,24 +6,29 @@
       "subtitle": "Images from our productions and performances",
       "carousel": [
         {
-          "image": "/assets/carousel-1.jpg",
-          "alt": "Ilona Korhonen Ensemble - Piot"
+          "image": "/images/web/media/carousel/carousel-1.jpg",
+          "alt": "Ilona Korhonen Ensemble - Piot",
+          "photographer": ""
         },
         {
-          "image": "/assets/carousel-2.jpg",
-          "alt": "Laulettu Kalevala"
+          "image": "/images/web/media/carousel/carousel-2.jpg",
+          "alt": "Laulettu Kalevala",
+          "photographer": ""
         },
         {
-          "image": "/assets/carousel-3.jpg",
-          "alt": "Koski"
+          "image": "/images/web/media/carousel/carousel-3.jpg",
+          "alt": "Koski",
+          "photographer": ""
         },
         {
-          "image": "/assets/carousel-4.jpg",
-          "alt": "Etnogaala - Phenomenon of the Year"
+          "image": "/images/web/media/carousel/carousel-4.jpg",
+          "alt": "Etnogaala - Phenomenon of the Year",
+          "photographer": "Maarit Kytöharju"
         },
         {
-          "image": "/assets/carousel-5.jpg",
-          "alt": "Mari Pääkkönen"
+          "image": "/images/web/media/carousel/carousel-5.jpg",
+          "alt": "Mari Pääkkönen",
+          "photographer": ""
         }
       ]
     },

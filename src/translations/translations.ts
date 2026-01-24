@@ -24,7 +24,8 @@ export const translations = {
       filterManagement: 'Managerointi',
       website: 'Kotisivu',
       booking: 'Keikkamyynti',
-      management: 'Managerointi'
+      management: 'Managerointi',
+      readMore: 'Lue lisää'
     },
     // Services (Media will become Services page)
     services: {
@@ -141,7 +142,8 @@ export const translations = {
       filterManagement: 'Management',
       website: 'Website',
       booking: 'Booking',
-      management: 'Management'
+      management: 'Management',
+      readMore: 'Read more'
     },
     // Services (Media will become Services page)
     services: {
