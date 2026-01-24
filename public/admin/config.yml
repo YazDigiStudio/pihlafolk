@@ -5,9 +5,9 @@ backend:
 # Enable local development mode (reads/writes actual files)
 local_backend: true
 
-# Enable editorial workflow (draft/review/publish)
-publish_mode: editorial_workflow
-
+# Media configuration for Vite
+# Files are saved to public/images/web (physical location)
+# But referenced as /images/web in JSON (served by Vite from public folder)
 media_folder: "public/images/web"
 public_folder: "/images/web"
 
@@ -24,19 +24,21 @@ collections:
         file: "public/content/home-fi.json"
         fields:
           - {label: "Nimi", name: "name", widget: "string"}
-          - {label: "Alaotsikko", name: "subtitle", widget: "string"}
-          - {label: "Esittelyteksti 1", name: "heroParagraph1", widget: "text"}
-          - {label: "Esittelyteksti 2", name: "heroParagraph2", widget: "text"}
+          - {label: "Alaotsikko (punainen)", name: "heroParagraph1", widget: "text", hint: "Näkyy punaisella värillä kuvan alla"}
+          - {label: "Sisältöteksti", name: "heroParagraph2", widget: "text", hint: "Pääsisältöteksti valkoinen"}
+          - {label: "Lisäteksti", name: "additionalText", widget: "text", required: false, hint: "Valinnainen lisäteksti"}
+          - {label: "Näytä Hero Media", name: "showMedia", widget: "boolean", default: true}
+          - {label: "Media Tyyppi", name: "mediaType", widget: "select", options: ["image", "video"], default: "image", hint: "Valitse kuva tai video"}
+          - {label: "Hero Kuva", name: "mediaUrl", widget: "image", required: false, hint: "Lataa kuva (käytä kun Media Tyyppi = image)"}
+          - {label: "Hero Video", name: "mediaVideoUrl", widget: "file", required: false, hint: "Lataa video (käytä kun Media Tyyppi = video)"}
+          - {label: "Logon sijainti vaaka", name: "logoPositionHorizontal", widget: "select", options: ["left", "right"], default: "left", hint: "Logon sijainti vasemmalla tai oikealla"}
+          - {label: "Logon sijainti pysty", name: "logoPositionVertical", widget: "select", options: ["up", "middle", "down"], default: "middle", hint: "Logon sijainti ylhäällä, keskellä tai alhaalla"}
           - {label: "Näytä Nappi 1", name: "showButton1", widget: "boolean", default: true}
           - {label: "Nappi 1 Teksti", name: "ctaButton1Text", widget: "string"}
           - {label: "Nappi 1 Linkki", name: "ctaButton1Link", widget: "string"}
           - {label: "Näytä Nappi 2", name: "showButton2", widget: "boolean", default: true}
           - {label: "Nappi 2 Teksti", name: "ctaButton2Text", widget: "string"}
           - {label: "Nappi 2 Linkki", name: "ctaButton2Link", widget: "string"}
-          - {label: "Näytä Media", name: "showMedia", widget: "boolean", default: false, required: false}
-          - {label: "Media Tyyppi", name: "mediaType", widget: "select", options: ["image", "video"], required: false}
-          - {label: "Media Kuva", name: "mediaUrl", widget: "image", required: false}
-          - {label: "Lisäteksti", name: "additionalText", widget: "text", required: false}
           - label: "Lisäosiot"
             name: "sections"
             widget: "list"
@@ -274,19 +276,21 @@ collections:
         file: "public/content/home-en.json"
         fields:
           - {label: "Name", name: "name", widget: "string"}
-          - {label: "Subtitle", name: "subtitle", widget: "string"}
-          - {label: "Hero Paragraph 1", name: "heroParagraph1", widget: "text"}
-          - {label: "Hero Paragraph 2", name: "heroParagraph2", widget: "text"}
+          - {label: "Subtitle (red)", name: "heroParagraph1", widget: "text", hint: "Displays in red color below image"}
+          - {label: "Main Content", name: "heroParagraph2", widget: "text", hint: "Main content text in white"}
+          - {label: "Additional Text", name: "additionalText", widget: "text", required: false, hint: "Optional additional text"}
+          - {label: "Show Hero Media", name: "showMedia", widget: "boolean", default: true}
+          - {label: "Media Type", name: "mediaType", widget: "select", options: ["image", "video"], default: "image", hint: "Choose image or video"}
+          - {label: "Hero Image", name: "mediaUrl", widget: "image", required: false, hint: "Upload image (use when Media Type = image)"}
+          - {label: "Hero Video", name: "mediaVideoUrl", widget: "file", required: false, hint: "Upload video (use when Media Type = video)"}
+          - {label: "Logo Position Horizontal", name: "logoPositionHorizontal", widget: "select", options: ["left", "right"], default: "left", hint: "Logo position on left or right side"}
+          - {label: "Logo Position Vertical", name: "logoPositionVertical", widget: "select", options: ["up", "middle", "down"], default: "middle", hint: "Logo position at top, middle, or bottom"}
           - {label: "Show Button 1", name: "showButton1", widget: "boolean", default: true}
           - {label: "Button 1 Text", name: "ctaButton1Text", widget: "string"}
           - {label: "Button 1 Link", name: "ctaButton1Link", widget: "string"}
           - {label: "Show Button 2", name: "showButton2", widget: "boolean", default: true}
           - {label: "Button 2 Text", name: "ctaButton2Text", widget: "string"}
           - {label: "Button 2 Link", name: "ctaButton2Link", widget: "string"}
-          - {label: "Show Media", name: "showMedia", widget: "boolean", default: false, required: false}
-          - {label: "Media Type", name: "mediaType", widget: "select", options: ["image", "video"], required: false}
-          - {label: "Media Image", name: "mediaUrl", widget: "image", required: false}
-          - {label: "Additional Text", name: "additionalText", widget: "text", required: false}
           - label: "Additional Sections"
             name: "sections"
             widget: "list"

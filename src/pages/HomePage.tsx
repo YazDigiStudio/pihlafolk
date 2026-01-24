@@ -28,6 +28,9 @@ interface HomeContent {
   showMedia?: boolean;
   mediaType?: 'image' | 'video';
   mediaUrl?: string;
+  mediaVideoUrl?: string;
+  logoPositionHorizontal?: 'left' | 'right';
+  logoPositionVertical?: 'up' | 'middle' | 'down';
   additionalText?: string;
   sections?: HomeSection[];
 }
@@ -35,13 +38,13 @@ interface HomeContent {
 /**
  * HomePage for Portfolio Template
  *
- * Full-page hero design:
- * - Background image fills entire viewport
- * - All content (name, bio, buttons) overlaid on image
- * - Clean, dramatic presentation
+ * Full-width hero design:
+ * - Large hero image fills width
+ * - Text content below image
+ * - Clean, modern presentation
  * - Fixed navigation header
  * - Responsive spacing for mobile/tablet/desktop
- * - Optional additional sections below hero
+ * - Optional additional sections below
  */
 
 const truncateText = (text: string, maxLength: number): string => {
@@ -79,11 +82,10 @@ export const HomePage: React.FC = () => {
 
   return (
     <>
-      {/* Navigation Header - Show Pihla Folk logo */}
-      <Navigation showName={true} />
+    <Navigation showName={true} />
 
-      {/* Hero Section */}
-      <div
+    {/* Hero Section */}
+    <div
       style={{
         position: 'relative',
         width: '100%',
@@ -119,6 +121,7 @@ export const HomePage: React.FC = () => {
           marginTop: isMobile ? '80px' : '120px'
         }}
       >
+        {/* Glassmorphic Container */}
         <div
           style={{
             backgroundColor: 'rgba(0, 0, 0, 0.3)',
@@ -128,141 +131,244 @@ export const HomePage: React.FC = () => {
             boxShadow: '0 12px 40px rgba(0, 0, 0, 0.5)',
             display: 'flex',
             flexDirection: 'column',
-            alignItems: 'flex-start',
-            gap: isMobile ? '2rem' : '3rem',
-            minHeight: '600px'
+            alignItems: 'center',
+            gap: isMobile ? '2rem' : '2.5rem'
           }}
         >
-          {/* Top Row: Image and Text Side by Side */}
-          <div
-            style={{
-              display: 'flex',
-              flexDirection: isMobile ? 'column' : 'row',
-              alignItems: 'flex-start',
-              gap: isMobile ? '2rem' : '3rem',
-              width: '100%'
-            }}
-          >
-            {/* Media Container - Image or Video */}
-            {data.showMedia && data.mediaUrl && (
-              <div
-                style={{
-                  maxWidth: isMobile ? '80%' : '45vw',
-                  width: '100%',
-                  borderRadius: '8px',
-                  overflow: 'hidden',
-                  boxShadow: '0 8px 24px rgba(0, 0, 0, 0.4)',
-                  backgroundColor: 'rgba(0, 0, 0, 0.2)',
-                  backdropFilter: 'blur(10px)',
-                  marginTop: isMobile ? '0' : '2.5rem'
-                }}
-              >
-                {data.mediaType === 'video' ? (
-                  <video
-                    src={data.mediaUrl}
-                    controls
-                    style={{
-                      width: '100%',
-                      height: 'auto',
-                      display: 'block'
-                    }}
-                  />
-                ) : (
-                  <img
-                    src={data.mediaUrl}
-                    alt="Media"
-                    style={{
-                      width: '100%',
-                      height: 'auto',
-                      display: 'block'
-                    }}
-                  />
-                )}
-              </div>
-            )}
-
-            {/* Text Container */}
-            <div
-              style={{
-                flex: 1,
-                maxWidth: isMobile ? '100%' : '500px',
-                padding: isMobile ? '0' : '0 1rem',
-                color: '#FFFFFF',
-                display: 'flex',
-                flexDirection: 'column',
-                justifyContent: 'flex-start'
-              }}
-            >
-              <h1
-                style={{
-                  fontSize: isMobile ? '2rem' : '3rem',
-                  fontWeight: 700,
-                  marginTop: 0,
-                  marginBottom: '0.5rem',
-                  color: '#FFFFFF'
-                }}
-              >
-                {data.name}
-              </h1>
-
-              <h2
-                style={{
-                  fontSize: isMobile ? '1rem' : '1.25rem',
-                  fontWeight: 400,
-                  marginBottom: '2rem',
-                  color: 'rgba(255, 255, 255, 0.9)',
-                  opacity: 0.9
-                }}
-              >
-                {data.subtitle}
-              </h2>
-
-              <p
-                style={{
-                  fontSize: isMobile ? '0.95rem' : '1.1rem',
-                  lineHeight: 1.6,
-                  marginBottom: '1rem',
-                  color: 'rgba(255, 255, 255, 0.95)'
-                }}
-              >
-                {data.heroParagraph1}
-              </p>
-
-              <p
-                style={{
-                  fontSize: isMobile ? '0.95rem' : '1.1rem',
-                  lineHeight: 1.6,
-                  marginBottom: '0',
-                  color: 'rgba(255, 255, 255, 0.95)'
-                }}
-              >
-                {data.heroParagraph2}
-              </p>
-            </div>
-          </div>
-
-          {/* Additional Text Area - Full Width Below */}
-          {data.additionalText && (
+          {/* Hero Media on Top */}
+          {data.showMedia && (data.mediaUrl || data.mediaVideoUrl) && (
             <div
               style={{
                 width: '100%',
-                padding: isMobile ? '1.5rem 0 0 0' : '0',
-                color: '#FFFFFF'
+                borderRadius: '8px',
+                overflow: 'hidden',
+                boxShadow: '0 8px 24px rgba(0, 0, 0, 0.4)',
+                backgroundColor: 'rgba(0, 0, 0, 0.2)',
+                backdropFilter: 'blur(10px)',
+                position: 'relative'
               }}
             >
-              <p
-                style={{
-                  fontSize: isMobile ? '0.95rem' : '1.1rem',
-                  lineHeight: 1.8,
-                  color: 'rgba(255, 255, 255, 0.95)',
-                  whiteSpace: 'pre-wrap',
-                  margin: 0
-                }}
-              >
-                {data.additionalText}
-              </p>
+              {data.mediaType === 'video' && data.mediaVideoUrl ? (
+                <video
+                  src={data.mediaVideoUrl}
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  style={{
+                    width: '100%',
+                    height: 'auto',
+                    display: 'block'
+                  }}
+                />
+              ) : data.mediaUrl ? (
+                <img
+                  src={data.mediaUrl}
+                  alt={data.name}
+                  style={{
+                    width: '100%',
+                    height: 'auto',
+                    display: 'block'
+                  }}
+                />
+              ) : null}
+
+              {/* Vignette overlay and logo - for both images and videos */}
+              {(data.mediaUrl || data.mediaVideoUrl) && (() => {
+                // Calculate logo position
+                const horizontal = data.logoPositionHorizontal || 'left';
+                const vertical = data.logoPositionVertical || 'middle';
+
+                const horizontalStyle: React.CSSProperties = horizontal === 'left'
+                  ? { left: isMobile ? '1rem' : '2rem' }
+                  : { right: isMobile ? '1rem' : '2rem' };
+
+                let verticalStyle: React.CSSProperties = {};
+                let transform = '';
+
+                if (vertical === 'up') {
+                  verticalStyle = { top: isMobile ? '1rem' : '2rem' };
+                } else if (vertical === 'middle') {
+                  verticalStyle = { top: '50%' };
+                  transform = 'translateY(-50%)';
+                } else { // down
+                  verticalStyle = { bottom: isMobile ? '1rem' : '2rem' };
+                }
+
+                return (
+                  <>
+                    {/* Vignette overlay - darkens edges to create abyss effect */}
+                    <div
+                      style={{
+                        position: 'absolute',
+                        inset: 0,
+                        background: 'radial-gradient(ellipse at center, transparent 0%, rgba(0, 0, 0, 0.3) 30%, rgba(0, 0, 0, 0.7) 60%, rgba(0, 0, 0, 0.9) 85%, #000000 100%)',
+                        pointerEvents: 'none'
+                      }}
+                    />
+
+                    {/* Pihla Folk Logo Overlay */}
+                    <div
+                      style={{
+                        position: 'absolute',
+                        ...horizontalStyle,
+                        ...verticalStyle,
+                        width: '50%',
+                        zIndex: 10,
+                        pointerEvents: 'none',
+                        transform
+                      }}
+                    >
+                      <img
+                        src="/assets/pihla-folk-text-logo.png"
+                        alt="pihla folk"
+                        style={{
+                          width: '100%',
+                          height: 'auto',
+                          display: 'block',
+                          filter: 'drop-shadow(10px 0px 16px rgba(0, 0, 0, 1.0)) drop-shadow(-10px 0px 16px rgba(0, 0, 0, 1.0)) drop-shadow(0px 10px 16px rgba(0, 0, 0, 1.0)) drop-shadow(0px -10px 16px rgba(0, 0, 0, 1.0))'
+                        }}
+                      />
+                    </div>
+                  </>
+                );
+              })()}
             </div>
           )}
+
+          {/* Text Content Below Image */}
+          <div
+            style={{
+              width: '100%',
+              color: '#FFFFFF',
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'flex-start'
+            }}
+          >
+            {/* Red Subtitle */}
+            {data.heroParagraph1 && (
+              <h2
+                style={{
+                  fontSize: isMobile ? '1.3rem' : '1.6rem',
+                  fontWeight: 600,
+                  color: '#ff0000',
+                  marginTop: 0,
+                  marginBottom: '1.5rem',
+                  lineHeight: 1.4
+                }}
+              >
+                {data.heroParagraph1}
+              </h2>
+            )}
+
+            {/* Main Text Section */}
+            <p
+              style={{
+                fontSize: isMobile ? '1rem' : '1.1rem',
+                lineHeight: 1.8,
+                color: 'rgba(255, 255, 255, 0.95)',
+                marginTop: 0,
+                marginBottom: '1.5rem',
+                whiteSpace: 'pre-wrap'
+              }}
+            >
+              {data.heroParagraph2}
+              {data.additionalText && `\n\n${data.additionalText}`}
+            </p>
+
+            {/* CTA Buttons */}
+            <div
+              style={{
+                display: 'flex',
+                flexDirection: isMobile ? 'column' : 'row',
+                gap: '1rem',
+                alignItems: isMobile ? 'stretch' : 'flex-start',
+                width: isMobile ? '100%' : 'auto'
+              }}
+            >
+              {data.showButton1 && (
+                <a
+                  href={data.ctaButton1Link}
+                  style={{
+                    display: 'inline-block',
+                    padding: '0.875rem 2rem',
+                    fontSize: '1rem',
+                    fontWeight: 600,
+                    color: '#FFFFFF',
+                    backgroundColor: '#ff0000',
+                    border: 'none',
+                    borderRadius: '4px',
+                    textDecoration: 'none',
+                    transition: 'all 0.2s ease',
+                    cursor: 'pointer',
+                    textAlign: 'center'
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.backgroundColor = '#cc0000';
+                    e.currentTarget.style.transform = 'translateY(-2px)';
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.backgroundColor = '#ff0000';
+                    e.currentTarget.style.transform = 'translateY(0)';
+                  }}
+                >
+                  {data.ctaButton1Text}
+                </a>
+              )}
+
+              {data.showButton2 && (
+                <a
+                  href={data.ctaButton2Link}
+                  style={{
+                    display: 'inline-block',
+                    padding: '0.875rem 2rem',
+                    fontSize: '1rem',
+                    fontWeight: 600,
+                    color: '#FFFFFF',
+                    backgroundColor: 'rgba(255, 255, 255, 0.1)',
+                    border: '2px solid rgba(255, 255, 255, 0.3)',
+                    borderRadius: '4px',
+                    textDecoration: 'none',
+                    transition: 'all 0.2s ease',
+                    cursor: 'pointer',
+                    textAlign: 'center',
+                    backdropFilter: 'blur(10px)'
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.2)';
+                    e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.5)';
+                    e.currentTarget.style.transform = 'translateY(-2px)';
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.1)';
+                    e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.3)';
+                    e.currentTarget.style.transform = 'translateY(0)';
+                  }}
+                >
+                  {data.ctaButton2Text}
+                </a>
+              )}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {/* Additional Sections (outside hero) */}
+    <div
+      style={{
+        backgroundColor: '#000000',
+        padding: isMobile ? '2rem 1.5rem' : '3rem 3rem',
+        minHeight: '50vh'
+      }}
+    >
+      <div
+        style={{
+          maxWidth: '1400px',
+          margin: '0 auto'
+        }}
+      >
 
           {/* Additional Sections */}
           {data.sections && data.sections.map((section, index) => {
@@ -279,7 +385,7 @@ export const HomePage: React.FC = () => {
                   style={{
                     width: '100%',
                     color: '#FFFFFF',
-                    paddingTop: isMobile ? '1rem' : '2rem'
+                    paddingTop: isMobile ? '2rem' : '3rem'
                   }}
                 >
                   {section.header && (
@@ -316,7 +422,7 @@ export const HomePage: React.FC = () => {
                 key={index}
                 style={{
                   width: '100%',
-                  paddingTop: isMobile ? '1rem' : '2rem'
+                  paddingTop: isMobile ? '2rem' : '3rem'
                 }}
               >
                 {section.header && (
@@ -390,7 +496,6 @@ export const HomePage: React.FC = () => {
               </div>
             );
           })}
-        </div>
       </div>
     </div>
     <Footer />
