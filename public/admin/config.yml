@@ -2,9 +2,6 @@ backend:
   name: git-gateway
   branch: main
 
-# Enable local development mode (reads/writes actual files)
-local_backend: true
-
 # Media configuration for Vite
 # Files are saved to public/images/web (physical location)
 # But referenced as /images/web in JSON (served by Vite from public folder)
