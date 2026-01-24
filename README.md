@@ -199,6 +199,22 @@ The site can be deployed to any static hosting platform:
 - Verify Git Gateway is configured
 - Check browser console for errors
 
+### Image uploads failing in CMS
+
+**Symptom**: Images upload in CMS but don't commit to GitHub (silent failure, broken image icon)
+
+**Cause**: Decap CMS version 3.10.0 (released Jan 23, 2026) has a bug with Git Gateway image uploads
+
+**Solution**: The CMS version is pinned to 3.9.0 in `public/admin/index.html`
+
+```html
+<script src="https://unpkg.com/decap-cms@3.9.0/dist/decap-cms.js"></script>
+```
+
+**Do NOT** use `@^3.0.0` or `@latest` as these will auto-update to broken versions.
+
+**Related**: [GitHub Issue #7576](https://github.com/decaporg/decap-cms/issues/7576)
+
 ### Images not showing
 
 - Verify images are in `public/images/` folders
