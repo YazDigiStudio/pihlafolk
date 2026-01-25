@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { HomePage } from './pages/HomePage';
+import { HomePage2 } from './pages/HomePage2';
 import { ArtistsPage } from './pages/ArtistsPage';
 import { AboutPage } from './pages/AboutPage';
 import { ServicesPage } from './pages/ServicesPage';
@@ -27,6 +28,7 @@ export const PortfolioSite: React.FC = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/home2" element={<HomePage2 />} />
         <Route path="/artistit" element={<ArtistsPage />} />
         <Route path="/tietoa" element={<AboutPage />} />
         <Route path="/palvelut" element={<ServicesPage />} />

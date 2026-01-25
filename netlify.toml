@@ -1,0 +1,10 @@
+# Netlify build configuration
+# Uses npm ci to respect package-lock.json exactly
+
+[build]
+  command = "npm ci && npm run build"
+  publish = "dist"
+
+# Node version (use LTS for stability)
+[build.environment]
+  NODE_VERSION = "20"

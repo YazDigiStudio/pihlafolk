@@ -62,6 +62,7 @@ export const Navigation: React.FC<NavigationProps> = ({ showName = true }) => {
 
   const navLinks = [
     { label: t.nav.home, to: '/' },
+    { label: 'Home 2', to: '/home2' }, // Alternative wallpaper for client preview
     { label: t.nav.about, to: '/tietoa' },
     { label: t.nav.artists, to: '/artistit' },
     { label: t.nav.productions, to: '/tuotannot' },

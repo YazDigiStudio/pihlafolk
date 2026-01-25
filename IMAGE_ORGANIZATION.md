@@ -52,20 +52,22 @@ public/
 1. **Uploading through CMS:**
    - Upload images through the Decap CMS at `/admin` (on Netlify)
    - CMS saves high-res originals to: `public/uploads/` (committed to Git)
+   - JSON files store `/uploads/` paths
    - Build process optimizes to: `public/images/web/` (not committed)
-   - Site references: `/images/web/` in JSON files
+   - React code converts paths at runtime to use optimized versions
 
 2. **Accessing high-resolution images:**
    - All original uploads are in `public/uploads/`
    - These are full-resolution files preserved in Git
-   - Optimized versions are generated during build
+   - Optimized versions are generated during build in `public/images/web/`
 
 ### Image Optimization Workflow
 
 The `optimize-images.js` script:
 - **CMS uploads** → Saved to `public/uploads/` (original quality, committed to Git)
+- **JSON files** → Store `/uploads/` paths
 - **Build process** → Optimizes from `uploads/` to `public/images/web/` (optimized, not committed)
-- **Site displays** → References `/images/web/` paths
+- **React code** → Converts `/uploads/` paths to `/images/web/` at runtime via `getOptimizedImagePath()`
 - **Maintains folder structure** in both locations
 - **Reduces file sizes** by 50-97% without visible quality loss
 
@@ -100,14 +102,37 @@ The Decap CMS is configured as follows:
 
 ```yaml
 media_folder: "public/uploads"
-public_folder: "/images/web"
+public_folder: "/uploads"
 ```
 
 This means:
 - CMS uploads files to `public/uploads/` (Git source of truth)
-- JSON references use `/images/web/` paths (optimized output)
-- Build process converts uploads → web automatically
-- Git only tracks originals in `uploads/`, not optimized versions
+- JSON files store `/uploads/` paths (e.g., `/uploads/artists/photo.jpg`)
+
+### Path Conversion (Runtime)
+
+The React code converts paths to optimized versions using `getOptimizedImagePath()` in `src/utils/imageUtils.ts`:
+
+```typescript
+// Converts "/uploads/artists/photo.jpg" → "/images/web/artists/photo.jpg"
+export function getOptimizedImagePath(uploadPath: string): string {
+  return uploadPath.replace("/uploads/", "/images/web/");
+}
+```
+
+All page components import and use this function:
+- HomePage.tsx
+- AboutPage.tsx
+- ArtistsPage.tsx
+- ProductionsPage.tsx
+- MediaPage.tsx
+
+### Build Process
+
+1. CMS saves originals to `public/uploads/`
+2. `npm run build` runs `optimize-images.js` (via prebuild script)
+3. Script creates optimized copies in `public/images/web/`
+4. Site displays optimized images via the path conversion utility
 
 ## Benefits
 
@@ -130,6 +155,24 @@ This means:
    - Optimized images load faster
    - Smaller bandwidth usage
    - Better user experience
+
+## Troubleshooting
+
+### Image uploads failing in CMS
+
+**Symptom**: Images upload in CMS but don't commit to GitHub. The CMS shows a broken image icon and the upload fails silently.
+
+**Cause**: Decap CMS version 3.10.0 (released January 23, 2026) has a bug with Git Gateway image uploads. The version syntax `@^3.0.0` auto-updates to the latest version, which broke uploads when 3.10.0 was released.
+
+**Solution**: The CMS version is pinned to 3.9.0 in `public/admin/index.html`:
+
+```html
+<script src="https://unpkg.com/decap-cms@3.9.0/dist/decap-cms.js"></script>
+```
+
+**Important**: Do NOT use `@^3.0.0` or `@latest` as these will auto-update to broken versions.
+
+**Related**: [GitHub Issue #7576](https://github.com/decaporg/decap-cms/issues/7576)
 
 ## Migration
 
