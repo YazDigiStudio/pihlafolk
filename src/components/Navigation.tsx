@@ -104,7 +104,7 @@ export const Navigation: React.FC<NavigationProps> = ({ showName = true }) => {
           margin: '0 auto',
           padding: isMobile ? '0.75rem 1.5rem' : '2rem 2rem',
           display: 'flex',
-          justifyContent: 'center',
+          justifyContent: isMobile ? 'flex-end' : 'center',
           alignItems: 'center',
           position: 'relative'
         }}

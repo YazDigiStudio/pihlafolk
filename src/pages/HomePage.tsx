@@ -203,7 +203,9 @@ export const HomePage: React.FC = () => {
                       style={{
                         position: 'absolute',
                         inset: 0,
-                        background: 'radial-gradient(ellipse at center, transparent 0%, rgba(0, 0, 0, 0.3) 30%, rgba(0, 0, 0, 0.7) 60%, rgba(0, 0, 0, 0.9) 85%, #000000 100%)',
+                        background: isMobile
+                          ? 'radial-gradient(ellipse at center, transparent 0%, rgba(0, 0, 0, 0.1) 30%, rgba(0, 0, 0, 0.3) 60%, rgba(0, 0, 0, 0.5) 85%, rgba(0, 0, 0, 0.7) 100%)'
+                          : 'radial-gradient(ellipse at center, transparent 0%, rgba(0, 0, 0, 0.3) 30%, rgba(0, 0, 0, 0.7) 60%, rgba(0, 0, 0, 0.9) 85%, #000000 100%)',
                         pointerEvents: 'none'
                       }}
                     />
