@@ -6,6 +6,7 @@ import { useContentData } from '../hooks/useContentData';
 import { useTranslations } from '../hooks/useTranslations';
 import { usePageMeta } from '../hooks/usePageMeta';
 import { getOptimizedImagePath } from '../utils/imageUtils';
+import { PIHLA_FOLK_PALETTE } from '../styles/colorPalettes';
 
 interface AboutSection {
   header?: string;
@@ -39,6 +40,7 @@ export const AboutPage: React.FC = () => {
   const { isMobile } = useScreenSize();
   const data = useContentData<AboutContent>('about.json');
   const t = useTranslations();
+  const colors = PIHLA_FOLK_PALETTE.colors;
 
   // Set page metadata for SEO
   usePageMeta({
@@ -55,7 +57,7 @@ export const AboutPage: React.FC = () => {
           alignItems: 'center',
           justifyContent: 'center',
           minHeight: '100vh',
-          color: '#FFFFFF'
+          color: colors.bgPrimary
         }}>
           {t.common.loading}
         </div>
@@ -86,9 +88,10 @@ export const AboutPage: React.FC = () => {
           style={{
             position: 'absolute',
             inset: 0,
-            backgroundImage: 'url(/assets/wallpaper-home-bg.jpg)',
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
+            backgroundImage: 'url(/assets/kuosiRaportti.jpg)',
+            backgroundSize: '300px',
+            backgroundRepeat: 'repeat',
+            backgroundPosition: 'top left',
             zIndex: -1
           }}
         />
@@ -107,11 +110,11 @@ export const AboutPage: React.FC = () => {
         >
           <div
             style={{
-              backgroundColor: 'rgba(0, 0, 0, 0.3)',
-              backdropFilter: 'blur(15px)',
+              backgroundColor: 'rgba(244, 244, 244, 0.80)',
+              backdropFilter: 'blur(5px)',
               borderRadius: '16px',
               padding: isMobile ? '1.5rem' : '2.5rem',
-              boxShadow: '0 12px 40px rgba(0, 0, 0, 0.5)',
+              boxShadow: '0 12px 40px rgba(12, 12, 12, 0.5)',
               display: 'flex',
               flexDirection: 'column',
               gap: isMobile ? '2rem' : '3rem',
@@ -132,7 +135,7 @@ export const AboutPage: React.FC = () => {
                     key={index}
                     style={{
                       width: '100%',
-                      color: '#FFFFFF'
+                      color: colors.textPrimary
                     }}
                   >
                     {section.header && (
@@ -140,7 +143,7 @@ export const AboutPage: React.FC = () => {
                         style={{
                           fontSize: isMobile ? '1.5rem' : '2rem',
                           fontWeight: 700,
-                          color: '#ff0000',
+                          color: colors.accentPrimary,
                           marginTop: 0,
                           marginBottom: '1rem'
                         }}
@@ -152,7 +155,7 @@ export const AboutPage: React.FC = () => {
                       style={{
                         fontSize: isMobile ? '0.95rem' : '1.1rem',
                         lineHeight: 1.8,
-                        color: 'rgba(255, 255, 255, 0.95)',
+                        color: colors.textPrimary,
                         whiteSpace: 'pre-wrap',
                         margin: 0
                       }}
@@ -176,7 +179,7 @@ export const AboutPage: React.FC = () => {
                       style={{
                         fontSize: isMobile ? '1.5rem' : '2rem',
                         fontWeight: 700,
-                        color: '#ff0000',
+                        color: colors.accentPrimary,
                         marginTop: 0,
                         marginBottom: '1rem'
                       }}
@@ -202,7 +205,7 @@ export const AboutPage: React.FC = () => {
                         width: '100%',
                         borderRadius: '8px',
                         overflow: 'hidden',
-                        boxShadow: '0 8px 24px rgba(0, 0, 0, 0.4)',
+                        boxShadow: '0 8px 24px rgba(12, 12, 12, 0.4)',
                         flexShrink: 0
                       }}
                     >
@@ -221,7 +224,7 @@ export const AboutPage: React.FC = () => {
                     <div
                       style={{
                         flex: 1,
-                        color: '#FFFFFF',
+                        color: colors.textPrimary,
                         display: 'flex',
                         alignItems: 'center'
                       }}
@@ -230,7 +233,7 @@ export const AboutPage: React.FC = () => {
                         style={{
                           fontSize: isMobile ? '0.95rem' : '1.1rem',
                           lineHeight: 1.8,
-                          color: 'rgba(255, 255, 255, 0.95)',
+                          color: colors.textPrimary,
                           whiteSpace: 'pre-wrap',
                           margin: 0
                         }}

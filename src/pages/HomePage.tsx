@@ -6,6 +6,7 @@ import { useContentData } from '../hooks/useContentData';
 import { useTranslations } from '../hooks/useTranslations';
 import { usePageMeta } from '../hooks/usePageMeta';
 import { getOptimizedImagePath } from '../utils/imageUtils';
+import { PIHLA_FOLK_PALETTE } from '../styles/colorPalettes';
 
 interface HomeSection {
   header?: string;
@@ -57,6 +58,7 @@ export const HomePage: React.FC = () => {
   const { isMobile } = useScreenSize();
   const data = useContentData<HomeContent>('home.json');
   const t = useTranslations();
+  const colors = PIHLA_FOLK_PALETTE.colors;
 
   // Set page metadata for SEO
   usePageMeta({
@@ -73,7 +75,7 @@ export const HomePage: React.FC = () => {
           alignItems: 'center',
           justifyContent: 'center',
           minHeight: '100vh',
-          color: '#FFFFFF'
+          color: colors.bgPrimary
         }}>
           {t.common.loading}
         </div>
@@ -93,8 +95,9 @@ export const HomePage: React.FC = () => {
         minHeight: '100vh',
         overflow: 'hidden',
         display: 'flex',
-        alignItems: isMobile ? 'flex-start' : 'center',
-        justifyContent: 'center',
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'flex-start',
         fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif'
       }}
     >
@@ -103,9 +106,10 @@ export const HomePage: React.FC = () => {
         style={{
           position: 'absolute',
           inset: 0,
-          backgroundImage: 'url(/assets/wallpaper-home-bg.jpg)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
+          backgroundImage: 'url(/assets/kuosiRaportti.jpg)',
+          backgroundSize: '300px',
+          backgroundRepeat: 'repeat',
+          backgroundPosition: 'top left',
           zIndex: -1
         }}
       />
@@ -119,98 +123,87 @@ export const HomePage: React.FC = () => {
           width: '95%',
           margin: '0 auto',
           padding: isMobile ? '1rem' : '2rem',
-          marginTop: isMobile ? '80px' : '120px'
+          boxSizing: 'border-box',
+          marginTop: isMobile ? '80px' : '120px',
+          display: 'flex',
+          flexDirection: 'column',
+          gap: isMobile ? '1.5rem' : '1rem'
         }}
       >
         {/* Glassmorphic Container */}
         <div
           style={{
-            backgroundColor: 'rgba(0, 0, 0, 0.3)',
+            backgroundColor: 'rgba(12, 12, 12, 0.85)',
             backdropFilter: 'blur(15px)',
             borderRadius: '16px',
             padding: isMobile ? '1.5rem' : '2.5rem',
-            boxShadow: '0 12px 40px rgba(0, 0, 0, 0.5)',
+            boxSizing: 'border-box',
+            boxShadow: '0 12px 40px rgba(12, 12, 12, 0.5)',
             display: 'flex',
             flexDirection: 'column',
-            alignItems: 'center',
-            gap: isMobile ? '2rem' : '2.5rem'
+            alignItems: 'flex-start',
+            width: '100%',
+            color: colors.bgPrimary,
+            gap: isMobile ? '1.5rem' : '2rem'
           }}
         >
-          {/* Hero Media on Top */}
-          {data.showMedia && (data.mediaUrl || data.mediaVideoUrl) && (
-            <div
-              style={{
-                width: '100%',
-                borderRadius: '8px',
-                overflow: 'hidden',
-                boxShadow: '0 8px 24px rgba(0, 0, 0, 0.4)',
-                backgroundColor: 'rgba(0, 0, 0, 0.2)',
-                backdropFilter: 'blur(10px)',
-                position: 'relative'
-              }}
-            >
-              {data.mediaType === 'video' && data.mediaVideoUrl ? (
-                <video
-                  src={data.mediaVideoUrl}
-                  autoPlay
-                  loop
-                  muted
-                  playsInline
-                  style={{
-                    width: '100%',
-                    height: 'auto',
-                    display: 'block'
-                  }}
-                />
-              ) : data.mediaUrl ? (
-                <img
-                  src={getOptimizedImagePath(data.mediaUrl)}
-                  alt={data.name}
-                  style={{
-                    width: '100%',
-                    height: 'auto',
-                    display: 'block'
-                  }}
-                />
-              ) : null}
+            {/* Hero Media */}
+            {data.showMedia && (data.mediaUrl || data.mediaVideoUrl) && (
+              <div
+                style={{
+                  width: '100%',
+                  borderRadius: '8px',
+                  overflow: 'hidden',
+                  position: 'relative'
+                }}
+              >
+                {data.mediaType === 'video' && data.mediaVideoUrl ? (
+                  <video
+                    src={data.mediaVideoUrl}
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    style={{
+                      width: '100%',
+                      height: 'auto',
+                      display: 'block'
+                    }}
+                  />
+                ) : data.mediaUrl ? (
+                  <img
+                    src={getOptimizedImagePath(data.mediaUrl)}
+                    alt={data.name}
+                    style={{
+                      width: '100%',
+                      height: 'auto',
+                      display: 'block'
+                    }}
+                  />
+                ) : null}
 
-              {/* Vignette overlay and logo - for both images and videos */}
-              {(data.mediaUrl || data.mediaVideoUrl) && (() => {
-                // Calculate logo position
-                const horizontal = data.logoPositionHorizontal || 'left';
-                const vertical = data.logoPositionVertical || 'middle';
+                {/* Logo overlay */}
+                {(data.mediaUrl || data.mediaVideoUrl) && (() => {
+                  const horizontal = data.logoPositionHorizontal || 'left';
+                  const vertical = data.logoPositionVertical || 'middle';
 
-                const horizontalStyle: React.CSSProperties = horizontal === 'left'
-                  ? { left: isMobile ? '1rem' : '2rem' }
-                  : { right: isMobile ? '1rem' : '2rem' };
+                  const horizontalStyle: React.CSSProperties = horizontal === 'left'
+                    ? { left: isMobile ? '1rem' : '2rem' }
+                    : { right: isMobile ? '1rem' : '2rem' };
 
-                let verticalStyle: React.CSSProperties = {};
-                let transform = '';
+                  let verticalStyle: React.CSSProperties = {};
+                  let transform = '';
 
-                if (vertical === 'up') {
-                  verticalStyle = { top: isMobile ? '1rem' : '2rem' };
-                } else if (vertical === 'middle') {
-                  verticalStyle = { top: '50%' };
-                  transform = 'translateY(-50%)';
-                } else { // down
-                  verticalStyle = { bottom: isMobile ? '1rem' : '2rem' };
-                }
+                  if (vertical === 'up') {
+                    verticalStyle = { top: isMobile ? '1rem' : '2rem' };
+                  } else if (vertical === 'middle') {
+                    verticalStyle = { top: '50%' };
+                    transform = 'translateY(-50%)';
+                  } else {
+                    verticalStyle = { bottom: isMobile ? '1rem' : '2rem' };
+                  }
 
-                return (
-                  <>
-                    {/* Vignette overlay - darkens edges to create abyss effect */}
-                    <div
-                      style={{
-                        position: 'absolute',
-                        inset: 0,
-                        background: isMobile
-                          ? 'radial-gradient(ellipse at center, transparent 0%, rgba(0, 0, 0, 0.1) 30%, rgba(0, 0, 0, 0.3) 60%, rgba(0, 0, 0, 0.5) 85%, rgba(0, 0, 0, 0.7) 100%)'
-                          : 'radial-gradient(ellipse at center, transparent 0%, rgba(0, 0, 0, 0.3) 30%, rgba(0, 0, 0, 0.7) 60%, rgba(0, 0, 0, 0.9) 85%, #000000 100%)',
-                        pointerEvents: 'none'
-                      }}
-                    />
-
-                    {/* Pihla Folk Logo Overlay */}
+                  return (
                     <div
                       style={{
                         position: 'absolute',
@@ -228,34 +221,22 @@ export const HomePage: React.FC = () => {
                         style={{
                           width: '100%',
                           height: 'auto',
-                          display: 'block',
-                          filter: 'drop-shadow(10px 0px 16px rgba(0, 0, 0, 1.0)) drop-shadow(-10px 0px 16px rgba(0, 0, 0, 1.0)) drop-shadow(0px 10px 16px rgba(0, 0, 0, 1.0)) drop-shadow(0px -10px 16px rgba(0, 0, 0, 1.0))'
+                          display: 'block'
                         }}
                       />
                     </div>
-                  </>
-                );
-              })()}
-            </div>
-          )}
+                  );
+                })()}
+              </div>
+            )}
 
-          {/* Text Content Below Image */}
-          <div
-            style={{
-              width: '100%',
-              color: '#FFFFFF',
-              display: 'flex',
-              flexDirection: 'column',
-              alignItems: 'flex-start'
-            }}
-          >
             {/* Red Subtitle */}
             {data.heroParagraph1 && (
               <h2
                 style={{
                   fontSize: isMobile ? '1.3rem' : '1.6rem',
                   fontWeight: 600,
-                  color: '#ff0000',
+                  color: colors.accentPrimary,
                   marginTop: 0,
                   marginBottom: '1.5rem',
                   lineHeight: 1.4
@@ -270,7 +251,7 @@ export const HomePage: React.FC = () => {
               style={{
                 fontSize: isMobile ? '1rem' : '1.1rem',
                 lineHeight: 1.8,
-                color: 'rgba(255, 255, 255, 0.95)',
+                color: 'rgba(244, 244, 244, 0.95)',
                 marginTop: 0,
                 marginBottom: '1.5rem',
                 whiteSpace: 'pre-wrap'
@@ -298,8 +279,8 @@ export const HomePage: React.FC = () => {
                     padding: '0.875rem 2rem',
                     fontSize: '1rem',
                     fontWeight: 600,
-                    color: '#FFFFFF',
-                    backgroundColor: '#ff0000',
+                    color: colors.bgPrimary,
+                    backgroundColor: colors.accentPrimary,
                     border: 'none',
                     borderRadius: '4px',
                     textDecoration: 'none',
@@ -308,11 +289,11 @@ export const HomePage: React.FC = () => {
                     textAlign: 'center'
                   }}
                   onMouseEnter={(e) => {
-                    e.currentTarget.style.backgroundColor = '#cc0000';
+                    e.currentTarget.style.backgroundColor = colors.hoverColor;
                     e.currentTarget.style.transform = 'translateY(-2px)';
                   }}
                   onMouseLeave={(e) => {
-                    e.currentTarget.style.backgroundColor = '#ff0000';
+                    e.currentTarget.style.backgroundColor = colors.accentPrimary;
                     e.currentTarget.style.transform = 'translateY(0)';
                   }}
                 >
@@ -328,9 +309,9 @@ export const HomePage: React.FC = () => {
                     padding: '0.875rem 2rem',
                     fontSize: '1rem',
                     fontWeight: 600,
-                    color: '#FFFFFF',
-                    backgroundColor: 'rgba(255, 255, 255, 0.1)',
-                    border: '2px solid rgba(255, 255, 255, 0.3)',
+                    color: colors.bgPrimary,
+                    backgroundColor: 'rgba(244, 244, 244, 0.1)',
+                    border: '2px solid rgba(244, 244, 244, 0.3)',
                     borderRadius: '4px',
                     textDecoration: 'none',
                     transition: 'all 0.2s ease',
@@ -339,13 +320,13 @@ export const HomePage: React.FC = () => {
                     backdropFilter: 'blur(10px)'
                   }}
                   onMouseEnter={(e) => {
-                    e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.2)';
-                    e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.5)';
+                    e.currentTarget.style.backgroundColor = 'rgba(244, 244, 244, 0.2)';
+                    e.currentTarget.style.borderColor = 'rgba(244, 244, 244, 0.5)';
                     e.currentTarget.style.transform = 'translateY(-2px)';
                   }}
                   onMouseLeave={(e) => {
-                    e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.1)';
-                    e.currentTarget.style.borderColor = 'rgba(255, 255, 255, 0.3)';
+                    e.currentTarget.style.backgroundColor = 'rgba(244, 244, 244, 0.1)';
+                    e.currentTarget.style.borderColor = 'rgba(244, 244, 244, 0.3)';
                     e.currentTarget.style.transform = 'translateY(0)';
                   }}
                 >
@@ -353,28 +334,9 @@ export const HomePage: React.FC = () => {
                 </a>
               )}
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
-    {/* Additional Sections (outside hero) */}
-    <div
-      style={{
-        backgroundColor: '#000000',
-        padding: isMobile ? '2rem 1.5rem' : '3rem 3rem',
-        minHeight: '50vh'
-      }}
-    >
-      <div
-        style={{
-          maxWidth: '1400px',
-          margin: '0 auto'
-        }}
-      >
-
-          {/* Additional Sections */}
-          {data.sections && data.sections.map((section, index) => {
+            {/* Additional Sections */}
+            {data.sections && data.sections.map((section, index) => {
             const hasImage = !!section.image;
             const imagePosition = section.imagePosition || 'left';
             const maxLength = section.maxTextLength || (hasImage ? 800 : 10000);
@@ -387,7 +349,7 @@ export const HomePage: React.FC = () => {
                   key={index}
                   style={{
                     width: '100%',
-                    color: '#FFFFFF',
+                    color: colors.bgPrimary,
                     paddingTop: isMobile ? '2rem' : '3rem'
                   }}
                 >
@@ -396,7 +358,7 @@ export const HomePage: React.FC = () => {
                       style={{
                         fontSize: isMobile ? '1.5rem' : '2rem',
                         fontWeight: 700,
-                        color: '#ff0000',
+                        color: colors.accentPrimary,
                         marginTop: 0,
                         marginBottom: '1rem'
                       }}
@@ -408,7 +370,7 @@ export const HomePage: React.FC = () => {
                     style={{
                       fontSize: isMobile ? '0.95rem' : '1.1rem',
                       lineHeight: 1.8,
-                      color: 'rgba(255, 255, 255, 0.95)',
+                      color: 'rgba(244, 244, 244, 0.95)',
                       whiteSpace: 'pre-wrap',
                       margin: 0
                     }}
@@ -433,7 +395,7 @@ export const HomePage: React.FC = () => {
                     style={{
                       fontSize: isMobile ? '1.5rem' : '2rem',
                       fontWeight: 700,
-                      color: '#ff0000',
+                      color: colors.accentPrimary,
                       marginTop: 0,
                       marginBottom: '1rem'
                     }}
@@ -459,7 +421,7 @@ export const HomePage: React.FC = () => {
                       width: '100%',
                       borderRadius: '8px',
                       overflow: 'hidden',
-                      boxShadow: '0 8px 24px rgba(0, 0, 0, 0.4)',
+                      boxShadow: '0 8px 24px rgba(12, 12, 12, 0.4)',
                       flexShrink: 0
                     }}
                   >
@@ -478,7 +440,7 @@ export const HomePage: React.FC = () => {
                   <div
                     style={{
                       flex: 1,
-                      color: '#FFFFFF',
+                      color: colors.bgPrimary,
                       display: 'flex',
                       alignItems: 'center'
                     }}
@@ -487,7 +449,7 @@ export const HomePage: React.FC = () => {
                       style={{
                         fontSize: isMobile ? '0.95rem' : '1.1rem',
                         lineHeight: 1.8,
-                        color: 'rgba(255, 255, 255, 0.95)',
+                        color: 'rgba(244, 244, 244, 0.95)',
                         whiteSpace: 'pre-wrap',
                         margin: 0
                       }}
@@ -499,8 +461,10 @@ export const HomePage: React.FC = () => {
               </div>
             );
           })}
+        </div>
       </div>
     </div>
+
     <Footer />
     </>
   );

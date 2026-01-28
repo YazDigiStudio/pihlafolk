@@ -1,5 +1,5 @@
 import React from 'react';
-import { ACTIVE_PALETTE } from '../styles/colorPalettes';
+import { PIHLA_FOLK_PALETTE } from '../styles/colorPalettes';
 import { Navigation } from '../components/Navigation';
 import { Footer } from '../components/Footer';
 import { useScreenSize } from '../hooks/useScreenSize';
@@ -55,7 +55,8 @@ interface ProductionsContent {
 }
 
 export const ProductionsPage: React.FC = () => {
-  const palette = ACTIVE_PALETTE;
+  const palette = PIHLA_FOLK_PALETTE;
+  const colors = PIHLA_FOLK_PALETTE.colors;
   const { isMobile } = useScreenSize();
   const data = useContentData<ProductionsContent>('productions.json');
   const t = useTranslations();
@@ -91,11 +92,11 @@ export const ProductionsPage: React.FC = () => {
           src={getOptimizedImagePath(production.image)}
           alt={production.title}
           style={{
+            maxWidth: '600px',
             width: '100%',
             height: 'auto',
-            aspectRatio: '16/9',
-            objectFit: 'cover',
-            display: 'block'
+            display: 'block',
+            margin: '0 auto'
           }}
         />
       )}
@@ -108,7 +109,7 @@ export const ProductionsPage: React.FC = () => {
             display: 'inline-block',
             padding: '0.375rem 0.875rem',
             backgroundColor: palette.colors.accentPrimary,
-            color: '#FFFFFF',
+            color: colors.bgPrimary,
             fontSize: '0.875rem',
             fontWeight: 600,
             borderRadius: '4px',
@@ -124,7 +125,7 @@ export const ProductionsPage: React.FC = () => {
             fontSize: '1.5rem',
             fontWeight: 700,
             margin: '0 0 0.5rem 0',
-            color: '#ff0000'
+            color: colors.accentPrimary
           }}
         >
           {production.title}
@@ -136,7 +137,7 @@ export const ProductionsPage: React.FC = () => {
             style={{
               fontSize: '1.1rem',
               fontStyle: 'italic',
-              color: palette.colors.textMuted,
+              color: 'rgba(12, 12, 12, 0.6)',
               margin: '0 0 1rem 0'
             }}
           >
@@ -149,7 +150,7 @@ export const ProductionsPage: React.FC = () => {
           style={{
             fontSize: '1rem',
             lineHeight: '1.7',
-            color: palette.colors.textPrimary,
+            color: 'rgba(12, 12, 12, 0.9)',
             margin: '0 0 1rem 0',
             whiteSpace: 'pre-line'
           }}
@@ -163,14 +164,14 @@ export const ProductionsPage: React.FC = () => {
             style={{
               marginTop: '1.5rem',
               paddingTop: '1.5rem',
-              borderTop: `1px solid ${palette.colors.borderColor}`
+              borderTop: '1px solid rgba(12, 12, 12, 0.15)'
             }}
           >
             <p
               style={{
                 fontSize: '0.875rem',
                 fontWeight: 600,
-                color: palette.colors.textMuted,
+                color: 'rgba(12, 12, 12, 0.6)',
                 margin: '0 0 0.5rem 0',
                 textTransform: 'uppercase',
                 letterSpacing: '0.05em'
@@ -181,7 +182,7 @@ export const ProductionsPage: React.FC = () => {
             <p
               style={{
                 fontSize: '0.9rem',
-                color: palette.colors.textMuted,
+                color: 'rgba(12, 12, 12, 0.6)',
                 margin: 0
               }}
             >
@@ -210,11 +211,12 @@ export const ProductionsPage: React.FC = () => {
         {/* Background Wallpaper */}
         <div
           style={{
-            position: 'fixed',
+            position: 'absolute',
             inset: 0,
-            backgroundImage: 'url(/assets/wallpaper-productions-bg.jpg)',
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
+            backgroundImage: 'url(/assets/kuosiRaportti.jpg)',
+            backgroundSize: '300px',
+            backgroundRepeat: 'repeat',
+            backgroundPosition: 'top left',
             zIndex: -1
           }}
         />
@@ -241,9 +243,10 @@ export const ProductionsPage: React.FC = () => {
             <div
               style={{
                 padding: isMobile ? '1rem' : '3rem',
-                backgroundColor: 'rgba(245, 242, 235, 0.95)',
-                borderRadius: '12px',
-                boxShadow: '0 8px 32px rgba(0, 0, 0, 0.2)',
+                backgroundColor: 'rgba(244, 244, 244, 0.80)',
+                backdropFilter: 'blur(5px)',
+                borderRadius: '16px',
+                boxShadow: '0 12px 40px rgba(12, 12, 12, 0.5)',
                 minHeight: '600px'
               }}
             >
@@ -254,7 +257,7 @@ export const ProductionsPage: React.FC = () => {
                   fontSize: 'clamp(1.5rem, 4vw, 2rem)',
                   fontWeight: 700,
                   marginBottom: '2rem',
-                  color: '#ff0000',
+                  color: colors.accentPrimary,
                   paddingBottom: '1rem',
                   borderBottom: '2px solid rgba(255, 0, 0, 0.2)'
                 }}
@@ -266,7 +269,7 @@ export const ProductionsPage: React.FC = () => {
                   <div key={production.id} style={{
                     marginBottom: index < data.ongoing.productions.length - 1 ? '3rem' : '0',
                     paddingBottom: index < data.ongoing.productions.length - 1 ? '3rem' : '0',
-                    borderBottom: index < data.ongoing.productions.length - 1 ? '1px solid rgba(0, 0, 0, 0.1)' : 'none'
+                    borderBottom: index < data.ongoing.productions.length - 1 ? '1px solid rgba(12, 12, 12, 0.15)' : 'none'
                   }}>
                     <ProductionCard production={production} />
                   </div>
@@ -281,7 +284,7 @@ export const ProductionsPage: React.FC = () => {
                   fontSize: 'clamp(1.5rem, 4vw, 2rem)',
                   fontWeight: 700,
                   marginBottom: '2rem',
-                  color: '#ff0000',
+                  color: colors.accentPrimary,
                   paddingBottom: '1rem',
                   borderBottom: '2px solid rgba(255, 0, 0, 0.2)'
                 }}
@@ -293,7 +296,7 @@ export const ProductionsPage: React.FC = () => {
                   <div key={production.id} style={{
                     marginBottom: index < data.past.productions.length - 1 ? '3rem' : '0',
                     paddingBottom: index < data.past.productions.length - 1 ? '3rem' : '0',
-                    borderBottom: index < data.past.productions.length - 1 ? '1px solid rgba(0, 0, 0, 0.1)' : 'none'
+                    borderBottom: index < data.past.productions.length - 1 ? '1px solid rgba(12, 12, 12, 0.15)' : 'none'
                   }}>
                     <ProductionCard production={production} />
                   </div>

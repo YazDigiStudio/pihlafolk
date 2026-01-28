@@ -5,6 +5,7 @@ import { useScreenSize } from "../hooks/useScreenSize";
 import { useContentData } from "../hooks/useContentData";
 import { useTranslations } from "../hooks/useTranslations";
 import { usePageMeta } from "../hooks/usePageMeta";
+import { PIHLA_FOLK_PALETTE } from "../styles/colorPalettes";
 
 interface SocialMedia {
   platform: "facebook" | "instagram" | "youtube" | "linkedin";
@@ -61,6 +62,7 @@ export const ContactPage: React.FC = () => {
   const { isMobile } = useScreenSize();
   const data = useContentData<ContactContent>("contact.json");
   const t = useTranslations();
+  const colors = PIHLA_FOLK_PALETTE.colors;
 
   usePageMeta({
     title: t.seo.contact.title,
@@ -76,7 +78,7 @@ export const ContactPage: React.FC = () => {
           alignItems: "center",
           justifyContent: "center",
           minHeight: "100vh",
-          color: "#FFFFFF"
+          color: colors.bgPrimary
         }}>
           {t.common.loading}
         </div>
@@ -92,11 +94,12 @@ export const ContactPage: React.FC = () => {
         {/* Background */}
         <div
           style={{
-            position: "fixed",
+            position: "absolute",
             inset: 0,
-            backgroundImage: "url(/assets/wallpaper-bg.jpg)",
-            backgroundSize: "cover",
-            backgroundPosition: "center",
+            backgroundImage: "url(/assets/kuosiRaportti.jpg)",
+            backgroundSize: "300px",
+            backgroundRepeat: "repeat",
+            backgroundPosition: "top left",
             zIndex: -1
           }}
         />
@@ -105,28 +108,28 @@ export const ContactPage: React.FC = () => {
         <div style={{ position: "relative", zIndex: 1, paddingTop: "6rem", paddingBottom: "4rem" }}>
           {/* Content Container */}
           <div style={{ maxWidth: "1200px", width: "95%", margin: "0 auto", padding: isMobile ? "1rem" : "2rem" }}>
-            {/* Black transparent box */}
+            {/* Content container */}
             <div
               style={{
-                backgroundColor: "rgba(0, 0, 0, 0.3)",
-                backdropFilter: "blur(15px)",
+                backgroundColor: "rgba(244, 244, 244, 0.80)",
+                backdropFilter: "blur(5px)",
                 borderRadius: "16px",
                 padding: isMobile ? "2rem 1.5rem" : "3rem 2.5rem",
-                boxShadow: "0 12px 40px rgba(0, 0, 0, 0.5)",
+                boxShadow: "0 12px 40px rgba(12, 12, 12, 0.5)",
                 textAlign: "center",
                 minHeight: "600px"
               }}
             >
               {/* Email Section */}
               <div style={{ marginBottom: "3rem", paddingTop: "2rem" }}>
-                <p style={{ fontSize: "1.1rem", color: "#FFFFFF", margin: "0 0 0.5rem 0", fontWeight: 500 }}>
+                <p style={{ fontSize: "1.1rem", color: colors.textPrimary, margin: "0 0 0.5rem 0", fontWeight: 500 }}>
                   {t.contact.contactLabel}
                 </p>
                 <a
                   href={`mailto:${data.email}`}
                   style={{
                     fontSize: "1.4rem",
-                    color: "#FFFFFF",
+                    color: colors.textPrimary,
                     textDecoration: "none",
                     fontWeight: 500
                   }}
@@ -145,7 +148,7 @@ export const ContactPage: React.FC = () => {
                         href={social.url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        style={{ display: "block", opacity: 0.9 }}
+                        style={{ display: "block", opacity: 0.9, filter: "invert(1)" }}
                       >
                         {getSocialIcon(social.platform)}
                       </a>
@@ -165,7 +168,7 @@ export const ContactPage: React.FC = () => {
                       rel="noopener noreferrer"
                       style={{
                         fontSize: "1.1rem",
-                        color: "#FFFFFF",
+                        color: colors.textPrimary,
                         textDecoration: "none",
                         display: "block",
                         marginBottom: "0.5rem"

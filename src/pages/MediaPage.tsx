@@ -7,6 +7,7 @@ import { useContentData } from '../hooks/useContentData';
 import { useTranslations } from '../hooks/useTranslations';
 import { usePageMeta } from '../hooks/usePageMeta';
 import { getOptimizedImagePath } from '../utils/imageUtils';
+import { PIHLA_FOLK_PALETTE } from '../styles/colorPalettes';
 
 interface CarouselImage {
   image: string;
@@ -55,6 +56,7 @@ export const MediaPage: React.FC = () => {
   const { isMobile } = useScreenSize();
   const data = useContentData<MediaContent>('media.json');
   const t = useTranslations();
+  const colors = PIHLA_FOLK_PALETTE.colors;
 
   // Set page metadata for SEO
   usePageMeta({
@@ -71,7 +73,7 @@ export const MediaPage: React.FC = () => {
           alignItems: 'center',
           justifyContent: 'center',
           minHeight: '100vh',
-          color: '#FFFFFF'
+          color: colors.bgPrimary
         }}>
           {t.common.loading}
         </div>
@@ -97,7 +99,7 @@ export const MediaPage: React.FC = () => {
           style={{
             position: 'fixed',
             inset: 0,
-            backgroundImage: 'url(/assets/wallpaper-productions-bg.jpg)',
+            backgroundImage: 'url(/assets/wallpaper-bg.jpg)',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             zIndex: -1
@@ -126,10 +128,10 @@ export const MediaPage: React.FC = () => {
             <div
               style={{
                 padding: isMobile ? '1rem' : '3rem',
-                backgroundColor: 'rgba(0, 0, 0, 0.3)',
-                backdropFilter: 'blur(15px)',
+                backgroundColor: 'rgba(244, 244, 244, 0.80)',
+                backdropFilter: 'blur(5px)',
                 borderRadius: '16px',
-                boxShadow: '0 12px 40px rgba(0, 0, 0, 0.5)',
+                boxShadow: '0 12px 40px rgba(12, 12, 12, 0.5)',
                 minHeight: '600px'
               }}
             >
@@ -154,7 +156,7 @@ export const MediaPage: React.FC = () => {
                           fontSize: 'clamp(1.5rem, 4vw, 2rem)',
                           fontWeight: 700,
                           marginBottom: section.subtitle ? '1rem' : '0',
-                          color: '#FFFFFF'
+                          color: colors.textPrimary
                         }}
                       >
                         {section.title}
@@ -164,7 +166,7 @@ export const MediaPage: React.FC = () => {
                           style={{
                             fontSize: 'clamp(1rem, 2vw, 1.1rem)',
                             lineHeight: '1.6',
-                            color: 'rgba(255, 255, 255, 0.85)',
+                            color: 'rgba(12, 12, 12, 0.7)',
                             maxWidth: '800px',
                             marginTop: '0.5rem'
                           }}
@@ -176,7 +178,7 @@ export const MediaPage: React.FC = () => {
                         style={{
                           marginTop: '1rem',
                           height: '2px',
-                          background: 'linear-gradient(to right, rgba(255, 255, 255, 0.3), transparent)',
+                          background: 'linear-gradient(to right, rgba(12, 12, 12, 0.2), transparent)',
                           maxWidth: '200px'
                         }}
                       />
@@ -206,7 +208,7 @@ export const MediaPage: React.FC = () => {
                           height: 0,
                           overflow: 'hidden',
                           borderRadius: '8px',
-                          boxShadow: '0 8px 24px rgba(0,0,0,0.3)'
+                          boxShadow: '0 8px 24px rgba(12,12,12,0.3)'
                         }}
                       >
                         <iframe
@@ -226,7 +228,7 @@ export const MediaPage: React.FC = () => {
                       </div>
                       <p
                         style={{
-                          color: '#FFFFFF',
+                          color: colors.textPrimary,
                           textAlign: 'center',
                           marginTop: '1rem',
                           opacity: 0.9
@@ -242,7 +244,7 @@ export const MediaPage: React.FC = () => {
                     <div key={audioIndex} style={{ marginBottom: '2rem' }}>
                       <p
                         style={{
-                          color: '#FFFFFF',
+                          color: colors.textPrimary,
                           textAlign: 'center',
                           marginBottom: '1rem',
                           fontSize: '1.1rem',
@@ -259,8 +261,8 @@ export const MediaPage: React.FC = () => {
                           display: 'block',
                           margin: '0 auto',
                           borderRadius: '8px',
-                          backgroundColor: 'rgba(255, 255, 255, 0.95)',
-                          boxShadow: '0 4px 12px rgba(0,0,0,0.2)'
+                          backgroundColor: 'rgba(244, 244, 244, 0.95)',
+                          boxShadow: '0 4px 12px rgba(12,12,12,0.2)'
                         }}
                       >
                         <source src={audio.url} type="audio/mpeg" />
@@ -269,7 +271,7 @@ export const MediaPage: React.FC = () => {
                       {audio.description && (
                         <p
                           style={{
-                            color: 'rgba(255, 255, 255, 0.7)',
+                            color: 'rgba(12, 12, 12, 0.6)',
                             textAlign: 'center',
                             marginTop: '0.5rem',
                             fontSize: '0.9rem'
@@ -294,24 +296,24 @@ export const MediaPage: React.FC = () => {
                             display: 'inline-block',
                             padding: '1rem 2.5rem',
                             margin: '0.5rem',
-                            backgroundColor: 'rgba(255, 255, 255, 0.95)',
-                            color: '#1a1a1a',
+                            backgroundColor: 'rgba(244, 244, 244, 0.95)',
+                            color: colors.textPrimary,
                             textDecoration: 'none',
                             borderRadius: '8px',
                             fontSize: '1.1rem',
                             fontWeight: 600,
                             transition: 'all 0.3s ease',
-                            boxShadow: '0 4px 12px rgba(0,0,0,0.3)'
+                            boxShadow: '0 4px 12px rgba(12,12,12,0.3)'
                           }}
                           onMouseEnter={(e) => {
-                            e.currentTarget.style.backgroundColor = '#FFFFFF';
+                            e.currentTarget.style.backgroundColor = colors.bgSecondary;
                             e.currentTarget.style.transform = 'translateY(-2px)';
-                            e.currentTarget.style.boxShadow = '0 6px 16px rgba(0,0,0,0.4)';
+                            e.currentTarget.style.boxShadow = '0 6px 16px rgba(12,12,12,0.4)';
                           }}
                           onMouseLeave={(e) => {
-                            e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.95)';
+                            e.currentTarget.style.backgroundColor = 'rgba(244, 244, 244, 0.95)';
                             e.currentTarget.style.transform = 'translateY(0)';
-                            e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.3)';
+                            e.currentTarget.style.boxShadow = '0 4px 12px rgba(12,12,12,0.3)';
                           }}
                         >
                           {link.buttonText}

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ACTIVE_PALETTE } from '../styles/colorPalettes';
+import { PIHLA_FOLK_PALETTE } from '../styles/colorPalettes';
 import { Navigation } from '../components/Navigation';
 import { Footer } from '../components/Footer';
 import { useScreenSize } from '../hooks/useScreenSize';
@@ -36,7 +36,8 @@ interface ArtistsContent {
 }
 
 export const ArtistsPage: React.FC = () => {
-  const palette = ACTIVE_PALETTE;
+  const palette = PIHLA_FOLK_PALETTE;
+  const colors = PIHLA_FOLK_PALETTE.colors;
   const { isMobile } = useScreenSize();
   const [selectedArtist, setSelectedArtist] = useState<Artist | null>(null);
   const [filter, setFilter] = useState<'all' | 'booking' | 'management'>('all');
@@ -133,25 +134,25 @@ export const ArtistsPage: React.FC = () => {
                   padding: '0.75rem 2rem',
                   fontSize: '1rem',
                   fontWeight: 600,
-                  border: filter === btn.key ? '2px solid #000000' : '2px solid rgba(0, 0, 0, 0.2)',
-                  backgroundColor: filter === btn.key ? '#000000' : 'rgba(255, 255, 255, 0.9)',
-                  color: filter === btn.key ? '#FFFFFF' : palette.colors.textHeading,
+                  border: filter === btn.key ? `2px solid ${colors.textPrimary}` : 'rgba(12, 12, 12, 0.2)',
+                  backgroundColor: filter === btn.key ? colors.textPrimary : 'rgba(244, 244, 244, 0.9)',
+                  color: filter === btn.key ? colors.bgPrimary : palette.colors.textHeading,
                   borderRadius: '4px',
                   cursor: 'pointer',
                   transition: 'all 0.3s ease',
-                  boxShadow: filter === btn.key ? '0 4px 12px rgba(0, 0, 0, 0.3)' : '0 2px 8px rgba(0,0,0,0.1)',
+                  boxShadow: filter === btn.key ? '0 4px 12px rgba(12, 12, 12, 0.3)' : '0 2px 8px rgba(12,12,12,0.1)',
                   position: 'relative',
                   overflow: 'hidden'
                 }}
                 onMouseEnter={(e) => {
                   if (filter !== btn.key) {
-                    e.currentTarget.style.borderColor = '#000000';
+                    e.currentTarget.style.borderColor = colors.textPrimary;
                     e.currentTarget.style.transform = 'translateY(-2px)';
                   }
                 }}
                 onMouseLeave={(e) => {
                   if (filter !== btn.key) {
-                    e.currentTarget.style.borderColor = 'rgba(0, 0, 0, 0.2)';
+                    e.currentTarget.style.borderColor = 'rgba(12, 12, 12, 0.2)';
                     e.currentTarget.style.transform = 'translateY(0)';
                   }
                 }}
@@ -197,8 +198,9 @@ export const ArtistsPage: React.FC = () => {
                       cursor: 'pointer',
                       borderRadius: '8px',
                       overflow: 'hidden',
-                      backgroundColor: 'rgba(255, 255, 255, 0.95)',
-                      boxShadow: '0 4px 12px rgba(0,0,0,0.15)',
+                      backgroundColor: 'rgba(244, 244, 244, 0.80)',
+                      backdropFilter: 'blur(5px)',
+                      boxShadow: '0 4px 12px rgba(12,12,12,0.15)',
                       transition: 'all 0.3s ease',
                       display: 'flex',
                       flexDirection: isMobile ? 'column' : (imageOnRight ? 'row' : 'row-reverse')
@@ -206,12 +208,12 @@ export const ArtistsPage: React.FC = () => {
                     onMouseEnter={(e) => {
                       setHoveredIndex(index);
                       e.currentTarget.style.transform = 'translateY(-8px)';
-                      e.currentTarget.style.boxShadow = '0 12px 24px rgba(0,0,0,0.25)';
+                      e.currentTarget.style.boxShadow = '0 12px 24px rgba(12,12,12,0.25)';
                     }}
                     onMouseLeave={(e) => {
                       setHoveredIndex(null);
                       e.currentTarget.style.transform = 'translateY(0)';
-                      e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)';
+                      e.currentTarget.style.boxShadow = '0 4px 12px rgba(12,12,12,0.15)';
                     }}
                   >
                     {/* Artist Image */}
@@ -299,7 +301,7 @@ export const ArtistsPage: React.FC = () => {
                           marginTop: '2rem',
                           padding: '0.75rem 1.5rem',
                           backgroundColor: hoveredIndex === index ? palette.colors.accentPrimary : 'transparent',
-                          color: hoveredIndex === index ? '#FFFFFF' : palette.colors.accentPrimary,
+                          color: hoveredIndex === index ? colors.bgPrimary : palette.colors.accentPrimary,
                           fontSize: '0.95rem',
                           fontWeight: 600,
                           borderRadius: '4px',
@@ -330,7 +332,7 @@ export const ArtistsPage: React.FC = () => {
             position: 'fixed',
             inset: 0,
             zIndex: 1000,
-            backgroundColor: 'rgba(0, 0, 0, 0.9)',
+            backgroundColor: 'rgba(12, 12, 12, 0.9)',
             display: 'flex',
             alignItems: 'flex-start',
             justifyContent: 'center',
@@ -346,9 +348,9 @@ export const ArtistsPage: React.FC = () => {
               position: 'fixed',
               top: '1rem',
               right: '1rem',
-              background: 'rgba(255, 255, 255, 0.2)',
-              border: '2px solid #FFFFFF',
-              color: '#FFFFFF',
+              background: 'rgba(244, 244, 244, 0.2)',
+              border: `2px solid ${colors.bgPrimary}`,
+              color: colors.bgPrimary,
               fontSize: '2rem',
               width: '50px',
               height: '50px',
@@ -363,10 +365,10 @@ export const ArtistsPage: React.FC = () => {
               zIndex: 1001
             }}
             onMouseEnter={(e) => {
-              e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.3)';
+              e.currentTarget.style.backgroundColor = 'rgba(244, 244, 244, 0.3)';
             }}
             onMouseLeave={(e) => {
-              e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.2)';
+              e.currentTarget.style.backgroundColor = 'rgba(244, 244, 244, 0.2)';
             }}
           >
             ×
@@ -378,10 +380,10 @@ export const ArtistsPage: React.FC = () => {
             style={{
               maxWidth: '900px',
               width: '100%',
-              backgroundColor: '#FFFFFF',
+              backgroundColor: colors.bgSecondary,
               borderRadius: '8px',
               overflow: 'hidden',
-              boxShadow: '0 8px 32px rgba(0,0,0,0.5)',
+              boxShadow: '0 8px 32px rgba(12,12,12,0.5)',
               cursor: 'default'
             }}
           >
@@ -491,7 +493,7 @@ export const ArtistsPage: React.FC = () => {
                   }}
                   onMouseEnter={(e) => {
                     e.currentTarget.style.backgroundColor = palette.colors.accentPrimary;
-                    e.currentTarget.style.color = '#FFFFFF';
+                    e.currentTarget.style.color = colors.bgPrimary;
                     e.currentTarget.style.transform = 'translateY(-2px)';
                     e.currentTarget.style.boxShadow = '0 6px 16px rgba(255, 0, 0, 0.3)';
                   }}
