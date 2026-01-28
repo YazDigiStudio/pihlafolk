@@ -20,30 +20,30 @@ collections:
         name: "home-fi"
         file: "public/content/home-fi.json"
         fields:
-          - {label: "Nimi", name: "name", widget: "string"}
-          - {label: "Alaotsikko (punainen)", name: "heroParagraph1", widget: "text", hint: "Näkyy punaisella värillä kuvan alla"}
-          - {label: "Sisältöteksti", name: "heroParagraph2", widget: "text", hint: "Pääsisältöteksti valkoinen"}
+          - {label: "Nimi", name: "name", widget: "string", required: false}
+          - {label: "Alaotsikko (punainen)", name: "heroParagraph1", widget: "text", required: false, hint: "Näkyy punaisella värillä kuvan alla"}
+          - {label: "Sisältöteksti", name: "heroParagraph2", widget: "text", required: false, hint: "Pääsisältöteksti valkoinen"}
           - {label: "Lisäteksti", name: "additionalText", widget: "text", required: false, hint: "Valinnainen lisäteksti"}
-          - {label: "Näytä Hero Media", name: "showMedia", widget: "boolean", default: true}
-          - {label: "Media Tyyppi", name: "mediaType", widget: "select", options: ["image", "video"], default: "image", hint: "Valitse kuva tai video"}
+          - {label: "Näytä Hero Media", name: "showMedia", widget: "boolean", default: true, required: false}
+          - {label: "Media Tyyppi", name: "mediaType", widget: "select", options: ["image", "video"], default: "image", required: false, hint: "Valitse kuva tai video"}
           - {label: "Hero Kuva", name: "mediaUrl", widget: "image", required: false, hint: "Lataa kuva (käytä kun Media Tyyppi = image)"}
           - {label: "Hero Video", name: "mediaVideoUrl", widget: "file", required: false, hint: "Lataa video (käytä kun Media Tyyppi = video)"}
-          - {label: "Näytä Logo", name: "showLogo", widget: "boolean", default: true, hint: "Näytä tai piilota logo hero-kuvan päällä"}
-          - {label: "Logon sijainti vaaka", name: "logoPositionHorizontal", widget: "select", options: ["left", "right"], default: "left", hint: "Logon sijainti vasemmalla tai oikealla"}
-          - {label: "Logon sijainti pysty", name: "logoPositionVertical", widget: "select", options: ["up", "middle", "down"], default: "middle", hint: "Logon sijainti ylhäällä, keskellä tai alhaalla"}
-          - {label: "Näytä Nappi 1", name: "showButton1", widget: "boolean", default: true}
-          - {label: "Nappi 1 Teksti", name: "ctaButton1Text", widget: "string"}
-          - {label: "Nappi 1 Linkki", name: "ctaButton1Link", widget: "string"}
-          - {label: "Näytä Nappi 2", name: "showButton2", widget: "boolean", default: true}
-          - {label: "Nappi 2 Teksti", name: "ctaButton2Text", widget: "string"}
-          - {label: "Nappi 2 Linkki", name: "ctaButton2Link", widget: "string"}
+          - {label: "Näytä Logo", name: "showLogo", widget: "boolean", default: true, required: false, hint: "Näytä tai piilota logo hero-kuvan päällä"}
+          - {label: "Logon sijainti vaaka", name: "logoPositionHorizontal", widget: "select", options: ["left", "right"], default: "left", required: false, hint: "Logon sijainti vasemmalla tai oikealla"}
+          - {label: "Logon sijainti pysty", name: "logoPositionVertical", widget: "select", options: ["up", "middle", "down"], default: "middle", required: false, hint: "Logon sijainti ylhäällä, keskellä tai alhaalla"}
+          - {label: "Näytä Nappi 1", name: "showButton1", widget: "boolean", default: true, required: false}
+          - {label: "Nappi 1 Teksti", name: "ctaButton1Text", widget: "string", required: false}
+          - {label: "Nappi 1 Linkki", name: "ctaButton1Link", widget: "string", required: false}
+          - {label: "Näytä Nappi 2", name: "showButton2", widget: "boolean", default: true, required: false}
+          - {label: "Nappi 2 Teksti", name: "ctaButton2Text", widget: "string", required: false}
+          - {label: "Nappi 2 Linkki", name: "ctaButton2Link", widget: "string", required: false}
           - label: "Lisäosiot"
             name: "sections"
             widget: "list"
             required: false
             fields:
               - {label: "Otsikko", name: "header", widget: "string", required: false}
-              - {label: "Teksti", name: "text", widget: "text"}
+              - {label: "Teksti", name: "text", widget: "text", required: false}
               - {label: "Kuva", name: "image", widget: "image", required: false}
               - {label: "Kuvan sijainti", name: "imagePosition", widget: "select", options: ["left", "right"], default: "right", required: false}
               - {label: "Max tekstin pituus", name: "maxTextLength", widget: "number", required: false, hint: "Rajoita tekstin pituus jos kuva on käytössä"}
@@ -58,7 +58,7 @@ collections:
             widget: "list"
             fields:
               - {label: "Otsikko", name: "header", widget: "string", required: false}
-              - {label: "Teksti", name: "text", widget: "text"}
+              - {label: "Teksti", name: "text", widget: "text", required: false}
               - {label: "Kuva", name: "image", widget: "image", required: false}
               - {label: "Kuvan sijainti", name: "imagePosition", widget: "select", options: ["left", "right"], default: "right", required: false}
               - {label: "Max tekstin pituus", name: "maxTextLength", widget: "number", required: false, hint: "Rajoita tekstin pituus jos kuva on käytössä"}
@@ -72,15 +72,15 @@ collections:
             name: "artists"
             widget: "list"
             fields:
-              - {label: "ID", name: "id", widget: "string"}
-              - {label: "Nimi", name: "name", widget: "string"}
-              - {label: "Tyyppi", name: "type", widget: "select", options: ["booking", "management"]}
-              - {label: "Kuva", name: "image", widget: "image"}
-              - {label: "Kotisivu", name: "website", widget: "string"}
-              - {label: "Lyhyt kuvaus", name: "excerpt", widget: "text"}
-              - {label: "Koko bio", name: "bio", widget: "text"}
-              - {label: "Featured", name: "featured", widget: "boolean", default: false}
-              - {label: "Järjestys", name: "order", widget: "number"}
+              - {label: "ID", name: "id", widget: "string", required: false}
+              - {label: "Nimi", name: "name", widget: "string", required: false}
+              - {label: "Tyyppi", name: "type", widget: "select", options: ["booking", "management"], required: false}
+              - {label: "Kuva", name: "image", widget: "image", required: false}
+              - {label: "Kotisivu", name: "website", widget: "string", required: false}
+              - {label: "Lyhyt kuvaus", name: "excerpt", widget: "text", required: false}
+              - {label: "Koko bio", name: "bio", widget: "text", required: false}
+              - {label: "Featured", name: "featured", widget: "boolean", default: false, required: false}
+              - {label: "Järjestys", name: "order", widget: "number", required: false}
 
       # ProductionsPage - Finnish
       - label: "Tuotannot"
@@ -164,8 +164,8 @@ collections:
                     name: "carousel"
                     widget: "list"
                     fields:
-                      - {label: "Kuva", name: "image", widget: "image"}
-                      - {label: "Kuvateksti", name: "alt", widget: "string"}
+                      - {label: "Kuva", name: "image", widget: "image", required: false}
+                      - {label: "Kuvateksti", name: "alt", widget: "string", required: false}
                       - {label: "Kuvaaja", name: "photographer", widget: "string", required: false}
               - label: "Videot"
                 name: "videos"
@@ -178,9 +178,9 @@ collections:
                     name: "videos"
                     widget: "list"
                     fields:
-                      - {label: "Video Tyyppi", name: "type", widget: "select", options: ["youtube", "vimeo", "direct"]}
-                      - {label: "Video URL", name: "url", widget: "string"}
-                      - {label: "Otsikko", name: "title", widget: "string"}
+                      - {label: "Video Tyyppi", name: "type", widget: "select", options: ["youtube", "vimeo", "direct"], required: false}
+                      - {label: "Video URL", name: "url", widget: "string", required: false}
+                      - {label: "Otsikko", name: "title", widget: "string", required: false}
                       - {label: "Kuvaus", name: "description", widget: "text", required: false}
               - label: "Ääninäytteet"
                 name: "audio"
@@ -193,8 +193,8 @@ collections:
                     name: "audioFiles"
                     widget: "list"
                     fields:
-                      - {label: "Äänitiedosto", name: "url", widget: "file"}
-                      - {label: "Otsikko", name: "title", widget: "string"}
+                      - {label: "Äänitiedosto", name: "url", widget: "file", required: false}
+                      - {label: "Otsikko", name: "title", widget: "string", required: false}
                       - {label: "Kuvaus", name: "description", widget: "text", required: false}
               - label: "Linkit"
                 name: "links"
@@ -207,27 +207,29 @@ collections:
                     name: "externalLinks"
                     widget: "list"
                     fields:
-                      - {label: "URL", name: "url", widget: "string"}
-                      - {label: "Napin teksti", name: "buttonText", widget: "string"}
+                      - {label: "URL", name: "url", widget: "string", required: false}
+                      - {label: "Napin teksti", name: "buttonText", widget: "string", required: false}
 
       # ContactPage - Finnish
       - label: "Yhteystiedot"
         name: "contact-fi"
         file: "public/content/contact-fi.json"
         fields:
-          - {label: "Sähköposti", name: "email", widget: "string"}
+          - {label: "Sähköposti", name: "email", widget: "string", required: false}
           - label: "Sosiaalinen media"
             name: "socialMedia"
             widget: "list"
+            required: false
             fields:
-              - {label: "Alusta", name: "platform", widget: "select", options: ["facebook", "instagram", "youtube", "linkedin"]}
-              - {label: "URL", name: "url", widget: "string"}
+              - {label: "Alusta", name: "platform", widget: "select", options: ["facebook", "instagram", "youtube", "linkedin"], required: false}
+              - {label: "URL", name: "url", widget: "string", required: false}
           - label: "Linkit"
             name: "relatedLinks"
             widget: "list"
+            required: false
             fields:
-              - {label: "URL", name: "url", widget: "string"}
-              - {label: "Teksti", name: "text", widget: "string"}
+              - {label: "URL", name: "url", widget: "string", required: false}
+              - {label: "Teksti", name: "text", widget: "string", required: false}
 
       # Footer - Finnish
       - label: "Alatunniste"
@@ -244,9 +246,10 @@ collections:
           - label: "Tekijämerkintä"
             name: "credit"
             widget: "object"
+            required: false
             fields:
-              - {label: "Teksti", name: "text", widget: "string"}
-              - {label: "URL", name: "url", widget: "string"}
+              - {label: "Teksti", name: "text", widget: "string", required: false}
+              - {label: "URL", name: "url", widget: "string", required: false}
 
   # ==========================================
   # ENGLISH CONTENT
@@ -259,23 +262,23 @@ collections:
         name: "home-en"
         file: "public/content/home-en.json"
         fields:
-          - {label: "Name", name: "name", widget: "string"}
-          - {label: "Subtitle (red)", name: "heroParagraph1", widget: "text", hint: "Displays in red color below image"}
-          - {label: "Main Content", name: "heroParagraph2", widget: "text", hint: "Main content text in white"}
+          - {label: "Name", name: "name", widget: "string", required: false}
+          - {label: "Subtitle (red)", name: "heroParagraph1", widget: "text", required: false, hint: "Displays in red color below image"}
+          - {label: "Main Content", name: "heroParagraph2", widget: "text", required: false, hint: "Main content text in white"}
           - {label: "Additional Text", name: "additionalText", widget: "text", required: false, hint: "Optional additional text"}
-          - {label: "Show Hero Media", name: "showMedia", widget: "boolean", default: true}
-          - {label: "Media Type", name: "mediaType", widget: "select", options: ["image", "video"], default: "image", hint: "Choose image or video"}
+          - {label: "Show Hero Media", name: "showMedia", widget: "boolean", default: true, required: false}
+          - {label: "Media Type", name: "mediaType", widget: "select", options: ["image", "video"], default: "image", required: false, hint: "Choose image or video"}
           - {label: "Hero Image", name: "mediaUrl", widget: "image", required: false, hint: "Upload image (use when Media Type = image)"}
           - {label: "Hero Video", name: "mediaVideoUrl", widget: "file", required: false, hint: "Upload video (use when Media Type = video)"}
-          - {label: "Show Logo", name: "showLogo", widget: "boolean", default: true, hint: "Show or hide logo overlay on hero image"}
-          - {label: "Logo Position Horizontal", name: "logoPositionHorizontal", widget: "select", options: ["left", "right"], default: "left", hint: "Logo position on left or right side"}
-          - {label: "Logo Position Vertical", name: "logoPositionVertical", widget: "select", options: ["up", "middle", "down"], default: "middle", hint: "Logo position at top, middle, or bottom"}
-          - {label: "Show Button 1", name: "showButton1", widget: "boolean", default: true}
-          - {label: "Button 1 Text", name: "ctaButton1Text", widget: "string"}
-          - {label: "Button 1 Link", name: "ctaButton1Link", widget: "string"}
-          - {label: "Show Button 2", name: "showButton2", widget: "boolean", default: true}
-          - {label: "Button 2 Text", name: "ctaButton2Text", widget: "string"}
-          - {label: "Button 2 Link", name: "ctaButton2Link", widget: "string"}
+          - {label: "Show Logo", name: "showLogo", widget: "boolean", default: true, required: false, hint: "Show or hide logo overlay on hero image"}
+          - {label: "Logo Position Horizontal", name: "logoPositionHorizontal", widget: "select", options: ["left", "right"], default: "left", required: false, hint: "Logo position on left or right side"}
+          - {label: "Logo Position Vertical", name: "logoPositionVertical", widget: "select", options: ["up", "middle", "down"], default: "middle", required: false, hint: "Logo position at top, middle, or bottom"}
+          - {label: "Show Button 1", name: "showButton1", widget: "boolean", default: true, required: false}
+          - {label: "Button 1 Text", name: "ctaButton1Text", widget: "string", required: false}
+          - {label: "Button 1 Link", name: "ctaButton1Link", widget: "string", required: false}
+          - {label: "Show Button 2", name: "showButton2", widget: "boolean", default: true, required: false}
+          - {label: "Button 2 Text", name: "ctaButton2Text", widget: "string", required: false}
+          - {label: "Button 2 Link", name: "ctaButton2Link", widget: "string", required: false}
           - label: "Additional Sections"
             name: "sections"
             widget: "list"
@@ -311,15 +314,15 @@ collections:
             name: "artists"
             widget: "list"
             fields:
-              - {label: "ID", name: "id", widget: "string"}
-              - {label: "Name", name: "name", widget: "string"}
-              - {label: "Type", name: "type", widget: "select", options: ["booking", "management"]}
-              - {label: "Image", name: "image", widget: "image"}
-              - {label: "Website", name: "website", widget: "string"}
-              - {label: "Excerpt", name: "excerpt", widget: "text"}
-              - {label: "Full Bio", name: "bio", widget: "text"}
-              - {label: "Featured", name: "featured", widget: "boolean", default: false}
-              - {label: "Order", name: "order", widget: "number"}
+              - {label: "ID", name: "id", widget: "string", required: false}
+              - {label: "Name", name: "name", widget: "string", required: false}
+              - {label: "Type", name: "type", widget: "select", options: ["booking", "management"], required: false}
+              - {label: "Image", name: "image", widget: "image", required: false}
+              - {label: "Website", name: "website", widget: "string", required: false}
+              - {label: "Excerpt", name: "excerpt", widget: "text", required: false}
+              - {label: "Full Bio", name: "bio", widget: "text", required: false}
+              - {label: "Featured", name: "featured", widget: "boolean", default: false, required: false}
+              - {label: "Order", name: "order", widget: "number", required: false}
 
       # ProductionsPage - English
       - label: "Productions"
@@ -333,27 +336,29 @@ collections:
               - label: "Title"
                 name: "title"
                 widget: "object"
+                required: false
                 fields:
-                  - {label: "Finnish", name: "fi", widget: "string"}
-                  - {label: "English", name: "en", widget: "string"}
+                  - {label: "Finnish", name: "fi", widget: "string", required: false}
+                  - {label: "English", name: "en", widget: "string", required: false}
               - label: "Productions"
                 name: "productions"
                 widget: "list"
                 fields:
-                  - {label: "ID", name: "id", widget: "string"}
-                  - {label: "Title", name: "title", widget: "string"}
+                  - {label: "ID", name: "id", widget: "string", required: false}
+                  - {label: "Title", name: "title", widget: "string", required: false}
                   - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
-                  - {label: "Type", name: "type", widget: "string"}
-                  - {label: "Status", name: "status", widget: "select", options: ["ongoing", "completed"]}
-                  - {label: "Year", name: "year", widget: "string"}
-                  - {label: "Image", name: "image", widget: "image"}
+                  - {label: "Type", name: "type", widget: "string", required: false}
+                  - {label: "Status", name: "status", widget: "select", options: ["ongoing", "completed"], required: false}
+                  - {label: "Year", name: "year", widget: "string", required: false}
+                  - {label: "Image", name: "image", widget: "image", required: false}
                   - label: "Description"
                     name: "description"
                     widget: "object"
+                    required: false
                     fields:
-                      - {label: "Finnish", name: "fi", widget: "text"}
-                      - {label: "English", name: "en", widget: "text"}
-                  - {label: "Link", name: "link", widget: "string"}
+                      - {label: "Finnish", name: "fi", widget: "text", required: false}
+                      - {label: "English", name: "en", widget: "text", required: false}
+                  - {label: "Link", name: "link", widget: "string", required: false}
           - label: "Past Productions"
             name: "past"
             widget: "object"
@@ -361,27 +366,29 @@ collections:
               - label: "Title"
                 name: "title"
                 widget: "object"
+                required: false
                 fields:
-                  - {label: "Finnish", name: "fi", widget: "string"}
-                  - {label: "English", name: "en", widget: "string"}
+                  - {label: "Finnish", name: "fi", widget: "string", required: false}
+                  - {label: "English", name: "en", widget: "string", required: false}
               - label: "Productions"
                 name: "productions"
                 widget: "list"
                 fields:
-                  - {label: "ID", name: "id", widget: "string"}
-                  - {label: "Title", name: "title", widget: "string"}
+                  - {label: "ID", name: "id", widget: "string", required: false}
+                  - {label: "Title", name: "title", widget: "string", required: false}
                   - {label: "Subtitle", name: "subtitle", widget: "string", required: false}
-                  - {label: "Type", name: "type", widget: "string"}
-                  - {label: "Status", name: "status", widget: "select", options: ["ongoing", "completed"]}
-                  - {label: "Year", name: "year", widget: "string"}
-                  - {label: "Image", name: "image", widget: "image"}
+                  - {label: "Type", name: "type", widget: "string", required: false}
+                  - {label: "Status", name: "status", widget: "select", options: ["ongoing", "completed"], required: false}
+                  - {label: "Year", name: "year", widget: "string", required: false}
+                  - {label: "Image", name: "image", widget: "image", required: false}
                   - label: "Description"
                     name: "description"
                     widget: "object"
+                    required: false
                     fields:
-                      - {label: "Finnish", name: "fi", widget: "text"}
-                      - {label: "English", name: "en", widget: "text"}
-                  - {label: "Link", name: "link", widget: "string"}
+                      - {label: "Finnish", name: "fi", widget: "text", required: false}
+                      - {label: "English", name: "en", widget: "text", required: false}
+                  - {label: "Link", name: "link", widget: "string", required: false}
 
       # MediaPage - English
       - label: "Media"
@@ -454,19 +461,21 @@ collections:
         name: "contact-en"
         file: "public/content/contact-en.json"
         fields:
-          - {label: "Email", name: "email", widget: "string"}
+          - {label: "Email", name: "email", widget: "string", required: false}
           - label: "Social Media"
             name: "socialMedia"
             widget: "list"
+            required: false
             fields:
-              - {label: "Platform", name: "platform", widget: "select", options: ["facebook", "instagram", "youtube", "linkedin"]}
-              - {label: "URL", name: "url", widget: "string"}
+              - {label: "Platform", name: "platform", widget: "select", options: ["facebook", "instagram", "youtube", "linkedin"], required: false}
+              - {label: "URL", name: "url", widget: "string", required: false}
           - label: "Related Links"
             name: "relatedLinks"
             widget: "list"
+            required: false
             fields:
-              - {label: "URL", name: "url", widget: "string"}
-              - {label: "Text", name: "text", widget: "string"}
+              - {label: "URL", name: "url", widget: "string", required: false}
+              - {label: "Text", name: "text", widget: "string", required: false}
 
       # Footer - English
       - label: "Footer"
@@ -483,6 +492,7 @@ collections:
           - label: "Credit"
             name: "credit"
             widget: "object"
+            required: false
             fields:
-              - {label: "Text", name: "text", widget: "string"}
-              - {label: "URL", name: "url", widget: "string"}
+              - {label: "Text", name: "text", widget: "string", required: false}
+              - {label: "URL", name: "url", widget: "string", required: false}

@@ -6,6 +6,19 @@
     },
     "productions": [
       {
+        "id": "vilma-talvitie-olio-alien",
+        "title": "Vilma Talvitie's Olio Alien album release tour",
+        "type": "tour",
+        "status": "ongoing",
+        "year": "2026",
+        "image": "",
+        "description": {
+          "fi": "Vilma Talvitien Olio Alien -albumijulkaisukiertue 2026",
+          "en": "Vilma Talvitie's Olio Alien album release tour, 2026"
+        },
+        "link": ""
+      },
+      {
         "id": "laulettu-kalevala",
         "title": "Laulettu Kalevala",
         "type": "audiobook",
@@ -40,6 +53,47 @@
       "en": "Past"
     },
     "productions": [
+      {
+        "id": "lonnrot-terrace-2025",
+        "title": "Curation & production of a Baltic-Finnic concert series",
+        "subtitle": "Lönnrot's Terrace",
+        "type": "concert-series",
+        "status": "completed",
+        "year": "2025",
+        "image": "",
+        "description": {
+          "fi": "Itämerensuomalaisen konserttisarjan kuratointi & tuotanto Lönnrotin terassilla (puistikossa) ohjelmayhteistyössä Helsingin kaupunkitilojen kanssa kesällä 2025",
+          "en": "Curation & production of a Baltic-Finnic concert series at Lönnrot's Terrace (the green), in programme collaboration with the Helsingin Kaupunkitilat, summer 2025"
+        },
+        "link": ""
+      },
+      {
+        "id": "ilmastoitku",
+        "title": "Ilmastoitku",
+        "subtitle": "Eila Hartikainen",
+        "type": "commission",
+        "status": "completed",
+        "year": "2024-2025",
+        "image": "",
+        "description": {
+          "fi": "Ilmastoitku (Eila Hartikainen) -tilaustyö, tuotanto 2024-2025. Ehdokkuus Kuorogaalassa Vuoden tapaukseksi 2025.",
+          "en": "Ilmastoitku (Eila Hartikainen) – commissioned work, production 2024–2025. Nomination for \"Case of the Year\" at the Choir Gala 2025 in Finland."
+        },
+        "link": ""
+      },
+      {
+        "id": "album-publicity",
+        "title": "Album publicity in Finland and/or internationally",
+        "type": "publicity",
+        "status": "completed",
+        "year": "2022-2025",
+        "image": "",
+        "description": {
+          "fi": "Hurja Halla: Surma hiihti 2025, Kalle Vainio: The Land Where It Always Rains - Musiikkia sateesta 2024, Anna-Kaisa Liedes & Heikki Laitinen: Musiikki elokuvasta 11 ihmisen kuvaa 2023-2024, MeNaiset: Emyt 2023, Hanna Ryynänen: Taite 2022",
+          "en": "Hurja Halla: Surma hiihti 2025, Kalle Vainio: The Land Where It Always Rains - Musiikkia sateesta 2024, Anna-Kaisa Liedes & Heikki Laitinen: Music from movie 11 images of human 2023-2024, MeNaiset: Emyt 2023, Hanna Ryynänen: Taite 2022"
+        },
+        "link": ""
+      },
       {
         "id": "terveh-viro",
         "title": "Terveh Viro!",
