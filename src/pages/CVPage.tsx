@@ -3,7 +3,7 @@ import { Navigation } from '../components/Navigation';
 import { useScreenSize } from '../hooks/useScreenSize';
 import { useContentData } from '../hooks/useContentData';
 import { useTranslations } from '../hooks/useTranslations';
-import { ACTIVE_PALETTE } from '../styles/colorPalettes';
+import { PIHLA_FOLK_PALETTE } from '../styles/colorPalettes';
 import { usePageMeta } from '../hooks/usePageMeta';
 
 interface CVSection {
@@ -25,7 +25,8 @@ interface CVContent {
 
 export const CVPage: React.FC = () => {
   const { isMobile } = useScreenSize();
-  const palette = ACTIVE_PALETTE;
+  const palette = PIHLA_FOLK_PALETTE;
+  const colors = PIHLA_FOLK_PALETTE.colors;
   const data = useContentData<CVContent>('cv.json');
   const t = useTranslations();
 
@@ -44,7 +45,7 @@ export const CVPage: React.FC = () => {
           alignItems: 'center',
           justifyContent: 'center',
           minHeight: '100vh',
-          color: '#FFFFFF'
+          color: colors.bgPrimary
         }}>
           {t.common.loading}
         </div>
@@ -83,7 +84,7 @@ export const CVPage: React.FC = () => {
           style={{
             position: 'fixed',
             inset: 0,
-            backgroundColor: 'rgba(255, 255, 255, 0.35)',
+            backgroundColor: 'rgba(244, 244, 244, 0.35)',
             zIndex: -2
           }}
         />
@@ -148,24 +149,24 @@ export const CVPage: React.FC = () => {
                   display: 'inline-block',
                   marginBottom: '3rem',
                   padding: '1rem 2.5rem',
-                  backgroundColor: 'rgba(255, 255, 255, 0.95)',
-                  color: '#1a1a1a',
+                  backgroundColor: 'rgba(244, 244, 244, 0.95)',
+                  color: colors.textPrimary,
                   textDecoration: 'none',
                   borderRadius: '8px',
                   fontSize: '1.1rem',
                   fontWeight: 600,
                   transition: 'all 0.3s ease',
-                  boxShadow: '0 4px 12px rgba(0,0,0,0.3)'
+                  boxShadow: '0 4px 12px rgba(12,12,12,0.3)'
                 }}
                 onMouseEnter={(e) => {
-                  e.currentTarget.style.backgroundColor = '#FFFFFF';
+                  e.currentTarget.style.backgroundColor = colors.bgSecondary;
                   e.currentTarget.style.transform = 'translateY(-2px)';
-                  e.currentTarget.style.boxShadow = '0 6px 16px rgba(0,0,0,0.4)';
+                  e.currentTarget.style.boxShadow = '0 6px 16px rgba(12,12,12,0.4)';
                 }}
                 onMouseLeave={(e) => {
-                  e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.95)';
+                  e.currentTarget.style.backgroundColor = 'rgba(244, 244, 244, 0.95)';
                   e.currentTarget.style.transform = 'translateY(0)';
-                  e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.3)';
+                  e.currentTarget.style.boxShadow = '0 4px 12px rgba(12,12,12,0.3)';
                 }}
               >
                 {data.downloadButtonText}

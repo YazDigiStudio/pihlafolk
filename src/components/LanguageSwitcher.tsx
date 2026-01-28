@@ -1,5 +1,6 @@
 import React from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
+import { PIHLA_FOLK_PALETTE } from '../styles/colorPalettes';
 
 /**
  * LanguageSwitcher component
@@ -7,6 +8,7 @@ import { useLanguage } from '../contexts/LanguageContext';
  */
 export const LanguageSwitcher: React.FC = () => {
   const { language, setLanguage } = useLanguage();
+  const colors = PIHLA_FOLK_PALETTE.colors;
 
   return (
     <div
@@ -20,9 +22,9 @@ export const LanguageSwitcher: React.FC = () => {
         onClick={() => setLanguage('fi')}
         style={{
           padding: '0.5rem 1rem',
-          backgroundColor: language === 'fi' ? '#FFFFFF' : 'transparent',
-          color: language === 'fi' ? '#000000' : '#FFFFFF',
-          border: '2px solid #FFFFFF',
+          backgroundColor: language === 'fi' ? colors.bgSecondary : 'transparent',
+          color: language === 'fi' ? colors.textPrimary : colors.bgPrimary,
+          border: `2px solid ${colors.bgPrimary}`,
           borderRadius: '4px',
           cursor: 'pointer',
           fontSize: '0.9rem',
@@ -32,7 +34,7 @@ export const LanguageSwitcher: React.FC = () => {
         }}
         onMouseEnter={(e) => {
           if (language !== 'fi') {
-            e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.1)';
+            e.currentTarget.style.backgroundColor = 'rgba(244, 244, 244, 0.1)';
           }
         }}
         onMouseLeave={(e) => {
@@ -47,9 +49,9 @@ export const LanguageSwitcher: React.FC = () => {
         onClick={() => setLanguage('en')}
         style={{
           padding: '0.5rem 1rem',
-          backgroundColor: language === 'en' ? '#FFFFFF' : 'transparent',
-          color: language === 'en' ? '#000000' : '#FFFFFF',
-          border: '2px solid #FFFFFF',
+          backgroundColor: language === 'en' ? colors.bgSecondary : 'transparent',
+          color: language === 'en' ? colors.textPrimary : colors.bgPrimary,
+          border: `2px solid ${colors.bgPrimary}`,
           borderRadius: '4px',
           cursor: 'pointer',
           fontSize: '0.9rem',
@@ -59,7 +61,7 @@ export const LanguageSwitcher: React.FC = () => {
         }}
         onMouseEnter={(e) => {
           if (language !== 'en') {
-            e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.1)';
+            e.currentTarget.style.backgroundColor = 'rgba(244, 244, 244, 0.1)';
           }
         }}
         onMouseLeave={(e) => {

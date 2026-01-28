@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { useScreenSize } from '../hooks/useScreenSize';
 import { LanguageSwitcher } from './LanguageSwitcher';
 import { useTranslations } from '../hooks/useTranslations';
+import { PIHLA_FOLK_PALETTE } from '../styles/colorPalettes';
 
 /**
  * Responsive navigation header for Pihla Folk
@@ -28,6 +29,7 @@ export const Navigation: React.FC<NavigationProps> = ({ showName = true }) => {
   const buttonRef = useRef<HTMLButtonElement>(null);
   const t = useTranslations();
   const location = useLocation();
+  const colors = PIHLA_FOLK_PALETTE.colors;
 
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!mobileMenuOpen);
@@ -62,7 +64,6 @@ export const Navigation: React.FC<NavigationProps> = ({ showName = true }) => {
 
   const navLinks = [
     { label: t.nav.home, to: '/' },
-    { label: 'Home 2', to: '/home2' }, // Alternative wallpaper for client preview
     { label: t.nav.about, to: '/tietoa' },
     { label: t.nav.artists, to: '/artistit' },
     { label: t.nav.productions, to: '/tuotannot' },
@@ -95,7 +96,7 @@ export const Navigation: React.FC<NavigationProps> = ({ showName = true }) => {
           backgroundColor: 'rgba(12, 12, 12, 0.95)',
           backdropFilter: 'blur(10px)',
           WebkitBackdropFilter: 'blur(10px)',
-          borderBottom: '1px solid rgba(255, 255, 255, 0.1)'
+          borderBottom: '1px solid rgba(244, 244, 244, 0.1)'
         }}
       >
       <nav
@@ -155,22 +156,22 @@ export const Navigation: React.FC<NavigationProps> = ({ showName = true }) => {
                       style={{
                         position: 'relative',
                         display: 'inline-block',
-                        color: isActive ? '#ff0000' : '#FFFFFF',
+                        color: isActive ? colors.accentPrimary : colors.bgPrimary,
                         textDecoration: 'none',
                         fontSize: isActive ? '1.5rem' : '1rem',
                         fontWeight: isActive ? 700 : 400,
                         transition: 'all 0.4s ease',
-                        textShadow: '1px 1px 2px rgba(0,0,0,0.5)',
+                        textShadow: '1px 1px 2px rgba(12,12,12,0.5)',
                         paddingBottom: '4px'
                       }}
                       onMouseEnter={(e) => {
                         if (!isActive) {
-                          e.currentTarget.style.color = '#ff0000';
+                          e.currentTarget.style.color = colors.accentPrimary;
                         }
                       }}
                       onMouseLeave={(e) => {
                         if (!isActive) {
-                          e.currentTarget.style.color = '#FFFFFF';
+                          e.currentTarget.style.color = colors.bgPrimary;
                         }
                       }}
                     >
@@ -183,7 +184,7 @@ export const Navigation: React.FC<NavigationProps> = ({ showName = true }) => {
                             left: 0,
                             right: 0,
                             height: '3px',
-                            backgroundColor: '#ff0000',
+                            backgroundColor: colors.accentPrimary,
                             transformOrigin: 'left',
                             animation: 'expandUnderline 0.6s ease-out forwards'
                           }}
@@ -213,7 +214,7 @@ export const Navigation: React.FC<NavigationProps> = ({ showName = true }) => {
             style={{
               background: 'transparent',
               border: 'none',
-              color: '#FFFFFF',
+              color: colors.bgPrimary,
               fontSize: '1.5rem',
               cursor: 'pointer',
               padding: '0.5rem',
@@ -230,7 +231,7 @@ export const Navigation: React.FC<NavigationProps> = ({ showName = true }) => {
                 display: 'block',
                 width: '100%',
                 height: '2px',
-                backgroundColor: '#FFFFFF',
+                backgroundColor: colors.bgSecondary,
                 transition: 'all 0.3s ease',
                 transform: mobileMenuOpen ? 'rotate(45deg) translateY(6px)' : 'none'
               }}
@@ -240,7 +241,7 @@ export const Navigation: React.FC<NavigationProps> = ({ showName = true }) => {
                 display: 'block',
                 width: '100%',
                 height: '2px',
-                backgroundColor: '#FFFFFF',
+                backgroundColor: colors.bgSecondary,
                 transition: 'all 0.3s ease',
                 opacity: mobileMenuOpen ? 0 : 1
               }}
@@ -250,7 +251,7 @@ export const Navigation: React.FC<NavigationProps> = ({ showName = true }) => {
                 display: 'block',
                 width: '100%',
                 height: '2px',
-                backgroundColor: '#FFFFFF',
+                backgroundColor: colors.bgSecondary,
                 transition: 'all 0.3s ease',
                 transform: mobileMenuOpen ? 'rotate(-45deg) translateY(-6px)' : 'none'
               }}
@@ -270,10 +271,10 @@ export const Navigation: React.FC<NavigationProps> = ({ showName = true }) => {
             maxWidth: '200px',
             width: 'auto',
             minWidth: '180px',
-            backgroundColor: '#ff0000', // Pihla Folk red
+            backgroundColor: colors.accentPrimary, // Pihla Folk red
             borderRadius: '8px',
-            boxShadow: '0 8px 24px rgba(0, 0, 0, 0.4)',
-            border: '1px solid rgba(255, 255, 255, 0.2)',
+            boxShadow: '0 8px 24px rgba(12, 12, 12, 0.4)',
+            border: '1px solid rgba(244, 244, 244, 0.2)',
             marginTop: '0.5rem',
             overflow: 'hidden',
             zIndex: 100
@@ -295,20 +296,20 @@ export const Navigation: React.FC<NavigationProps> = ({ showName = true }) => {
                     onClick={() => setMobileMenuOpen(false)}
                     style={{
                       display: 'block',
-                      color: '#FFFFFF',
+                      color: colors.bgPrimary,
                       textDecoration: 'none',
                       fontSize: '1rem',
                       fontWeight: isActive ? 600 : 500,
                       padding: '0.875rem 1.5rem',
                       transition: 'all 0.2s ease',
-                      borderLeft: isActive ? '3px solid #FFFFFF' : '3px solid transparent',
-                      textShadow: '1px 1px 2px rgba(0,0,0,0.3)',
-                      backgroundColor: isActive ? 'rgba(0, 0, 0, 0.2)' : 'transparent'
+                      borderLeft: isActive ? `3px solid ${colors.bgPrimary}` : '3px solid transparent',
+                      textShadow: '1px 1px 2px rgba(12,12,12,0.3)',
+                      backgroundColor: isActive ? 'rgba(12, 12, 12, 0.2)' : 'transparent'
                     }}
                     onMouseEnter={(e) => {
                       if (!isActive) {
-                        e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.2)';
-                        e.currentTarget.style.borderLeftColor = '#FFFFFF';
+                        e.currentTarget.style.backgroundColor = 'rgba(244, 244, 244, 0.2)';
+                        e.currentTarget.style.borderLeftColor = colors.bgPrimary;
                         e.currentTarget.style.paddingLeft = '1.75rem';
                       }
                     }}
@@ -325,7 +326,7 @@ export const Navigation: React.FC<NavigationProps> = ({ showName = true }) => {
                 </li>
               );
             })}
-            <li style={{ padding: '0.875rem 1.5rem', borderTop: '1px solid rgba(255, 255, 255, 0.2)' }}>
+            <li style={{ padding: '0.875rem 1.5rem', borderTop: '1px solid rgba(244, 244, 244, 0.2)' }}>
               <LanguageSwitcher />
             </li>
           </ul>

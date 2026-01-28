@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ACTIVE_PALETTE } from '../styles/colorPalettes';
+import { PIHLA_FOLK_PALETTE } from '../styles/colorPalettes';
 import { Navigation } from '../components/Navigation';
 import { useScreenSize } from '../hooks/useScreenSize';
 import { useContentData } from '../hooks/useContentData';
@@ -40,7 +40,8 @@ interface GalleryContent {
 }
 
 export const GalleryPage: React.FC = () => {
-  const palette = ACTIVE_PALETTE;
+  const palette = PIHLA_FOLK_PALETTE;
+  const colors = PIHLA_FOLK_PALETTE.colors;
   const { isMobile, isTablet } = useScreenSize();
   const [selectedImage, setSelectedImage] = useState<GalleryImage | null>(null);
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
@@ -62,7 +63,7 @@ export const GalleryPage: React.FC = () => {
           alignItems: 'center',
           justifyContent: 'center',
           minHeight: '100vh',
-          color: '#FFFFFF'
+          color: colors.bgPrimary
         }}>
           {t.common.loading}
         </div>
@@ -112,7 +113,7 @@ export const GalleryPage: React.FC = () => {
           style={{
             position: 'fixed',
             inset: 0,
-            backgroundColor: 'rgba(255, 255, 255, 0.35)',
+            backgroundColor: 'rgba(244, 244, 244, 0.35)',
             zIndex: -2
           }}
         />
@@ -213,18 +214,18 @@ export const GalleryPage: React.FC = () => {
                 borderRadius: '8px',
                 overflow: 'hidden',
                 backgroundColor: palette.colors.bgSecondary,
-                boxShadow: '0 4px 12px rgba(0,0,0,0.1)',
+                boxShadow: '0 4px 12px rgba(12,12,12,0.1)',
                 transition: 'all 0.3s ease'
               }}
               onMouseEnter={(e) => {
                 setHoveredIndex(index);
                 e.currentTarget.style.transform = 'translateY(-8px)';
-                e.currentTarget.style.boxShadow = '0 12px 24px rgba(0,0,0,0.2)';
+                e.currentTarget.style.boxShadow = '0 12px 24px rgba(12,12,12,0.2)';
               }}
               onMouseLeave={(e) => {
                 setHoveredIndex(null);
                 e.currentTarget.style.transform = 'translateY(0)';
-                e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.1)';
+                e.currentTarget.style.boxShadow = '0 4px 12px rgba(12,12,12,0.1)';
               }}
             >
               <img
@@ -246,8 +247,8 @@ export const GalleryPage: React.FC = () => {
                   left: 0,
                   right: 0,
                   padding: '1rem',
-                  background: 'linear-gradient(to top, rgba(0,0,0,0.8) 0%, transparent 100%)',
-                  color: '#FFFFFF',
+                  background: 'linear-gradient(to top, rgba(12,12,12,0.8) 0%, transparent 100%)',
+                  color: colors.bgPrimary,
                   fontSize: '0.875rem',
                   opacity: hoveredIndex === index ? 1 : 0,
                   transition: 'opacity 0.3s ease'
@@ -270,7 +271,7 @@ export const GalleryPage: React.FC = () => {
             position: 'fixed',
             inset: 0,
             zIndex: 1000,
-            backgroundColor: 'rgba(0, 0, 0, 0.95)',
+            backgroundColor: 'rgba(12, 12, 12, 0.95)',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
@@ -285,9 +286,9 @@ export const GalleryPage: React.FC = () => {
               position: 'absolute',
               top: '1rem',
               right: '1rem',
-              background: 'rgba(255, 255, 255, 0.2)',
-              border: '2px solid #FFFFFF',
-              color: '#FFFFFF',
+              background: 'rgba(244, 244, 244, 0.2)',
+              border: `2px solid ${colors.bgPrimary}`,
+              color: colors.bgPrimary,
               fontSize: '2rem',
               width: '50px',
               height: '50px',
@@ -301,10 +302,10 @@ export const GalleryPage: React.FC = () => {
               lineHeight: 1
             }}
             onMouseEnter={(e) => {
-              e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.3)';
+              e.currentTarget.style.backgroundColor = 'rgba(244, 244, 244, 0.3)';
             }}
             onMouseLeave={(e) => {
-              e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.2)';
+              e.currentTarget.style.backgroundColor = 'rgba(244, 244, 244, 0.2)';
             }}
           >
             ×
@@ -328,7 +329,7 @@ export const GalleryPage: React.FC = () => {
                 width: 'auto',
                 height: 'auto',
                 borderRadius: '4px',
-                boxShadow: '0 8px 32px rgba(0,0,0,0.5)'
+                boxShadow: '0 8px 32px rgba(12,12,12,0.5)'
               }}
             />
             {/* Caption and Download */}
@@ -336,7 +337,7 @@ export const GalleryPage: React.FC = () => {
               style={{
                 marginTop: '1rem',
                 textAlign: 'center',
-                color: '#FFFFFF'
+                color: colors.bgPrimary
               }}
             >
               <p style={{ margin: '0.5rem 0', fontSize: '1.1rem', fontWeight: 600 }}>
@@ -352,24 +353,24 @@ export const GalleryPage: React.FC = () => {
                   display: 'inline-block',
                   marginTop: '1rem',
                   padding: '0.75rem 2rem',
-                  backgroundColor: 'rgba(255, 255, 255, 0.95)',
-                  color: '#1a1a1a',
+                  backgroundColor: 'rgba(244, 244, 244, 0.95)',
+                  color: colors.textPrimary,
                   textDecoration: 'none',
                   borderRadius: '4px',
                   fontSize: '1rem',
                   fontWeight: 600,
                   transition: 'all 0.3s ease',
-                  boxShadow: '0 4px 12px rgba(0,0,0,0.3)'
+                  boxShadow: '0 4px 12px rgba(12,12,12,0.3)'
                 }}
                 onMouseEnter={(e) => {
-                  e.currentTarget.style.backgroundColor = '#FFFFFF';
+                  e.currentTarget.style.backgroundColor = colors.bgSecondary;
                   e.currentTarget.style.transform = 'translateY(-2px)';
-                  e.currentTarget.style.boxShadow = '0 6px 16px rgba(0,0,0,0.4)';
+                  e.currentTarget.style.boxShadow = '0 6px 16px rgba(12,12,12,0.4)';
                 }}
                 onMouseLeave={(e) => {
-                  e.currentTarget.style.backgroundColor = 'rgba(255, 255, 255, 0.95)';
+                  e.currentTarget.style.backgroundColor = 'rgba(244, 244, 244, 0.95)';
                   e.currentTarget.style.transform = 'translateY(0)';
-                  e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.3)';
+                  e.currentTarget.style.boxShadow = '0 4px 12px rgba(12,12,12,0.3)';
                 }}
               >
                 {t.gallery.downloadHighRes}

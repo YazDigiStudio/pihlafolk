@@ -1,5 +1,6 @@
 import React from "react";
 import { useContentData } from "../hooks/useContentData";
+import { PIHLA_FOLK_PALETTE } from '../styles/colorPalettes';
 
 interface SocialMedia {
   platform: "facebook" | "instagram" | "youtube" | "linkedin";
@@ -48,6 +49,7 @@ const getSocialIcon = (platform: string, size: number = 24) => {
 
 export const Footer: React.FC = () => {
   const data = useContentData<FooterContent>("footer.json");
+  const colors = PIHLA_FOLK_PALETTE.colors;
 
   if (!data) {
     return null;
@@ -56,7 +58,7 @@ export const Footer: React.FC = () => {
   return (
     <footer
       style={{
-        backgroundColor: "#000000",
+        backgroundColor: colors.textPrimary,
         padding: "2rem 1rem",
         marginTop: "auto"
       }}
@@ -76,7 +78,7 @@ export const Footer: React.FC = () => {
         <a
           href={`mailto:${data.email}`}
           style={{
-            color: "#FFFFFF",
+            color: colors.bgPrimary,
             textDecoration: "none",
             fontSize: "1rem"
           }}
@@ -107,7 +109,7 @@ export const Footer: React.FC = () => {
           target="_blank"
           rel="noopener noreferrer"
           style={{
-            color: "rgba(255, 255, 255, 0.5)",
+            color: "rgba(244, 244, 244, 0.5)",
             textDecoration: "none",
             fontSize: "0.75rem",
             marginTop: "1rem"

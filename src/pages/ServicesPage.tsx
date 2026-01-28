@@ -1,5 +1,5 @@
 import React from 'react';
-import { ACTIVE_PALETTE } from '../styles/colorPalettes';
+import { PIHLA_FOLK_PALETTE } from '../styles/colorPalettes';
 import { Navigation } from '../components/Navigation';
 import { useScreenSize } from '../hooks/useScreenSize';
 import { useContentData } from '../hooks/useContentData';
@@ -44,7 +44,8 @@ interface ServicesContent {
 }
 
 export const ServicesPage: React.FC = () => {
-  const palette = ACTIVE_PALETTE;
+  const palette = PIHLA_FOLK_PALETTE;
+  const colors = PIHLA_FOLK_PALETTE.colors;
   const { isMobile, isTablet } = useScreenSize();
   const data = useContentData<ServicesContent>('services.json');
   const t = useTranslations();
@@ -83,7 +84,7 @@ export const ServicesPage: React.FC = () => {
           position: 'relative',
           width: '100%',
           minHeight: '100vh',
-          backgroundColor: '#FFFFFF'
+          backgroundColor: colors.bgSecondary
         }}
       >
 
@@ -172,11 +173,11 @@ export const ServicesPage: React.FC = () => {
                     backgroundImage: 'url(/assets/pattern-bg.jpg)',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
-                    border: '1px solid rgba(255, 255, 255, 0.3)'
+                    border: '1px solid rgba(244, 244, 244, 0.3)'
                   }}
                   onMouseEnter={(e) => {
                     e.currentTarget.style.transform = 'translateY(-8px)';
-                    e.currentTarget.style.boxShadow = '0 12px 24px rgba(0,0,0,0.2)';
+                    e.currentTarget.style.boxShadow = '0 12px 24px rgba(12,12,12,0.2)';
                   }}
                   onMouseLeave={(e) => {
                     e.currentTarget.style.transform = 'translateY(0)';
@@ -188,7 +189,7 @@ export const ServicesPage: React.FC = () => {
                     style={{
                       position: 'absolute',
                       inset: 0,
-                      backgroundColor: 'rgba(255, 255, 255, 0.85)',
+                      backgroundColor: 'rgba(244, 244, 244, 0.85)',
                       zIndex: 0
                     }}
                   />

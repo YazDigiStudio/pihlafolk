@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { useScreenSize } from '../hooks/useScreenSize';
+import { PIHLA_FOLK_PALETTE } from '../styles/colorPalettes';
 
 /**
  * ImageCarousel - Coverflow-style carousel with blurred side images
@@ -25,6 +26,7 @@ export const ImageCarousel: React.FC<ImageCarouselProps> = ({
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
   const { isMobile } = useScreenSize();
+  const colors = PIHLA_FOLK_PALETTE.colors;
 
   const goToNext = useCallback(() => {
     setCurrentIndex((prev) => (prev + 1) % images.length);
@@ -81,7 +83,7 @@ export const ImageCarousel: React.FC<ImageCarouselProps> = ({
           width: isMobile ? '85%' : '70%',
           filter: 'none',
           zIndex: 10,
-          boxShadow: '0 20px 60px rgba(0, 0, 0, 0.5)'
+          boxShadow: '0 20px 60px rgba(12, 12, 12, 0.5)'
         };
       case 'next':
         return {
@@ -165,9 +167,9 @@ export const ImageCarousel: React.FC<ImageCarouselProps> = ({
           width: isMobile ? '36px' : '48px',
           height: isMobile ? '36px' : '48px',
           borderRadius: '50%',
-          border: '2px solid rgba(255, 255, 255, 0.8)',
-          backgroundColor: 'rgba(0, 0, 0, 0.4)',
-          color: '#FFFFFF',
+          border: '2px solid rgba(244, 244, 244, 0.8)',
+          backgroundColor: 'rgba(12, 12, 12, 0.4)',
+          color: colors.bgPrimary,
           fontSize: isMobile ? '1.2rem' : '1.5rem',
           cursor: 'pointer',
           display: 'flex',
@@ -178,11 +180,11 @@ export const ImageCarousel: React.FC<ImageCarouselProps> = ({
           opacity: isHovered ? 1 : 0.6
         }}
         onMouseEnter={(e) => {
-          e.currentTarget.style.backgroundColor = 'rgba(0, 0, 0, 0.7)';
+          e.currentTarget.style.backgroundColor = 'rgba(12, 12, 12, 0.7)';
           e.currentTarget.style.transform = 'translateY(-50%) scale(1.1)';
         }}
         onMouseLeave={(e) => {
-          e.currentTarget.style.backgroundColor = 'rgba(0, 0, 0, 0.4)';
+          e.currentTarget.style.backgroundColor = 'rgba(12, 12, 12, 0.4)';
           e.currentTarget.style.transform = 'translateY(-50%) scale(1)';
         }}
         aria-label="Previous slide"
@@ -200,9 +202,9 @@ export const ImageCarousel: React.FC<ImageCarouselProps> = ({
           width: isMobile ? '36px' : '48px',
           height: isMobile ? '36px' : '48px',
           borderRadius: '50%',
-          border: '2px solid rgba(255, 255, 255, 0.8)',
-          backgroundColor: 'rgba(0, 0, 0, 0.4)',
-          color: '#FFFFFF',
+          border: '2px solid rgba(244, 244, 244, 0.8)',
+          backgroundColor: 'rgba(12, 12, 12, 0.4)',
+          color: colors.bgPrimary,
           fontSize: isMobile ? '1.2rem' : '1.5rem',
           cursor: 'pointer',
           display: 'flex',
@@ -213,11 +215,11 @@ export const ImageCarousel: React.FC<ImageCarouselProps> = ({
           opacity: isHovered ? 1 : 0.6
         }}
         onMouseEnter={(e) => {
-          e.currentTarget.style.backgroundColor = 'rgba(0, 0, 0, 0.7)';
+          e.currentTarget.style.backgroundColor = 'rgba(12, 12, 12, 0.7)';
           e.currentTarget.style.transform = 'translateY(-50%) scale(1.1)';
         }}
         onMouseLeave={(e) => {
-          e.currentTarget.style.backgroundColor = 'rgba(0, 0, 0, 0.4)';
+          e.currentTarget.style.backgroundColor = 'rgba(12, 12, 12, 0.4)';
           e.currentTarget.style.transform = 'translateY(-50%) scale(1)';
         }}
         aria-label="Next slide"
@@ -247,12 +249,12 @@ export const ImageCarousel: React.FC<ImageCarouselProps> = ({
               borderRadius: '5px',
               border: 'none',
               backgroundColor: index === currentIndex
-                ? '#FFFFFF'
-                : 'rgba(255, 255, 255, 0.4)',
+                ? colors.bgPrimary
+                : 'rgba(244, 244, 244, 0.4)',
               cursor: 'pointer',
               transition: 'all 0.3s ease',
               padding: 0,
-              boxShadow: index === currentIndex ? '0 2px 8px rgba(0,0,0,0.3)' : 'none'
+              boxShadow: index === currentIndex ? '0 2px 8px rgba(12,12,12,0.3)' : 'none'
             }}
             aria-label={`Go to slide ${index + 1}`}
           />
@@ -266,8 +268,8 @@ export const ImageCarousel: React.FC<ImageCarouselProps> = ({
           bottom: '45px',
           left: '50%',
           transform: 'translateX(-50%)',
-          backgroundColor: 'rgba(0, 0, 0, 0.6)',
-          color: '#FFFFFF',
+          backgroundColor: 'rgba(12, 12, 12, 0.6)',
+          color: colors.bgPrimary,
           padding: '8px 20px',
           borderRadius: '20px',
           zIndex: 20,
