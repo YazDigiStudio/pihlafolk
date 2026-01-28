@@ -1,6 +1,8 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: YazDigiStudio/pihlafolk
   branch: main
+  auth_scope: user
 
 # Media configuration for Vite and Netlify
 # CMS uploads to public/uploads and references /uploads in JSON
@@ -28,6 +30,7 @@ collections:
           - {label: "Media Tyyppi", name: "mediaType", widget: "select", options: ["image", "video"], default: "image", hint: "Valitse kuva tai video"}
           - {label: "Hero Kuva", name: "mediaUrl", widget: "image", required: false, hint: "Lataa kuva (käytä kun Media Tyyppi = image)"}
           - {label: "Hero Video", name: "mediaVideoUrl", widget: "file", required: false, hint: "Lataa video (käytä kun Media Tyyppi = video)"}
+          - {label: "Näytä Logo", name: "showLogo", widget: "boolean", default: true, hint: "Näytä tai piilota logo hero-kuvan päällä"}
           - {label: "Logon sijainti vaaka", name: "logoPositionHorizontal", widget: "select", options: ["left", "right"], default: "left", hint: "Logon sijainti vasemmalla tai oikealla"}
           - {label: "Logon sijainti pysty", name: "logoPositionVertical", widget: "select", options: ["up", "middle", "down"], default: "middle", hint: "Logon sijainti ylhäällä, keskellä tai alhaalla"}
           - {label: "Näytä Nappi 1", name: "showButton1", widget: "boolean", default: true}
@@ -113,13 +116,6 @@ collections:
                     fields:
                       - {label: "Suomi", name: "fi", widget: "text"}
                       - {label: "Englanti", name: "en", widget: "text"}
-                  - label: "Rahoitus"
-                    name: "funding"
-                    widget: "object"
-                    required: false
-                    fields:
-                      - {label: "Suomi", name: "fi", widget: "list", field: {label: "Rahoittaja", name: "funder", widget: "string"}}
-                      - {label: "Englanti", name: "en", widget: "list", field: {label: "Funder", name: "funder", widget: "string"}}
                   - {label: "Linkki", name: "link", widget: "string"}
           - label: "Menneet tuotannot"
             name: "past"
@@ -148,13 +144,6 @@ collections:
                     fields:
                       - {label: "Suomi", name: "fi", widget: "text"}
                       - {label: "Englanti", name: "en", widget: "text"}
-                  - label: "Rahoitus"
-                    name: "funding"
-                    widget: "object"
-                    required: false
-                    fields:
-                      - {label: "Suomi", name: "fi", widget: "list", field: {label: "Rahoittaja", name: "funder", widget: "string"}}
-                      - {label: "Englanti", name: "en", widget: "list", field: {label: "Funder", name: "funder", widget: "string"}}
                   - {label: "Linkki", name: "link", widget: "string"}
 
       # MediaPage - Finnish
@@ -280,6 +269,7 @@ collections:
           - {label: "Media Type", name: "mediaType", widget: "select", options: ["image", "video"], default: "image", hint: "Choose image or video"}
           - {label: "Hero Image", name: "mediaUrl", widget: "image", required: false, hint: "Upload image (use when Media Type = image)"}
           - {label: "Hero Video", name: "mediaVideoUrl", widget: "file", required: false, hint: "Upload video (use when Media Type = video)"}
+          - {label: "Show Logo", name: "showLogo", widget: "boolean", default: true, hint: "Show or hide logo overlay on hero image"}
           - {label: "Logo Position Horizontal", name: "logoPositionHorizontal", widget: "select", options: ["left", "right"], default: "left", hint: "Logo position on left or right side"}
           - {label: "Logo Position Vertical", name: "logoPositionVertical", widget: "select", options: ["up", "middle", "down"], default: "middle", hint: "Logo position at top, middle, or bottom"}
           - {label: "Show Button 1", name: "showButton1", widget: "boolean", default: true}
@@ -365,13 +355,6 @@ collections:
                     fields:
                       - {label: "Finnish", name: "fi", widget: "text"}
                       - {label: "English", name: "en", widget: "text"}
-                  - label: "Funding"
-                    name: "funding"
-                    widget: "object"
-                    required: false
-                    fields:
-                      - {label: "Finnish", name: "fi", widget: "list", field: {label: "Funder", name: "funder", widget: "string"}}
-                      - {label: "English", name: "en", widget: "list", field: {label: "Funder", name: "funder", widget: "string"}}
                   - {label: "Link", name: "link", widget: "string"}
           - label: "Past Productions"
             name: "past"
@@ -400,13 +383,6 @@ collections:
                     fields:
                       - {label: "Finnish", name: "fi", widget: "text"}
                       - {label: "English", name: "en", widget: "text"}
-                  - label: "Funding"
-                    name: "funding"
-                    widget: "object"
-                    required: false
-                    fields:
-                      - {label: "Finnish", name: "fi", widget: "list", field: {label: "Funder", name: "funder", widget: "string"}}
-                      - {label: "English", name: "en", widget: "list", field: {label: "Funder", name: "funder", widget: "string"}}
                   - {label: "Link", name: "link", widget: "string"}
 
       # MediaPage - English

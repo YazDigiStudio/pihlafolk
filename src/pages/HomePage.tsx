@@ -31,6 +31,7 @@ interface HomeContent {
   mediaType?: 'image' | 'video';
   mediaUrl?: string;
   mediaVideoUrl?: string;
+  showLogo?: boolean;
   logoPositionHorizontal?: 'left' | 'right';
   logoPositionVertical?: 'up' | 'middle' | 'down';
   additionalText?: string;
@@ -183,7 +184,7 @@ export const HomePage: React.FC = () => {
                 ) : null}
 
                 {/* Logo overlay */}
-                {(data.mediaUrl || data.mediaVideoUrl) && (() => {
+                {data.showLogo !== false && (data.mediaUrl || data.mediaVideoUrl) && (() => {
                   const horizontal = data.logoPositionHorizontal || 'left';
                   const vertical = data.logoPositionVertical || 'middle';
 
