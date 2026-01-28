@@ -93,10 +93,10 @@ export const Navigation: React.FC<NavigationProps> = ({ showName = true }) => {
           left: 0,
           right: 0,
           zIndex: 100,
-          backgroundColor: 'rgba(12, 12, 12, 0.95)',
+          backgroundColor: colors.accentTertiary + "CC", // Slightly transparent
           backdropFilter: 'blur(10px)',
           WebkitBackdropFilter: 'blur(10px)',
-          borderBottom: '1px solid rgba(244, 244, 244, 0.1)'
+          borderBottom: '1px solid rgba(12, 12, 12, 0.1)'
         }}
       >
       <nav
