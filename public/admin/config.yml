@@ -1,8 +1,6 @@
 backend:
-  name: github
-  repo: YazDigiStudio/pihlafolk
+  name: git-gateway
   branch: main
-  auth_scope: public_repo
 
 # Media configuration for Vite and Netlify
 # CMS uploads to public/uploads and references /uploads in JSON
