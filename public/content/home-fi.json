@@ -2,6 +2,7 @@
   "showButton1": true,
   "showButton2": true,
   "showMedia": true,
+  "showLogo": false,
   "ctaButton1Link": "/tuotannot",
   "ctaButton2Link": "/tietoa",
   "logoPositionVertical": "middle",
@@ -16,13 +17,13 @@
       "maxTextLength": 300
     }
   ],
-  "additionalText": "Hyvä tietämys ja tuntemus perinteistä, sensitiivinen työskentelyote ja monipuoliset verkostot auttavat toimimaan ylirajaisten ja myös kiistanalaistenkin perinteiden kanssa onnistuneesti.\n\nSuomalais-ugrilaisuus on oleellinen, laajempi maailma. pihla folkin arvomaailma kumpuaa näistä juurista haastaen aikamme yksilökeskeistä ja tempovaa ihmis- ja maailmankuvaa.",
+  "additionalText": "suomalais-ugrilaisuus on oleellinen, laajempi maailma. pihla folkin arvomaailma kumpuaa näistä juurista haastaen aikamme yksilökeskeistä ja tempovaa ihmis- ja maailmankuvaa.",
   "subtitle": "kansanmusiikin ja -perinteen pioneeri vuodesta 2002",
   "mediaVideoUrl": "",
   "logoPositionHorizontal": "left",
   "ctaButton1Text": "Tuotannot",
   "heroParagraph1": "pihla folk on kansanmusiikin ja -perinteen pioneeritoimijoita luovalla tuotanto- ja välittäjätoiminnallaan.",
   "ctaButton2Text": "Tietoa meistä",
-  "heroParagraph2": "Keskitymme itämerensuomalaisiin perinteisiin ja kieliin Karjala-painotuksella. Moderniin toimintaamme mahtuvat niin akustinen ja arkaainen musiikki kuin fuusiokin.",
+  "heroParagraph2": "vuonna 2022 perustettu pihla folk on syntynyt itämerensuomalaisista perinteistä ja kielistä Karjala-painotuksella. moderniin toimintaan mahtuvat niin akustinen, arkaainen kuin genrejenvälinen musiikki.",
   "mediaType": "image"
 }
