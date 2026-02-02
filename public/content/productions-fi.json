@@ -31,6 +31,20 @@
           "en": "Hanni Autere, Juulia Björn, Charlotta Hagfors, Emilia Kallonen, Anna E. Karvonen, Amanda Kauranne, Ilona Korhonen, Emmi Kuittinen, Pia Rask, Ulla Silvennoinen, Anni Tolvanen, Mira Törmälä"
         },
         "year": "2024-"
+      },
+      {
+        "status": "ongoing",
+        "subtitle": " ",
+        "title": "menossa olevat toimeksiannot ",
+        "type": "project",
+        "link": "https://vilmatalvitie7.webnode.fi",
+        "id": "toimeksiannot",
+        "image": " ",
+        "description": {
+          "fi": "Vilma Talvitien Olio Alien -albumijulkaisukiertueen tuotanto",
+          "en": "  "
+        },
+        "year": "2026"
       }
     ]
   },
@@ -66,15 +80,15 @@
       {
         "title": "Itämerensuomalaisen konserttisarja Lönnrotin terassilla ",
         "description": {
-          "fi": "Ohjelmayhteistyö Helsingin kaupunkitilojen kanssa kesällä 2025 - kuratointi & tuotanto",
-          "en": " "
+          "fi": "Ohjelmayhteistyö Helsingin kaupunkitilojen kanssa kesällä 2025 - kuratointi & tuotanto\n\nElias Lönnrotin patsas Helsingissä sai Helsingin kaupunkitilojen terassikokeilun myötä ympärilleen läpi kesän jatkuvat puutarhajuhlat. Lönnrotin terassi teki puiston historiallista menneisyyttä eläväksi ja näkyväksi kaupunkilaisille.\n\npihla folk oli mukana kolmella Mari Pääkkösen kuratoimalla konsertilla – Laulettu Kalevala, Duo Ruut (Viro) sekä Sattuma duo – osana 5-osaista konserttisarjaa. Näissä konserteissa näkyivät ja kuuluivat itämerensuomalaisten musiikki- ja kulttuuriperinteiden ylirajaisuus sekä sukukansojen läheisyys ja välisyys suomalaisten, karjalaisten ja virolaisten esittäminä eri kielineen ja murteineen. Kuratoitujen konserttien aikana tulevat tutuiksi muun muassa karjalais-suomalainen Kalevala-eepos sekä itämerensuomalaiselle alueelle leimalliset runolaulu, kansanrunous ja perinnesoittimista kantele ja jouhikko.\n\npihla folkin kuratoimat konsertit Lönnrotin terassilla olivat:\n10.7. Laulettu Kalevala\n23.7. virolainen Duo Ruut Ilmateade-albumin julkaisukonsertillaan\n- konsertin yhteistyökumppanina oli Viron Suomen-suurlähetystö\n16.8. päättäjäiset\nSattuma duo - lisäksi esiintymässä oli Pekko Käppi, soolo\n\nAvajaisissa 12.6. esiintyi Timo Kaukolampi x Tuomas Toivonen, ja 26.6. Dänkki Briha.",
+          "en": "  "
         },
-        "image": "/uploads/img_6409.heic",
+        "image": "/uploads/img_6409.jpeg",
         "id": "lönnrotin-puistikko",
         "type": "project",
         "status": "completed",
         "year": "2025",
-        "link": " "
+        "link": "  "
       },
       {
         "status": "completed",
@@ -85,10 +99,10 @@
         "id": "toimeksiannot",
         "image": "/uploads/yksitoista-ihmisen-kuvaa-3000x3000px.jpg",
         "description": {
-          "fi": "lmastoitku (Eila Hartikainen) -tilaustyö, tuotanto 2024-2025 *ehdokkuus Kuorogaalassa Vuoden tapaukseksi 2025\n\nAlbumitiedotuksia kotimaassa ja/tai kansainvälisesti\nHurja Halla: Surma hiihti 2025 | Kalle Vainio: The Land Where It Always Rains – Musiikkia sateesta. 2024 | Anna-Kaisa Liedes & Heikki Laitinen: Musiikki elokuvasta 11 ihmisen kuvaa 2023-2024 | MeNaiset: Emyt 2023 | Hanna Ryynänen: Taite 2022",
+          "fi": "lmastoitku (Eila Hartikainen) -tilaustyö, tuotanto 2024-2025 *ehdokkuus Kuorogaalassa Vuoden tapaukseksi 2025\n\nAlbumitiedotuksia kotimaassa ja/tai kansainvälisesti\nHurja Halla: Surma hiihti 2025\nKalle Vainio: The Land Where It Always Rains – Musiikkia sateesta. 2024\nAnna-Kaisa Liedes & Heikki Laitinen: Musiikki elokuvasta 11 ihmisen kuvaa 2023-2024\nMeNaiset: Emyt 2023\nHanna Ryynänen: Taite 2022",
           "en": "  "
         },
-        "year": " "
+        "year": " 2022-2025"
       }
     ]
   }
