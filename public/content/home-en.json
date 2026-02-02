@@ -1,18 +1,19 @@
 {
   "showButton1": true,
   "showButton2": true,
+  "showMedia": true,
+  "showLogo": true,
   "ctaButton1Link": "/tuotannot",
   "ctaButton2Link": "/tietoa",
+  "logoPositionVertical": "up",
   "name": "pihla folk",
-  "subtitle": "pioneering folk music and traditions since 2002",
-  "ctaButton1Text": "Productions",
-  "heroParagraph1": "pihla folk is a pioneer in folk music and traditions through creative production and promotion activities.",
-  "ctaButton2Text": "About Us",
-  "heroParagraph2": "We focus on Baltic Finnic traditions and languages with an emphasis on Karelia. Our modern approach encompasses both acoustic and archaic music as well as fusion.",
-  "showMedia": true,
-  "mediaType": "image",
   "mediaUrl": "/uploads/home/hero-image.jpg",
+  "additionalText": "Finno-Ugric heritage also forms an important, broader dimension of pihla folk’s work. its value base grows from these roots, challenging the individual-centered and fast-paced worldview that characterizes our time.",
+  "subtitle": "pioneering folk music and traditions since 2002",
   "logoPositionHorizontal": "left",
-  "logoPositionVertical": "middle",
-  "additionalText": "Our deep knowledge and understanding of traditions, sensitive working approach, and diverse networks help us work successfully with cross-border and even controversial traditions.\n\nFinno-Ugric culture is an essential, broader world. pihla folk's values stem from these roots, challenging our era's individualistic and fast-paced view of humanity and the world."
+  "ctaButton1Text": "Productions",
+  "heroParagraph1": "pihla folk is a pioneering actor in folk music and tradition through its creative production and acengy work.",
+  "ctaButton2Text": "About Us",
+  "heroParagraph2": "founded in 2022, pihla folk is rooted in Baltic-Finnic traditions and languages, with a particular emphasis on Karelia. its modern activities encompass archaic and acoustic expressions as well as cross-genre music.",
+  "mediaType": "image"
 }
