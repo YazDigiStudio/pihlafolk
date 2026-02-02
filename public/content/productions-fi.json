@@ -13,24 +13,24 @@
         "year": "2020-",
         "image": "/uploads/productions/laulettu-kalevala.jpg",
         "description": {
-          "fi": "Laulettu Kalevala on pitkäkestoinen äänikirjaprojekti, joka tuo Kalevalan runot eloon perinteisen kansanmusiikin ja -laulun keinoin.",
+          "fi": "Laulettu Kalevala -äänikirjassa nimensä mukaisesti lauletaan karjalais-suomalainen eepos (1849) läpi eri kansansävelmin.\n\nÄänikirjan ensimmäinen jakso julkaistiin digitaalisesti Kalevalan päivänä, 28.2.2023.\nJatkoa seuraa digitaalisesti vuonna 2026!\n2. jakso julkaistaan Kalevalan päivänä, 28. helmikuuta\n3. ja viimeinen jakso Runolaulupäivänä, 25. huhtikuuta\n\n1. jakso on kuultavissa etno.net-sivustolla: https://etno.net/julk…/aanitteet/laulettu-kalevala-jakso-1-3\n\nLauletun Kalevalan YouTube-tili on remontissa teknisistä syistä johtuen tällä hetkellä, mutta palaa käyttöön mahdollisimman pian.\n\nOn oleellista tuoda Elias Lönnrotin karjalaisten, suomalaisten ja inkeriläisten runojen pohjalle ja pohjalta luoma Kalevala kuultavaksi ja laulettavaksi juuri runolaulettuna, koska siitähän eepoksessa on kysymys. Kalevalaa voi olla haastavaa lukea, mutta laulun kautta sen voi kokea uudella tavalla.\n\nRunolaulu ehti välillä jo lähes sammua, mutta sitä on onnistuttu elvyttämään menestyksekkäästi viime vuosikymmeninä. Osaa näistä elvyttäjistä kuullaan tässä äänikirjassa. Hankkeen yhtenä ideana onkin, että tutun eepoksen kautta koko laaja itämerensuomalainen runolaulumaailma ja kansanrunous aukeaisivat kuulijalleen.\n\nTyöryhmä\nRunolaulajat & lukija:\nÄäniteatteri Iki-Turso: Eila Hartikainen, Taito Hoffrén, Maari Kallberg, Ilona Korhonen, Heikki Laitinen & Anna-Kaisa Liedes\nVisuaalinen suunnittelija: Tatu Rouvinen\nÄänitys, editointi & masterointi: Taito Hoffrén & Alec Havinmaa\nHankkeen koollekutsuja, tuottaja & julkaisija: Mari Pääkkönen / pihla folk\n\nLaulettu Kalevala -äänikirja on osa Taideyliopiston Sibelius-Akatemian Kansanmusiikin aineryhmän äänitesarjaa\n\nÄänikirjan lopputuotantoa ja julkaisemista rahoittaa vuonna 2026 Kalevalaseura\n\nHanketta kokonaisuudessaan rahoittivat vuosina 2021-2023: Jenny ja Antti Wihurin rahasto, Kalevalaseura, Suomen Kulttuurirahasto, Niilo Helanderin rahasto, Taiteen edistämiskeskus ",
           "en": "Sung Kalevala is a long-term audiobook project that brings the poems of Kalevala to life through traditional folk music and singing."
         },
-        "link": ""
+        "link": "https://linktr.ee/laulettu_kalevala"
       },
       {
-        "id": "piot",
-        "title": "Ilona Korhonen Ensemble: Piot",
-        "subtitle": "The Feast",
-        "type": "performance",
         "status": "ongoing",
-        "year": "2024-",
+        "subtitle": "The Feast",
+        "title": "Ilona Korhonen Ensemble: Piot",
+        "type": "performance",
+        "link": " ",
+        "id": "piot",
         "image": "/uploads/productions/piot.jpg",
         "description": {
-          "fi": "Ilona Korhonen Ensemblen Piot-teos on taiteilija Ilona Korhosen johdolla toteutettava pohjoiskarjalaista perinnettä hyödyntävä esitysteos.",
-          "en": "Ilona Korhonen Ensemble's Piot is a performance work led by artist Ilona Korhonen, utilizing North Karelian traditions."
+          "fi": "Piot kuvaa itämerensuomalaisten kansojen tekstien pohjalta riemukkaiden juhlien viettoa. Teos on itsessään pienet juhlat, pidot, mutta samalla se on suurta naisäänen juhlaa.\n\nKansanmusiikille omistautunut monipuolinen muusikko, musiikin tohtori, kansanmusiikin dosentti, taiteilijaprofessori Ilona Korhonen on säveltänyt ja sovittanut vanhojen Itämeren alueen laulutavoille ja perinneteksteille uskollisen naiskuoroteoksen, jossa soi itämerensuomalaisen laulutavan tukkia tutisuttava voima.\n\nPiot sai kantaesityksensä Tampereen Sävel – kuoro- ja lauluyhtyetapahtuman tilausteoksena kesäkuussa 2023. Vuonna 2026 pihla folk julkaisee teoksesta albumin.\n\nEnsemblen kaikki laulajat ovat ammattimuusikoita, kansanlaulajia, musiikin maistereita ja tohtoreita:\nHanni Autere, Juulia Björn, Charlotta Hagfors, Emilia Kallonen, Anna E. Karvonen, Amanda Kauranne, Ilona Korhonen, Emmi Kuittinen, Pia Rask, Ulla Silvennoinen, Anni Tolvanen, Mira Törmälä",
+          "en": "Hanni Autere, Juulia Björn, Charlotta Hagfors, Emilia Kallonen, Anna E. Karvonen, Amanda Kauranne, Ilona Korhonen, Emmi Kuittinen, Pia Rask, Ulla Silvennoinen, Anni Tolvanen, Mira Törmälä"
         },
-        "link": ""
+        "year": "2024-"
       }
     ]
   },
@@ -41,21 +41,54 @@
     },
     "productions": [
       {
-        "id": "terveh-viro",
+        "status": "completed",
         "title": "Terveh Viro!",
         "type": "project",
-        "status": "completed",
-        "year": "2023",
-        "image": "",
+        "link": " ",
+        "id": "terveh-viro",
+        "image": "/uploads/img_4039.jpeg",
         "description": {
-          "fi": "Kansainvälisen suomalais-ugrilaisen yhteistyön aloittaminen Virossa yhdessä Sattuma duon kanssa. Rahoitus: Opetus- ja kulttuuriministeriö, Musiikin edistämissäätiö.",
-          "en": "Starting international Finno-Ugric cooperation in Estonia together with Sattuma duo. Funding: Ministry of Education and Culture, Music Promotion Foundation."
+          "fi": "Kansainvälisen suomalais-ugrilaisen yhteistyön aloittaminen Virossa yhdessä Sattuma duon kanssa. Rahoitus: Opetus- ja kulttuuriministeriö, Musiikin edistämissäätiö",
+          "en": "Starting international Finno-Ugric cooperation in Estonia together with Sattuma duo. Funding: Ministry of Education and Culture, Music Promotion Foundation"
         },
+        "year": "2023",
         "funding": {
-          "fi": ["Opetus- ja kulttuuriministeriö", "Musiikin edistämissäätiö"],
-          "en": ["Ministry of Education and Culture", "Music Promotion Foundation"]
+          "fi": [
+            "Opetus- ja kulttuuriministeriö",
+            "Musiikin edistämissäätiö"
+          ],
+          "en": [
+            "Ministry of Education and Culture",
+            "Music Promotion Foundation"
+          ]
+        }
+      },
+      {
+        "title": "Itämerensuomalaisen konserttisarja Lönnrotin terassilla ",
+        "description": {
+          "fi": "Ohjelmayhteistyö Helsingin kaupunkitilojen kanssa kesällä 2025 - kuratointi & tuotanto",
+          "en": " "
         },
-        "link": ""
+        "image": "/uploads/img_6409.heic",
+        "id": "lönnrotin-puistikko",
+        "type": "project",
+        "status": "completed",
+        "year": "2025",
+        "link": " "
+      },
+      {
+        "status": "completed",
+        "subtitle": " ",
+        "title": "menneet toimeksiannot & tilaustyöt ",
+        "type": "project",
+        "link": "  ",
+        "id": "toimeksiannot",
+        "image": "/uploads/yksitoista-ihmisen-kuvaa-3000x3000px.jpg",
+        "description": {
+          "fi": "lmastoitku (Eila Hartikainen) -tilaustyö, tuotanto 2024-2025 *ehdokkuus Kuorogaalassa Vuoden tapaukseksi 2025\n\nAlbumitiedotuksia kotimaassa ja/tai kansainvälisesti\nHurja Halla: Surma hiihti 2025 | Kalle Vainio: The Land Where It Always Rains – Musiikkia sateesta. 2024 | Anna-Kaisa Liedes & Heikki Laitinen: Musiikki elokuvasta 11 ihmisen kuvaa 2023-2024 | MeNaiset: Emyt 2023 | Hanna Ryynänen: Taite 2022",
+          "en": "  "
+        },
+        "year": " "
       }
     ]
   }
