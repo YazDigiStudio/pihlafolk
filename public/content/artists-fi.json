@@ -1,19 +1,19 @@
 {
   "artists": [
     {
-      "excerpt": "FRÄNDER nousi esiin kuin salama — pohjoismaisten juurien ja modernin asenteen fuusio synnytti heavy folkin. Ruotsin ja Viron syvistä metsistä ponnistava yhtye tuo mukanaan energiaa ja lämpimän läsnäolon; he tarjoavat raskaita grooveja ja vietteleviä harmonioita, jotka punovat hypnoottisen äänimaiseman. ",
-      "bio": "Yhtye on tällä hetkellä yksi Ruotsin suurimmista kansanmusiikin vientivalteista.\n\n“FRÄNDER II on täydellinen, upea mestariteos” – LIRA.se\n\nhttps://www.frander.se/\n",
-      "name": "FRÄNDER",
+      "excerpt": "Kazakstanilainen perinne ja paimentolaiskulttuuri kohtaa modernin suomalaisen musiikin",
+      "bio": "Aizhan Sultan on Suomessa asuva laulaja, lauluntekijä ja tohtorikoulutettava, joka on alunperin kotoisin Kazakstanista. Hänen taiteensa heijastaa matkaansa ympäri maailmaa sekä hänen sisäisiä poliittisia ja sosiaalisia kokemuksiaan.\n\nAizhanin työ keskittyy Keski-Aasian dekolonisaation ja radikaalin inkluusion teemoihin. Akondroplasiaa sairastavana naisena hänellä on läheinen suhde valtaan sorron lähteenä, mutta myös solidaarisuuteen ja taiteeseen vapauttavana voimana.\n\nPerinteinen kazakstanilainen improvisoitu laulu, kurkkulaulu ja shanqobyzin (munniharppu) ääni yhdistyvät Saku Liimataisen live-elektroniikkaan, joka tuo suomalaisen musiikin modernia sointia kazakkien paimentolaiskulttuuriin.\n\nHänen päätavoitteensa on tuoda Keski-Aasian, erityisesti Kazakstanin, musiikki, taide ja historia kansainvälisen yleisön ulottuville ja tehdä niistä saavutettavia.",
+      "name": "Aizhan Sultan",
       "featured": true,
-      "order": 1,
-      "type": "booking",
-      "website": "https://www.frander.se/",
-      "id": "frander",
-      "image": "/uploads/test.jpg"
+      "order": 4,
+      "type": "management",
+      "website": "https://yazzo.io",
+      "id": "aizhan-sultan",
+      "image": "/uploads/artists/aizhan-sultan.jpg"
     },
     {
-      "excerpt": "Ensemble Gamut! is a fresh, experimental collective of early music and folk music specialists, constantly searching for new ways to perform early music. Led by Aino Peltomaa, they combine medieval music with Finnish folk songs.",
-      "bio": "Ensemble Gamut! is a fresh, experimental collective of early music and folk music specialists, who are constantly searching for new ways to perform early music. Led by Aino Peltomaa, they have created their unique sound by combining and daringly rearranging elements from medieval music and Finnish folk songs with improvisation and electronic soundscapes.\n\nThe name of the ensemble is derived from medieval music theory (Guido of Arezzo), but also means a colour reproduction, a subset of colours. Kamut means \"friends\" in Finnish, and the word Kamu is also short for \"kansanmusiikki\", meaning folk music.\n\nMI, the third album of Ensemble Gamut! weaves together medieval repertoire with Peltomaa's own compositions and texts inspired by Arctic endangered flowers. Their sophomore album RE was nominated in the Finnish music awards Emma Gaala (\"Ethno of the year\"). Their albums UT, RE and MI have attracted widespread interest among international music critics across genres, and have frequently been featured among the best albums in yearly listings of classical, early as well as progressive music.\n\nEnsemble Gamut!'s imaginative style has been described as \"refreshing, soothing, intriguing and enlightening\". Their acclaimed performances have enchanted audiences from club gigs to museums, medieval churches and concert halls.\n\nClassical:NEXT showcase artist 2024\nEmma Gaala (\"Ethno of the Year\") nomination 2024\nYLE (Finnish Broadcasting Company) record of the year nomination 2021\nEarly Music Achievement of the Year 2020 (Finnish Early Music Association)",
+      "excerpt": "uusia tapojen etsintää vanhalle musiikin esittämiselle",
+      "bio": "Aino Peltomaan luotsaama Ensemble Gamut! on noussut nopeasti yhdeksi Suomen kiinnostavimmista genrejen välimailla sulavasti liikkuvista yhtyeistä. Yhtye on luonut uniikin soundinsa yhdistämällä elementtejä keskiajan musiikista, suomalaisista kansansävelmistä, improvisaatiosta, omista sävellyksistä sekä elektronisista äänimaisemista.\n\nEnsemble Gamut!in kolme albumia ovat tuoneet tunnustuksia ja ylistäviä arvioita. Yhtye on esiintynyt laajalti niin festivaaleilla, klubikeikoilla, museoissa, keskiaikaisissa kirkoissa kuin konserttisaleissakin.\n\nAino Peltomaa I laulu, harppu, perkussiot, elektroniikka\nIlkka Heinonen I jouhikot, laulu, perkussiot, elektroniikka\nJuho Myllylä I nokkahuilut, laulu, elektroniikka\n\nVuonna 2026 Ensemble Gamut! on showcase-esiintyjänä Tallinn Music Week'illä, ja konsertoi niin Suomessa kuin Euroopassa.\n\nRondo-lehden lukijoiden albumi 2025: MI\nClassical:NEXT I showcase esiintyjä 2024\nEmma Gaala I Etno-Emma -ehdokkuus 2024: RE\nYLE I vuoden albumi ehdokkuus 2021: UT\nVuoden vanhan musiikin teko 2020 (Suomen vanhan musiikin liitto ry): UT ",
       "name": "Ensemble Gamut",
       "featured": true,
       "order": 2,
@@ -23,26 +23,37 @@
       "image": "/uploads/artists/ensemble-gamut.jpg"
     },
     {
-      "excerpt": "Dänkki Briha on etnofuturistinen bängerikone, joka inspiroituu inkeriläis-karjalais-suomalaisesta kansanperinteestä, myyteistä ja urbaanista estetiikasta. Se yhdistelee teatterillista ilmaisua ja futuristista äänimaisemaa.",
-      "bio": "Dänkki Briha on etnofuturistinen bängerikone, joka inspiroituu inkeriläis-karjalais-suomalaisesta kansanperinteestä, myyteistä ja urbaanista estetiikasta. Se yhdistelee teatterillista ilmaisua, ammoisia loruja ja futuristista äänimaisemaa.\n\nLappeenrantalais-helsinkiläisessä folktronica-yhtyeessä Juho Liiran ajattomat vokaalit, Matias Kontulan herkkä sähköviulu ja Manu Penttilän kokeellinen tuotanto luovat sykettä nostattavan kokonaisuuden, joka toimii niin levyltä kuin livenäkin. Lauluissa kuullaan niin Suomen kielen kaakkoismurretta kuin pienempiä lähisukukansojen kieliä ja murteita, muun muassa livvinkarjalaa ja vepsää.\n\nPsykedeelisen kansallisromanttinen debyyttialbumi Viipurin Kingpin julkaistiin kesäkuussa 2024 Sick Boogie Recordingsin kautta. Suosittu ja soitettu albumi vie kuulijat Laatokalta Saimaalle ja Lapista Viroon, matkalle, jossa menneisyys ja tulevaisuus kietoutuvat yhteen. Viimeisin EP, Future Kantele Hiisi Master, julkaistiin huhtikuussa 2025. Seuraava kokopitkä julkaistaan kesällä 2026, jolta kuullaan maistiaisia Lapin kiertueella.\n\nDänkki Briha sijoittui Marjut-kappaleellaan kolmanneksi Etno-Espan Kansanlaulu 2050 -biisikilpailussa 2024, ja esiintyi Kaustinen Showcasessa 2025.\n\n\"Musiikin sekä ilmaisun rajat ovat siis periaatteessa olemassa, mutta käytännössä en osaa sanoa, missä perinnetieto loppuu ja mistä moderni aika alkaa. Mikä osa tekstiä – jos mikään – on vuosisatojen takaista kansanrunoutta. Vaan ehkäpä tuntemattomuus, arvaamattomuus ja siten saavutettu vapaus ovat itsessään syy ja tarkoitus kuullulle äänitaiteelle. Sanat saavat uusia merkityksiä, ajat muuttuvat ja silti samanhenkiset ihmiset liikkuvat samoilla rannoilla.\" - Mika Roth / Desibeli Dänkki Brihan debyyttisinglestä Piikapaimen 2/2024",
+      "excerpt": "inkeriläis-karjalais-suomalaista kansanperinnettä ja myyttejä urbaanilla estetiikalla",
+      "bio": "Dänkki Briha on etnofuturistinen musiikkikollektiivi, joka inspiroituu inkeriläis-karjalais-suomalaisesta kansanperinteestä, myyteistä ja urbaanista estetiikasta. Se yhdistelee teatterillista ilmaisua, ammoisia loruja ja futuristista äänimaisemaa.\n\nLappeenrantalais-helsinkiläisessä yhtyeessä Juho Liiran ajattomat vokaalit, Matias Kontulan herkkä sähköviulu ja Manu Penttilän kokeellinen tuotanto luovat sykettä nostattavan kokonaisuuden, joka toimii niin levyltä kuin livenäkin. Lauluissa kuullaan niin Suomen kielen kaakkoismurretta kuin pienempiä lähisukukansojen kieliä ja murteita, muun muassa livvinkarjalaa ja vepsää.\n\nDebyyttialbumi Viipurin Kingpin (2024 Sick Boogie Recordings) on ollut suosittu ja soitettu albumi. Toisen albumin vuoro on kesällä 2026.\n\nDänkki Briha sijoittui Marjut-kappaleellaan kolmanneksi Etno-Espan Kansanlaulu 2050 -biisikilpailussa 2024, ja esiintyi Kaustinen Showcasessa 2025.",
       "name": "Dänkki Briha",
       "featured": true,
-      "order": 3,
+      "order": 4,
       "type": "booking",
       "website": "https://yazzo.io",
       "id": "dankki-briha",
       "image": "/uploads/artists/dankki-briha.jpg"
     },
     {
-      "excerpt": "Aizhan Sultan on Suomessa asuva laulaja, lauluntekijä ja tohtorikoulutettava, joka on alunperin kotoisin Kazakstanista. Hänen työ keskittyy Keski-Aasian dekolonisaation ja radikaalin inkluusion teemoihin.",
-      "bio": "Aizhan Sultan on Suomessa asuva laulaja, lauluntekijä ja tohtorikoulutettava, joka on alunperin kotoisin Kazakstanista. Hänen sävellyksensä ammentavat inspiraatiota kazakialaisesta perinteisestä ja modernista musiikista. Hänen taiteensa heijastaa hänen matkaansa ympäri maailmaa sekä hänen sisäisiä poliittisia ja sosiaalisia kokemuksiaan.\n\nAizhanin työ keskittyy Keski-Aasian dekolonisaation ja radikaalin inkluusion teemoihin. Akondroplasiaa sairastavana naisena hänellä on läheinen suhde valtaan sorron lähteenä, mutta myös solidaarisuuteen ja taiteeseen vapauttavana voimana. Perinteinen kazakialainen improvisoitu laulu, kurkkulaulu ja shanqobyzin (juuriharppu) ääni yhdistyvät live-elektroniikkaan. Live-elektroniikka tuo suomalaisen musiikin modernia sointia kazakkien paimentolaiskulttuuriin.\n\nHänen päätavoitteensa on tuoda Keski-Aasian, erityisesti Kazakstanin, musiikki ja taide kansainvälisen yleisön ulottuville ja tehdä niistä saavutettavia. Tekijä tarjoaa yleisölle mahdollisuuden tutustua syvemmin kazakkien taiteeseen ja historiaan. Aizhan Sultan saa inspiraatiota musiikkiinsa paimentolaiskulttuurin historiasta ja perinteistä, yhdistäen ne moderniin muotoon.",
-      "name": "Aizhan Sultan",
+      "excerpt": "raskaita grooveja ja vietteleviä harmonioita Ruotsin ja Viron syvistä metsistä  ",
+      "bio": "FRÄNDER nousi esiin kuin salama — pohjoismaisten juurien ja modernin asenteen fuusio synnytti heavy folkin. Ruotsin ja Viron syvistä metsistä ponnistava yhtye tuo mukanaan energiaa ja lämpimän läsnäolon; he tarjoavat raskaita grooveja ja vietteleviä harmonioita, jotka punovat hypnoottisen äänimaiseman. Yhtye on tällä hetkellä yksi Ruotsin suurimmista kansanmusiikin vientivalteista.\n\n“FRÄNDER II on täydellinen, upea mestariteos” – LIRA.se\n\nSom en blixt ur ett åskväder föddes FRÄNDER – nordiska rötter och modern attityd blev heavy folk. Med energi och varm närvaro levererar de tunga rytmer och förföriska harmonier som väver ett trollbindande ljudlandskap.\n\n\"FRÄNDER II är ett perfekt, magnifikt mästerverk\" - LIRA.se\n\nEfter deras hyllade debut och turnéer jorden runt tänjer bandets banbrytande andra album FRÄNDER II på gränserna för vad folkmusik kan vara – ekon av Led Zeppelin och Jethro Tull möter den nordiska traditionens puls och folkmusiken blandas med hårdrockens råa kraft och tyngd på ett unikt sätt. Resultatet är ett sound som är både uråldrigt och modernt, akustiskt men tungt, mystiskt men glödande levande.",
+      "name": "FRÄNDER",
       "featured": true,
-      "order": 4,
-      "type": "management",
-      "website": "https://yazzo.io",
-      "id": "aizhan-sultan",
-      "image": "/uploads/artists/aizhan-sultan.jpg"
+      "order": 5,
+      "type": "booking",
+      "website": "https://www.frander.se/",
+      "id": "frander",
+      "image": "/uploads/test.jpg"
+    },
+    {
+      "excerpt": "monitaideprojekti arktisista uhanalaisista kukista",
+      "bio": "Ensemble Gamut! feat. Vappu Rossi ja Tuomas Norvio\n\nArktisille uhanalaisille kukille omistetussa FLOS-konserttiohjelmassa saadaan nauttia uudenlaisesta live-elektroniikan mahdollisuuksista.\n\nNorvio efektoi reaaliajassa Vappu Rossin piirtämisen ääniä, jolloin arktisten kukkien inspiroimat sävelmät ja piirrokset sulautuvat äänimaailmaksi jossa ajan tasot, elävä, kuollut, historia, tämä hetki, menneisyys ja tulevaisuus resonoivat kaikki samanaikaisesti. Tässä FLOS-kvintettikokoonpanossa jokaisen konsertin aikana syntyy kuvataideteos!\n\nArktisten kukkalajien ympärille kietoutuva projekti yhdistää sekä ääni- että kuvataiteen kentällä uudella tavalla livepiirtämistä, musiikkia ja äänitaidetta. FLOS luo yhteyksiä kuvataiteen, äänitaiteen, vanhan musiikin, nykymusiikin ja kansanmusiikin leikkauspisteessä.",
+      "name": "FLOS",
+      "featured": false,
+      "order": 3,
+      "type": "booking",
+      "website": "https://ensemblegamut.com/flos/",
+      "id": "flos",
+      "image": "https://www.dropbox.com/scl/fo/e1zgwkzvliq1nx183qzvn/ANm5pqeNYlESKV8n4PKIJY0?dl=0&e=3&preview=FLOS_3_horizontal_Anna_Maria_Viksten.jpg&rlkey=0dqqzh5l4ohqr2n16oea2umlv&st=p2kg85za"
     }
   ]
 }
