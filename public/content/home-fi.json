@@ -2,10 +2,10 @@
   "showButton1": true,
   "showButton2": true,
   "showMedia": true,
-  "showLogo": false,
+  "showLogo": true,
   "ctaButton1Link": "/tuotannot",
   "ctaButton2Link": "/tietoa",
-  "logoPositionVertical": "middle",
+  "logoPositionVertical": "up",
   "name": "pihla folk",
   "mediaUrl": "/uploads/home/hero-image.jpg",
   "sections": [
