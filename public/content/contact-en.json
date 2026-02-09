@@ -2,16 +2,8 @@
   "email": "mari@pihlafolk.com",
   "socialMedia": [
     {
-      "platform": "facebook",
-      "url": "https://facebook.com/pihlafolk"
-    },
-    {
       "platform": "instagram",
       "url": "https://instagram.com/pihlafolk"
-    },
-    {
-      "platform": "linkedin",
-      "url": "https://linkedin.com/company/pihlafolk"
     },
     {
       "platform": "youtube",
@@ -22,6 +14,14 @@
     {
       "url": "https://www.pihlafolk.fi",
       "text": "www.pihlafolk.fi"
+    },
+    {
+      "url": "https://linktr.ee/pihlafolk?utm_source=linktree_profile_share&ltsid=54912ee6-a16a-4fa0-bb32-880e926f821e",
+      "text": "pihla folk's linktree"
+    },
+    {
+      "url": "https://pihlafolk.us21.list-manage.com/subscribe?u=518713c0b3e2633f467ace918&id=96f29866d5",
+      "text": "join pihla folk's newsletter"
     }
   ]
 }
