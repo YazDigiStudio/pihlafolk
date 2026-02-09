@@ -2,21 +2,21 @@
   "artists": [
     {
       "excerpt": "Kazakstanilainen perinne ja paimentolaiskulttuuri kohtaa modernin suomalaisen musiikin",
-      "bio": "Aizhan Sultan on Suomessa asuva laulaja, lauluntekijä ja tohtorikoulutettava, joka on alunperin kotoisin Kazakstanista. Hänen taiteensa heijastaa matkaansa ympäri maailmaa sekä hänen sisäisiä poliittisia ja sosiaalisia kokemuksiaan.\n\nAizhanin työ keskittyy Keski-Aasian dekolonisaation ja radikaalin inkluusion teemoihin. Akondroplasiaa sairastavana naisena hänellä on läheinen suhde valtaan sorron lähteenä, mutta myös solidaarisuuteen ja taiteeseen vapauttavana voimana.\n\nPerinteinen kazakstanilainen improvisoitu laulu, kurkkulaulu ja shanqobyzin (munniharppu) ääni yhdistyvät Saku Liimataisen live-elektroniikkaan, joka tuo suomalaisen musiikin modernia sointia kazakkien paimentolaiskulttuuriin.\n\nHänen päätavoitteensa on tuoda Keski-Aasian, erityisesti Kazakstanin, musiikki, taide ja historia kansainvälisen yleisön ulottuville ja tehdä niistä saavutettavia.",
+      "bio": "Aizhan Sultan on Suomessa asuva laulaja, lauluntekijä ja tohtorikoulutettava, joka on alunperin kotoisin Kazakstanista. Hänen taiteensa heijastaa matkaansa ympäri maailmaa sekä hänen sisäisiä poliittisia ja sosiaalisia kokemuksiaan. Aizhanin työ keskittyy Keski-Aasian dekolonisaation ja radikaalin inkluusion teemoihin. Akondroplasiaa sairastavana naisena hänellä on läheinen suhde valtaan sorron lähteenä, mutta myös solidaarisuuteen ja taiteeseen vapauttavana voimana.\n\nPerinteinen kazakstanilainen improvisoitu laulu, kurkkulaulu ja shanqobyzin (munniharppu) ääni yhdistyvät Saku Liimataisen live-elektroniikkaan, joka tuo suomalaisen musiikin modernia sointia kazakkien paimentolaiskulttuuriin.\n\nHänen päätavoitteensa on tuoda Keski-Aasian, erityisesti Kazakstanin, musiikki, taide ja historia kansainvälisen yleisön ulottuville ja tehdä niistä saavutettavia.",
       "name": "Aizhan Sultan",
       "featured": true,
-      "order": 4,
+      "order": 3,
       "type": "management",
       "website": "https://yazzo.io",
       "id": "aizhan-sultan",
       "image": "/uploads/artists/aizhan-sultan.jpg"
     },
     {
-      "excerpt": "uusia tapojen etsintää vanhalle musiikin esittämiselle",
-      "bio": "Aino Peltomaan luotsaama Ensemble Gamut! on noussut nopeasti yhdeksi Suomen kiinnostavimmista genrejen välimailla sulavasti liikkuvista yhtyeistä. Yhtye on luonut uniikin soundinsa yhdistämällä elementtejä keskiajan musiikista, suomalaisista kansansävelmistä, improvisaatiosta, omista sävellyksistä sekä elektronisista äänimaisemista.\n\nEnsemble Gamut!in kolme albumia ovat tuoneet tunnustuksia ja ylistäviä arvioita. Yhtye on esiintynyt laajalti niin festivaaleilla, klubikeikoilla, museoissa, keskiaikaisissa kirkoissa kuin konserttisaleissakin.\n\nAino Peltomaa I laulu, harppu, perkussiot, elektroniikka\nIlkka Heinonen I jouhikot, laulu, perkussiot, elektroniikka\nJuho Myllylä I nokkahuilut, laulu, elektroniikka\n\nVuonna 2026 Ensemble Gamut! on showcase-esiintyjänä Tallinn Music Week'illä, ja konsertoi niin Suomessa kuin Euroopassa.\n\nRondo-lehden lukijoiden albumi 2025: MI\nClassical:NEXT I showcase esiintyjä 2024\nEmma Gaala I Etno-Emma -ehdokkuus 2024: RE\nYLE I vuoden albumi ehdokkuus 2021: UT\nVuoden vanhan musiikin teko 2020 (Suomen vanhan musiikin liitto ry): UT ",
+      "excerpt": "uusien tapojen etsintää vanhan musiikin esittämiselle",
+      "bio": "Aino Peltomaan luotsaama Ensemble Gamut! on noussut nopeasti yhdeksi Suomen kiinnostavimmista genrejen välimailla sulavasti liikkuvista yhtyeistä. Yhtye on luonut uniikin soundinsa yhdistämällä elementtejä keskiajan musiikista, suomalaisista kansansävelmistä, improvisaatiosta, omista sävellyksistä sekä elektronisista äänimaisemista.\n\nEnsemble Gamut!in kolme albumia ovat tuoneet tunnustuksia ja ylistäviä arvioita. Yhtye on esiintynyt laajalti niin festivaaleilla, klubikeikoilla, museoissa, keskiaikaisissa kirkoissa kuin konserttisaleissakin.\n\nAino Peltomaa I laulu, harppu, perkussiot, elektroniikka\nIlkka Heinonen I jouhikot, laulu, perkussiot, elektroniikka\nJuho Myllylä I nokkahuilut, laulu, elektroniikka\n\nTallinn Music Week 2026 I showcase-esiintyjä\n\nRondo-lehden lukijoiden albumi 2025 I MI\nClassical:NEXT 2024 I showcase-esiintyjä\nEmma Gaala 2024 I Etno-Emma -ehdokkuus I RE\nYLE 2021 I vuoden albumiehdokkuus I UT\nVuoden vanhan musiikin teko 2020 (Suomen vanhan musiikin liitto ry) I UT ",
       "name": "Ensemble Gamut",
       "featured": true,
-      "order": 2,
+      "order": 1,
       "type": "booking",
       "website": "https://yazzo.io",
       "id": "ensemble-gamut",
@@ -24,7 +24,7 @@
     },
     {
       "excerpt": "inkeriläis-karjalais-suomalaista kansanperinnettä ja myyttejä urbaanilla estetiikalla",
-      "bio": "Dänkki Briha on etnofuturistinen musiikkikollektiivi, joka inspiroituu inkeriläis-karjalais-suomalaisesta kansanperinteestä, myyteistä ja urbaanista estetiikasta. Se yhdistelee teatterillista ilmaisua, ammoisia loruja ja futuristista äänimaisemaa.\n\nLappeenrantalais-helsinkiläisessä yhtyeessä Juho Liiran ajattomat vokaalit, Matias Kontulan herkkä sähköviulu ja Manu Penttilän kokeellinen tuotanto luovat sykettä nostattavan kokonaisuuden, joka toimii niin levyltä kuin livenäkin. Lauluissa kuullaan niin Suomen kielen kaakkoismurretta kuin pienempiä lähisukukansojen kieliä ja murteita, muun muassa livvinkarjalaa ja vepsää.\n\nDebyyttialbumi Viipurin Kingpin (2024 Sick Boogie Recordings) on ollut suosittu ja soitettu albumi. Toisen albumin vuoro on kesällä 2026.\n\nDänkki Briha sijoittui Marjut-kappaleellaan kolmanneksi Etno-Espan Kansanlaulu 2050 -biisikilpailussa 2024, ja esiintyi Kaustinen Showcasessa 2025.",
+      "bio": "Dänkki Briha on etnofuturistinen musiikkikollektiivi, joka inspiroituu inkeriläis-karjalais-suomalaisesta kansanperinteestä, myyteistä ja urbaanista estetiikasta. Se yhdistelee teatterillista ilmaisua, ammoisia loruja ja futuristista äänimaisemaa.\n\nLappeenrantalais-helsinkiläisessä yhtyeessä Juho Liiran ajattomat vokaalit, Matias Kontulan herkkä sähköviulu ja Manu Penttilän kokeellinen tuotanto luovat sykettä nostattavan kokonaisuuden, joka toimii niin levyltä kuin livenäkin. Lauluissa kuullaan niin Suomen kielen kaakkoismurretta kuin pienempiä lähisukukansojen kieliä ja murteita, muun muassa livvinkarjalaa ja vepsää.\n\nDebyyttialbumi Viipurin Kingpin (2024 Sick Boogie Recordings) on ollut suosittu ja soitettu albumi. Toisen albumin vuoro on kesällä 2026.\n\nKaustinen Showcase 2025\nEtno-Espan Kansanlaulu 2050 -biisikilpailu 2024 I 3. sija",
       "name": "Dänkki Briha",
       "featured": true,
       "order": 4,
@@ -49,11 +49,11 @@
       "bio": "Ensemble Gamut! feat. Vappu Rossi ja Tuomas Norvio\n\nArktisille uhanalaisille kukille omistetussa FLOS-konserttiohjelmassa saadaan nauttia uudenlaisesta live-elektroniikan mahdollisuuksista.\n\nNorvio efektoi reaaliajassa Vappu Rossin piirtämisen ääniä, jolloin arktisten kukkien inspiroimat sävelmät ja piirrokset sulautuvat äänimaailmaksi jossa ajan tasot, elävä, kuollut, historia, tämä hetki, menneisyys ja tulevaisuus resonoivat kaikki samanaikaisesti. Tässä FLOS-kvintettikokoonpanossa jokaisen konsertin aikana syntyy kuvataideteos!\n\nArktisten kukkalajien ympärille kietoutuva projekti yhdistää sekä ääni- että kuvataiteen kentällä uudella tavalla livepiirtämistä, musiikkia ja äänitaidetta. FLOS luo yhteyksiä kuvataiteen, äänitaiteen, vanhan musiikin, nykymusiikin ja kansanmusiikin leikkauspisteessä.",
       "name": "FLOS",
       "featured": false,
-      "order": 3,
+      "order": 2,
       "type": "booking",
       "website": "https://ensemblegamut.com/flos/",
       "id": "flos",
-      "image": "https://www.dropbox.com/scl/fo/e1zgwkzvliq1nx183qzvn/ANm5pqeNYlESKV8n4PKIJY0?dl=0&e=3&preview=FLOS_3_horizontal_Anna_Maria_Viksten.jpg&rlkey=0dqqzh5l4ohqr2n16oea2umlv&st=p2kg85za"
+      "image": "/uploads/flos_highres_photo_by_anna_maria_viksten_horizontal-scaled.jpg"
     }
   ]
 }
