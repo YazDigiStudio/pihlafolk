@@ -16,21 +16,21 @@
           "fi": "Laulettu Kalevala on pitkäkestoinen äänikirjaprojekti, joka tuo Kalevalan runot eloon perinteisen kansanmusiikin ja -laulun keinoin.",
           "en": "Sung Kalevala is a long-term audiobook project that brings the poems of Kalevala to life through traditional folk music and singing."
         },
-        "link": ""
+        "link": " "
       },
       {
-        "id": "piot",
-        "title": "Ilona Korhonen Ensemble: Piot",
-        "subtitle": "The Feast",
-        "type": "performance",
         "status": "ongoing",
-        "year": "2024-",
+        "subtitle": "The Feast",
+        "title": "Ilona Korhonen Ensemble: Piot",
+        "type": "performance",
+        "link": " ",
+        "id": "piot",
         "image": "/uploads/productions/piot.jpg",
         "description": {
-          "fi": "Ilona Korhonen Ensemblen Piot-teos on taiteilija Ilona Korhosen johdolla toteutettava pohjoiskarjalaista perinnettä hyödyntävä esitysteos.",
-          "en": "Ilona Korhonen Ensemble's Piot is a performance work led by artist Ilona Korhonen, utilizing North Karelian traditions."
+          "fi": " ",
+          "en": " "
         },
-        "link": ""
+        "year": "2024-"
       }
     ]
   },
@@ -41,21 +41,66 @@
     },
     "productions": [
       {
-        "id": "terveh-viro",
+        "id": "baltic-finnic summer ",
+        "title": "Baltic Finnic Summer ",
+        "year": "2025",
+        "image": "/uploads/img_7812.jpeg",
+        "status": "completed",
+        "type": "project",
+        "description": {
+          "fi": " ",
+          "en": " "
+        },
+        "link": " "
+      },
+      {
+        "status": "completed",
         "title": "Terveh Viro!",
         "type": "project",
-        "status": "completed",
-        "year": "2023",
-        "image": "",
+        "link": " ",
+        "id": "terveh-viro",
+        "image": "/uploads/img_3911.jpeg",
         "description": {
-          "fi": "Kansainvälisen suomalais-ugrilaisen yhteistyön aloittaminen Virossa yhdessä Sattuma duon kanssa. Rahoitus: Opetus- ja kulttuuriministeriö, Musiikin edistämissäätiö.",
-          "en": "Starting international Finno-Ugric cooperation in Estonia together with Sattuma duo. Funding: Ministry of Education and Culture, Music Promotion Foundation."
+          "fi": " ",
+          "en": " Starting international Finno-Ugric cooperation in Estonia together with Sattuma duo.\n\nFunding: Ministry of Education and Culture, Music Promotion Foundation."
         },
+        "year": "2023",
         "funding": {
-          "fi": ["Opetus- ja kulttuuriministeriö", "Musiikin edistämissäätiö"],
-          "en": ["Ministry of Education and Culture", "Music Promotion Foundation"]
+          "fi": [
+            "Opetus- ja kulttuuriministeriö",
+            "Musiikin edistämissäätiö"
+          ],
+          "en": [
+            "Ministry of Education and Culture",
+            "Music Promotion Foundation"
+          ]
+        }
+      },
+      {
+        "id": "commissions",
+        "title": "ongoing commissions",
+        "type": "project",
+        "status": "ongoing",
+        "year": "2026",
+        "description": {
+          "en": "production of Vilma Talvitie's Olio Alien album release tour 2026",
+          "fi": " "
         },
-        "link": ""
+        "image": "/uploads/img_7826.jpeg",
+        "link": "  "
+      },
+      {
+        "id": "commissions",
+        "title": "past commissions",
+        "type": "project",
+        "status": "completed",
+        "description": {
+          "en": "\npast\nlmastoitku (Eila Hartikainen) comission, production 2024-2025 *nomination (Finnish) Choir Gala Vuoden tapaukseksi 2025\n\nAlbum publicity in Finland and/or international\nHurja Halla: Surma hiihti 2025\nKalle Vainio: The Land Where It Always Rains – Musiikkia sateesta. 2024\nAnna-Kaisa Liedes & Heikki Laitinen: Musiikki elokuvasta 11 ihmisen kuvaa 2023-2024\nMeNaiset: Emyt 2023\nHanna Ryynänen: Taite 2022",
+          "fi": " "
+        },
+        "image": "/uploads/yksitoista-ihmisen-kuvaa-3000x3000px.jpg",
+        "year": "2022-2025",
+        "link": " "
       }
     ]
   }
