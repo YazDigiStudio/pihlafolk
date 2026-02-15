@@ -6,29 +6,29 @@
       "subtitle": "Images from our productions and performances",
       "carousel": [
         {
-          "image": "/uploads/media/carousel/carousel-1.jpg",
-          "alt": "Ilona Korhonen Ensemble - Piot",
-          "photographer": ""
+          "image": "/uploads/media/carousel/carousel-2.jpg",
+          "alt": "Laulettu Kalevala / Sung Kalevala",
+          "photographer": "Tatu Rouvinen"
         },
         {
-          "image": "/uploads/media/carousel/carousel-2.jpg",
-          "alt": "Laulettu Kalevala",
-          "photographer": ""
+          "image": "/uploads/media/carousel/carousel-1.jpg",
+          "alt": "Ilona Korhonen Ensemble - Piot [Feast]",
+          "photographer": "Maarit Kytöharju"
         },
         {
           "image": "/uploads/media/carousel/carousel-3.jpg",
-          "alt": "Koski",
-          "photographer": ""
+          "alt": "Mari",
+          "photographer": "Matti Kyllönen"
         },
         {
-          "image": "/uploads/media/carousel/carousel-4.jpg",
-          "alt": "Etnogaala - Phenomenon of the Year",
-          "photographer": "Maarit Kytöharju"
+          "image": "/uploads/img_3190.jpg",
+          "alt": "Mari at Folkemusikksenteret i Buskerud",
+          "photographer": "Åshild Wetterhus"
         },
         {
           "image": "/uploads/media/carousel/carousel-5.jpg",
           "alt": "Mari Pääkkönen",
-          "photographer": ""
+          "photographer": "Erlend Štaub"
         }
       ]
     },
