@@ -2,33 +2,33 @@
   "sections": [
     {
       "type": "carousel",
-      "title": "Kuvagalleria",
+      "title": "kuvagalleria",
       "subtitle": "Kuvia tuotannoistamme ja esiintymisistämme",
       "carousel": [
         {
-          "image": "/uploads/media/carousel/carousel-1.jpg",
-          "alt": "Ilona Korhonen Ensemble - Piot",
-          "photographer": ""
-        },
-        {
           "image": "/uploads/media/carousel/carousel-2.jpg",
           "alt": "Laulettu Kalevala",
-          "photographer": ""
+          "photographer": "Tatu Rouvinen"
+        },
+        {
+          "image": "/uploads/media/carousel/carousel-1.jpg",
+          "alt": "Ilona Korhonen Ensemble - Piot",
+          "photographer": "Maarit Kytöharju"
         },
         {
           "image": "/uploads/media/carousel/carousel-3.jpg",
-          "alt": "Koski",
-          "photographer": ""
+          "alt": "Mari",
+          "photographer": "Matti Kyllönen"
         },
         {
-          "image": "/uploads/media/carousel/carousel-4.jpg",
-          "alt": "Etnogaala - Vuoden ilmiö",
-          "photographer": "Maarit Kytöharju"
+          "image": "/uploads/img_3190.jpg",
+          "alt": "Mari vierailemassa Buskerudin Kansanmusiikkikeskuksessa, Norjassa",
+          "photographer": "Åshild Wetterhus"
         },
         {
           "image": "/uploads/media/carousel/carousel-5.jpg",
           "alt": "Mari Pääkkönen",
-          "photographer": ""
+          "photographer": "Erlend Štaub"
         }
       ]
     },

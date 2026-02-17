@@ -2,27 +2,28 @@
   "showButton1": true,
   "showButton2": true,
   "showMedia": true,
+  "showLogo": true,
   "ctaButton1Link": "/tuotannot",
   "ctaButton2Link": "/tietoa",
-  "logoPositionVertical": "middle",
+  "logoPositionVertical": "up",
   "name": "pihla folk",
   "mediaUrl": "/uploads/home/hero-image.jpg",
   "sections": [
     {
       "imagePosition": "right",
-      "header": "Testiosio 1",
-      "text": "tähän tulee tekstiä\n\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nibh enim, imperdiet et risus nec, bibendum placerat diam. Vestibulum porta arcu quis orci suscipit pretium. Suspendisse non consectetur leo. Sed pulvinar sit amet sapien vitae fringilla. Nam ultrices purus bibendum finibus tempor. Praesent rutrum nulla eu elementum tincidunt. Nulla facilisi. Donec tincidunt, nibh quis elementum gravida, urna quam ultricies mauris, tincidunt tincidunt erat dui vitae tortor.\n\nQuisque vulputate lectus et mauris lacinia, in cursus lectus dapibus. Aenean id congue nisl. Suspendisse non nulla lacus. Etiam id finibus orci. Suspendisse potenti. Fusce auctor ultrices urna eget iaculis. Ut quis tortor congue, luctus risus sed, condimentum risus. Ut auctor, ex vel bibendum gravida, velit est sollicitudin tellus, eget interdum dolor est ut ante. Aliquam erat volutpat. Sed auctor tellus quis mollis consequat.\n\nFusce in facilisis mi. Aliquam sodales ligula eu lacus semper consequat. Praesent hendrerit aliquet turpis, nec aliquet elit viverra eget. Vivamus in tempor tellus. Nam laoreet eget turpis et eleifend. Sed sodales quis odio sed ultricies. Curabitur semper nisi nisi, ac tincidunt tortor tempus id. Morbi iaculis elit sed dolor malesuada elementum. Maecenas non iaculis quam. Nam facilisis tincidunt metus vestibulum tempor. Ut nec justo dapibus, luctus leo ut, vehicula magna.\n\nAenean facilisis iaculis odio, non finibus velit ultrices mollis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam vulputate dui vitae turpis feugiat, vel volutpat leo pellentesque. Duis in sem tortor. Etiam malesuada, sapien tempor imperdiet dictum, dolor mi posuere arcu, nec laoreet dolor nisl vel enim. Vestibulum lacinia ex sit amet dui ultrices scelerisque. Nulla consectetur eleifend ipsum in congue. Curabitur sagittis nisi sapien, vitae placerat neque consequat ac. Donec blandit condimentum semper. Nunc venenatis convallis elit, ac pulvinar orci porttitor in. Donec rhoncus neque eget magna suscipit, in condimentum nisi porttitor. Praesent in enim dictum, laoreet urna sed, posuere orci.\n\nQuisque aliquet semper odio, ac semper ex sagittis eu. Aliquam lobortis sed augue ut finibus. Maecenas tempor ac lorem eu facilisis. Vivamus tincidunt tellus a augue malesuada viverra. Donec luctus at urna at laoreet. Nunc leo orci, pharetra ut urna at, pulvinar posuere ipsum. Sed porttitor sagittis dui, ut malesuada leo imperdiet eu.",
+      "header": "ajankohtaista! Laulettu Kalevala",
+      "text": "Kaikkien aikojen äänikirja valmistuu talvella & keväällä 2026!\n\nLaulettu Kalevala -äänikirjassa nimensä mukaisesti lauletaan karjalais-suomalainen eepos (1849) läpi eri kansansävelmin.\n\nÄänikirjan ensimmäinen jakso julkaistiin digitaalisesti Kalevalan päivänä, 28.2.2023.\nJatkoa seuraa digitaalisesti vuonna 2026:\n2. jakso julkaistaan Kalevalan päivänä, 28. helmikuuta\n3. ja viimeinen jakso Runolaulupäivänä, 25. huhtikuuta",
       "image": "/uploads/laulettu-kalevala.jpg",
-      "maxTextLength": 300
+      "maxTextLength": 3000
     }
   ],
-  "additionalText": "Hyvä tietämys ja tuntemus perinteistä, sensitiivinen työskentelyote ja monipuoliset verkostot auttavat toimimaan ylirajaisten ja myös kiistanalaistenkin perinteiden kanssa onnistuneesti.\n\nSuomalais-ugrilaisuus on oleellinen, laajempi maailma. pihla folkin arvomaailma kumpuaa näistä juurista haastaen aikamme yksilökeskeistä ja tempovaa ihmis- ja maailmankuvaa.",
+  "additionalText": "",
   "subtitle": "kansanmusiikin ja -perinteen pioneeri vuodesta 2002",
   "mediaVideoUrl": "",
   "logoPositionHorizontal": "left",
   "ctaButton1Text": "Tuotannot",
   "heroParagraph1": "pihla folk on kansanmusiikin ja -perinteen pioneeritoimijoita luovalla tuotanto- ja välittäjätoiminnallaan.",
   "ctaButton2Text": "Tietoa meistä",
-  "heroParagraph2": "Keskitymme itämerensuomalaisiin perinteisiin ja kieliin Karjala-painotuksella. Moderniin toimintaamme mahtuvat niin akustinen ja arkaainen musiikki kuin fuusiokin.",
+  "heroParagraph2": "vuonna 2022 perustettu pihla folk on syntynyt itämerensuomalaisista musiikkiperinteistä ja kielistä. moderniin toimintaan mahtuvat niin arkaainen, akustinen kuin genrejenvälinen musiikki. suomalais-ugrilaisuus on myös oleellinen, laajempi ulottuvuus. pihla folkin arvomaailma kumpuaakin näistä juurista haastaen aikamme yksilökeskeistä ja tempovaa ihmis- ja maailmankuvaa.",
   "mediaType": "image"
 }

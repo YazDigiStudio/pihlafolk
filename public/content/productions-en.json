@@ -6,19 +6,6 @@
     },
     "productions": [
       {
-        "id": "vilma-talvitie-olio-alien",
-        "title": "Vilma Talvitie's Olio Alien album release tour",
-        "type": "tour",
-        "status": "ongoing",
-        "year": "2026",
-        "image": "",
-        "description": {
-          "fi": "Vilma Talvitien Olio Alien -albumijulkaisukiertue 2026",
-          "en": "Vilma Talvitie's Olio Alien album release tour, 2026"
-        },
-        "link": ""
-      },
-      {
         "id": "laulettu-kalevala",
         "title": "Laulettu Kalevala",
         "type": "audiobook",
@@ -26,24 +13,24 @@
         "year": "2020-",
         "image": "/uploads/productions/laulettu-kalevala.jpg",
         "description": {
-          "fi": "Laulettu Kalevala on pitkäkestoinen äänikirjaprojekti, joka tuo Kalevalan runot eloon perinteisen kansanmusiikin ja -laulun keinoin.",
+          "fi": "In the Laulettu Kalevala (The Sung Kalevala) audiobook, as the name suggests, the Karelian-Finnish epic Kalevala (1849) is performed in its entirety through song, using a variety of traditional folk melodies.\n\nThe first episode of the audiobook was released digitally on Kalevala Day, 28 February 2023.\nThe continuation will be released digitally in 2026:\n\t•\tEpisode 2 will be released on Kalevala Day, 28 February\n\t•\tEpisode 3, the final episode, on Runosong Day, 25 April\n\nEpisode 1 can be listened to on the etno.net website. The Laulettu Kalevala YouTube channel is currently under maintenance for technical reasons, but will return to use as soon as possible.\n\nIt is essential that the Kalevala, compiled and created by Elias Lönnrot based on Karelian, Finnish, and Ingrian runosongs, is heard and sung specifically as traditional sunosong, because that is what the epic fundamentally is. The Kalevala can be challenging to read, but through song it can be experienced in an entirely new way.\n\nRune singing once came close to extinction, but it has been successfully revitalized in recent decades. Some of the key figures in this revival can be heard in this audiobook. One of the project’s central aims is that, through the familiar epic, the listener may gain access to the vast world of Baltic-Finnic runosong and folk poetry.\n\nWorking Group\nRunosingers & narrator:\nVoice theather Iki-Turso: Eila Hartikainen, Taito Hoffrén, Maari Kallberg, Ilona Korhonen, Heikki Laitinen & Anna-Kaisa Liedes\nVisual designer: Tatu Rouvinen\nRecording: Taito Hoffrén, poem 25: Alec Havinmaa\nEditing & mastering: Taito Hoffrén & Alec Havinmaa\nProject convenor, producer & publisher: Mari Pääkkönen / Pihla Folk\n\nThe Laulettu Kalevala audiobook is part of the recording series of the Folk Music Department at the Sibelius Academy, University of the Arts Helsinki.\n\nThe final production and release of the audiobook in 2026 are funded by the Kalevala Society.\n\nThe project as a whole was funded during 2021–2023 by:\nJenny and Antti Wihuri Foundation, Kalevala Society, Finnish Cultural Foundation, Niilo Helander Foundation, and the Arts Promotion Centre Finland.",
           "en": "Sung Kalevala is a long-term audiobook project that brings the poems of Kalevala to life through traditional folk music and singing."
         },
-        "link": ""
+        "link": " "
       },
       {
-        "id": "piot",
-        "title": "Ilona Korhonen Ensemble: Piot",
-        "subtitle": "The Feast",
-        "type": "performance",
         "status": "ongoing",
-        "year": "2024-",
+        "subtitle": "The Feast",
+        "title": "Ilona Korhonen Ensemble: Piot",
+        "type": "performance",
+        "link": " ",
+        "id": "piot",
         "image": "/uploads/productions/piot.jpg",
         "description": {
-          "fi": "Ilona Korhonen Ensemblen Piot-teos on taiteilija Ilona Korhosen johdolla toteutettava pohjoiskarjalaista perinnettä hyödyntävä esitysteos.",
-          "en": "Ilona Korhonen Ensemble's Piot is a performance work led by artist Ilona Korhonen, utilizing North Karelian traditions."
+          "fi": "Piot [Feast] depicts joyful celebrations based on texts from the Baltic-Finnic peoples. The work itself is a small celebration, a feast - while at the same time it is a grand celebration of the female voice. Dedicated to folk music, the versatile musician, Doctor of Music, Docent of Folk Music, and Artist Professor Ilona Korhonen has composed and arranged a female choir work that remains faithful to traditional song styles and heritage texts of the Baltic-Finnic region. The piece resonates with the bone-shaking power characteristic of the Baltic-Finnic vocal tradition.\n\nAll singers in the ensemble are professional musicians - folk singers holding Master’s and Doctoral degrees in music;  Hanni Autere, Juulia Björn, Charlotta Hagfors, Emilia Kallonen, Anna E. Karvonen, Amanda Kauranne, Ilona Korhonen, Emmi Kuittinen, Pia Rask, Ulla Silvennoinen, Anni Tolvanen, Mira Törmälä\n\nPiot received its world premiere in June 2023 as a commissioned piece for Tampere Vocal Music Festival (Tampereen Sävel). In 2026, pihla folk will release the piece as an album.",
+          "en": " "
         },
-        "link": ""
+        "year": "2024-"
       }
     ]
   },
@@ -54,62 +41,53 @@
     },
     "productions": [
       {
-        "id": "lonnrot-terrace-2025",
-        "title": "Curation & production of a Baltic-Finnic concert series",
-        "subtitle": "Lönnrot's Terrace",
-        "type": "concert-series",
-        "status": "completed",
+        "id": "baltic-finnic summer ",
+        "title": "Baltic Finnic Summer ",
         "year": "2025",
-        "image": "",
-        "description": {
-          "fi": "Itämerensuomalaisen konserttisarjan kuratointi & tuotanto Lönnrotin terassilla (puistikossa) ohjelmayhteistyössä Helsingin kaupunkitilojen kanssa kesällä 2025",
-          "en": "Curation & production of a Baltic-Finnic concert series at Lönnrot's Terrace (the green), in programme collaboration with the Helsingin Kaupunkitilat, summer 2025"
-        },
-        "link": ""
-      },
-      {
-        "id": "ilmastoitku",
-        "title": "Ilmastoitku",
-        "subtitle": "Eila Hartikainen",
-        "type": "commission",
+        "image": "/uploads/img_7812.jpeg",
         "status": "completed",
-        "year": "2024-2025",
-        "image": "",
+        "type": "project",
         "description": {
-          "fi": "Ilmastoitku (Eila Hartikainen) -tilaustyö, tuotanto 2024-2025. Ehdokkuus Kuorogaalassa Vuoden tapaukseksi 2025.",
-          "en": "Ilmastoitku (Eila Hartikainen) – commissioned work, production 2024–2025. Nomination for \"Case of the Year\" at the Choir Gala 2025 in Finland."
+          "fi": " ",
+          "en": " "
         },
-        "link": ""
+        "link": " "
       },
       {
-        "id": "album-publicity",
-        "title": "Album publicity in Finland and/or internationally",
-        "type": "publicity",
         "status": "completed",
-        "year": "2022-2025",
-        "image": "",
-        "description": {
-          "fi": "Hurja Halla: Surma hiihti 2025, Kalle Vainio: The Land Where It Always Rains - Musiikkia sateesta 2024, Anna-Kaisa Liedes & Heikki Laitinen: Musiikki elokuvasta 11 ihmisen kuvaa 2023-2024, MeNaiset: Emyt 2023, Hanna Ryynänen: Taite 2022",
-          "en": "Hurja Halla: Surma hiihti 2025, Kalle Vainio: The Land Where It Always Rains - Musiikkia sateesta 2024, Anna-Kaisa Liedes & Heikki Laitinen: Music from movie 11 images of human 2023-2024, MeNaiset: Emyt 2023, Hanna Ryynänen: Taite 2022"
-        },
-        "link": ""
-      },
-      {
-        "id": "terveh-viro",
         "title": "Terveh Viro!",
         "type": "project",
-        "status": "completed",
-        "year": "2023",
-        "image": "",
+        "link": " ",
+        "id": "terveh-viro",
+        "image": "/uploads/img_3911.jpeg",
         "description": {
-          "fi": "Kansainvälisen suomalais-ugrilaisen yhteistyön aloittaminen Virossa yhdessä Sattuma duon kanssa. Rahoitus: Opetus- ja kulttuuriministeriö, Musiikin edistämissäätiö.",
-          "en": "Starting international Finno-Ugric cooperation in Estonia together with Sattuma duo. Funding: Ministry of Education and Culture, Music Promotion Foundation."
+          "fi": "Starting international Finno-Ugric cooperation in Estonia together with Sattuma duo. Karelian and Finnish folk music at Finno-Ugric Days on October 20-21, 2023 at Õpetajate Maja, Tallinn and at Estonian National Museum, Tartu.\n\nFunding: Ministry of Education and Culture, Music Promotion Foundation.",
+          "en": " "
         },
+        "year": "2023",
         "funding": {
-          "fi": ["Opetus- ja kulttuuriministeriö", "Musiikin edistämissäätiö"],
-          "en": ["Ministry of Education and Culture", "Music Promotion Foundation"]
+          "fi": [
+            "Opetus- ja kulttuuriministeriö",
+            "Musiikin edistämissäätiö"
+          ],
+          "en": [
+            "Ministry of Education and Culture",
+            "Music Promotion Foundation"
+          ]
+        }
+      },
+      {
+        "description": {
+          "fi": "ongoing commissions\nproduction of Vilma Talvitie's Olio Alien album release tour, 2026\n\npast commissions\na mentor session for a musician about the field of traditional and folk music fusion and the perspectives in 2020, December 2025\nllmastoitku (Eila Hartikainen) comission, production 2024-2025 *nomination (Finnish) Choir Gala Vuoden tapaukseksi 2025 \na presentation on Finnish and Karelian folk music traditions during a visit to Buskerud's Folk Music Center in Prestfoss, Norway on November 21-24, 2024\nalbum publicity in Finland and/or international\nHurja Halla: Surma hiihti 2025\nKalle Vainio: The Land Where It Always Rains – Musiikkia sateesta. 2024\nAnna-Kaisa Liedes & Heikki Laitinen: Musiikki elokuvasta 11 ihmisen kuvaa 2023-2024 MeNaiset: Emyt 2023\nHanna Ryynänen: Taite 2022",
+          "en": "  "
         },
-        "link": ""
+        "id": "commissions",
+        "title": "commissions",
+        "image": "/uploads/yksitoista-ihmisen-kuvaa-3000x3000px.jpg",
+        "type": "project",
+        "status": "ongoing",
+        "year": "2022-2026",
+        "link": " "
       }
     ]
   }

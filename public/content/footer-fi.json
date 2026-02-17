@@ -2,16 +2,8 @@
   "email": "mari@pihlafolk.com",
   "socialMedia": [
     {
-      "platform": "facebook",
-      "url": "https://facebook.com/pihlafolk"
-    },
-    {
       "platform": "instagram",
       "url": "https://instagram.com/pihlafolk"
-    },
-    {
-      "platform": "linkedin",
-      "url": "https://linkedin.com/company/pihlafolk"
     },
     {
       "platform": "youtube",

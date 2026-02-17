@@ -1,48 +1,59 @@
 {
   "artists": [
     {
-      "id": "frander",
+      "excerpt": "heavy grooves and seductive harmonies from the deep forest of Sweden & Estonia",
+      "bio": "Born from a thunderstorm, FRÄNDER emerged like lightning - a fusion of Nordic roots and modern attitude became heavy folk. From the deep forest of Sweden & Estonia, with energy and a warm presence they deliver heavy grooves and seductive harmonies that weave a mesmerizing soundscape.\n\nFollowing their acclaimed debut and global touring, the band's groundbreaking second album FRÄNDER II pushes the limits of what folk can be – with subtle echoes of Led Zeppelin and Jethro Tull meeting the pulse of Nordic tradition they blend folk music with the raw power and weight of hard rock in an incomparable way, they craft a sound that's both ancient and modern, acoustic yet heavy, mystical yet fiercely alive – they make the folk music tradition their own. Expect a live show where folk music becomes a living, breathing force!\n\nFRÄNDER is one of Sweden's biggest folk music exports.",
       "name": "FRÄNDER",
+      "featured": true,
+      "order": 5,
       "type": "booking",
-      "image": "/uploads/artists/frander.jpg",
       "website": "https://www.frander.se/",
-      "excerpt": "Born from a thunderstorm, FRÄNDER emerged like lightning — a fusion of Nordic roots and modern attitude became HEAVY FOLK. From the deep forest of Sweden & Estonia, they deliver heavy grooves and seductive harmonies.",
-      "bio": "Born from a thunderstorm, FRÄNDER emerged like lightning — a fusion of Nordic roots and modern attitude became HEAVY FOLK. From the deep forest of Sweden & Estonia, with energy and a warm presence they deliver heavy grooves and seductive harmonies that weave a mesmerizing soundscape.\n\n\"FRÄNDER II is a perfect, magnificent masterpiece\" – LIRA.se\n\nFollowing their acclaimed debut and global touring, the band's groundbreaking second album FRÄNDER II pushes the limits of what folk can be – with subtle echoes of Led Zeppelin and Jethro Tull meeting the pulse of Nordic tradition they blend folk music with the raw power and weight of hard rock in an incomparable way, they craft a sound that's both ancient and modern, acoustic yet heavy, mystical yet fiercely alive – they make the folk music tradition their own. Expect a live show where folk music becomes a living, breathing force!\n\n\"To miss out on hearing Fränder II would be to do yourself a grave disservice. No matter your preferred genre, it is the kind of music that feeds the senses and helps to complete the soul.\" SPILLMAGAZINE.com\n\nFRÄNDER is one of Sweden's biggest folk music exports. In 2024 alone, they completed three U.S. tours and they have surpassed 100 concerts only in Canada. They continue building cultural bridges beyond the stage through their festivals in Uppsala, Sweden and Nordic Nights Festival at Lincoln Center in New York City — bringing the power of modern Nordic tradition to audiences around the world.",
-      "featured": true,
-      "order": 1
+      "id": "frander",
+      "image": "/uploads/fränder.jpg"
     },
     {
+      "excerpt": "searching for new ways to perform early music",
+      "bio": "Ensemble Gamut! is a fresh, experimental collective of early music and folk music specialists, who are constantly searching for new ways to perform early music. Led by Aino Peltomaa, they have created their unique sound by combining and daringly rearranging elements from medieval music and Finnish folk songs with improvisation and electronic soundscapes.\n\nTheir albums UT, RE and MI have attracted widespread interest among international music critics across genres, and have frequently been featured among the best albums in yearly listings of classical, early as well as progressive music. Ensemble Gamut!'s imaginative style has been described as \"refreshing, soothing, intriguing and enlightening\". Their acclaimed performances have enchanted audiences from club gigs to museums, medieval churches and concert halls.\n\nAino Peltomaa I voice, harp, percussion\nIlkka Heinonen I jouhikkos, electronics, voice\nJuho Myllylä I blockflutes, voice\n\nTallinn Music Week 2026 I showcase artist\n\n“Album of the Year” recognition from Rondo magazine’s readers in Finland 2025 I MI\nClassical:NEXT 2024 I showcase artist\nEmma Gaala (\"Ethno of the Year\") nomination 2024 I RE\nYLE (Finnish Broadcasting Company) record of the year nomination 2021 I UT\nEarly Music Achievement of the Year 2020 (Finnish Early Music Association) I UT",
+      "name": "Ensemble Gamut",
+      "featured": true,
+      "order": 1,
+      "type": "booking",
+      "website": " ",
       "id": "ensemble-gamut",
-      "name": "Ensemble Gamut!",
-      "type": "booking",
-      "image": "/uploads/artists/ensemble-gamut.jpg",
-      "website": "",
-      "excerpt": "Aino Peltomaa's Ensemble Gamut! has quickly risen to become one of Finland's most intriguing ensembles, seamlessly moving between genres.",
-      "bio": "Aino Peltomaa's Ensemble Gamut! has quickly risen to become one of Finland's most intriguing ensembles, seamlessly moving between genres. The group has created their unique sound by combining elements from medieval music, Finnish folk songs, improvisation, their own compositions, and electronic soundscapes.\n\nEnsemble Gamut!'s three albums have brought recognition and glowing reviews. Ensemble Gamut! has performed extensively at festivals, club gigs, museums, medieval churches and concert halls in Finland and Europe.\n\nAino Peltomaa | voice, harp, percussion, electronics\nIlkka Heinonen | Jouhikkos, voice, percussion, electronics\nJuho Myllylä | blockflutes, voice, electronics\n\nTallinn Music Week | showcase artist 2026\nAlbum of the readers by the Rondo magazine 2025: MI\nClassical:NEXT | showcase artist 2024\nEmma Gaala (\"Ethno of the Year\") nomination 2024: RE\nYLE (Finnish Broadcasting Company) | record of the year nomination 2021: UT\nEarly Music Achievement of the Year 2020 (Finnish Early Music Association): UT\n\nFLOS is an interdisciplinary concert concept, brought to life by Aino Peltomaa's Ensemble Gamut! in collaboration with visual artist Vappu Rossi and sound artist Tuomas Norvio. The theme of the performance centers on endangered flower species from the Arctic. FLOS performances are seen in concert halls, churches, festivals and art galleries.\n\nAino Peltomaa | voice, harp, percussion, artistic direction, production\nIlkka Heinonen | Jouhikkos, electronics, voice\nJuho Myllylä | blockflutes, electronics, voice\nTuomas Norvio | live electronics\nVappu Rossi | live drawing on acoustic wall",
-      "featured": true,
-      "order": 2
+      "image": "/uploads/artists/ensemble-gamut.jpg"
     },
     {
-      "id": "dankki-briha",
+      "excerpt": "Ingrian-Karelian-Finnish folk tradition and myth with urban aesthetics",
+      "bio": "Dänkki Briha is an ethno-futuristic music collective inspired by Ingrian, Karelian, and Finnish folk traditions, myths, and urban aesthetics. The group combines theatrical expression, ancient rhymes, and futuristic soundscapes.\n\nIn this Lappeenranta–Helsinki–based ensemble, Juho Liira’s timeless vocals, Matias Kontula’s sensitive electric violin, and Manu Penttilä’s experimental production create an electrifying whole that works equally well on record and live. The songs feature southeastern Finnish dialects as well as smaller languages and dialects of closely related peoples, including Livvi Karelian and Veps.\n\nThe debut album Viipurin Kingpin (2024, Sick Boogie Recordings) has been widely played and well received. The second album is set for release in summer 2026.\n\nWith the song Marjut, Dänkki Briha placed third in the Etno-Espa Folk Song 2050 songwriting competition in 2024 and performed at the Kaustinen Showcase in 2025.",
       "name": "Dänkki Briha",
-      "type": "booking",
-      "image": "/uploads/artists/dankki-briha.jpg",
-      "website": "",
-      "excerpt": "Dänkki Briha is an ethnofuturistic folk machine inspired by Ingrian-Karelian-Finnish folk tradition, myths, and urban aesthetics. They combine theatrical expression with ancient chants and futuristic soundscapes.",
-      "bio": "Dänkki Briha on etnofuturistinen bängerikone, joka inspiroituu inkeriläis-karjalais-suomalaisesta kansanperinteestä, myyteistä ja urbaanista estetiikasta. Se yhdistelee teatterillista ilmaisua, ammoisia loruja ja futuristista äänimaisemaa.\n\nLappeenrantalais-helsinkiläisessä folktronica-yhtyeessä Juho Liiran ajattomat vokaalit, Matias Kontulan herkkä sähköviulu ja Manu Penttilän kokeellinen tuotanto luovat sykettä nostattavan kokonaisuuden, joka toimii niin levyltä kuin livenäkin. Lauluissa kuullaan niin Suomen kielen kaakkoismurretta kuin pienempiä lähisukukansojen kieliä ja murteita, muun muassa livvinkarjalaa ja vepsää.\n\nPsykedeelisen kansallisromanttinen debyyttialbumi Viipurin Kingpin julkaistiin kesäkuussa 2024 Sick Boogie Recordingsin kautta. Suosittu ja soitettu albumi vie kuulijat Laatokalta Saimaalle ja Lapista Viroon, matkalle, jossa menneisyys ja tulevaisuus kietoutuvat yhteen. Viimeisin EP, Future Kantele Hiisi Master, julkaistiin huhtikuussa 2025. Seuraava kokopitkä julkaistaan kesällä 2026, jolta kuullaan maistiaisia Lapin kiertueella.\n\nDänkki Briha sijoittui Marjut-kappaleellaan kolmanneksi Etno-Espan Kansanlaulu 2050 -biisikilpailussa 2024, ja esiintyi Kaustinen Showcasessa 2025.\n\n\"Musiikin sekä ilmaisun rajat ovat siis periaatteessa olemassa, mutta käytännössä en osaa sanoa, missä perinnetieto loppuu ja mistä moderni aika alkaa. Mikä osa tekstiä – jos mikään – on vuosisatojen takaista kansanrunoutta. Vaan ehkäpä tuntemattomuus, arvaamattomuus ja siten saavutettu vapaus ovat itsessään syy ja tarkoitus kuullulle äänitaiteelle. Sanat saavat uusia merkityksiä, ajat muuttuvat ja silti samanhenkiset ihmiset liikkuvat samoilla rannoilla.\" - Mika Roth / Desibeli Dänkki Brihan debyyttisinglestä Piikapaimen 2/2024",
       "featured": true,
-      "order": 3
+      "order": 4,
+      "type": "booking",
+      "website": " ",
+      "id": "dankki-briha",
+      "image": "/uploads/artists/dankki-briha.jpg"
     },
     {
-      "id": "aizhan-sultan",
+      "excerpt": "Kazakh tradition and nomadic culture meet modern Finnish music",
+      "bio": "Aizhan Sultan is a Finland-based singer, songwriter, and doctoral researcher originally from Kazakhstan. Her artistic work reflects her journeys around the world as well as her internal political and social experiences. Aizhan’s practice focuses on themes of Central Asian decolonization and radical inclusion. As a woman living with achondroplasia, she has an intimate relationship with power as a source of oppression, but also with solidarity and art as forces of liberation.\n\nTraditional Kazakh improvised singing, throat singing, and the sound of the shanqobyz (mouth harp) merge with Saku Liimatainen’s live electronics, bringing the modern sound of Finnish music into dialogue with Kazakh nomadic culture. Her primary aim is to bring the music, art, and history of Central Asia—especially Kazakhstan—to international audiences and to make them accessible.",
       "name": "Aizhan Sultan",
-      "type": "management",
-      "image": "/uploads/artists/aizhan-sultan.jpg",
-      "website": "",
-      "excerpt": "Aizhan Sultan is a singer, songwriter and doctoral researcher based in Finland originally from Kazakhstan. Her work focuses on the decolonisation of Central Asia and radical inclusion through traditional Kazakh music.",
-      "bio": "Aizhan Sultan is a singer, songwriter and doctoral researcher based in Finland originally from Kazakhstan. Her compositions derive inspiration from Kazakh traditional and contemporary music. Her art reflects on her journey around the world and her inner political and social experiences.\n\nAizhan's work focuses on the topic of decolonisation of Central Asia and radical inclusion. As a woman living with achondroplasia, she has an intimate relationship with power as a source of oppression, but also solidarity and art as a power of emancipation. The traditional kazakh singing improvisation, throat singing and the sound of shanqobyz (jaw harp) is implemented with live electronics. The live electronics will bring a modern sound of Finnish music to the nomadic culture of Kazakhs.\n\nHer main goal is to represent and make accessible Central Asian, in particular Kazakh, music and art to the international audience. The author is giving the audience the opportunity to discover more the art and history of the Kazakhs. Aizhan Sultan gets inspiration for her music from the history and tradition of Nomadic culture combining them in the modern form.",
       "featured": true,
-      "order": 4
+      "order": 3,
+      "type": "management",
+      "website": " ",
+      "id": "aizhan-sultan",
+      "image": "/uploads/artists/aizhan-sultan.jpg"
+    },
+    {
+      "excerpt": "interdisciplinary concert concept about endangered flower species ",
+      "bio": "FLOS is an interdisciplinary concert concept, brought to life by Aino Peltomaa’s Ensemble Gamut! in collaboration with visual artist Vappu Rossi and sound artist Tuomas Norvio.\n\nThe theme of the performance centers on endangered flower species from the Arctic. Vappu Rossi creates large-scale, live-drawn artworks inspired by the flowers and Ensemble Gamut!’s music. Sound artist Tuomas Norvio produces real-time sound from Rossi’s drawing tools, giving the emerging forms of the flowers an audible presence for the audience.\n\nThus, endangered or already extinct arctic flowers appear to come to life in real time, surrounding the audience, intertwining with the musical soundscape of voice, harp, bells, Karelian bowed lyres, medieval blockflutes and electronic soundscapes.\n\nAino Peltomaa I voice, harp, percussion, artistic direction, production\nIlkka Heinonen I jouhikkos, electronics, voice\nJuho Myllylä I blockflutes, electronics, voice\nTuomas Norvio I live electronics\nVappu Rossi I live drawing on acoustic wall",
+      "name": "FLOS",
+      "featured": false,
+      "order": 2,
+      "type": "booking",
+      "website": " ",
+      "id": "flos",
+      "image": "/uploads/flos_highres_photo_by_anna_maria_viksten_horizontal-scaled.jpg"
     }
   ]
 }
