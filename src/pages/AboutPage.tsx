@@ -216,7 +216,7 @@ export const AboutPage: React.FC = () => {
                     >
                       <img
                         src={getOptimizedImagePath(section.image || "")}
-                        alt={`Section ${index + 1}`}
+                        alt={section.header || `Section ${index + 1}`}
                         style={{
                           width: '100%',
                           height: 'auto',

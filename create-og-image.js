@@ -1,6 +1,6 @@
 /**
- * Create Open Graph image from hero image
- * Resizes to 1200x630px (OG standard size)
+ * Create Open Graph image from Pihla Folk logo
+ * Creates 1200x630px image with logo centered on background
  */
 
 import sharp from 'sharp';
@@ -11,48 +11,51 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 async function createOGImage() {
-  const inputPath = join(__dirname, 'public/assets/hero-bg.jpg');
+  const logoPath = join(__dirname, 'public/assets/pihla-folk-logo.png');
   const outputPath = join(__dirname, 'public/og-image.jpg');
 
+  // OG image dimensions
+  const width = 1200;
+  const height = 630;
+
+  // Background color (light beige/cream to match site aesthetic)
+  const backgroundColor = { r: 244, g: 244, b: 244 };
+
   try {
-    // First, get the original image dimensions
-    const metadata = await sharp(inputPath).metadata();
-    const originalWidth = metadata.width;
-    const originalHeight = metadata.height;
+    // Get logo dimensions
+    const logoMetadata = await sharp(logoPath).metadata();
+    console.log(`Logo dimensions: ${logoMetadata.width}x${logoMetadata.height}px`);
 
-    // Calculate the aspect ratio we need (1200:630 = 1.9:1)
-    const targetAspectRatio = 1200 / 630;
+    // Calculate logo size (max 60% of canvas width, maintain aspect ratio)
+    const maxLogoWidth = Math.round(width * 0.6);
+    const logoScale = Math.min(maxLogoWidth / logoMetadata.width, 1);
+    const resizedLogoWidth = Math.round(logoMetadata.width * logoScale);
+    const resizedLogoHeight = Math.round(logoMetadata.height * logoScale);
 
-    // Calculate crop dimensions maintaining the target aspect ratio
-    let cropWidth = originalWidth;
-    let cropHeight = Math.round(originalWidth / targetAspectRatio);
+    // Resize logo
+    const resizedLogo = await sharp(logoPath)
+      .resize(resizedLogoWidth, resizedLogoHeight, { fit: 'inside' })
+      .toBuffer();
 
-    // If calculated height is larger than original, base it on height instead
-    if (cropHeight > originalHeight) {
-      cropHeight = originalHeight;
-      cropWidth = Math.round(originalHeight * targetAspectRatio);
-    }
-
-    // Start crop at 1/5 from the top of the image
-    const cropTop = Math.round(originalHeight / 5);
-    const cropLeft = Math.round((originalWidth - cropWidth) / 2); // Center horizontally
-
-    // Make sure crop doesn't go beyond image bounds
-    const adjustedTop = Math.min(cropTop, originalHeight - cropHeight);
-
-    await sharp(inputPath)
-      .extract({
-        left: cropLeft,
-        top: adjustedTop,
-        width: cropWidth,
-        height: cropHeight
-      })
-      .resize(1200, 630)
-      .jpeg({ quality: 90 })
-      .toFile(outputPath);
+    // Create canvas with background color and composite logo
+    await sharp({
+      create: {
+        width: width,
+        height: height,
+        channels: 3,
+        background: backgroundColor
+      }
+    })
+    .composite([{
+      input: resizedLogo,
+      gravity: 'center'
+    }])
+    .jpeg({ quality: 90 })
+    .toFile(outputPath);
 
     console.log('✓ Created og-image.jpg (1200×630px)');
-    console.log(`  Cropped from position: top ${adjustedTop}px, left ${cropLeft}px`);
+    console.log(`  Logo size: ${resizedLogoWidth}×${resizedLogoHeight}px`);
+    console.log(`  Background: RGB(${backgroundColor.r}, ${backgroundColor.g}, ${backgroundColor.b})`);
   } catch (error) {
     console.error('Error creating OG image:', error);
   }

@@ -2,41 +2,57 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Home Page -->
   <url>
-    <loc>https://clientdomain.com/</loc>
-    <lastmod>2025-12-07</lastmod>
+    <loc>https://pihlafolk.com/</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <!-- About Page (when created) -->
+  <!-- About / Pihla Folk Page -->
   <url>
-    <loc>https://clientdomain.com/#about</loc>
-    <lastmod>2025-12-07</lastmod>
+    <loc>https://pihlafolk.com/about</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Productions Page -->
+  <url>
+    <loc>https://pihlafolk.com/productions</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
-  <!-- Gallery Page (when created) -->
+  <!-- Artists Page -->
   <url>
-    <loc>https://clientdomain.com/#gallery</loc>
-    <lastmod>2025-12-07</lastmod>
+    <loc>https://pihlafolk.com/artists</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
-  <!-- Media/Showreel Page (when created) -->
+  <!-- Media Page -->
   <url>
-    <loc>https://clientdomain.com/#media</loc>
-    <lastmod>2025-12-07</lastmod>
+    <loc>https://pihlafolk.com/media</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
-  <!-- Contact Page (when created) -->
+  <!-- Contact Page -->
   <url>
-    <loc>https://clientdomain.com/#contact</loc>
-    <lastmod>2025-12-07</lastmod>
+    <loc>https://pihlafolk.com/contact</loc>
+    <lastmod>2026-02-17</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
+  </url>
+
+  <!-- English Versions -->
+  <url>
+    <loc>https://pihlafolk.com/?lang=en</loc>
+    <lastmod>2026-02-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
   </url>
 </urlset>

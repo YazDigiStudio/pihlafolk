@@ -1,11 +1,11 @@
-# robots.txt for Portfolio Template
+# robots.txt for Pihla Folk
 
 # Allow all search engines
 User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://clientdomain.com/sitemap.xml
+Sitemap: https://pihlafolk.com/sitemap.xml
 
 # Disallow admin/CMS area
 Disallow: /admin/
