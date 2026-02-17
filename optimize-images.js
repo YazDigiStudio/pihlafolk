@@ -16,6 +16,7 @@ import sharp from 'sharp';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import convert from 'heic-convert';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -29,6 +30,21 @@ const PNG_QUALITY = 85;
 
 // Check for asset optimization flag
 const optimizeAssets = process.argv.includes('--assets');
+
+/**
+ * Convert HEIC file to JPEG buffer for processing
+ * @param {string} inputPath - Path to HEIC file
+ * @returns {Promise<Buffer>} JPEG buffer
+ */
+async function convertHeicToJpeg(inputPath) {
+  const inputBuffer = fs.readFileSync(inputPath);
+  const outputBuffer = await convert({
+    buffer: inputBuffer,
+    format: 'JPEG',
+    quality: 1 // Max quality for conversion, sharp will optimize later
+  });
+  return outputBuffer;
+}
 
 optimizeImages();
 
@@ -80,7 +96,7 @@ async function processUploadsToWeb(uploadsDir) {
       if (stat.isDirectory()) {
         // Recursively process subdirectories
         await processDirectory(itemPath);
-      } else if (stat.isFile() && /\.(jpg|jpeg|png|webp)$/i.test(item)) {
+      } else if (stat.isFile() && /\.(jpg|jpeg|png|webp|heic)$/i.test(item)) {
         // Calculate relative path from uploads dir
         const relativePath = path.relative(uploadsDir, itemPath);
         const outputPath = path.join(WEB_DIR, relativePath);
@@ -109,7 +125,7 @@ async function optimizeAssetsInPlace(assetsDir) {
     const itemPath = path.join(assetsDir, item);
     const stat = fs.statSync(itemPath);
 
-    if (stat.isFile() && /\.(jpg|jpeg|png|webp)$/i.test(item)) {
+    if (stat.isFile() && /\.(jpg|jpeg|png|webp|heic)$/i.test(item)) {
       const result = await optimizeImageInPlace(itemPath);
       if (result) {
         totalSavings += result.savings;
@@ -134,6 +150,14 @@ async function optimizeAndCopyImage(inputPath, outputPath) {
       fs.mkdirSync(outputDir, { recursive: true });
     }
 
+    // Determine output format and settings
+    const ext = path.extname(inputPath).toLowerCase();
+
+    // Convert HEIC to JPEG: change output path extension
+    if (ext === '.heic') {
+      outputPath = outputPath.replace(/\.heic$/i, '.jpg');
+    }
+
     // Skip if output already exists and is newer than input
     if (fs.existsSync(outputPath)) {
       const outputStats = fs.statSync(outputPath);
@@ -143,14 +167,20 @@ async function optimizeAndCopyImage(inputPath, outputPath) {
       }
     }
 
-    // Determine output format and settings
-    const ext = path.extname(inputPath).toLowerCase();
-    let sharpInstance = sharp(inputPath).resize(MAX_WIDTH, null, {
+    // Convert HEIC to JPEG buffer first if needed
+    let sharpInput = inputPath;
+    if (ext === '.heic') {
+      console.log(`  Converting HEIC to JPEG...`);
+      sharpInput = await convertHeicToJpeg(inputPath);
+    }
+
+    let sharpInstance = sharp(sharpInput).resize(MAX_WIDTH, null, {
       withoutEnlargement: true,
       fit: 'inside'
     });
 
-    if (ext === '.jpg' || ext === '.jpeg') {
+    if (ext === '.jpg' || ext === '.jpeg' || ext === '.heic') {
+      // Convert HEIC to JPEG with same quality settings
       sharpInstance = sharpInstance.jpeg({ quality: JPEG_QUALITY, progressive: true });
     } else if (ext === '.png') {
       sharpInstance = sharpInstance.png({ quality: PNG_QUALITY, compressionLevel: 9 });
@@ -166,7 +196,11 @@ async function optimizeAndCopyImage(inputPath, outputPath) {
     const reduction = ((1 - outputStats.size / stats.size) * 100).toFixed(0);
     const savedKB = ((stats.size - outputStats.size) / 1024).toFixed(0);
 
-    console.log(`✓ ${relativePath}`);
+    if (ext === '.heic') {
+      console.log(`✓ ${relativePath} → ${path.basename(outputPath)} (HEIC converted to JPEG)`);
+    } else {
+      console.log(`✓ ${relativePath}`);
+    }
     console.log(`  ${inputSizeKB}KB → ${outputSizeKB}KB (saved ${savedKB}KB, ${reduction}% smaller)`);
 
     return { savings: (stats.size - outputStats.size), processed: true };
@@ -189,16 +223,27 @@ async function optimizeImageInPlace(inputPath) {
       return { savings: 0, processed: false };
     }
 
-    const tempPath = inputPath + '.tmp';
-
     // Determine output format and settings
     const ext = path.extname(inputPath).toLowerCase();
-    let sharpInstance = sharp(inputPath).resize(MAX_WIDTH, null, {
+
+    // For HEIC files in assets, convert to JPEG
+    const finalPath = ext === '.heic' ? inputPath.replace(/\.heic$/i, '.jpg') : inputPath;
+    const tempPath = finalPath + '.tmp';
+
+    // Convert HEIC to JPEG buffer first if needed
+    let sharpInput = inputPath;
+    if (ext === '.heic') {
+      console.log(`  Converting HEIC to JPEG...`);
+      sharpInput = await convertHeicToJpeg(inputPath);
+    }
+
+    let sharpInstance = sharp(sharpInput).resize(MAX_WIDTH, null, {
       withoutEnlargement: true,
       fit: 'inside'
     });
 
-    if (ext === '.jpg' || ext === '.jpeg') {
+    if (ext === '.jpg' || ext === '.jpeg' || ext === '.heic') {
+      // Convert HEIC to JPEG with same quality settings
       sharpInstance = sharpInstance.jpeg({ quality: JPEG_QUALITY, progressive: true });
     } else if (ext === '.png') {
       sharpInstance = sharpInstance.png({ quality: PNG_QUALITY, compressionLevel: 9 });
@@ -216,9 +261,15 @@ async function optimizeImageInPlace(inputPath) {
 
     // Only replace if we actually saved space
     if (outputStats.size < stats.size) {
-      fs.renameSync(tempPath, inputPath);
+      fs.renameSync(tempPath, finalPath);
 
-      console.log(`✓ ${fileName}`);
+      // If HEIC was converted to JPG, remove the original HEIC file
+      if (ext === '.heic' && finalPath !== inputPath) {
+        fs.unlinkSync(inputPath);
+        console.log(`✓ ${fileName} → ${path.basename(finalPath)} (HEIC converted to JPEG)`);
+      } else {
+        console.log(`✓ ${fileName}`);
+      }
       console.log(`  ${inputSizeKB}KB → ${outputSizeKB}KB (saved ${savedKB}KB, ${reduction}% smaller)`);
 
       return { savings: (stats.size - outputStats.size), processed: true };
