@@ -19,6 +19,7 @@ interface RelatedLink {
 
 interface ContactContent {
   email: string;
+  phone: string;
   socialMedia: SocialMedia[];
   relatedLinks: RelatedLink[];
 }
@@ -137,6 +138,23 @@ export const ContactPage: React.FC = () => {
                   {data.email}
                 </a>
               </div>
+
+              {/* Phone Number */}
+              {data.phone && (
+                <div style={{ marginBottom: "3rem" }}>
+                  <a
+                    href={`tel:${data.phone}`}
+                    style={{
+                      fontSize: "1.4rem",
+                      color: colors.textPrimary,
+                      textDecoration: "none",
+                      fontWeight: 500
+                    }}
+                  >
+                    {data.phone}
+                  </a>
+                </div>
+              )}
 
               {/* Social Media Icons */}
               {data.socialMedia && data.socialMedia.length > 0 && (

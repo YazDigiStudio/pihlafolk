@@ -65,11 +65,10 @@ export const Navigation: React.FC<NavigationProps> = ({ showName = true }) => {
   const navLinks = [
     { label: t.nav.home, to: '/' },
     { label: t.nav.about, to: '/tietoa' },
-    { label: t.nav.artists, to: '/artistit' },
     { label: t.nav.productions, to: '/tuotannot' },
+    { label: t.nav.artists, to: '/artistit' },
     { label: t.nav.media, to: '/media' },
     { label: t.nav.contact, to: '/yhteystiedot' }
-    // { label: t.nav.services, to: '/palvelut' }, // Hidden for now
   ];
 
   return (

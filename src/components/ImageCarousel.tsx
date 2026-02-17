@@ -17,11 +17,13 @@ interface CarouselImage {
 interface ImageCarouselProps {
   images: CarouselImage[];
   autoPlayInterval?: number;
+  photoLabel?: string;
 }
 
 export const ImageCarousel: React.FC<ImageCarouselProps> = ({
   images,
-  autoPlayInterval = 5000
+  autoPlayInterval = 5000,
+  photoLabel = "kuva"
 }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
@@ -300,7 +302,7 @@ export const ImageCarousel: React.FC<ImageCarouselProps> = ({
               textOverflow: 'ellipsis'
             }}
           >
-            Kuva: {images[currentIndex].photographer}
+            {photoLabel}: {images[currentIndex].photographer}
           </div>
         )}
       </div>

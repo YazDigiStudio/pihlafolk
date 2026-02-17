@@ -6,6 +6,7 @@ import { useScreenSize } from '../hooks/useScreenSize';
 import { useContentData } from '../hooks/useContentData';
 import { useTranslations } from '../hooks/useTranslations';
 import { usePageMeta } from '../hooks/usePageMeta';
+import { useLanguage } from '../contexts/LanguageContext';
 import { getOptimizedImagePath } from '../utils/imageUtils';
 
 /**
@@ -26,13 +27,20 @@ interface Production {
   status: 'ongoing' | 'completed';
   year: string;
   image: string;
+  photographer?: string;
   description: {
     fi: string;
     en: string;
   };
-  funding?: {
-    fi: string[];
-    en: string[];
+  additionalInfo?: {
+    title: {
+      fi: string;
+      en: string;
+    };
+    text: {
+      fi: string;
+      en: string;
+    };
   };
   link: string;
 }
@@ -60,6 +68,8 @@ export const ProductionsPage: React.FC = () => {
   const { isMobile } = useScreenSize();
   const data = useContentData<ProductionsContent>('productions.json');
   const t = useTranslations();
+  const { language } = useLanguage();
+  const photoLabel = language === "fi" ? "kuva" : "photo";
 
   // Set page metadata for SEO
   usePageMeta({
@@ -88,17 +98,33 @@ export const ProductionsPage: React.FC = () => {
     <div>
       {/* Production Image */}
       {production.image && (
-        <img
-          src={getOptimizedImagePath(production.image)}
-          alt={production.title}
-          style={{
-            maxWidth: '600px',
-            width: '100%',
-            height: 'auto',
-            display: 'block',
-            margin: '0 auto'
-          }}
-        />
+        <div style={{ position: 'relative', maxWidth: '600px', margin: '0 auto' }}>
+          <img
+            src={getOptimizedImagePath(production.image)}
+            alt={production.title}
+            style={{
+              width: '100%',
+              height: 'auto',
+              display: 'block'
+            }}
+          />
+          {production.photographer && (
+            <span
+              style={{
+                position: 'absolute',
+                bottom: '0.5rem',
+                right: '0.5rem',
+                backgroundColor: 'rgba(12, 12, 12, 0.6)',
+                color: 'rgba(244, 244, 244, 0.9)',
+                fontSize: '0.75rem',
+                padding: '0.25rem 0.5rem',
+                borderRadius: '3px'
+              }}
+            >
+              {photoLabel}: {production.photographer}
+            </span>
+          )}
+        </div>
       )}
 
       {/* Production Info */}
@@ -155,11 +181,11 @@ export const ProductionsPage: React.FC = () => {
             whiteSpace: 'pre-line'
           }}
         >
-          {production.description.fi}
+          {production.description[language]}
         </p>
 
-        {/* Funding */}
-        {production.funding && production.funding.fi.length > 0 && (
+        {/* Additional Info */}
+        {production.additionalInfo && production.additionalInfo.title[language] && production.additionalInfo.text[language] && (
           <div
             style={{
               marginTop: '1.5rem',
@@ -177,16 +203,17 @@ export const ProductionsPage: React.FC = () => {
                 letterSpacing: '0.05em'
               }}
             >
-              {t.productions.funding}:
+              {production.additionalInfo.title[language]}:
             </p>
             <p
               style={{
                 fontSize: '0.9rem',
                 color: 'rgba(12, 12, 12, 0.6)',
-                margin: 0
+                margin: 0,
+                whiteSpace: 'pre-line'
               }}
             >
-              {production.funding.fi.join(', ')}
+              {production.additionalInfo.text[language]}
             </p>
           </div>
         )}
@@ -262,7 +289,7 @@ export const ProductionsPage: React.FC = () => {
                   borderBottom: '2px solid rgba(255, 0, 0, 0.2)'
                 }}
               >
-                {t.productions.ongoing}
+                {data.ongoing.title[language]}
               </h2>
               <div>
                 {data.ongoing.productions.map((production, index) => (
@@ -289,7 +316,7 @@ export const ProductionsPage: React.FC = () => {
                   borderBottom: '2px solid rgba(255, 0, 0, 0.2)'
                 }}
               >
-                {t.productions.past}
+                {data.past.title[language]}
               </h2>
               <div>
                 {data.past.productions.map((production, index) => (

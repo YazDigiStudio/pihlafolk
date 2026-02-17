@@ -5,6 +5,7 @@ import { useScreenSize } from '../hooks/useScreenSize';
 import { useContentData } from '../hooks/useContentData';
 import { useTranslations } from '../hooks/useTranslations';
 import { usePageMeta } from '../hooks/usePageMeta';
+import { useLanguage } from '../contexts/LanguageContext';
 import { getOptimizedImagePath } from '../utils/imageUtils';
 import { PIHLA_FOLK_PALETTE } from '../styles/colorPalettes';
 
@@ -12,6 +13,7 @@ interface HomeSection {
   header?: string;
   text: string;
   image?: string;
+  photographer?: string;
   imagePosition?: 'left' | 'right';
   maxTextLength?: number;
 }
@@ -31,6 +33,7 @@ interface HomeContent {
   mediaType?: 'image' | 'video';
   mediaUrl?: string;
   mediaVideoUrl?: string;
+  heroPhotographer?: string;
   showLogo?: boolean;
   logoPositionHorizontal?: 'left' | 'right';
   logoPositionVertical?: 'up' | 'middle' | 'down';
@@ -59,7 +62,9 @@ export const HomePage: React.FC = () => {
   const { isMobile } = useScreenSize();
   const data = useContentData<HomeContent>('home.json');
   const t = useTranslations();
+  const { language } = useLanguage();
   const colors = PIHLA_FOLK_PALETTE.colors;
+  const photoLabel = language === "fi" ? "kuva" : "photo";
 
   // Set page metadata for SEO
   usePageMeta({
@@ -228,6 +233,25 @@ export const HomePage: React.FC = () => {
                     </div>
                   );
                 })()}
+
+                {/* Photographer credit */}
+                {data.heroPhotographer && (
+                  <span
+                    style={{
+                      position: 'absolute',
+                      bottom: '0.5rem',
+                      right: '0.5rem',
+                      backgroundColor: 'rgba(12, 12, 12, 0.6)',
+                      color: 'rgba(244, 244, 244, 0.9)',
+                      fontSize: '0.75rem',
+                      padding: '0.25rem 0.5rem',
+                      borderRadius: '3px',
+                      zIndex: 11
+                    }}
+                  >
+                    {photoLabel}: {data.heroPhotographer}
+                  </span>
+                )}
               </div>
             )}
 
@@ -423,7 +447,8 @@ export const HomePage: React.FC = () => {
                       borderRadius: '8px',
                       overflow: 'hidden',
                       boxShadow: '0 8px 24px rgba(12, 12, 12, 0.4)',
-                      flexShrink: 0
+                      flexShrink: 0,
+                      position: 'relative'
                     }}
                   >
                     <img
@@ -435,6 +460,22 @@ export const HomePage: React.FC = () => {
                         display: 'block'
                       }}
                     />
+                    {section.photographer && (
+                      <span
+                        style={{
+                          position: 'absolute',
+                          bottom: '0.5rem',
+                          right: '0.5rem',
+                          backgroundColor: 'rgba(12, 12, 12, 0.6)',
+                          color: 'rgba(244, 244, 244, 0.9)',
+                          fontSize: '0.75rem',
+                          padding: '0.25rem 0.5rem',
+                          borderRadius: '3px'
+                        }}
+                      >
+                        {photoLabel}: {section.photographer}
+                      </span>
+                    )}
                   </div>
 
                   {/* Text */}

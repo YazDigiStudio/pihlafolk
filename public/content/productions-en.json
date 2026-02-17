@@ -65,15 +65,15 @@
           "en": " "
         },
         "year": "2023",
-        "funding": {
-          "fi": [
-            "Opetus- ja kulttuuriministeriö",
-            "Musiikin edistämissäätiö"
-          ],
-          "en": [
-            "Ministry of Education and Culture",
-            "Music Promotion Foundation"
-          ]
+        "additionalInfo": {
+          "title": {
+            "fi": "Rahoittajat",
+            "en": "Funding"
+          },
+          "text": {
+            "fi": "Opetus- ja kulttuuriministeriö, Musiikin edistämissäätiö",
+            "en": "Ministry of Education and Culture, Music Promotion Foundation"
+          }
         }
       },
       {

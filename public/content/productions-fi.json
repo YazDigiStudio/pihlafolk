@@ -1,7 +1,7 @@
 {
   "ongoing": {
     "title": {
-      "fi": "Käynnissä olevat",
+      "fi": "käynnissä olevat",
       "en": "ongoing"
     },
     "productions": [
@@ -13,7 +13,7 @@
         "year": "2020-",
         "image": "/uploads/productions/laulettu-kalevala.jpg",
         "description": {
-          "fi": "Laulettu Kalevala -äänikirjassa nimensä mukaisesti lauletaan karjalais-suomalainen eepos (1849) läpi eri kansansävelmin.\n\nÄänikirjan ensimmäinen jakso julkaistiin digitaalisesti Kalevalan päivänä, 28.2.2023.\nJatkoa seuraa digitaalisesti vuonna 2026\n2. jakso julkaistaan Kalevalan päivänä, 28. helmikuuta\n3. ja viimeinen jakso Runolaulupäivänä, 25. huhtikuuta\n\n1. jakso on kuultavissa etno.net-sivustolla. Lauletun Kalevalan YouTube-tili on remontissa teknisistä syistä johtuen tällä hetkellä, mutta palaa käyttöön mahdollisimman pian.\n\nOn oleellista tuoda Elias Lönnrotin karjalaisten, suomalaisten ja inkeriläisten runojen pohjalle ja pohjalta luoma Kalevala kuultavaksi ja laulettavaksi juuri runolaulettuna, koska siitähän eepoksessa on kysymys. Kalevalaa voi olla haastavaa lukea, mutta laulun kautta sen voi kokea uudella tavalla. Runolaulu ehti välillä jo lähes sammua, mutta sitä on onnistuttu elvyttämään menestyksekkäästi viime vuosikymmeninä. Osaa näistä elvyttäjistä kuullaan tässä äänikirjassa. Hankkeen yhtenä ideana onkin, että tutun eepoksen kautta koko laaja itämerensuomalainen runolaulumaailma ja kansanrunous aukeaisivat kuulijalleen.\n\nTyöryhmä\nRunolaulajat & lukija:\nÄäniteatteri Iki-Turso: Eila Hartikainen, Taito Hoffrén, Maari Kallberg, Ilona Korhonen, Heikki Laitinen & Anna-Kaisa Liedes\nVisuaalinen suunnittelija: Tatu Rouvinen\nÄänitys: Taito Hoffrén, 25. runo Alec Havinmaa\nEditointi & masterointi: Taito Hoffrén & Alec Havinmaa\nHankkeen koollekutsuja, tuottaja & julkaisija: Mari Pääkkönen / pihla folk\n\nLaulettu Kalevala -äänikirja on osa Taideyliopiston Sibelius-Akatemian Kansanmusiikin aineryhmän äänitesarjaa\n\nÄänikirjan lopputuotantoa ja julkaisemista rahoittaa vuonna 2026 Kalevalaseura\n\nHanketta kokonaisuudessaan rahoittivat vuosina 2021-2023: Jenny ja Antti Wihurin rahasto, Kalevalaseura, Suomen Kulttuurirahasto, Niilo Helanderin rahasto, Taiteen edistämiskeskus ",
+          "fi": "Laulettu Kalevala -äänikirjassa nimensä mukaisesti lauletaan karjalais-suomalainen eepos (1849) läpi eri kansansävelmin.\n\nÄänikirjan ensimmäinen jakso julkaistiin digitaalisesti Kalevalan päivänä, 28.2.2023. \nJatkoa seuraa digitaalisesti vuonna 2026\n2. jakso julkaistaan Kalevalan päivänä, 28. helmikuuta\n3. ja viimeinen jakso Runolaulupäivänä, 25. huhtikuuta\n\n1. jakso on kuultavissa etno.net-sivustolla. Lauletun Kalevalan YouTube-tili on remontissa teknisistä syistä johtuen tällä hetkellä, mutta palaa käyttöön mahdollisimman pian.\n\nOn oleellista tuoda Elias Lönnrotin karjalaisten, suomalaisten ja inkeriläisten runojen pohjalle ja pohjalta luoma Kalevala kuultavaksi ja laulettavaksi juuri runolaulettuna, koska siitähän eepoksessa on kysymys. Kalevalaa voi olla haastavaa lukea, mutta laulun kautta sen voi kokea uudella tavalla. Runolaulu ehti välillä jo lähes sammua, mutta sitä on onnistuttu elvyttämään menestyksekkäästi viime vuosikymmeninä. Osaa näistä elvyttäjistä kuullaan tässä äänikirjassa. Hankkeen yhtenä ideana onkin, että tutun eepoksen kautta koko laaja itämerensuomalainen runolaulumaailma ja kansanrunous aukeaisivat kuulijalleen.\n\nTyöryhmä\nRunolaulajat & lukija:\nÄäniteatteri Iki-Turso: Eila Hartikainen, Taito Hoffrén, Maari Kallberg, Ilona Korhonen, Heikki Laitinen & Anna-Kaisa Liedes\nVisuaalinen suunnittelija: Tatu Rouvinen\nÄänitys: Taito Hoffrén, 25. runo Alec Havinmaa\nEditointi & masterointi: Taito Hoffrén & Alec Havinmaa\nHankkeen koollekutsuja, tuottaja & julkaisija: Mari Pääkkönen / pihla folk\n\nLaulettu Kalevala -äänikirja on osa Taideyliopiston Sibelius-Akatemian Kansanmusiikin aineryhmän äänitesarjaa\n\nÄänikirjan lopputuotantoa ja julkaisemista rahoittaa vuonna 2026 Kalevalaseura\n\nHanketta kokonaisuudessaan rahoittivat vuosina 2021-2023: Jenny ja Antti Wihurin rahasto, Kalevalaseura, Suomen Kulttuurirahasto, Niilo Helanderin rahasto, Taiteen edistämiskeskus ",
           "en": "Sung Kalevala is a long-term audiobook project that brings the poems of Kalevala to life through traditional folk music and singing."
         },
         "link": "https://linktr.ee/laulettu_kalevala"
@@ -65,15 +65,15 @@
           "en": "Starting international Finno-Ugric cooperation in Estonia together with Sattuma duo. Finno-Ugric Days on October 20-21, 2023 at Õpetajate Maja, Tallinn and at Estonian National Museum, Tartu."
         },
         "year": "2023",
-        "funding": {
-          "fi": [
-            "Opetus- ja kulttuuriministeriö",
-            "Musiikin edistämissäätiö"
-          ],
-          "en": [
-            "Ministry of Education and Culture",
-            "Music Promotion Foundation"
-          ]
+        "additionalInfo": {
+          "title": {
+            "fi": "Rahoittajat",
+            "en": "Funding"
+          },
+          "text": {
+            "fi": "Opetus- ja kulttuuriministeriö, Musiikin edistämissäätiö",
+            "en": "Ministry of Education and Culture, Music Promotion Foundation"
+          }
         }
       },
       {

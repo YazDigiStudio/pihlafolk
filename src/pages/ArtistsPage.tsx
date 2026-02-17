@@ -6,6 +6,7 @@ import { useScreenSize } from '../hooks/useScreenSize';
 import { useContentData } from '../hooks/useContentData';
 import { useTranslations } from '../hooks/useTranslations';
 import { usePageMeta } from '../hooks/usePageMeta';
+import { useLanguage } from '../contexts/LanguageContext';
 import { getOptimizedImagePath } from '../utils/imageUtils';
 
 /**
@@ -19,11 +20,14 @@ import { getOptimizedImagePath } from '../utils/imageUtils';
  * - Links to artist websites
  */
 
+type ArtistType = 'booking-fi' | 'booking-intl' | 'management-intl';
+
 interface Artist {
   id: string;
   name: string;
-  type: 'booking' | 'management';
+  type: ArtistType;
   image: string;
+  photographer?: string;
   website: string;
   excerpt: string;
   bio: string;
@@ -40,10 +44,12 @@ export const ArtistsPage: React.FC = () => {
   const colors = PIHLA_FOLK_PALETTE.colors;
   const { isMobile } = useScreenSize();
   const [selectedArtist, setSelectedArtist] = useState<Artist | null>(null);
-  const [filter, setFilter] = useState<'all' | 'booking' | 'management'>('all');
+  const [filter, setFilter] = useState<'all' | ArtistType>('all');
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
   const data = useContentData<ArtistsContent>('artists.json');
   const t = useTranslations();
+  const { language } = useLanguage();
+  const photoLabel = language === "fi" ? "kuva" : "photo";
 
   // Set page metadata for SEO
   usePageMeta({
@@ -124,12 +130,13 @@ export const ArtistsPage: React.FC = () => {
           >
             {[
               { key: 'all', label: t.artists.filterAll },
-              { key: 'booking', label: t.artists.filterBooking },
-              { key: 'management', label: t.artists.filterManagement }
+              { key: 'booking-fi', label: t.artists.filterBookingFi },
+              { key: 'booking-intl', label: t.artists.filterBookingIntl },
+              { key: 'management-intl', label: t.artists.filterManagementIntl }
             ].map((btn) => (
               <button
                 key={btn.key}
-                onClick={() => setFilter(btn.key as 'all' | 'booking' | 'management')}
+                onClick={() => setFilter(btn.key as 'all' | ArtistType)}
                 style={{
                   padding: '0.75rem 2rem',
                   fontSize: '1rem',
@@ -220,7 +227,8 @@ export const ArtistsPage: React.FC = () => {
                     <div
                       style={{
                         flex: isMobile ? '0 0 auto' : '0 0 50%',
-                        width: isMobile ? '100%' : '50%'
+                        width: isMobile ? '100%' : '50%',
+                        position: 'relative'
                       }}
                     >
                       <img
@@ -234,6 +242,22 @@ export const ArtistsPage: React.FC = () => {
                           minHeight: isMobile ? '300px' : '400px'
                         }}
                       />
+                      {artist.photographer && (
+                        <span
+                          style={{
+                            position: 'absolute',
+                            bottom: '0.5rem',
+                            right: '0.5rem',
+                            backgroundColor: 'rgba(12, 12, 12, 0.6)',
+                            color: 'rgba(244, 244, 244, 0.9)',
+                            fontSize: '0.75rem',
+                            padding: '0.25rem 0.5rem',
+                            borderRadius: '3px'
+                          }}
+                        >
+                          {photoLabel}: {artist.photographer}
+                        </span>
+                      )}
                     </div>
 
                     {/* Artist Info */}
@@ -282,7 +306,7 @@ export const ArtistsPage: React.FC = () => {
                           letterSpacing: '0.05em'
                         }}
                       >
-                        {artist.type === 'booking' ? t.artists.booking : t.artists.management}
+                        {artist.type === 'booking-fi' ? t.artists.bookingFi : artist.type === 'booking-intl' ? t.artists.bookingIntl : t.artists.managementIntl}
                       </p>
                       <p
                         style={{
@@ -388,19 +412,37 @@ export const ArtistsPage: React.FC = () => {
             }}
           >
             {/* Artist Image */}
-            <img
-              src={getOptimizedImagePath(selectedArtist.image)}
-              alt={selectedArtist.name}
-              style={{
-                width: '100%',
-                height: 'auto',
-                maxHeight: '500px',
-                objectFit: 'contain',
-                display: 'block',
-                backgroundColor: '#f5f5f5',
-                paddingTop: '2rem'
-              }}
-            />
+            <div style={{ position: 'relative' }}>
+              <img
+                src={getOptimizedImagePath(selectedArtist.image)}
+                alt={selectedArtist.name}
+                style={{
+                  width: '100%',
+                  height: 'auto',
+                  maxHeight: '500px',
+                  objectFit: 'contain',
+                  display: 'block',
+                  backgroundColor: '#f5f5f5',
+                  paddingTop: '2rem'
+                }}
+              />
+              {selectedArtist.photographer && (
+                <span
+                  style={{
+                    position: 'absolute',
+                    bottom: '0.5rem',
+                    right: '0.5rem',
+                    backgroundColor: 'rgba(12, 12, 12, 0.6)',
+                    color: 'rgba(244, 244, 244, 0.9)',
+                    fontSize: '0.75rem',
+                    padding: '0.25rem 0.5rem',
+                    borderRadius: '3px'
+                  }}
+                >
+                  {photoLabel}: {selectedArtist.photographer}
+                </span>
+              )}
+            </div>
 
             {/* Artist Bio Content */}
             <div style={{ padding: isMobile ? '2rem 1.5rem' : '3rem' }}>
@@ -454,7 +496,7 @@ export const ArtistsPage: React.FC = () => {
                   letterSpacing: '0.05em'
                 }}
               >
-                {selectedArtist.type === 'booking' ? t.artists.booking : t.artists.management}
+                {selectedArtist.type === 'booking-fi' ? t.artists.bookingFi : selectedArtist.type === 'booking-intl' ? t.artists.bookingIntl : t.artists.managementIntl}
               </p>
 
               {/* Bio Text */}

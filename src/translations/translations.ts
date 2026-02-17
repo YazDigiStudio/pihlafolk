@@ -2,15 +2,15 @@ export const translations = {
   fi: {
     // Navigation
     nav: {
-      home: 'Etusivu',
-      artists: 'Artistit',
-      gallery: 'Galleria',
+      home: 'etusivu',
+      artists: 'artistit',
+      gallery: 'galleria',
       about: 'pihla folk',
-      services: 'Palvelut',
-      media: 'Media',
-      productions: 'Tuotannot',
+      services: 'palvelut',
+      media: 'media',
+      productions: 'tuotannot',
       cv: 'CV',
-      contact: 'Yhteystiedot'
+      contact: 'yhteystiedot'
     },
     // Common
     common: {
@@ -18,14 +18,16 @@ export const translations = {
     },
     // Artists (Gallery will become Artists page)
     artists: {
-      title: 'Artistit',
-      filterAll: 'Kaikki',
-      filterBooking: 'Keikkamyynti',
-      filterManagement: 'Managerointi',
-      website: 'Kotisivu',
-      booking: 'Keikkamyynti',
-      management: 'Managerointi',
-      readMore: 'Lue lisää'
+      title: 'artistit',
+      filterAll: 'kaikki',
+      filterBookingFi: 'keikkamyynti Suomessa',
+      filterBookingIntl: 'keikkamyynti Suomessa ja kansainvälisesti',
+      filterManagementIntl: 'managerointi Suomessa ja kansainvälisesti',
+      website: 'kotisivu',
+      bookingFi: 'keikkamyynti Suomessa',
+      bookingIntl: 'keikkamyynti Suomessa ja kansainvälisesti',
+      managementIntl: 'managerointi Suomessa ja kansainvälisesti',
+      readMore: 'lue lisää'
     },
     // Services (Media will become Services page)
     services: {
@@ -34,11 +36,11 @@ export const translations = {
     },
     // Productions (CV will become Productions page)
     productions: {
-      title: 'Tuotannot',
-      ongoing: 'Käynnissä olevat',
-      past: 'Menneet tuotannot',
-      year: 'Vuosi',
-      funding: 'Rahoitus'
+      title: 'tuotannot',
+      ongoing: 'käynnissä olevat',
+      past: 'menneet tuotannot',
+      year: 'vuosi',
+      funding: 'rahoitus'
     },
     // About
     about: {
@@ -120,15 +122,15 @@ export const translations = {
   en: {
     // Navigation
     nav: {
-      home: 'Home',
-      artists: 'Artists',
-      gallery: 'Gallery',
+      home: 'home',
+      artists: 'artists',
+      gallery: 'gallery',
       about: 'pihla folk',
-      services: 'Services',
-      media: 'Media',
-      productions: 'Productions',
+      services: 'services',
+      media: 'media',
+      productions: 'productions',
       cv: 'CV',
-      contact: 'Contact'
+      contact: 'contact'
     },
     // Common
     common: {
@@ -136,14 +138,16 @@ export const translations = {
     },
     // Artists (Gallery will become Artists page)
     artists: {
-      title: 'Artists',
-      filterAll: 'All',
-      filterBooking: 'Booking',
-      filterManagement: 'Management',
-      website: 'Website',
-      booking: 'Booking',
-      management: 'Management',
-      readMore: 'Read more'
+      title: 'artists',
+      filterAll: 'all',
+      filterBookingFi: 'booking in Finland',
+      filterBookingIntl: 'booking in Finland and internationally',
+      filterManagementIntl: 'management in Finland and internationally',
+      website: 'website',
+      bookingFi: 'booking in Finland',
+      bookingIntl: 'booking in Finland and internationally',
+      managementIntl: 'management in Finland and internationally',
+      readMore: 'read more'
     },
     // Services (Media will become Services page)
     services: {
@@ -152,11 +156,11 @@ export const translations = {
     },
     // Productions (CV will become Productions page)
     productions: {
-      title: 'Productions',
-      ongoing: 'Ongoing',
-      past: 'Past Productions',
-      year: 'Year',
-      funding: 'Funding'
+      title: 'productions',
+      ongoing: 'ongoing',
+      past: 'past productions',
+      year: 'year',
+      funding: 'funding'
     },
     // About
     about: {

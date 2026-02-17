@@ -6,7 +6,7 @@
       "name": "Aizhan Sultan",
       "featured": true,
       "order": 3,
-      "type": "management",
+      "type": "management-intl",
       "website": "https://yazzo.io",
       "id": "aizhan-sultan",
       "image": "/uploads/artists/aizhan-sultan.jpg"
@@ -17,7 +17,7 @@
       "name": "Ensemble Gamut",
       "featured": true,
       "order": 1,
-      "type": "booking",
+      "type": "booking-intl",
       "website": "https://yazzo.io",
       "id": "ensemble-gamut",
       "image": "/uploads/artists/ensemble-gamut.jpg"
@@ -28,7 +28,7 @@
       "name": "Dänkki Briha",
       "featured": true,
       "order": 4,
-      "type": "booking",
+      "type": "booking-fi",
       "website": "https://yazzo.io",
       "id": "dankki-briha",
       "image": "/uploads/artists/dankki-briha.jpg"
@@ -39,7 +39,7 @@
       "name": "FRÄNDER",
       "featured": true,
       "order": 5,
-      "type": "booking",
+      "type": "booking-intl",
       "website": "https://www.frander.se/",
       "id": "frander",
       "image": "/uploads/test.jpg"
@@ -50,7 +50,7 @@
       "name": "FLOS",
       "featured": false,
       "order": 2,
-      "type": "booking",
+      "type": "booking-intl",
       "website": "https://ensemblegamut.com/flos/",
       "id": "flos",
       "image": "/uploads/flos_highres_photo_by_anna_maria_viksten_horizontal-scaled.jpg"

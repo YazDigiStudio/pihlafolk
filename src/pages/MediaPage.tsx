@@ -6,6 +6,7 @@ import { useScreenSize } from '../hooks/useScreenSize';
 import { useContentData } from '../hooks/useContentData';
 import { useTranslations } from '../hooks/useTranslations';
 import { usePageMeta } from '../hooks/usePageMeta';
+import { useLanguage } from '../contexts/LanguageContext';
 import { getOptimizedImagePath } from '../utils/imageUtils';
 import { PIHLA_FOLK_PALETTE } from '../styles/colorPalettes';
 
@@ -56,7 +57,9 @@ export const MediaPage: React.FC = () => {
   const { isMobile } = useScreenSize();
   const data = useContentData<MediaContent>('media.json');
   const t = useTranslations();
+  const { language } = useLanguage();
   const colors = PIHLA_FOLK_PALETTE.colors;
+  const photoLabel = language === "fi" ? "kuva" : "photo";
 
   // Set page metadata for SEO
   usePageMeta({
@@ -194,6 +197,7 @@ export const MediaPage: React.FC = () => {
                           image: getOptimizedImagePath(img.image)
                         }))}
                         autoPlayInterval={5000}
+                        photoLabel={photoLabel}
                       />
                     </div>
                   )}
