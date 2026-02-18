@@ -1,22 +1,27 @@
 {
   "ongoing": {
     "title": {
-      "fi": "Käynnissä olevat",
-      "en": "Ongoing"
+      "fi": "käynnissä olevat",
+      "en": "ongoing"
     },
     "productions": [
       {
-        "id": "laulettu-kalevala",
+        "status": "ongoing",
+        "additionalInfo": {
+          "title": {
+            "fi": "FUNDING: The final production and release of the audiobook in 2026 are funded by the Kalevala Society.  The project as a whole was funded during 2021–2023 by: Jenny and Antti Wihuri Foundation, Kalevala Society, Finnish Cultural Foundation, Niilo Helander Foundation, and the Arts Promotion Centre Finland."
+          }
+        },
         "title": "Laulettu Kalevala",
         "type": "audiobook",
-        "status": "ongoing",
-        "year": "2020-",
+        "link": " ",
+        "id": "laulettu-kalevala",
         "image": "/uploads/productions/laulettu-kalevala.jpg",
         "description": {
-          "fi": "In the Laulettu Kalevala (The Sung Kalevala) audiobook, as the name suggests, the Karelian-Finnish epic Kalevala (1849) is performed in its entirety through song, using a variety of traditional folk melodies.\n\nThe first episode of the audiobook was released digitally on Kalevala Day, 28 February 2023.\nThe continuation will be released digitally in 2026:\n\t•\tEpisode 2 will be released on Kalevala Day, 28 February\n\t•\tEpisode 3, the final episode, on Runosong Day, 25 April\n\nEpisode 1 can be listened to on the etno.net website. The Laulettu Kalevala YouTube channel is currently under maintenance for technical reasons, but will return to use as soon as possible.\n\nIt is essential that the Kalevala, compiled and created by Elias Lönnrot based on Karelian, Finnish, and Ingrian runosongs, is heard and sung specifically as traditional sunosong, because that is what the epic fundamentally is. The Kalevala can be challenging to read, but through song it can be experienced in an entirely new way.\n\nRune singing once came close to extinction, but it has been successfully revitalized in recent decades. Some of the key figures in this revival can be heard in this audiobook. One of the project’s central aims is that, through the familiar epic, the listener may gain access to the vast world of Baltic-Finnic runosong and folk poetry.\n\nWorking Group\nRunosingers & narrator:\nVoice theather Iki-Turso: Eila Hartikainen, Taito Hoffrén, Maari Kallberg, Ilona Korhonen, Heikki Laitinen & Anna-Kaisa Liedes\nVisual designer: Tatu Rouvinen\nRecording: Taito Hoffrén, poem 25: Alec Havinmaa\nEditing & mastering: Taito Hoffrén & Alec Havinmaa\nProject convenor, producer & publisher: Mari Pääkkönen / Pihla Folk\n\nThe Laulettu Kalevala audiobook is part of the recording series of the Folk Music Department at the Sibelius Academy, University of the Arts Helsinki.\n\nThe final production and release of the audiobook in 2026 are funded by the Kalevala Society.\n\nThe project as a whole was funded during 2021–2023 by:\nJenny and Antti Wihuri Foundation, Kalevala Society, Finnish Cultural Foundation, Niilo Helander Foundation, and the Arts Promotion Centre Finland.",
+          "fi": "In the Laulettu Kalevala (The Sung Kalevala) audiobook, as the name suggests, the Karelian-Finnish epic Kalevala (1849) is performed in its entirety through song, using a variety of traditional folk melodies.\n\nThe first episode of the audiobook was released digitally on Kalevala Day, 28 February 2023.\nThe continuation will be released digitally in 2026:\n\t•\tEpisode 2 will be released on Kalevala Day, 28 February\n\t•\tEpisode 3, the final episode, on Runosong Day, 25 April\n\nEpisode 1 can be listened to on the etno.net website. The Laulettu Kalevala YouTube channel is currently under maintenance for technical reasons, but will return to use as soon as possible.\n\nIt is essential that the Kalevala, compiled and created by Elias Lönnrot based on Karelian, Finnish, and Ingrian runosongs, is heard and sung specifically as traditional sunosong, because that is what the epic fundamentally is. The Kalevala can be challenging to read, but through song it can be experienced in an entirely new way.\n\nRune singing once came close to extinction, but it has been successfully revitalized in recent decades. Some of the key figures in this revival can be heard in this audiobook. One of the project’s central aims is that, through the familiar epic, the listener may gain access to the vast world of Baltic-Finnic runosong and folk poetry.\n\nWorking Group\nRunosingers & narrator:\nVoice theather Iki-Turso: Eila Hartikainen, Taito Hoffrén, Maari Kallberg, Ilona Korhonen, Heikki Laitinen & Anna-Kaisa Liedes\nVisual designer: Tatu Rouvinen\nRecording: Taito Hoffrén, poem 25: Alec Havinmaa\nEditing & mastering: Taito Hoffrén & Alec Havinmaa\nProject convenor, producer & publisher: Mari Pääkkönen / Pihla Folk\n\nThe Laulettu Kalevala audiobook is part of the recording series of the Folk Music Department at the Sibelius Academy, University of the Arts Helsinki.",
           "en": "Sung Kalevala is a long-term audiobook project that brings the poems of Kalevala to life through traditional folk music and singing."
         },
-        "link": " "
+        "year": "2020-"
       },
       {
         "status": "ongoing",
@@ -36,8 +41,8 @@
   },
   "past": {
     "title": {
-      "fi": "Menneet",
-      "en": "Past"
+      "fi": "menneet",
+      "en": "past"
     },
     "productions": [
       {
@@ -55,26 +60,26 @@
       },
       {
         "status": "completed",
-        "title": "Terveh Viro!",
-        "type": "project",
-        "link": " ",
-        "id": "terveh-viro",
-        "image": "/uploads/img_3911.jpeg",
-        "description": {
-          "fi": "Starting international Finno-Ugric cooperation in Estonia together with Sattuma duo. Karelian and Finnish folk music at Finno-Ugric Days on October 20-21, 2023 at Õpetajate Maja, Tallinn and at Estonian National Museum, Tartu.\n\nFunding: Ministry of Education and Culture, Music Promotion Foundation.",
-          "en": " "
-        },
-        "year": "2023",
         "additionalInfo": {
           "title": {
-            "fi": "Rahoittajat",
+            "fi": "FUNDING: Ministry of Education and Culture, Music Promotion Foundation.",
             "en": "Funding"
           },
           "text": {
             "fi": "Opetus- ja kulttuuriministeriö, Musiikin edistämissäätiö",
             "en": "Ministry of Education and Culture, Music Promotion Foundation"
           }
-        }
+        },
+        "title": "Terveh Viro!",
+        "type": "project",
+        "link": " ",
+        "id": "terveh-viro",
+        "image": "/uploads/img_3911.jpeg",
+        "description": {
+          "fi": "Starting international Finno-Ugric cooperation in Estonia together with Sattuma duo. Karelian and Finnish folk music at Finno-Ugric Days on October 20-21, 2023 at Õpetajate Maja, Tallinn and at Estonian National Museum, Tartu.",
+          "en": " "
+        },
+        "year": "2023"
       },
       {
         "description": {
