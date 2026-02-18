@@ -14,7 +14,7 @@
     {
       "excerpt": "uusien tapojen etsintää vanhan musiikin esittämiselle",
       "bio": "Aino Peltomaan luotsaama Ensemble Gamut! on noussut nopeasti yhdeksi Suomen kiinnostavimmista genrejen välimailla sulavasti liikkuvista yhtyeistä. Yhtye on luonut uniikin soundinsa yhdistämällä elementtejä keskiajan musiikista, suomalaisista kansansävelmistä, improvisaatiosta, omista sävellyksistä sekä elektronisista äänimaisemista.\n\nEnsemble Gamut!in kolme albumia ovat tuoneet tunnustuksia ja ylistäviä arvioita. Yhtye on esiintynyt laajalti niin festivaaleilla, klubikeikoilla, museoissa, keskiaikaisissa kirkoissa kuin konserttisaleissakin.\n\nAino Peltomaa I laulu, harppu, perkussiot, elektroniikka\nIlkka Heinonen I jouhikot, laulu, perkussiot, elektroniikka\nJuho Myllylä I nokkahuilut, laulu, elektroniikka\n\nTallinn Music Week 2026 I showcase-esiintyjä\n\nRondo-lehden lukijoiden albumi 2025 I MI\nClassical:NEXT 2024 I showcase-esiintyjä\nEmma Gaala 2024 I Etno-Emma -ehdokkuus I RE\nYLE 2021 I vuoden albumiehdokkuus I UT\nVuoden vanhan musiikin teko 2020 (Suomen vanhan musiikin liitto ry) I UT ",
-      "name": "Ensemble Gamut",
+      "name": "Ensemble Gamut!",
       "featured": true,
       "order": 1,
       "type": "booking-intl",
@@ -39,7 +39,7 @@
       "name": "FRÄNDER",
       "featured": true,
       "order": 5,
-      "type": "booking-intl",
+      "type": "booking-fi",
       "website": "https://www.frander.se/",
       "id": "frander",
       "image": "/uploads/test.jpg"
