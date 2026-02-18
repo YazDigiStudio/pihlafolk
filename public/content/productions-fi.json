@@ -10,7 +10,7 @@
         "status": "ongoing",
         "additionalInfo": {
           "title": {
-            "fi": ""
+            "fi": "RAHOITTAJAT: Äänikirjan lopputuotantoa ja julkaisemista rahoittaa vuonna 2026 Kalevalaseura  Hanketta kokonaisuudessaan rahoittivat vuosina 2021-2023: Jenny ja Antti Wihurin rahasto, Kalevalaseura, Suomen Kulttuurirahasto, Niilo Helanderin rahasto, Taiteen edistämiskeskus "
           },
           "text": {
             "fi": ""
@@ -22,7 +22,7 @@
         "id": "laulettu-kalevala",
         "image": "/uploads/productions/laulettu-kalevala.jpg",
         "description": {
-          "fi": "Laulettu Kalevala -äänikirjassa nimensä mukaisesti lauletaan karjalais-suomalainen eepos (1849) läpi eri kansansävelmin.\n\nÄänikirjan ensimmäinen jakso julkaistiin digitaalisesti Kalevalan päivänä, 28.2.2023. \nJatkoa seuraa digitaalisesti vuonna 2026\n2. jakso julkaistaan Kalevalan päivänä, 28. helmikuuta\n3. ja viimeinen jakso Runolaulupäivänä, 25. huhtikuuta\n\n1. jakso on kuultavissa etno.net-sivustolla. Lauletun Kalevalan YouTube-tili on remontissa teknisistä syistä johtuen tällä hetkellä, mutta palaa käyttöön mahdollisimman pian.\n\nOn oleellista tuoda Elias Lönnrotin karjalaisten, suomalaisten ja inkeriläisten runojen pohjalle ja pohjalta luoma Kalevala kuultavaksi ja laulettavaksi juuri runolaulettuna, koska siitähän eepoksessa on kysymys. Kalevalaa voi olla haastavaa lukea, mutta laulun kautta sen voi kokea uudella tavalla. Runolaulu ehti välillä jo lähes sammua, mutta sitä on onnistuttu elvyttämään menestyksekkäästi viime vuosikymmeninä. Osaa näistä elvyttäjistä kuullaan tässä äänikirjassa. Hankkeen yhtenä ideana onkin, että tutun eepoksen kautta koko laaja itämerensuomalainen runolaulumaailma ja kansanrunous aukeaisivat kuulijalleen.\n\nTyöryhmä\nRunolaulajat & lukija:\nÄäniteatteri Iki-Turso: Eila Hartikainen, Taito Hoffrén, Maari Kallberg, Ilona Korhonen, Heikki Laitinen & Anna-Kaisa Liedes\nVisuaalinen suunnittelija: Tatu Rouvinen\nÄänitys: Taito Hoffrén, 25. runo Alec Havinmaa\nEditointi & masterointi: Taito Hoffrén & Alec Havinmaa\nHankkeen koollekutsuja, tuottaja & julkaisija: Mari Pääkkönen / pihla folk\n\nLaulettu Kalevala -äänikirja on osa Taideyliopiston Sibelius-Akatemian Kansanmusiikin aineryhmän äänitesarjaa\n\nÄänikirjan lopputuotantoa ja julkaisemista rahoittaa vuonna 2026 Kalevalaseura\n\nHanketta kokonaisuudessaan rahoittivat vuosina 2021-2023: Jenny ja Antti Wihurin rahasto, Kalevalaseura, Suomen Kulttuurirahasto, Niilo Helanderin rahasto, Taiteen edistämiskeskus ",
+          "fi": "Laulettu Kalevala -äänikirjassa nimensä mukaisesti lauletaan karjalais-suomalainen eepos (1849) läpi eri kansansävelmin.\n\nÄänikirjan ensimmäinen jakso julkaistiin digitaalisesti Kalevalan päivänä, 28.2.2023. \nJatkoa seuraa digitaalisesti vuonna 2026\n2. jakso julkaistaan Kalevalan päivänä, 28. helmikuuta\n3. ja viimeinen jakso Runolaulupäivänä, 25. huhtikuuta\n\n1. jakso on kuultavissa etno.net-sivustolla. Lauletun Kalevalan YouTube-tili on remontissa teknisistä syistä johtuen tällä hetkellä, mutta palaa käyttöön mahdollisimman pian.\n\nOn oleellista tuoda Elias Lönnrotin karjalaisten, suomalaisten ja inkeriläisten runojen pohjalle ja pohjalta luoma Kalevala kuultavaksi ja laulettavaksi juuri runolaulettuna, koska siitähän eepoksessa on kysymys. Kalevalaa voi olla haastavaa lukea, mutta laulun kautta sen voi kokea uudella tavalla. Runolaulu ehti välillä jo lähes sammua, mutta sitä on onnistuttu elvyttämään menestyksekkäästi viime vuosikymmeninä. Osaa näistä elvyttäjistä kuullaan tässä äänikirjassa. Hankkeen yhtenä ideana onkin, että tutun eepoksen kautta koko laaja itämerensuomalainen runolaulumaailma ja kansanrunous aukeaisivat kuulijalleen.\n\nTyöryhmä\nRunolaulajat & lukija:\nÄäniteatteri Iki-Turso: Eila Hartikainen, Taito Hoffrén, Maari Kallberg, Ilona Korhonen, Heikki Laitinen & Anna-Kaisa Liedes\nVisuaalinen suunnittelija: Tatu Rouvinen\nÄänitys: Taito Hoffrén, 25. runo Alec Havinmaa\nEditointi & masterointi: Taito Hoffrén & Alec Havinmaa\nHankkeen koollekutsuja, tuottaja & julkaisija: Mari Pääkkönen / pihla folk\n\nLaulettu Kalevala -äänikirja on osa Taideyliopiston Sibelius-Akatemian Kansanmusiikin aineryhmän äänitesarjaa.",
           "en": "Sung Kalevala is a long-term audiobook project that brings the poems of Kalevala to life through traditional folk music and singing."
         },
         "year": "2020-"
@@ -30,6 +30,11 @@
       {
         "photographer": "Maarit Kytöharju",
         "status": "ongoing",
+        "additionalInfo": {
+          "title": {
+            "fi": "RAHOITTAJAT: Kalevalaseura-säätiö"
+          }
+        },
         "subtitle": "The Feast",
         "title": "Ilona Korhonen Ensemble: Piot",
         "type": "performance",
@@ -37,7 +42,7 @@
         "id": "piot",
         "image": "/uploads/productions/piot.jpg",
         "description": {
-          "fi": "Piot kuvaa itämerensuomalaisten kansojen tekstien pohjalta riemukkaiden juhlien viettoa. Teos on itsessään pienet juhlat, pidot, mutta samalla se on suurta naisäänen juhlaa. Kansanmusiikille omistautunut monipuolinen muusikko, musiikin tohtori, kansanmusiikin dosentti, taiteilijaprofessori Ilona Korhonen on säveltänyt ja sovittanut vanhojen Itämeren alueen laulutavoille ja perinneteksteille uskollisen naiskuoroteoksen, jossa soi itämerensuomalaisen laulutavan tukkia tutisuttava voima.\n\nEnsemblen kaikki laulajat ovat ammattimuusikoita, kansanlaulajia, musiikin maistereita ja tohtoreita: Hanni Autere, Juulia Björn, Charlotta Hagfors, Emilia Kallonen, Anna E. Karvonen, Amanda Kauranne, Ilona Korhonen, Emmi Kuittinen, Pia Rask, Ulla Silvennoinen, Anni Tolvanen, Mira Törmälä\n\nPiot sai kantaesityksensä Tampereen Sävel – kuoro- ja lauluyhtyetapahtuman tilausteoksena kesäkuussa 2023. Vuonna 2026 pihla folk julkaisee teoksesta albumin.\n\nAlbumin tuotantoa ja julkaisemista varten on käynnissä mesenaattikampanja 14.2.-25.3.2026!\n\nRahoitus: Kalevalaseura-säätiö",
+          "fi": "Piot kuvaa itämerensuomalaisten kansojen tekstien pohjalta riemukkaiden juhlien viettoa. Teos on itsessään pienet juhlat, pidot, mutta samalla se on suurta naisäänen juhlaa. Kansanmusiikille omistautunut monipuolinen muusikko, musiikin tohtori, kansanmusiikin dosentti, taiteilijaprofessori Ilona Korhonen on säveltänyt ja sovittanut vanhojen Itämeren alueen laulutavoille ja perinneteksteille uskollisen naiskuoroteoksen, jossa soi itämerensuomalaisen laulutavan tukkia tutisuttava voima.\n\nEnsemblen kaikki laulajat ovat ammattimuusikoita, kansanlaulajia, musiikin maistereita ja tohtoreita: Hanni Autere, Juulia Björn, Charlotta Hagfors, Emilia Kallonen, Anna E. Karvonen, Amanda Kauranne, Ilona Korhonen, Emmi Kuittinen, Pia Rask, Ulla Silvennoinen, Anni Tolvanen, Mira Törmälä\n\nPiot sai kantaesityksensä Tampereen Sävel – kuoro- ja lauluyhtyetapahtuman tilausteoksena kesäkuussa 2023. Vuonna 2026 pihla folk julkaisee teoksesta albumin.\n\nAlbumin tuotantoa ja julkaisemista varten on käynnissä mesenaattikampanja 14.2.-25.3.2026!",
           "en": "Hanni Autere, Juulia Björn, Charlotta Hagfors, Emilia Kallonen, Anna E. Karvonen, Amanda Kauranne, Ilona Korhonen, Emmi Kuittinen, Pia Rask, Ulla Silvennoinen, Anni Tolvanen, Mira Törmälä"
         },
         "year": "2024-"
