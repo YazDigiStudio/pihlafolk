@@ -2,8 +2,8 @@
   "sections": [
     {
       "type": "carousel",
-      "title": "photo Gallery",
-      "subtitle": "Images from our productions and performances",
+      "title": "photo gallery",
+      "subtitle": "photos of pihla folk in action",
       "carousel": [
         {
           "image": "/uploads/media/carousel/carousel-2.jpg",
@@ -17,12 +17,12 @@
         },
         {
           "image": "/uploads/media/carousel/carousel-3.jpg",
-          "alt": "Mari",
+          "alt": "Mari Pääkkönen",
           "photographer": "Matti Kyllönen"
         },
         {
           "image": "/uploads/img_3190.jpg",
-          "alt": "Mari at Folkemusikksenteret i Buskerud",
+          "alt": "Mari Pääkkönen at Folkemusikksenteret i Buskerud",
           "photographer": "Åshild Wetterhus"
         },
         {
