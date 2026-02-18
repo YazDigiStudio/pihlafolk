@@ -3,7 +3,7 @@
     {
       "type": "carousel",
       "title": "kuvagalleria",
-      "subtitle": "Kuvia tuotannoistamme ja esiintymisistämme",
+      "subtitle": "kuvia pihla folkin toiminnasta",
       "carousel": [
         {
           "image": "/uploads/media/carousel/carousel-2.jpg",
@@ -17,7 +17,7 @@
         },
         {
           "image": "/uploads/media/carousel/carousel-3.jpg",
-          "alt": "Mari",
+          "alt": "Mari Pääkkönen",
           "photographer": "Matti Kyllönen"
         },
         {
