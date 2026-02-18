@@ -6,6 +6,7 @@
     },
     "productions": [
       {
+        "photographer": "Tatu Rouvinen",
         "status": "ongoing",
         "additionalInfo": {
           "title": {
@@ -27,6 +28,7 @@
         "year": "2020-"
       },
       {
+        "photographer": "Maarit Kytöharju",
         "status": "ongoing",
         "subtitle": "The Feast",
         "title": "Ilona Korhonen Ensemble: Piot",
@@ -44,29 +46,31 @@
   },
   "past": {
     "title": {
-      "fi": "Menneet",
-      "en": "Past"
+      "fi": "menneet",
+      "en": "past"
     },
     "productions": [
       {
+        "photographer": "Mari Pääkkönen",
+        "status": "completed",
         "title": "Itämerensuomalaisen konserttisarja Lönnrotin terassilla ",
+        "type": "project",
+        "link": "  ",
+        "id": "lönnrotin-puistikko",
+        "image": "/uploads/img_7812.jpeg",
         "description": {
           "fi": "Ohjelmayhteistyö Helsingin kaupunkitilojen kanssa kesällä 2025 - kuratointi & tuotanto\n\nElias Lönnrotin patsas Helsingissä sai Helsingin kaupunkitilojen terassikokeilun myötä ympärilleen läpi kesän jatkuvat puutarhajuhlat. Lönnrotin terassi teki puiston historiallista menneisyyttä eläväksi ja näkyväksi kaupunkilaisille.\n\npihla folk oli mukana kolmella Mari Pääkkösen kuratoimalla konsertilla – Laulettu Kalevala, Duo Ruut (Viro) sekä Sattuma duo – osana 5-osaista konserttisarjaa. Näissä konserteissa näkyivät ja kuuluivat itämerensuomalaisten musiikki- ja kulttuuriperinteiden ylirajaisuus sekä sukukansojen läheisyys ja välisyys suomalaisten, karjalaisten ja virolaisten esittäminä eri kielineen ja murteineen. Kuratoitujen konserttien aikana tulevat tutuiksi muun muassa karjalais-suomalainen Kalevala-eepos sekä itämerensuomalaiselle alueelle leimalliset runolaulu, kansanrunous ja perinnesoittimista kantele ja jouhikko.\n\npihla folkin kuratoimat konsertit Lönnrotin terassilla olivat:\n10.7. Laulettu Kalevala\n23.7. virolainen Duo Ruut Ilmateade-albumin julkaisukonsertillaan\n- konsertin yhteistyökumppanina oli Viron Suomen-suurlähetystö\n16.8. päättäjäiset\nSattuma duo - lisäksi esiintymässä oli Pekko Käppi soolona\n\nAvajaisissa 12.6. esiintyi Timo Kaukolampi x Tuomas Toivonen, ja 26.6. Dänkki Briha.",
           "en": "  "
         },
-        "image": "/uploads/img_7812.jpeg",
-        "id": "lönnrotin-puistikko",
-        "type": "project",
-        "status": "completed",
-        "year": "2025",
-        "link": "  "
+        "year": "2025"
       },
       {
+        "photographer": "Mari Pääkkönen",
         "status": "completed",
         "additionalInfo": {
           "title": {
-            "fi": "Rahoittajat",
-            "en": "Funding"
+            "fi": "rahoittajat",
+            "en": "funding"
           },
           "text": {
             "fi": "Opetus- ja kulttuuriministeriö, Musiikin edistämissäätiö",
