@@ -34,20 +34,20 @@
     },
     {
       "type": "videos",
-      "title": "Videos",
+      "title": "videos",
       "subtitle": "Watch videos from our performances and productions",
       "videos": []
     },
     {
       "type": "audio",
-      "title": "Audio Samples",
+      "title": "audio samples",
       "subtitle": "Listen to samples of our music",
       "audioFiles": []
     },
     {
       "type": "links",
       "title": "Media Links",
-      "subtitle": "Links to our media content",
+      "subtitle": "links to media content",
       "externalLinks": []
     }
   ]
