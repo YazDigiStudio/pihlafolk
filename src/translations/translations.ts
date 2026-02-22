@@ -68,7 +68,7 @@ export const translations = {
     // Contact
     contact: {
       title: 'Yhteystiedot',
-      contactLabel: 'Yhteydenotot:'
+      contactLabel: 'yhteydenotot:'
     },
     // 404 Not Found
     notFound: {
@@ -188,7 +188,7 @@ export const translations = {
     // Contact
     contact: {
       title: 'Contact',
-      contactLabel: 'Contact:'
+      contactLabel: 'contact:'
     },
     // 404 Not Found
     notFound: {
