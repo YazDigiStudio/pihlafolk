@@ -33,14 +33,8 @@ interface Production {
     en: string;
   };
   additionalInfo?: {
-    title: {
-      fi: string;
-      en: string;
-    };
-    text: {
-      fi: string;
-      en: string;
-    };
+    title: string;
+    text: string;
   };
   link: string;
 }
@@ -185,7 +179,7 @@ export const ProductionsPage: React.FC = () => {
         </p>
 
         {/* Additional Info */}
-        {production.additionalInfo && production.additionalInfo.title[language] && production.additionalInfo.text[language] && (
+        {production.additionalInfo && production.additionalInfo.title && production.additionalInfo.text && (
           <div
             style={{
               marginTop: '1.5rem',
@@ -203,7 +197,7 @@ export const ProductionsPage: React.FC = () => {
                 letterSpacing: '0.05em'
               }}
             >
-              {production.additionalInfo.title[language]}:
+              {production.additionalInfo.title}:
             </p>
             <p
               style={{
@@ -213,7 +207,7 @@ export const ProductionsPage: React.FC = () => {
                 whiteSpace: 'pre-line'
               }}
             >
-              {production.additionalInfo.text[language]}
+              {production.additionalInfo.text}
             </p>
           </div>
         )}

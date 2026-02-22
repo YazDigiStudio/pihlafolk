@@ -1,20 +1,16 @@
 {
   "ongoing": {
     "title": {
-      "fi": "käynnissä olevat",
-      "en": "ongoing"
+      "fi": "Käynnissä olevat",
+      "en": "Ongoing"
     },
     "productions": [
       {
         "photographer": "Tatu Rouvinen",
         "status": "ongoing",
         "additionalInfo": {
-          "title": {
-            "fi": "RAHOITTAJAT: Äänikirjan lopputuotantoa ja julkaisemista rahoittaa vuonna 2026 Kalevalaseura  Hanketta kokonaisuudessaan rahoittivat vuosina 2021-2023: Jenny ja Antti Wihurin rahasto, Kalevalaseura, Suomen Kulttuurirahasto, Niilo Helanderin rahasto, Taiteen edistämiskeskus "
-          },
-          "text": {
-            "fi": ""
-          }
+          "title": "Rahoittajat",
+          "text": "Äänikirjan lopputuotantoa ja julkaisemista rahoittaa vuonna 2026 Kalevalaseura. Hanketta kokonaisuudessaan rahoittivat vuosina 2021-2023: Jenny ja Antti Wihurin rahasto, Kalevalaseura, Suomen Kulttuurirahasto, Niilo Helanderin rahasto, Taiteen edistämiskeskus"
         },
         "title": "Laulettu Kalevala",
         "type": "audiobook",
@@ -31,9 +27,8 @@
         "photographer": "Maarit Kytöharju",
         "status": "ongoing",
         "additionalInfo": {
-          "title": {
-            "fi": "RAHOITTAJAT: Kalevalaseura-säätiö"
-          }
+          "title": "Rahoittajat",
+          "text": "Kalevalaseura-säätiö"
         },
         "subtitle": "The Feast",
         "title": "Ilona Korhonen Ensemble: Piot",
@@ -51,8 +46,8 @@
   },
   "past": {
     "title": {
-      "fi": "menneet",
-      "en": "past"
+      "fi": "Menneet",
+      "en": "Past"
     },
     "productions": [
       {
@@ -73,14 +68,8 @@
         "photographer": "Mari Pääkkönen",
         "status": "completed",
         "additionalInfo": {
-          "title": {
-            "fi": "rahoittajat",
-            "en": "funding"
-          },
-          "text": {
-            "fi": "Opetus- ja kulttuuriministeriö, Musiikin edistämissäätiö",
-            "en": ""
-          }
+          "title": "Rahoittajat",
+          "text": "Opetus- ja kulttuuriministeriö, Musiikin edistämissäätiö"
         },
         "title": "Terveh Viro!",
         "type": "project",

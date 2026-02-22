@@ -127,20 +127,8 @@ collections:
                     required: false
                     hint: "Esim. rahoittajat, yhteistuotanto, tukijat"
                     fields:
-                      - label: "Otsikko"
-                        name: "title"
-                        widget: "object"
-                        required: false
-                        fields:
-                          - {label: "Suomi", name: "fi", widget: "string", required: false, hint: "Esim. 'Rahoittajat'"}
-                          - {label: "Englanti", name: "en", widget: "string", required: false, hint: "Esim. 'Funding'"}
-                      - label: "Teksti"
-                        name: "text"
-                        widget: "object"
-                        required: false
-                        fields:
-                          - {label: "Suomi", name: "fi", widget: "text", required: false}
-                          - {label: "Englanti", name: "en", widget: "text", required: false}
+                      - {label: "Otsikko", name: "title", widget: "string", required: false, hint: "Esim. 'Rahoittajat'"}
+                      - {label: "Teksti", name: "text", widget: "text", required: false}
           - label: "Menneet tuotannot"
             name: "past"
             widget: "object"
@@ -176,20 +164,8 @@ collections:
                     required: false
                     hint: "Esim. rahoittajat, yhteistuotanto, tukijat"
                     fields:
-                      - label: "Otsikko"
-                        name: "title"
-                        widget: "object"
-                        required: false
-                        fields:
-                          - {label: "Suomi", name: "fi", widget: "string", required: false, hint: "Esim. 'Rahoittajat'"}
-                          - {label: "Englanti", name: "en", widget: "string", required: false, hint: "Esim. 'Funding'"}
-                      - label: "Teksti"
-                        name: "text"
-                        widget: "object"
-                        required: false
-                        fields:
-                          - {label: "Suomi", name: "fi", widget: "text", required: false}
-                          - {label: "Englanti", name: "en", widget: "text", required: false}
+                      - {label: "Otsikko", name: "title", widget: "string", required: false, hint: "Esim. 'Rahoittajat'"}
+                      - {label: "Teksti", name: "text", widget: "text", required: false}
 
       # MediaPage - Finnish
       - label: "Media"
@@ -418,20 +394,8 @@ collections:
                     required: false
                     hint: "E.g. funding, co-production, supporters"
                     fields:
-                      - label: "Title"
-                        name: "title"
-                        widget: "object"
-                        required: false
-                        fields:
-                          - {label: "Finnish", name: "fi", widget: "string", required: false, hint: "E.g. 'Rahoittajat'"}
-                          - {label: "English", name: "en", widget: "string", required: false, hint: "E.g. 'Funding'"}
-                      - label: "Text"
-                        name: "text"
-                        widget: "object"
-                        required: false
-                        fields:
-                          - {label: "Finnish", name: "fi", widget: "text", required: false}
-                          - {label: "English", name: "en", widget: "text", required: false}
+                      - {label: "Title", name: "title", widget: "string", required: false, hint: "E.g. 'Funding'"}
+                      - {label: "Text", name: "text", widget: "text", required: false}
           - label: "Past Productions"
             name: "past"
             widget: "object"
@@ -469,20 +433,8 @@ collections:
                     required: false
                     hint: "E.g. funding, co-production, supporters"
                     fields:
-                      - label: "Title"
-                        name: "title"
-                        widget: "object"
-                        required: false
-                        fields:
-                          - {label: "Finnish", name: "fi", widget: "string", required: false, hint: "E.g. 'Rahoittajat'"}
-                          - {label: "English", name: "en", widget: "string", required: false, hint: "E.g. 'Funding'"}
-                      - label: "Text"
-                        name: "text"
-                        widget: "object"
-                        required: false
-                        fields:
-                          - {label: "Finnish", name: "fi", widget: "text", required: false}
-                          - {label: "English", name: "en", widget: "text", required: false}
+                      - {label: "Title", name: "title", widget: "string", required: false, hint: "E.g. 'Funding'"}
+                      - {label: "Text", name: "text", widget: "text", required: false}
 
       # MediaPage - English
       - label: "Media"
