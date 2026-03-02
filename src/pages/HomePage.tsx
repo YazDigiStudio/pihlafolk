@@ -1,4 +1,6 @@
 import React from 'react';
+import ReactMarkdown, { type Components } from 'react-markdown';
+import { useNavigate } from 'react-router-dom';
 import { Navigation } from '../components/Navigation';
 import { Footer } from '../components/Footer';
 import { useScreenSize } from '../hooks/useScreenSize';
@@ -60,11 +62,22 @@ const truncateText = (text: string, maxLength: number): string => {
 
 export const HomePage: React.FC = () => {
   const { isMobile } = useScreenSize();
+  const navigate = useNavigate();
   const data = useContentData<HomeContent>('home.json');
   const t = useTranslations();
   const { language } = useLanguage();
   const colors = PIHLA_FOLK_PALETTE.colors;
   const photoLabel = language === "fi" ? "kuva" : "photo";
+
+  // Shared link renderer for dark background sections
+  const darkLinkComponents: Components = {
+    p: ({children}) => (
+      <p style={{margin: '0 0 0.75em 0', fontSize: 'inherit', lineHeight: 'inherit', color: 'inherit'}}>{children}</p>
+    ),
+    a: ({href, children}) => href?.startsWith('/')
+      ? <a href={href} onClick={(e) => { e.preventDefault(); navigate(href); }} style={{color: colors.accentPrimary, textDecoration: 'underline'}}>{children}</a>
+      : <a href={href} style={{color: colors.accentPrimary, textDecoration: 'underline'}} target="_blank" rel="noopener noreferrer">{children}</a>
+  };
 
   // Set page metadata for SEO
   usePageMeta({
@@ -272,19 +285,19 @@ export const HomePage: React.FC = () => {
             )}
 
             {/* Main Text Section */}
-            <p
+            <div
               style={{
                 fontSize: isMobile ? '1rem' : '1.1rem',
                 lineHeight: 1.8,
                 color: 'rgba(244, 244, 244, 0.95)',
                 marginTop: 0,
-                marginBottom: '1.5rem',
-                whiteSpace: 'pre-wrap'
+                marginBottom: '1.5rem'
               }}
             >
-              {data.heroParagraph2}
-              {data.additionalText && `\n\n${data.additionalText}`}
-            </p>
+              <ReactMarkdown components={darkLinkComponents}>
+                {[data.heroParagraph2, data.additionalText].filter(Boolean).join('\n\n')}
+              </ReactMarkdown>
+            </div>
 
             {/* CTA Buttons */}
             <div
@@ -391,17 +404,15 @@ export const HomePage: React.FC = () => {
                       {section.header}
                     </h2>
                   )}
-                  <p
+                  <div
                     style={{
                       fontSize: isMobile ? '0.95rem' : '1.1rem',
                       lineHeight: 1.8,
-                      color: 'rgba(244, 244, 244, 0.95)',
-                      whiteSpace: 'pre-wrap',
-                      margin: 0
+                      color: 'rgba(244, 244, 244, 0.95)'
                     }}
                   >
-                    {displayText}
-                  </p>
+                    <ReactMarkdown components={darkLinkComponents}>{displayText}</ReactMarkdown>
+                  </div>
                 </div>
               );
             }
@@ -487,17 +498,15 @@ export const HomePage: React.FC = () => {
                       alignItems: 'center'
                     }}
                   >
-                    <p
+                    <div
                       style={{
                         fontSize: isMobile ? '0.95rem' : '1.1rem',
                         lineHeight: 1.8,
-                        color: 'rgba(244, 244, 244, 0.95)',
-                        whiteSpace: 'pre-wrap',
-                        margin: 0
+                        color: 'rgba(244, 244, 244, 0.95)'
                       }}
                     >
-                      {displayText}
-                    </p>
+                      <ReactMarkdown components={darkLinkComponents}>{displayText}</ReactMarkdown>
+                    </div>
                   </div>
                 </div>
               </div>

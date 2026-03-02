@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "concurrently --names \"VITE,CMS\" -c \"bgBlue.bold,bgMagenta.bold\" \"vite\" \"npx decap-server\"",
+    "dev:host": "concurrently --names \"VITE,CMS\" -c \"bgBlue.bold,bgMagenta.bold\" \"vite --host\" \"npx decap-server\"",
     "dev:vite": "vite",
     "dev:cms": "npx decap-server",
     "optimize": "node optimize-images.js",
@@ -14,10 +15,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@types/js-yaml": "^4.0.9",
     "decap-cms-app": "~3.9.0",
     "heic-convert": "^2.1.0",
+    "js-yaml": "^4.1.1",
     "react": "~19.2.3",
     "react-dom": "~19.2.3",
+    "react-markdown": "^10.1.0",
     "react-router-dom": "~7.12.0"
   },
   "devDependencies": {

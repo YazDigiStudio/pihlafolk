@@ -1,0 +1,34 @@
+---
+sections:
+  - type: carousel
+    title: kuvagalleria
+    subtitle: kuvia pihla folkin toiminnasta
+    carousel:
+      - image: /uploads/media/carousel/carousel-2.jpg
+        alt: Laulettu Kalevala
+        photographer: Tatu Rouvinen
+      - image: /uploads/media/carousel/carousel-1.jpg
+        alt: Ilona Korhonen Ensemble - Piot
+        photographer: Maarit Kytöharju
+      - image: /uploads/media/carousel/carousel-3.jpg
+        alt: Mari Pääkkönen
+        photographer: Matti Kyllönen
+      - image: /uploads/img_3190.jpg
+        alt: Mari vierailemassa Buskerudin Kansanmusiikkikeskuksessa, Norjassa
+        photographer: Åshild Wetterhus
+      - image: /uploads/media/carousel/carousel-5.jpg
+        alt: Mari Pääkkönen
+        photographer: Erlend Štaub
+  - type: videos
+    title: Videot
+    subtitle: Katso videoita esityksistämme ja tuotannoistamme
+    videos: []
+  - type: audio
+    title: Ääninäytteet
+    subtitle: Kuuntele ääninäytteitä musiikistamme
+    audioFiles: []
+  - type: links
+    title: Media-linkit
+    subtitle: Linkkejä mediasisältöihimme
+    externalLinks: []
+---

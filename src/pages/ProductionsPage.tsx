@@ -1,4 +1,6 @@
 import React from 'react';
+import ReactMarkdown, { type Components } from 'react-markdown';
+import { useNavigate } from 'react-router-dom';
 import { PIHLA_FOLK_PALETTE } from '../styles/colorPalettes';
 import { Navigation } from '../components/Navigation';
 import { Footer } from '../components/Footer';
@@ -60,10 +62,20 @@ export const ProductionsPage: React.FC = () => {
   const palette = PIHLA_FOLK_PALETTE;
   const colors = PIHLA_FOLK_PALETTE.colors;
   const { isMobile } = useScreenSize();
+  const navigate = useNavigate();
   const data = useContentData<ProductionsContent>('productions.json');
   const t = useTranslations();
   const { language } = useLanguage();
   const photoLabel = language === "fi" ? "kuva" : "photo";
+
+  const linkComponents: Components = {
+    p: ({children}) => (
+      <p style={{margin: '0 0 0.75em 0', fontSize: 'inherit', lineHeight: 'inherit', color: 'inherit'}}>{children}</p>
+    ),
+    a: ({href, children}) => href?.startsWith('/')
+      ? <a href={href} onClick={(e) => { e.preventDefault(); navigate(href); }} style={{color: colors.accentPrimary, textDecoration: 'underline'}}>{children}</a>
+      : <a href={href} style={{color: colors.accentPrimary, textDecoration: 'underline'}} target="_blank" rel="noopener noreferrer">{children}</a>
+  };
 
   // Set page metadata for SEO
   usePageMeta({
@@ -166,17 +178,16 @@ export const ProductionsPage: React.FC = () => {
         )}
 
         {/* Description */}
-        <p
+        <div
           style={{
             fontSize: '1rem',
             lineHeight: '1.7',
             color: 'rgba(12, 12, 12, 0.9)',
-            margin: '0 0 1rem 0',
-            whiteSpace: 'pre-line'
+            marginBottom: '1rem'
           }}
         >
-          {production.description[language]}
-        </p>
+          <ReactMarkdown components={linkComponents}>{production.description[language]}</ReactMarkdown>
+        </div>
 
         {/* Additional Info */}
         {production.additionalInfo && production.additionalInfo.title && production.additionalInfo.text && (
@@ -199,16 +210,14 @@ export const ProductionsPage: React.FC = () => {
             >
               {production.additionalInfo.title}:
             </p>
-            <p
+            <div
               style={{
                 fontSize: '0.9rem',
-                color: 'rgba(12, 12, 12, 0.6)',
-                margin: 0,
-                whiteSpace: 'pre-line'
+                color: 'rgba(12, 12, 12, 0.6)'
               }}
             >
-              {production.additionalInfo.text}
-            </p>
+              <ReactMarkdown components={linkComponents}>{production.additionalInfo.text}</ReactMarkdown>
+            </div>
           </div>
         )}
       </div>
