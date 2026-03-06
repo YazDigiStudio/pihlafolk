@@ -27,17 +27,11 @@ sections:
   - imagePosition: right
     header: ajankohtaista! Piot-mesenaattikampanja
     text: >-
-      ###### Ilona Korhonen Ensemblen tulevan Piot-albumin tuotantoa ja
-      julkaisemista varten on käynnissä mesanaattikampanja 25. maaliskuuta
-      saakka.
+      Ilona Korhonen Ensemblen tulevan Piot-albumin tuotantoa ja julkaisemista
+      varten on käynnissä mesanaattikampanja 25. maaliskuuta 2026 saakka.
 
 
-      ###### Tervetuloa mukaan tukemaan elävää itämerensuomalaista kansanlauluperinnettä, merkittävää kuoroteosta ja kansanmusiikin ammattilaisia!
-
-
-
-
-      ######
+      Tervetuloa mukaan tukemaan elävää itämerensuomalaista kansanlauluperinnettä, merkittävää kuoroteosta ja kansanmusiikin ammattilaisia!
     image: /uploads/piot_kuva_maarit_kytöharju.jpg
     maxTextLength: 3000
     photographer: Maarit Kytöharju
