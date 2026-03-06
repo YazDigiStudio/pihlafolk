@@ -8,31 +8,27 @@ ongoing:
       status: ongoing
       additionalInfo:
         title: Rahoittajat
-        text: "Äänikirjan lopputuotantoa ja julkaisemista rahoittaa vuonna 2026
-          Kalevalaseura. Hanketta kokonaisuudessaan rahoittivat vuosina
-          2021-2023: Jenny ja Antti Wihurin rahasto, Kalevalaseura, Suomen
-          Kulttuurirahasto, Niilo Helanderin rahasto, Taiteen edistämiskeskus"
+        text: >-
+          Äänikirjan lopputuotantoa ja julkaisemista rahoittaa vuonna 2026
+          Kalevalaseura.
+
+
+          Hanketta kokonaisuudessaan rahoittivat vuosina 2021-2023: Jenny ja Antti Wihurin rahasto, Kalevalaseura, Suomen Kulttuurirahasto, Niilo Helanderin rahasto, Taiteen edistämiskeskus
       title: Laulettu Kalevala
       type: audiobook
       link: https://linktr.ee/laulettu_kalevala
       id: laulettu-kalevala
-      image: /uploads/productions/laulettu-kalevala.jpg
+      image: /uploads/2levynkansi.jpg
       description:
         fi: >-
           Laulettu Kalevala -äänikirjassa nimensä mukaisesti lauletaan
           karjalais-suomalainen eepos (1849) läpi eri kansansävelmin.
 
 
-          Äänikirjan ensimmäinen jakso julkaistiin digitaalisesti Kalevalan päivänä, 28.2.2023. 
-
-          Jatkoa seuraa digitaalisesti vuonna 2026
-
-          2. jakso julkaistaan Kalevalan päivänä, 28. helmikuuta
-
-          3. ja viimeinen jakso Runolaulupäivänä, 25. huhtikuuta
+          Äänikirjan ensimmäinen jakso julkaistiin digitaalisesti Kalevalan päivänä, 28.2.2023, 2. Kalevalan päivänä, 28. helmikuuta 2026. 3. ja viimeinen jakso julkaistaan Runolaulupäivänä, 25. huhtikuuta.
 
 
-          1. jakso on kuultavissa etno.net-sivustolla. Lauletun Kalevalan YouTube-tili on remontissa teknisistä syistä johtuen tällä hetkellä, mutta palaa käyttöön mahdollisimman pian.
+          Laulettu Kalevala -äänikirja on kuultavissa tällä hetkellä sen YouTube-kanavalla (tunnus: @laulettukalevala sekä etno.net-sivustolla.
 
 
           On oleellista tuoda Elias Lönnrotin karjalaisten, suomalaisten ja inkeriläisten runojen pohjalle ja pohjalta luoma Kalevala kuultavaksi ja laulettavaksi juuri runolaulettuna, koska siitähän eepoksessa on kysymys. Kalevalaa voi olla haastavaa lukea, mutta laulun kautta sen voi kokea uudella tavalla. Runolaulu ehti välillä jo lähes sammua, mutta sitä on onnistuttu elvyttämään menestyksekkäästi viime vuosikymmeninä. Osaa näistä elvyttäjistä kuullaan tässä äänikirjassa. Hankkeen yhtenä ideana onkin, että tutun eepoksen kautta koko laaja itämerensuomalainen runolaulumaailma ja kansanrunous aukeaisivat kuulijalleen.
@@ -40,15 +36,21 @@ ongoing:
 
           Työryhmä
 
+
           Runolaulajat & lukija:
 
-          Ääniteatteri Iki-Turso: Eila Hartikainen, Taito Hoffrén, Maari Kallberg, Ilona Korhonen, Heikki Laitinen & Anna-Kaisa Liedes
+
+          Ääniteatteri Iki-Turso: Eila Hartikainen, Taito Hoffrén (1974-2024), Maari Kallberg, Ilona Korhonen, Heikki Laitinen & Anna-Kaisa Liedes
+
 
           Visuaalinen suunnittelija: Tatu Rouvinen
 
+
           Äänitys: Taito Hoffrén, 25. runo Alec Havinmaa
 
+
           Editointi & masterointi: Taito Hoffrén & Alec Havinmaa
+
 
           Hankkeen koollekutsuja, tuottaja & julkaisija: Mari Pääkkönen / pihla folk
 
@@ -140,9 +142,9 @@ past:
       image: /uploads/img_3911.jpeg
       description:
         fi: Kansainvälisen suomalais-ugrilaisen yhteistyön aloittaminen Virossa yhdessä
-          Sattuma duon kanssa. Karjalaista ja suomalaista kansanmusiikkia
-          Suomalais-ugrilaisilla päivillä 20.-21.10.2023 Õpetajate Majalla,
-          Tallinnassa ja Eesti Rahva Museumissa, Tartossa.
+          Sattuma duon (Arto ja Eila Rinne) kanssa. Karjalaista ja suomalaista
+          kansanmusiikkia Suomalais-ugrilaisilla päivillä 20.-21.10.2023
+          Õpetajate Majalla, Tallinnassa ja Eesti Rahva Museumissa, Tartossa.
         en: " "
       year: "2023"
     - status: completed
@@ -157,11 +159,16 @@ past:
       image: /uploads/yksitoista-ihmisen-kuvaa-3000x3000px.jpg
       description:
         fi: >-
-          käynnissä oleva Vilma Talvitien Olio Alien -albumijulkaisukiertueen
-          tuotanto 2026
+          **käynnissä oleva**
 
 
-          menneet muusikon mentorointisessio perinnemusiikin ja kansanmusiikkifuusion kentästä ja sen näkymistä 2020-vuosikymmenellä, joulukuu 2025
+          Vilma Talvitien OLIO ALIEN -albumijulkaisukiertueen tuotanto 2026
+
+
+          **menneet**
+
+
+          muusikon mentorointisessio perinnemusiikin ja kansanmusiikkifuusion kentästä ja sen näkymistä 2020-vuosikymmenellä, joulukuu 2025
 
 
           llmastoitku (Eila Hartikainen), tuotanto 2024-2025 *ehdokkuus Kuorogaalassa Vuoden tapaukseksi 2025
