@@ -10,7 +10,7 @@ ongoing:
         title: Rahoittajat
         text: >-
           Äänikirjan lopputuotantoa ja julkaisemista rahoittaa vuonna 2026
-          Kalevalaseura.
+          Kalevalaseura
 
 
           Hanketta kokonaisuudessaan rahoittivat vuosina 2021-2023: Jenny ja Antti Wihurin rahasto, Kalevalaseura, Suomen Kulttuurirahasto, Niilo Helanderin rahasto, Taiteen edistämiskeskus
@@ -106,8 +106,8 @@ past:
       image: /uploads/img_7812.jpeg
       description:
         fi: >-
-          Ohjelmayhteistyö Helsingin kaupunkitilojen kanssa kesällä 2025 -
-          kuratointi & tuotanto
+          **Ohjelmayhteistyö Helsingin kaupunkitilojen kanssa kesällä 2025 -
+          kuratointi & tuotanto**
 
 
           Elias Lönnrotin patsas Helsingissä sai Helsingin kaupunkitilojen terassikokeilun myötä ympärilleen läpi kesän jatkuvat puutarhajuhlat. Lönnrotin terassi teki puiston historiallista menneisyyttä eläväksi ja näkyväksi kaupunkilaisille.
@@ -127,7 +127,7 @@ past:
           Sattuma duo - lisäksi esiintymässä oli Pekko Käppi soolona
 
 
-          Avajaisissa 12.6. esiintyi Timo Kaukolampi x Tuomas Toivonen, ja 26.6. Dänkki Briha.
+          Avajaisissa 12.6. esiintyi Timo Kaukolampi x Tuomas Toivonen, 26.6. Dänkki Briha.
         en: \
       year: "2025"
     - photographer: Mari Pääkkönen
@@ -141,10 +141,12 @@ past:
       id: terveh-viro
       image: /uploads/img_3911.jpeg
       description:
-        fi: Kansainvälisen suomalais-ugrilaisen yhteistyön aloittaminen Virossa yhdessä
-          Sattuma duon (Arto ja Eila Rinne) kanssa. Karjalaista ja suomalaista
-          kansanmusiikkia Suomalais-ugrilaisilla päivillä 20.-21.10.2023
-          Õpetajate Majalla, Tallinnassa ja Eesti Rahva Museumissa, Tartossa.
+        fi: >-
+          **Kansainvälisen suomalais-ugrilaisen yhteistyön aloittaminen
+          Virossa**
+
+
+          \- yhdessä Sattuma duon (Arto ja Eila Rinne) kanssa. Karjalaista ja suomalaista kansanmusiikkia Suomalais-ugrilaisilla päivillä 20.-21.10.2023 Õpetajate Majalla, Tallinnassa ja Eesti Rahva Museumissa, Tartossa.
         en: " "
       year: "2023"
     - status: completed
