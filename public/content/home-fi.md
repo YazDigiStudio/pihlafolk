@@ -1,7 +1,7 @@
 ---
 name: pihla folk
 heroParagraph1: pihla folk on kansanmusiikin ja -perinteen pioneeritoimijoita
-  luovalla tuotanto- ja välittäjätoiminnallaan.
+  luovalla tuotanto- ja agentuuritoiminnallaan.
 heroParagraph2: vuonna 2022 perustettu pihla folk on syntynyt
   itämerensuomalaisista musiikkiperinteistä ja kielistä. moderniin toimintaan
   mahtuvat niin arkaainen, akustinen kuin genrejenvälinen musiikki.
@@ -13,6 +13,7 @@ showMedia: true
 mediaType: image
 mediaUrl: /uploads/home/hero-image.jpg
 mediaVideoUrl: ""
+heroPhotographer: Matti Kyllönen
 showLogo: true
 logoPositionHorizontal: left
 logoPositionVertical: up
@@ -24,23 +25,21 @@ ctaButton2Text: tietoa pihla folkista
 ctaButton2Link: /tietoa
 sections:
   - imagePosition: right
-    header: ajankohtaista! Laulettu Kalevala
+    header: ajankohtaista! Piot-mesenaattikampanja
     text: >-
-      Kaikkien aikojen äänikirja valmistuu talvella & keväällä 2026!
+      ###### Ilona Korhonen Ensemblen tulevan Piot-albumin tuotantoa ja
+      julkaisemista varten on käynnissä mesanaattikampanja 25. maaliskuuta
+      saakka.
 
 
-      Laulettu Kalevala -äänikirjassa nimensä mukaisesti lauletaan karjalais-suomalainen eepos (1849) läpi eri kansansävelmin.
+      ###### Tervetuloa mukaan tukemaan elävää itämerensuomalaista kansanlauluperinnettä, merkittävää kuoroteosta ja kansanmusiikin ammattilaisia!
 
 
-      Äänikirjan ensimmäinen jakso julkaistiin digitaalisesti Kalevalan päivänä, 28.2.2023.
-
-      Jatkoa seuraa digitaalisesti vuonna 2026:
 
 
-      2. jakso julkaistaan Kalevalan päivänä, 28. helmikuuta
-
-      3. ja viimeinen jakso Runolaulupäivänä, 25. huhtikuuta
-    image: /uploads/laulettu-kalevala.jpg
+      ######
+    image: /uploads/piot_kuva_maarit_kytöharju.jpg
     maxTextLength: 3000
+    photographer: Maarit Kytöharju
 subtitle: kansanmusiikin ja -perinteen pioneeri vuodesta 2002
 ---
