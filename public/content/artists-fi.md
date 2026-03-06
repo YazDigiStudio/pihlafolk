@@ -1,35 +1,35 @@
 ---
 artists:
-  - excerpt: Kazakstanilainen perinne ja paimentolaiskulttuuri kohtaa modernin suomalaisen musiikin
-    bio: |-
-      Aizhan Sultan on Suomessa asuva laulaja, lauluntekijä ja tohtorikoulutettava, joka on alunperin kotoisin Kazakstanista. Hänen taiteensa heijastaa matkaansa ympäri maailmaa sekä hänen sisäisiä poliittisia ja sosiaalisia kokemuksiaan. Aizhanin työ keskittyy Keski-Aasian dekolonisaation ja radikaalin inkluusion teemoihin. Akondroplasiaa sairastavana naisena hänellä on läheinen suhde valtaan sorron lähteenä, mutta myös solidaarisuuteen ja taiteeseen vapauttavana voimana.
-
-      Perinteinen kazakstanilainen improvisoitu laulu, kurkkulaulu ja shanqobyzin (munniharppu) ääni yhdistyvät Saku Liimataisen live-elektroniikkaan, joka tuo suomalaisen musiikin modernia sointia kazakkien paimentolaiskulttuuriin.
-
-      Hänen päätavoitteensa on tuoda Keski-Aasian, erityisesti Kazakstanin, musiikki, taide ja historia kansainvälisen yleisön ulottuville ja tehdä niistä saavutettavia.
-    name: Aizhan Sultan
-    featured: true
-    order: 3
-    type: management-intl
-    website: https://yazzo.io
-    id: aizhan-sultan
-    image: /uploads/artists/aizhan-sultan.jpg
   - excerpt: uusien tapojen etsintää vanhan musiikin esittämiselle
-    bio: |-
-      Aino Peltomaan luotsaama Ensemble Gamut! on noussut nopeasti yhdeksi Suomen kiinnostavimmista genrejen välimailla sulavasti liikkuvista yhtyeistä. Yhtye on luonut uniikin soundinsa yhdistämällä elementtejä keskiajan musiikista, suomalaisista kansansävelmistä, improvisaatiosta, omista sävellyksistä sekä elektronisista äänimaisemista.
+    bio: >-
+      Aino Peltomaan luotsaama Ensemble Gamut! on noussut nopeasti yhdeksi
+      Suomen kiinnostavimmista genrejen välimailla sulavasti liikkuvista
+      yhtyeistä. Yhtye on luonut uniikin soundinsa yhdistämällä elementtejä
+      keskiajan musiikista, suomalaisista kansansävelmistä, improvisaatiosta,
+      omista sävellyksistä sekä elektronisista äänimaisemista.
+
 
       Ensemble Gamut!in kolme albumia ovat tuoneet tunnustuksia ja ylistäviä arvioita. Yhtye on esiintynyt laajalti niin festivaaleilla, klubikeikoilla, museoissa, keskiaikaisissa kirkoissa kuin konserttisaleissakin.
 
+
       Aino Peltomaa I laulu, harppu, perkussiot, elektroniikka
+
       Ilkka Heinonen I jouhikot, laulu, perkussiot, elektroniikka
+
       Juho Myllylä I nokkahuilut, laulu, elektroniikka
+
 
       Tallinn Music Week 2026 I showcase-esiintyjä
 
+
       Rondo-lehden lukijoiden albumi 2025 I MI
+
       Classical:NEXT 2024 I showcase-esiintyjä
+
       Emma Gaala 2024 I Etno-Emma -ehdokkuus I RE
+
       YLE 2021 I vuoden albumiehdokkuus I UT
+
       Vuoden vanhan musiikin teko 2020 (Suomen vanhan musiikin liitto ry) I UT 
     name: Ensemble Gamut!
     featured: true
@@ -38,51 +38,44 @@ artists:
     website: https://yazzo.io
     id: ensemble-gamut
     image: /uploads/artists/ensemble-gamut.jpg
-  - excerpt: inkeriläis-karjalais-suomalaista kansanperinnettä ja myyttejä urbaanilla estetiikalla
-    bio: |-
-      Dänkki Briha on etnofuturistinen musiikkikollektiivi, joka inspiroituu inkeriläis-karjalais-suomalaisesta kansanperinteestä, myyteistä ja urbaanista estetiikasta. Se yhdistelee teatterillista ilmaisua, ammoisia loruja ja futuristista äänimaisemaa.
+  - excerpt: inkeriläis-karjalais-suomalaista kansanperinnettä ja myyttejä
+      urbaanilla estetiikalla
+    bio: >-
+      Dänkki Briha on etnofuturistinen musiikkikollektiivi, joka inspiroituu
+      inkeriläis-karjalais-suomalaisesta kansanperinteestä, myyteistä ja
+      urbaanista estetiikasta. Se yhdistelee teatterillista ilmaisua, ammoisia
+      loruja ja futuristista äänimaisemaa.
+
 
       Lappeenrantalais-helsinkiläisessä yhtyeessä Juho Liiran ajattomat vokaalit, Matias Kontulan herkkä sähköviulu ja Manu Penttilän kokeellinen tuotanto luovat sykettä nostattavan kokonaisuuden, joka toimii niin levyltä kuin livenäkin. Lauluissa kuullaan niin Suomen kielen kaakkoismurretta kuin pienempiä lähisukukansojen kieliä ja murteita, muun muassa livvinkarjalaa ja vepsää.
 
+
       Debyyttialbumi Viipurin Kingpin (2024 Sick Boogie Recordings) on ollut suosittu ja soitettu albumi. Toisen albumin vuoro on kesällä 2026.
 
+
       Kaustinen Showcase 2025
+
       Etno-Espan Kansanlaulu 2050 -biisikilpailu 2024 I 3. sija
     name: Dänkki Briha
     featured: true
-    order: 4
+    order: 3
     type: booking-fi
     website: https://yazzo.io
     id: dankki-briha
     image: /uploads/artists/dankki-briha.jpg
-  - excerpt: "raskaita grooveja ja vietteleviä harmonioita Ruotsin ja Viron syvistä metsistä  "
-    bio: |-
-      FRÄNDER nousi esiin kuin salama — pohjoismaisten juurien ja modernin asenteen fuusio synnytti heavy folkin. Ruotsin ja Viron syvistä metsistä ponnistava yhtye tuo mukanaan energiaa ja lämpimän läsnäolon; he tarjoavat raskaita grooveja ja vietteleviä harmonioita, jotka punovat hypnoottisen äänimaiseman. Yhtye on tällä hetkellä yksi Ruotsin suurimmista kansanmusiikin vientivalteista.
-
-      “FRÄNDER II on täydellinen, upea mestariteos” – LIRA.se
-
-      Som en blixt ur ett åskväder föddes FRÄNDER – nordiska rötter och modern attityd blev heavy folk. Med energi och varm närvaro levererar de tunga rytmer och förföriska harmonier som väver ett trollbindande ljudlandskap.
-
-      "FRÄNDER II är ett perfekt, magnifikt mästerverk" - LIRA.se
-
-      Efter deras hyllade debut och turnéer jorden runt tänjer bandets banbrytande andra album FRÄNDER II på gränserna för vad folkmusik kan vara – ekon av Led Zeppelin och Jethro Tull möter den nordiska traditionens puls och folkmusiken blandas med hårdrockens råa kraft och tyngd på ett unikt sätt. Resultatet är ett sound som är både uråldrigt och modernt, akustiskt men tungt, mystiskt men glödande levande.
-    name: FRÄNDER
-    featured: true
-    order: 5
-    type: booking-fi
-    website: https://www.frander.se/
-    id: frander
-    image: /uploads/test.jpg
   - excerpt: monitaideprojekti arktisista uhanalaisista kukista
-    bio: |-
+    bio: >-
       Ensemble Gamut! feat. Vappu Rossi ja Tuomas Norvio
+
 
       Arktisille uhanalaisille kukille omistetussa FLOS-konserttiohjelmassa saadaan nauttia uudenlaisesta live-elektroniikan mahdollisuuksista.
 
+
       Norvio efektoi reaaliajassa Vappu Rossin piirtämisen ääniä, jolloin arktisten kukkien inspiroimat sävelmät ja piirrokset sulautuvat äänimaailmaksi jossa ajan tasot, elävä, kuollut, historia, tämä hetki, menneisyys ja tulevaisuus resonoivat kaikki samanaikaisesti. Tässä FLOS-kvintettikokoonpanossa jokaisen konsertin aikana syntyy kuvataideteos!
 
+
       Arktisten kukkalajien ympärille kietoutuva projekti yhdistää sekä ääni- että kuvataiteen kentällä uudella tavalla livepiirtämistä, musiikkia ja äänitaidetta. FLOS luo yhteyksiä kuvataiteen, äänitaiteen, vanhan musiikin, nykymusiikin ja kansanmusiikin leikkauspisteessä.
-    name: FLOS
+    name: Ensemble Gamut! FLOS
     featured: false
     order: 2
     type: booking-intl
