@@ -1,35 +1,35 @@
 ---
 artists:
-  - excerpt: heavy grooves and seductive harmonies from the deep forest of Sweden & Estonia
-    bio: |-
-      Born from a thunderstorm, FRÄNDER emerged like lightning - a fusion of Nordic roots and modern attitude became heavy folk. From the deep forest of Sweden & Estonia, with energy and a warm presence they deliver heavy grooves and seductive harmonies that weave a mesmerizing soundscape.
-
-      Following their acclaimed debut and global touring, the band's groundbreaking second album FRÄNDER II pushes the limits of what folk can be – with subtle echoes of Led Zeppelin and Jethro Tull meeting the pulse of Nordic tradition they blend folk music with the raw power and weight of hard rock in an incomparable way, they craft a sound that's both ancient and modern, acoustic yet heavy, mystical yet fiercely alive – they make the folk music tradition their own. Expect a live show where folk music becomes a living, breathing force!
-
-      FRÄNDER is one of Sweden's biggest folk music exports.
-    name: FRÄNDER
-    featured: true
-    order: 5
-    type: booking-fi
-    website: https://www.frander.se/
-    id: frander
-    image: /uploads/fränder.jpg
   - excerpt: searching for new ways to perform early music
-    bio: |-
-      Ensemble Gamut! is a fresh, experimental collective of early music and folk music specialists, who are constantly searching for new ways to perform early music. Led by Aino Peltomaa, they have created their unique sound by combining and daringly rearranging elements from medieval music and Finnish folk songs with improvisation and electronic soundscapes.
+    bio: >-
+      Ensemble Gamut! is a fresh, experimental collective of early music and
+      folk music specialists, who are constantly searching for new ways to
+      perform early music. Led by Aino Peltomaa, they have created their unique
+      sound by combining and daringly rearranging elements from medieval music
+      and Finnish folk songs with improvisation and electronic soundscapes.
+
 
       Their albums UT, RE and MI have attracted widespread interest among international music critics across genres, and have frequently been featured among the best albums in yearly listings of classical, early as well as progressive music. Ensemble Gamut!'s imaginative style has been described as "refreshing, soothing, intriguing and enlightening". Their acclaimed performances have enchanted audiences from club gigs to museums, medieval churches and concert halls.
 
+
       Aino Peltomaa I voice, harp, percussion
+
       Ilkka Heinonen I jouhikkos, electronics, voice
+
       Juho Myllylä I blockflutes, voice
+
 
       Tallinn Music Week 2026 I showcase artist
 
+
       “Album of the Year” recognition from Rondo magazine’s readers in Finland 2025 I MI
+
       Classical:NEXT 2024 I showcase artist
+
       Emma Gaala ("Ethno of the Year") nomination 2024 I RE
+
       YLE (Finnish Broadcasting Company) record of the year nomination 2021 I UT
+
       Early Music Achievement of the Year 2020 (Finnish Early Music Association) I UT
     name: Ensemble Gamut!
     featured: true
@@ -39,12 +39,18 @@ artists:
     id: ensemble-gamut
     image: /uploads/artists/ensemble-gamut.jpg
   - excerpt: Ingrian-Karelian-Finnish folk tradition and myth with urban aesthetics
-    bio: |-
-      Dänkki Briha is an ethno-futuristic music collective inspired by Ingrian, Karelian, and Finnish folk traditions, myths, and urban aesthetics. The group combines theatrical expression, ancient rhymes, and futuristic soundscapes.
+    bio: >-
+      Dänkki Briha is an ethno-futuristic music collective inspired by Ingrian,
+      Karelian, and Finnish folk traditions, myths, and urban aesthetics. The
+      group combines theatrical expression, ancient rhymes, and futuristic
+      soundscapes.
+
 
       In this Lappeenranta–Helsinki–based ensemble, Juho Liira’s timeless vocals, Matias Kontula’s sensitive electric violin, and Manu Penttilä’s experimental production create an electrifying whole that works equally well on record and live. The songs feature southeastern Finnish dialects as well as smaller languages and dialects of closely related peoples, including Livvi Karelian and Veps.
 
+
       The debut album Viipurin Kingpin (2024, Sick Boogie Recordings) has been widely played and well received. The second album is set for release in summer 2026.
+
 
       With the song Marjut, Dänkki Briha placed third in the Etno-Espa Folk Song 2050 songwriting competition in 2024 and performed at the Kaustinen Showcase in 2025.
     name: Dänkki Briha
@@ -54,32 +60,29 @@ artists:
     website: " "
     id: dankki-briha
     image: /uploads/artists/dankki-briha.jpg
-  - excerpt: Kazakh tradition and nomadic culture meet modern Finnish music
-    bio: |-
-      Aizhan Sultan is a Finland-based singer, songwriter, and doctoral researcher originally from Kazakhstan. Her artistic work reflects her journeys around the world as well as her internal political and social experiences. Aizhan’s practice focuses on themes of Central Asian decolonization and radical inclusion. As a woman living with achondroplasia, she has an intimate relationship with power as a source of oppression, but also with solidarity and art as forces of liberation.
-
-      Traditional Kazakh improvised singing, throat singing, and the sound of the shanqobyz (mouth harp) merge with Saku Liimatainen’s live electronics, bringing the modern sound of Finnish music into dialogue with Kazakh nomadic culture. Her primary aim is to bring the music, art, and history of Central Asia—especially Kazakhstan—to international audiences and to make them accessible.
-    name: Aizhan Sultan
-    featured: true
-    order: 3
-    type: management-intl
-    website: " "
-    id: aizhan-sultan
-    image: /uploads/artists/aizhan-sultan.jpg
   - excerpt: "interdisciplinary concert concept about endangered flower species "
-    bio: |-
-      FLOS is an interdisciplinary concert concept, brought to life by Aino Peltomaa’s Ensemble Gamut! in collaboration with visual artist Vappu Rossi and sound artist Tuomas Norvio.
+    bio: >-
+      FLOS is an interdisciplinary concert concept, brought to life by Aino
+      Peltomaa’s Ensemble Gamut! in collaboration with visual artist Vappu Rossi
+      and sound artist Tuomas Norvio.
+
 
       The theme of the performance centers on endangered flower species from the Arctic. Vappu Rossi creates large-scale, live-drawn artworks inspired by the flowers and Ensemble Gamut!’s music. Sound artist Tuomas Norvio produces real-time sound from Rossi’s drawing tools, giving the emerging forms of the flowers an audible presence for the audience.
 
+
       Thus, endangered or already extinct arctic flowers appear to come to life in real time, surrounding the audience, intertwining with the musical soundscape of voice, harp, bells, Karelian bowed lyres, medieval blockflutes and electronic soundscapes.
 
+
       Aino Peltomaa I voice, harp, percussion, artistic direction, production
+
       Ilkka Heinonen I jouhikkos, electronics, voice
+
       Juho Myllylä I blockflutes, electronics, voice
+
       Tuomas Norvio I live electronics
+
       Vappu Rossi I live drawing on acoustic wall
-    name: FLOS
+    name: Ensemble Gamut! FLOS
     featured: false
     order: 2
     type: booking-intl
