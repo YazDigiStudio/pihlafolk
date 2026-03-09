@@ -25,13 +25,13 @@ ongoing:
           karjalais-suomalainen eepos (1849) läpi eri kansansävelmin.
 
 
+          On oleellista tuoda Elias Lönnrotin karjalaisten, suomalaisten ja inkeriläisten runojen pohjalle ja pohjalta luoma Kalevala kuultavaksi ja laulettavaksi juuri runolaulettuna, koska siitähän eepoksessa on kysymys. Kalevalaa voi olla haastavaa lukea, mutta laulun kautta sen voi kokea uudella tavalla. Runolaulu ehti välillä jo lähes sammua, mutta sitä on onnistuttu elvyttämään menestyksekkäästi viime vuosikymmeninä. Osaa näistä elvyttäjistä kuullaan tässä äänikirjassa. Hankkeen yhtenä ideana onkin, että tutun eepoksen kautta koko laaja itämerensuomalainen runolaulumaailma ja kansanrunous aukeaisivat kuulijalleen.
+
+
           Äänikirjan ensimmäinen jakso julkaistiin digitaalisesti Kalevalan päivänä, 28.2.2023, 2. Kalevalan päivänä, 28. helmikuuta 2026. 3. ja viimeinen jakso julkaistaan Runolaulupäivänä, 25. huhtikuuta.
 
 
           Laulettu Kalevala -äänikirja on kuultavissa tällä hetkellä sen YouTube-kanavalla (tunnus: @laulettukalevala) sekä etno.net-sivustolla.
-
-
-          On oleellista tuoda Elias Lönnrotin karjalaisten, suomalaisten ja inkeriläisten runojen pohjalle ja pohjalta luoma Kalevala kuultavaksi ja laulettavaksi juuri runolaulettuna, koska siitähän eepoksessa on kysymys. Kalevalaa voi olla haastavaa lukea, mutta laulun kautta sen voi kokea uudella tavalla. Runolaulu ehti välillä jo lähes sammua, mutta sitä on onnistuttu elvyttämään menestyksekkäästi viime vuosikymmeninä. Osaa näistä elvyttäjistä kuullaan tässä äänikirjassa. Hankkeen yhtenä ideana onkin, että tutun eepoksen kautta koko laaja itämerensuomalainen runolaulumaailma ja kansanrunous aukeaisivat kuulijalleen.
 
 
           Työryhmä
