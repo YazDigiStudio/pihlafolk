@@ -38,6 +38,25 @@ artists:
     website: https://yazzo.io
     id: ensemble-gamut
     image: /uploads/artists/ensemble-gamut.jpg
+  - excerpt: monitaideprojekti arktisista uhanalaisista kukista
+    bio: >-
+      Ensemble Gamut! feat. Vappu Rossi ja Tuomas Norvio
+
+
+      Arktisille uhanalaisille kukille omistetussa FLOS-konserttiohjelmassa saadaan nauttia uudenlaisesta live-elektroniikan mahdollisuuksista.
+
+
+      Norvio efektoi reaaliajassa Vappu Rossin piirtämisen ääniä, jolloin arktisten kukkien inspiroimat sävelmät ja piirrokset sulautuvat äänimaailmaksi jossa ajan tasot, elävä, kuollut, historia, tämä hetki, menneisyys ja tulevaisuus resonoivat kaikki samanaikaisesti. Tässä FLOS-kvintettikokoonpanossa jokaisen konsertin aikana syntyy kuvataideteos!
+
+
+      Arktisten kukkalajien ympärille kietoutuva projekti yhdistää sekä ääni- että kuvataiteen kentällä uudella tavalla livepiirtämistä, musiikkia ja äänitaidetta. FLOS luo yhteyksiä kuvataiteen, äänitaiteen, vanhan musiikin, nykymusiikin ja kansanmusiikin leikkauspisteessä.
+    name: Ensemble Gamut! FLOS
+    featured: false
+    order: 2
+    type: booking-intl
+    website: https://ensemblegamut.com/flos/
+    id: flos
+    image: /uploads/flos_highres_photo_by_anna_maria_viksten_horizontal-scaled.jpg
   - excerpt: inkeriläis-karjalais-suomalaista kansanperinnettä ja myyttejä
       urbaanilla estetiikalla
     bio: >-
@@ -60,26 +79,7 @@ artists:
     featured: true
     order: 3
     type: booking-fi
-    website: https://yazzo.io
+    website: " "
     id: dankki-briha
     image: /uploads/artists/dankki-briha.jpg
-  - excerpt: monitaideprojekti arktisista uhanalaisista kukista
-    bio: >-
-      Ensemble Gamut! feat. Vappu Rossi ja Tuomas Norvio
-
-
-      Arktisille uhanalaisille kukille omistetussa FLOS-konserttiohjelmassa saadaan nauttia uudenlaisesta live-elektroniikan mahdollisuuksista.
-
-
-      Norvio efektoi reaaliajassa Vappu Rossin piirtämisen ääniä, jolloin arktisten kukkien inspiroimat sävelmät ja piirrokset sulautuvat äänimaailmaksi jossa ajan tasot, elävä, kuollut, historia, tämä hetki, menneisyys ja tulevaisuus resonoivat kaikki samanaikaisesti. Tässä FLOS-kvintettikokoonpanossa jokaisen konsertin aikana syntyy kuvataideteos!
-
-
-      Arktisten kukkalajien ympärille kietoutuva projekti yhdistää sekä ääni- että kuvataiteen kentällä uudella tavalla livepiirtämistä, musiikkia ja äänitaidetta. FLOS luo yhteyksiä kuvataiteen, äänitaiteen, vanhan musiikin, nykymusiikin ja kansanmusiikin leikkauspisteessä.
-    name: Ensemble Gamut! FLOS
-    featured: false
-    order: 2
-    type: booking-intl
-    website: https://ensemblegamut.com/flos/
-    id: flos
-    image: /uploads/flos_highres_photo_by_anna_maria_viksten_horizontal-scaled.jpg
 ---
