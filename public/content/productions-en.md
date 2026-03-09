@@ -4,7 +4,8 @@ ongoing:
     fi: Käynnissä olevat
     en: Ongoing
   productions:
-    - status: ongoing
+    - photographer: Tatu Rouvinen
+      status: ongoing
       additionalInfo:
         title: Funding
         text: >-
@@ -52,7 +53,8 @@ ongoing:
 
           The Laulettu Kalevala audiobook is part of the recording series of the Folk Music Department at the Sibelius Academy, University of the Arts Helsinki.
       year: 2020-
-    - status: ongoing
+    - photographer: Maarit Kytöharju
+      status: ongoing
       additionalInfo:
         title: Funding
         text: Kalevala Society Foundation
@@ -63,7 +65,8 @@ ongoing:
       id: piot
       image: /uploads/productions/piot.jpg
       description:
-        fi: >-
+        fi: ""
+        en: >-
           Piot \[Feast] depicts joyful celebrations based on texts from the
           Baltic-Finnic peoples. The work itself is a small celebration, a feast
           - while at the same time it is a grand celebration of the female
@@ -79,24 +82,32 @@ ongoing:
 
 
           Piot received its world premiere in June 2023 as a commissioned piece for Tampere Vocal Music Festival (Tampereen Sävel). In 2026, pihla folk will release the piece as an album.
-        en: " "
       year: 2024-
 past:
   title:
     fi: Menneet
     en: Past
   productions:
-    - id: "baltic-finnic summer "
-      title: "Baltic Finnic Summer "
-      year: "2025"
-      image: /uploads/img_7812.jpeg
+    - photographer: Mari Pääkkönen
       status: completed
+      title: Baltic Finnic Summer
       type: project
+      link: " "
+      id: "baltic-finnic summer "
+      image: /uploads/img_7812.jpeg
       description:
         fi: " "
-        en: " "
-      link: " "
-    - status: completed
+        en: >-
+          **Programme collaboration with the Helsingin Kaupunkitilat - curation
+          & production** 
+
+
+
+
+          of a Baltic-Finnic concert series at Lönnrot’s Terrace (the green), in  summer 2025
+      year: "2025"
+    - photographer: Mari Pääkkönen
+      status: completed
       additionalInfo:
         title: Funding
         text: Ministry of Education and Culture, Music Promotion Foundation
@@ -106,37 +117,40 @@ past:
       id: terveh-viro
       image: /uploads/img_3911.jpeg
       description:
-        fi: Starting international Finno-Ugric cooperation in Estonia together with
-          Sattuma duo. Karelian and Finnish folk music at Finno-Ugric Days on
-          October 20-21, 2023 at Õpetajate Maja, Tallinn and at Estonian
-          National Museum, Tartu.
-        en: " "
+        fi: ""
+        en: >-
+          **Starting international Finno-Ugric cooperation in Estonia**
+
+
+          \- together with Sattuma duo (Arto and Eila Rinne). Karelian and Finnish folk music at Finno-Ugric Days on October 20-21, 2023 at Õpetajate Maja, Tallinn and at Estonian National Museum, Tartu.
       year: "2023"
     - description:
-        fi: >-
-          ongoing commissions
+        fi: ""
+        en: >-
+          **ongoing**
 
           production of Vilma Talvitie's Olio Alien album release tour, 2026
 
 
-          past commissions
+          **past**
 
           a mentor session for a musician about the field of traditional and folk music fusion and the perspectives in 2020, December 2025
 
-          llmastoitku (Eila Hartikainen) comission, production 2024-2025 *nomination (Finnish) Choir Gala Vuoden tapaukseksi 2025 
+
+
+          llmastoitku (Eila Hartikainen), production 2024-2025 *nomination (Finnish) Choir Gala: Case of the Year 2025
+
+
 
           a presentation on Finnish and Karelian folk music traditions during a visit to Buskerud's Folk Music Center in Prestfoss, Norway on November 21-24, 2024
 
+
+
           album publicity in Finland and/or international
 
-          Hurja Halla: Surma hiihti 2025
-
-          Kalle Vainio: The Land Where It Always Rains – Musiikkia sateesta. 2024
-
-          Anna-Kaisa Liedes & Heikki Laitinen: Musiikki elokuvasta 11 ihmisen kuvaa 2023-2024 MeNaiset: Emyt 2023
+          Hurja Halla: Surma hiihti 2025  | Kalle Vainio: The Land Where It Always Rains – Musiikkia sateesta. 2024  | Anna-Kaisa Liedes & Heikki Laitinen: Musiikki elokuvasta 11 ihmisen kuvaa 2023-2024 |  MeNaiset: Emyt 2023 | 
 
           Hanna Ryynänen: Taite 2022
-        en: "  "
       id: commissions
       title: commissions
       image: /uploads/yksitoista-ihmisen-kuvaa-3000x3000px.jpg
