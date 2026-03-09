@@ -38,28 +38,6 @@ artists:
     website: " "
     id: ensemble-gamut
     image: /uploads/artists/ensemble-gamut.jpg
-  - excerpt: Ingrian-Karelian-Finnish folk tradition and myth with urban aesthetics
-    bio: >-
-      Dänkki Briha is an ethno-futuristic music collective inspired by Ingrian,
-      Karelian, and Finnish folk traditions, myths, and urban aesthetics. The
-      group combines theatrical expression, ancient rhymes, and futuristic
-      soundscapes.
-
-
-      In this Lappeenranta–Helsinki–based ensemble, Juho Liira’s timeless vocals, Matias Kontula’s sensitive electric violin, and Manu Penttilä’s experimental production create an electrifying whole that works equally well on record and live. The songs feature southeastern Finnish dialects as well as smaller languages and dialects of closely related peoples, including Livvi Karelian and Veps.
-
-
-      The debut album Viipurin Kingpin (2024, Sick Boogie Recordings) has been widely played and well received. The second album is set for release in summer 2026.
-
-
-      With the song Marjut, Dänkki Briha placed third in the Etno-Espa Folk Song 2050 songwriting competition in 2024 and performed at the Kaustinen Showcase in 2025.
-    name: Dänkki Briha
-    featured: true
-    order: 4
-    type: booking-fi
-    website: " "
-    id: dankki-briha
-    image: /uploads/artists/dankki-briha.jpg
   - excerpt: "interdisciplinary concert concept about endangered flower species "
     bio: >-
       FLOS is an interdisciplinary concert concept, brought to life by Aino
@@ -89,4 +67,28 @@ artists:
     website: " "
     id: flos
     image: /uploads/flos_highres_photo_by_anna_maria_viksten_horizontal-scaled.jpg
+  - excerpt: Ingrian-Karelian-Finnish folk tradition and myth with urban aesthetics
+    bio: >-
+      Dänkki Briha is an ethno-futuristic music collective inspired by Ingrian,
+      Karelian, and Finnish folk traditions, myths, and urban aesthetics. The
+      group combines theatrical expression, ancient rhymes, and futuristic
+      soundscapes.
+
+
+      In this Lappeenranta–Helsinki–based ensemble, Juho Liira’s timeless vocals, Matias Kontula’s sensitive electric violin, and Manu Penttilä’s experimental production create an electrifying whole that works equally well on record and live. The songs feature southeastern Finnish dialects as well as smaller languages and dialects of closely related peoples, including Livvi Karelian and Veps.
+
+
+      The debut album Viipurin Kingpin (2024, Sick Boogie Recordings) has been widely played and well received. The second album is set for release in summer 2026.
+
+
+      Kaustinen Showcase 202
+
+      Etno-Espa Folk Song 2050 songwriting competition in 2024 I 3. place
+    name: Dänkki Briha
+    featured: true
+    order: 3
+    type: booking-fi
+    website: " "
+    id: dankki-briha
+    image: /uploads/artists/dankki-briha.jpg
 ---
