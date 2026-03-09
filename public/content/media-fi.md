@@ -14,7 +14,7 @@ sections:
         alt: Mari Pääkkönen
         photographer: Matti Kyllönen
       - image: /uploads/img_3190.jpg
-        alt: Mari vierailemassa Buskerudin Kansanmusiikkikeskuksessa, Norjassa
+        alt: Mari Pääkkönen vierailemassa Buskerudin Kansanmusiikkikeskuksessa, Norjassa
         photographer: Åshild Wetterhus
       - image: /uploads/media/carousel/carousel-5.jpg
         alt: Mari Pääkkönen
