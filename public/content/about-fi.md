@@ -76,10 +76,12 @@ sections:
 
       **kansainväliset ammattilaistapahtumat**
 
+
       Tallinn Music Week 2021–2026 | WOMEX 2019, 2021-2023, 2025 | European Folk Network Conference 2024 (Kaustinen) | Budapest RITMO 2024 | by:Larm (Oslo) 2023: Music Finlandin vientimatka | Folkelarm 2022 & Music Finlandin vientimatka (Oslo) , Folkelarm 2024 | Music x Media, 2021, 2022, 2023 (Tampere) | Folk Alliance: Folk Unlocked Virtual Conference 2021
 
 
       **ammattijärjestö**
+
 
       Taide- ja kulttuurialan ammattijärjestön TAKU ry:n / Akavan Erityisalojen jäsen, 2006 • osallistujana Creative GPS mentorointiohjelmassa - Taku, Northern Dimension Partnership on Culture (NDPC), Tallinn Cretive Incubator, 2024
     maxTextLength: 5000
