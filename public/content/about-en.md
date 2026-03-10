@@ -6,7 +6,7 @@ sections:
       creative production and acengy work.
 
 
-      Founded in 2022, Pihla folk is rooted in traditions and languages of Baltic-Finnic peoples. its modern activities encompass archaic and acoustic expressions as well as cross-genre music. Finno-Ugric also forms an important, broader dimension of Pihla folk’s work. its value base grows from these roots, challenging the individual-centered and fast-paced worldview that characterizes our time.
+      Founded in 2022, Pihla folk is rooted in traditions and languages of Baltic-Finnic peoples. Its modern activities encompass archaic and acoustic expressions as well as cross-genre music. Finno-Ugric also forms an important, broader dimension of Pihla folk’s work. Its value base grows from these roots, challenging the individual-centered and fast-paced worldview that characterizes our time.
     image: /uploads/img_5434.jpeg
     imagePosition: left
     maxTextLength: 5000
