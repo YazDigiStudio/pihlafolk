@@ -118,9 +118,12 @@ past:
 
           pihla folkin kuratoimat konsertit Lönnrotin terassilla olivat:
 
+
           10.7. Laulettu Kalevala
 
+
           23.7. virolainen Duo Ruut Ilmateade-albumin julkaisukonsertillaan - konsertin yhteistyökumppanina oli Viron Suomen-suurlähetystö
+
 
           16.8. päättäjäiset
 
@@ -154,7 +157,7 @@ past:
         text: ""
         title: " "
       subtitle: " "
-      title: "käynnissä olevat & menneet tilaustyöt "
+      title: "tilaustyöt "
       type: project
       link: "   "
       id: toimeksiannot
