@@ -1,60 +1,97 @@
 ---
 sections:
   - header: pihla folk
-    text: |-
-      Pihla folk is a pioneering actor in folk music and tradition through its creative production and acengy work.
+    text: >-
+      Pihla folk is a pioneering actor in folk music and tradition through its
+      creative production and acengy work.
 
-      Founded in 2022, Pihla folk is rooted in Baltic-Finnic traditions and languages. its modern activities encompass archaic and acoustic expressions as well as cross-genre music. Finno-Ugric heritage also forms an important, broader dimension of pihla folk’s work. its value base grows from these roots, challenging the individual-centered and fast-paced worldview that characterizes our time.
+
+      Founded in 2022, Pihla folk is rooted in traditions and languages of Baltic-Finnic peoples. its modern activities encompass archaic and acoustic expressions as well as cross-genre music. Finno-Ugric also forms an important, broader dimension of Pihla folk’s work. its value base grows from these roots, challenging the individual-centered and fast-paced worldview that characterizes our time.
     image: /uploads/img_5434.jpeg
     imagePosition: left
-    maxTextLength: 2000
+    maxTextLength: 5000
   - imagePosition: right
-    text: |-
-      What makes pihla folk distinctive is its deep focus on and immersion in Baltic-Finnic traditions and languages. Traditions continue to live and evolve through acoustic and more subtle means. At the same time, cross-genre approaches can, at their best, open up new and distinctive soundscapes - often incorporating electronics as a central element in pihla folk’s case.
+    text: >-
+      What makes Pihla folk special is its deep focus in traditions and
+      languages of Baltic-Finnic peoples. Traditions continue to live and evolve
+      through acoustic and more subtle means. At the same time, cross-genre
+      approaches can, at their best, open up new and distinctive soundscapes -
+      often incorporating electronics as a central element in Pihla folk’s case.
 
-      A strong knowledge and understanding of traditions, a sensitive working approach, and versatile networks enable successful engagement with cross-border, and at times contested tradition.
 
-      Other projects can also find their way to the desk, but in those cases too, there is good communication with Pihla folk's profile.
+      A good knowledge and understanding of traditions, a sensitive working approach, and versatile networks enable successful engagement with cross-border, and at times contested tradition.
 
-      Pihla folk is generally on the side of peace in the world, but due to its profile, it must be emphasized that pihla folk stands against the war in Ukraine and Putin's regime.
+
+      Pihla folk is generally on the side of peace in the world, but due to its profile, it must be emphasized that it is against the war in Ukraine and Putin's administration.
     header: " "
     maxTextLength: 2000
   - header: Mari Pääkkönen
-    text: |-
-      I am Mari Pääkkönen, founder of pihla folk. I was born in Kuhmo, on the Finnish-Russian border of Kainuu, Eastern Finland. My interest and enthusiasm for folk tradition began as a child, and as a student in my early twenties, I fell in love with archaic music tradition. During the spring of my first university year, it became clear to me that I wanted to work in the cultural field.
+    text: >-
+      I am Mari Pääkkönen, founder of pihla folk. I was born in Kuhmo, on the
+      Finnish-Russian border of Kainuu, Eastern Finland. My interest and
+      enthusiasm for folk tradition began as a child, and as a student in my
+      early twenties, I fell in love with folk music in an archaic music world.
+      And during the spring of my first university year, it became clear to me
+      that I wanted to work in the cultural field.
+
 
       I graduated from the University of Jyväskylä with a Bachelor of Arts in Humanities in 2008 and a Master of Arts in 2010. My main subject was Speech Communication (now Communication), with two focus areas: leadership communication and interaction in work communities, and technology-mediated interaction. My minor studies covered a wide range of fields including culture and the arts, music management and production, entrepreneurship economics, and service design. My Master’s thesis focused on leadership communication in a music festival, with the Kuhmo Chamber Music Festival as a case study.
+
 
       I began my professional career in the cultural sector in 2009. Within the fields of folk and world music, I have extensive experience in various production roles, including artist management, international cultural projects, festival production, and communication, working with key institutions, organizations, and actors in the field such as Music Festival Sommelo, Folk Music Institute, Kaustinen Folk Music Festival, Global Music Centre / Etnosoi! Festival.
     image: /uploads/474788909_8837020059760290_3873740695400611265_n.jpg
     imagePosition: right
     maxTextLength: 4000
-  - text: |-
-      In the independent field, I have always been drawn to freedom itself. Particularly joyful and meaningful projects include Blood, porn and propaganda, GODDAMMIT!, a feminist folk music series (2018–2020, Amanda Kauranne), which was awarded Phenomenon of the Year at the 2020 Etno Gala. As well as Soiva linturetki, a hybrid nature excursion (2021, Jimmy Träskelin). In addition to folk music, I have worked in contemporary dance, folk dance, performance art, and theatre with i.a. Routa Company, and Dance Theatre Tsuumi, as well as with Reetta-Kaisa Iles, Lauri “Lätsä” Mattila.
+  - text: >-
+      In the independent field, I have always been drawn to freedom itself.
+      Particularly joyful and meaningful projects include Blood, porn and
+      propaganda, GODDAMMIT!, a feminist folk music series (2018–2020, Amanda
+      Kauranne), which was awarded Phenomenon of the Year at the 2020 Etno Gala.
+      As well as Soiva linturetki, a hybrid nature excursion (2021, Jimmy
+      Träskelin). In addition to folk music, I have worked in contemporary
+      dance, folk dance, performance art, and theatre with i.a. Routa Company,
+      and Dance Theatre Tsuumi, as well as with Reetta-Kaisa Iles, Lauri “Lätsä”
+      Mattila.
 
-      I have continuously updated my education through targeted courses at the Open University, including studies at the Sibelius Academy Folk Music Department (University of the Arts Helsinki), the Theatre Academy (University of the Arts Helsinki), the University of Eastern Finland. These studies have included folk music history, Viena Karelian language and culture.
 
-      During the Laulettu Kalevala (The Sung Kalevala) project, ongoing since 2020, the East drew me irresistibly toward Karelian, Baltic-Finnic, and more broadly Finno-Ugric peoples and their traditions, cultures, and languages. The timing, of course, was unfortunate. My heart broke on the morning of 24 February 2022. It broke for the people of Ukraine. It also broke for all those people living in Russia who have never voted for Putin and who oppose the war. I believe that a better time will come, when it will again be possible to create new, ethically sustainable forms of cross-border collaboration.
+      I have continuously updated my education through targeted courses at the Open University, including studies at the Sibelius Academy Folk Music Department (University of the Arts Helsinki), the Theatre Academy (University of the Arts Helsinki) and the University of Eastern Finland. These studies have included folk music history, Viena Karelian language and culture.
 
-      In recent years, Estonia has once opened itself to me with renewed intensity, which brings me great joy. And during the worst period of the COVID-19 pandemic, when most of the world was closed, I nonetheless began a process of internationalization - an inspiring and essential cornerstone of my work to this day.
 
-      Amid all these currents and waves, I decided to establish a company, and pihla folk was founded on 1 August 2022.
+      During the Laulettu Kalevala (The Sung Kalevala) project, ongoing since 2020, the East drew me irresistibly toward Karelian, Baltic-Finnic, and more broadly Finno-Ugric peoples and their traditions, cultures, and languages. The timing, of course, was unfortunate. My heart broke on the morning of 24 February 2022. It broke for the people of Ukraine. It also broke for all those people living in Russia who have never voted for Putin and who oppose the war. I believe that a better time will come, when it will again be possible to create new, ethically sustainable forms of cross-border collaboration. But the last few years have opened up Estonia to me with renewed intensity, which brings me great joy.
+
+
+      Amid all these currents and waves, I decided to establish a company, and pihla folk was founded in August 2022.
+
 
       Currently, I have the honor of serving as a board member of the Juminkeko Foundation, a center for the Kalevala and Karelian culture located in Kuhmo.
 
-      Work contact details
+
+      **Work contact details**
+
+
       mari@pihlafolk.com
+
+
       paakkosenmari@gmail.com
+
+
       +358 50 3909 794
 
-      Linktree: https://linktr.ee/mariainen
 
-      International professional events
+      **International professional events**
+
+
       Tallinn Music Week 2021–2026 | WOMEX 2019, 2021–2023, 2025 | European Folk Network Conference 2024 (Kaustinen) | Budapest RITMO 2024 | by:Larm (Oslo) 2023 – Music Finland export trip | Folkelarm 2022 & Music Finland export trip (Oslo), Folkelarm 2024 | Music x Media 2021-2023 (Tampere) | Folk Alliance: Folk Unlocked Virtual Conference 2021
 
-      Professional associations
-      • Member of TAKU – Trade Union for Arts and Culture Professionals (Akava’s Special Branches), 2006–
+
+      **Professional associations**
+
+
+      Member of TAKU – Trade Union for Arts and Culture Professionals (Akava’s Special Branches), 2006–
+
+
       • Participant in the Creative GPS mentoring programme – TAKU, Northern Dimension Partnership on Culture (NDPC), Tallinn Creative Incubator, 2024
     header: " "
     maxTextLength: 3500
+    photographer: Erlend Štaub
 ---
