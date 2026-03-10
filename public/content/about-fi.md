@@ -6,7 +6,7 @@ sections:
       tuotanto- ja agentuuritoiminnallaan. 
 
 
-      Erityisen siitä tekee keskittyminen ja syventyminen itämerensuomalaisiin perinteisiin ja kieliin. Suomalais-ugrilaisuus on myös oleellinen, laajempi ulottuvuus. Pihla folkin arvomaailma kumpuaa näistä juurista haastaen aikamme yksilökeskeistä ja tempovaa ihmis- ja maailmankuvaa.
+      Erityisen siitä tekee keskittyminen ja syventyminen itämerensuomalaisten kansojen perinteisiin ja kieliin. Suomalais-ugrilaisuus on myös oleellinen, laajempi ulottuvuus. Pihla folkin arvomaailma kumpuaa näistä juurista haastaen aikamme yksilökeskeistä ja tempovaa ihmis- ja maailmankuvaa.
 
 
       Pihla folkin moderniin toimintaan mahtuvat niin arkaainen, akustinen kuin genrejenvälinen musiikki. Perinteet elävät ja kehittyvät tässä ajassa myös akustisesti ja hienovaraisemmin. Genrejenvälisyys voi puolestaan parhaimmillaan avata uusia, omaleimaisia äänimaailmoita, joissa keskeisenä elementtinä Pihla folkin tapauksessa kuuluu usein elektroniikka.
@@ -20,10 +20,7 @@ sections:
       kiistanalaistenkin, perinteiden kanssa onnistuneesti.
 
 
-      Myös muita perinteitä voi löytää tiensä työpöydälle, mutta niissäkin tapauksissa on kommunikoiva yhteys Pihla folkin profiilin.
-
-
-      Pihla folk on yleisesti ottaen rauhan puolella maailmassa, mutta profiilinsa vuoksi on korostettava, että Pihla folk vastustaa Ukrainan sotaa ja Putinin hallintoa.
+      Pihla folk on yleisesti ottaen rauhan puolella maailmassa, mutta profiilinsa vuoksi on korostettava, että se vastustaa Ukrainan sotaa ja Putinin hallintoa.
     maxTextLength: 2000
   - header: Mari Pääkkönen
     text: >-
@@ -59,36 +56,31 @@ sections:
       2020 vuodesta lähtien käynnissä oleva Laulettu Kalevala -hanke on vaikuttanut minuun monin tavoin. Itä veti vastustamattomasti puoleensa karjalaisten, itämerensuomalaisten ja vielä laajemmin suomalais-ugrilaisten kansojen perinteiden, kulttuurien ja kielten pariin. Ajoitus oli toki huono. Sydämeni särkyi aamulla 24.2.2022. Se särkyi ukrainalaisten puolesta. Se särkyi kaikkien niiden Venäjällä asuvien ihmisten puolesta, jotka eivät ole ikinä äänestäneet Putinia ja vastustavat sotaa. Uskon, että parempi aika vielä koittaa, jolloin meillä on mahdollista luoda uusia, eettisesti kestäviä tapoja ylirajaiseen yhteistyöhön. Viime vuodet ovat avanneet minulle taas sitäkin intensiivisemmin Viroa, ja siitä iloitsen suuresti.
 
 
-      Ja pahimpaan korona-aikaan, kun suurin osa maailmasta oli kiinni, kävi kuitenkin niin, että aloitin kansainvälistymisen, ja se on edelleen inspiroiva ja tärkeä kulmakivi työssäni.
-
-
       Näiden kaikkien 20-luvun alun asioiden aalloissa päätin perustaa yrityksen, ja Pihla folk syntyi 1. elokuuta 2022.
 
 
       Tällä hetkellä minulla on kunnia olla Juminkeko-säätiö hallituksen jäsen. Juminkeko on Kuhmossa sijaitseva Kalevalan ja karjalaisen kulttuurin keskus.
 
 
-      työyhteystietoni
+      **työyhteystietoni**
+
 
       mari@pihlafolk.com
 
+
       paakkosenmari@gmail.com
+
 
       +358 50 3909 794
 
 
-      linkkipuu: https://linktr.ee/mariainen
-
-
-      kansainväliset ammattilaistapahtumat
+      **kansainväliset ammattilaistapahtumat**
 
       Tallinn Music Week 2021–2026 | WOMEX 2019, 2021-2023, 2025 | European Folk Network Conference 2024 (Kaustinen) | Budapest RITMO 2024 | by:Larm (Oslo) 2023: Music Finlandin vientimatka | Folkelarm 2022 & Music Finlandin vientimatka (Oslo) , Folkelarm 2024 | Music x Media, 2021, 2022, 2023 (Tampere) | Folk Alliance: Folk Unlocked Virtual Conference 2021
 
 
-      ammattijärjestö
+      **ammattijärjestö**
 
-      Taide- ja kulttuurialan ammattijärjestön TAKU ry:n / Akavan Erityisalojen jäsen, 2006 –
-
-      • osallistujana Creative GPS mentorointiohjelmassa - Taku, Northern Dimension Partnership on Culture (NDPC), Tallinn Cretive Incubator, 2024
+      Taide- ja kulttuurialan ammattijärjestön TAKU ry:n / Akavan Erityisalojen jäsen, 2006 • osallistujana Creative GPS mentorointiohjelmassa - Taku, Northern Dimension Partnership on Culture (NDPC), Tallinn Cretive Incubator, 2024
     maxTextLength: 5000
 ---
