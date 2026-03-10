@@ -59,7 +59,7 @@ sections:
       Näiden kaikkien 20-luvun alun asioiden aalloissa päätin perustaa yrityksen, ja Pihla folk syntyi 1. elokuuta 2022.
 
 
-      Tällä hetkellä minulla on kunnia olla Juminkeko-säätiö hallituksen jäsen. Juminkeko on Kuhmossa sijaitseva Kalevalan ja karjalaisen kulttuurin keskus.
+      Tällä hetkellä minulla on kunnia olla Juminkeko-säätiön hallituksen jäsen. Juminkeko on Kuhmossa sijaitseva Kalevalan ja karjalaisen kulttuurin keskus.
 
 
       **työyhteystietoni**
@@ -83,6 +83,9 @@ sections:
       **ammattijärjestö**
 
 
-      Taide- ja kulttuurialan ammattijärjestön TAKU ry:n / Akavan Erityisalojen jäsen, 2006 • osallistujana Creative GPS mentorointiohjelmassa - Taku, Northern Dimension Partnership on Culture (NDPC), Tallinn Cretive Incubator, 2024
+      Taide- ja kulttuurialan ammattijärjestön TAKU ry:n / Akavan Erityisalojen jäsen, 2006 
+
+
+      • osallistujana Creative GPS mentorointiohjelmassa - Taku, Northern Dimension Partnership on Culture (NDPC), Tallinn Cretive Incubator, 2024
     maxTextLength: 5000
 ---
