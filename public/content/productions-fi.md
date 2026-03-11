@@ -34,23 +34,19 @@ ongoing:
           Laulettu Kalevala -äänikirja on kuultavissa tällä hetkellä sen YouTube-kanavalla (tunnus: @laulettukalevala) sekä etno.net-sivustolla.
 
 
-          Työryhmä
+          **Työryhmä**
 
 
           Runolaulajat & lukija:
 
 
-          Ääniteatteri Iki-Turso: Eila Hartikainen, Taito Hoffrén (1974-2024), Maari Kallberg, Ilona Korhonen, Heikki Laitinen & Anna-Kaisa Liedes
+          Ääniteatteri Iki-Turso: Eila Hartikainen, Taito Hoffrén (1974-2024), Maari Kallberg, Ilona Korhonen, Heikki Laitinen & Anna-Kaisa Liedes\
 
+          Visuaalinen suunnittelija: Tatu Rouvinen\
 
-          Visuaalinen suunnittelija: Tatu Rouvinen
+          Äänitys: Taito Hoffrén, 25. runo Alec Havinmaa\
 
-
-          Äänitys: Taito Hoffrén, 25. runo Alec Havinmaa
-
-
-          Editointi & masterointi: Taito Hoffrén & Alec Havinmaa
-
+          Editointi & masterointi: Taito Hoffrén & Alec Havinmaa\
 
           Hankkeen koollekutsuja, tuottaja & julkaisija: Mari Pääkkönen / pihla folk
 

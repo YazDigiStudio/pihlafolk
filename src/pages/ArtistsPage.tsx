@@ -74,6 +74,10 @@ export const ArtistsPage: React.FC = () => {
     );
   }
 
+  const hasBookingFi = data.artists.some(a => a.type === 'booking-fi');
+  const hasBookingIntl = data.artists.some(a => a.type === 'booking-intl');
+  const hasManagementIntl = data.artists.some(a => a.type === 'management-intl');
+
   const artists = data.artists
     .filter(artist => filter === 'all' || artist.type === filter)
     .sort((a, b) => a.order - b.order);
@@ -130,9 +134,9 @@ export const ArtistsPage: React.FC = () => {
           >
             {[
               { key: 'all', label: t.artists.filterAll },
-              { key: 'booking-fi', label: t.artists.filterBookingFi },
-              { key: 'booking-intl', label: t.artists.filterBookingIntl },
-              { key: 'management-intl', label: t.artists.filterManagementIntl }
+              ...(hasBookingFi ? [{ key: 'booking-fi', label: t.artists.filterBookingFi }] : []),
+              ...(hasBookingIntl ? [{ key: 'booking-intl', label: t.artists.filterBookingIntl }] : []),
+              ...(hasManagementIntl ? [{ key: 'management-intl', label: t.artists.filterManagementIntl }] : [])
             ].map((btn) => (
               <button
                 key={btn.key}

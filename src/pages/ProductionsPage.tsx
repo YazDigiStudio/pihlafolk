@@ -180,8 +180,8 @@ export const ProductionsPage: React.FC = () => {
         {/* Description */}
         <div
           style={{
-            fontSize: '1rem',
-            lineHeight: '1.7',
+            fontSize: isMobile ? '0.95rem' : '1.1rem',
+            lineHeight: '1.8',
             color: 'rgba(12, 12, 12, 0.9)',
             marginBottom: '1rem'
           }}

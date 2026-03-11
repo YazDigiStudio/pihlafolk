@@ -61,7 +61,7 @@ export const ImageCarousel: React.FC<ImageCarouselProps> = ({
     const baseStyle: React.CSSProperties = {
       position: 'absolute',
       height: '100%',
-      objectFit: 'cover',
+      objectFit: 'contain',
       transition: 'all 0.5s ease-in-out',
       borderRadius: '8px'
     };

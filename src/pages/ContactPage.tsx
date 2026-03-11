@@ -122,7 +122,7 @@ export const ContactPage: React.FC = () => {
               }}
             >
               {/* Email Section */}
-              <div style={{ marginBottom: "3rem", paddingTop: "2rem" }}>
+              <div style={{ marginBottom: "0.5rem", paddingTop: "2rem" }}>
                 <p style={{ fontSize: "1.1rem", color: colors.textPrimary, margin: "0 0 0.5rem 0", fontWeight: 500 }}>
                   {t.contact.contactLabel}
                 </p>
