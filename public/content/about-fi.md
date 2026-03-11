@@ -65,11 +65,9 @@ sections:
       **työyhteystietoni**
 
 
-      mari@pihlafolk.com
+      mari@pihlafolk.com\
 
-
-      paakkosenmari@gmail.com
-
+      paakkosenmari@gmail.com\
 
       +358 50 3909 794
 
