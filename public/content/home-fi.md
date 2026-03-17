@@ -10,6 +10,8 @@ heroParagraph2: >-
   juurista haastaen aikamme yksilökeskeistä ja tempovaa ihmis- ja maailmankuvaa.
 
 
+
+
   pihla folkin visuaalinen identiteetti: Tatu Rouvinen
 additionalText: ""
 showMedia: true
