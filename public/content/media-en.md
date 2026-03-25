@@ -21,14 +21,14 @@ sections:
         photographer: Erlend Štaub
   - type: videos
     title: videos
-    subtitle: Watch videos from our performances and productions
+    subtitle: ""
     videos: []
   - type: audio
-    title: audio samples
-    subtitle: Listen to samples of our music
+    title: audios
+    subtitle: ""
     audioFiles: []
   - type: links
-    title: Media Links
+    title: media links
     subtitle: links to media content
     externalLinks: []
 ---
