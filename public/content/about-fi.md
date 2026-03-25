@@ -47,7 +47,7 @@ sections:
       hybridi luontoretki 2021 (Jimmy Träskelin). Kansanmusiikin lisäksi olen
       työskennellyt nykytanssin, kansantanssin, esitystaiteen ja teatterin
       maastoissa mm. Routa Company’ssa ja Tanssiteatteri Tsuumissa sekä
-      Reetta-Kaisa Ilesin ja Lauri ”Lätsä” Mattilan kanssa.
+      Reetta-Kaisa Ilesin ja Onerva Helneen kanssa.
 
 
       Koulutustani olen päivittänyt täsmäkursseilla avoimen yliopiston kautta niin Taideyliopiston Sibelius-Akatemian Kansanmusiikkiosastolla, Taideyliopiston Teatterikorkeakoulussa kuin Itä-Suomen yliopistossa. Näiden joukosta löytyy mm. kansanmusiikin historiaa sekä vienankarjalan kieltä ja kulttuuria.
