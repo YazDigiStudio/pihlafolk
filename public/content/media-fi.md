@@ -19,6 +19,11 @@ sections:
       - image: /uploads/media/carousel/carousel-5.jpg
         alt: Mari Pääkkönen
         photographer: Erlend Štaub
+  - type: audio
+    title: ""
+    subtitle: ""
+    audioFiles:
+      - {}
   - type: videos
     title: videot
     subtitle: ""
@@ -26,11 +31,6 @@ sections:
       - url: https://www.youtube.com/watch?v=dp3RafpNAzg&list=RDdp3RafpNAzg&start_radio=1
         type: youtube
         title: " Ensemble Gamut! - Sicut spinarum (Official Music Video)"
-  - type: audio
-    title: ""
-    subtitle: ""
-    audioFiles:
-      - {}
   - type: links
     title: medialinkit
     subtitle: ""
