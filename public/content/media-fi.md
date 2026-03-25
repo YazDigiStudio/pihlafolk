@@ -20,10 +20,9 @@ sections:
         alt: Mari Pääkkönen
         photographer: Erlend Štaub
   - type: audio
-    title: ""
+    title: ääniä
     subtitle: ""
-    audioFiles:
-      - {}
+    audioFiles: []
   - type: videos
     title: videot
     subtitle: ""
