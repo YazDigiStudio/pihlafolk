@@ -11,6 +11,6 @@ relatedLinks:
     text: join pihla folk's newsletter
   - url: https://linktr.ee/pihlafolk?utm_source=linktree_profile_share&ltsid=54912ee6-a16a-4fa0-bb32-880e926f821e
     text: pihla folk's linktree
-  - url: https://www.pihlafolk.fi
-    text: www.pihlafolk.fi
+  - url: https://www.pihlafolk.com
+    text: www.pihlafolk.com
 ---
