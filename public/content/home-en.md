@@ -28,5 +28,22 @@ ctaButton1Link: /tuotannot
 showButton2: true
 ctaButton2Text: about pihla folk
 ctaButton2Link: /tietoa
+sections:
+  - imagePosition: right
+    header: latest!
+    text: >-
+      ### Ensemble Gamut! showcases at Tallinn Music Week
+
+
+
+
+      ##### Classical:NEXT stage, at Fotografiska, Telliskivi
+
+
+      ##### on Thursday, 9 April 2026 at 22:30
+
+
+      **[read more about the TMW, tickets and everything else](http://www.tmw.ee)**
+    image: /uploads/621814965_10235783233055848_9221679785291996499_n.jpg
 subtitle: pioneering folk music and traditions since 2002
 ---
