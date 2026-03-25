@@ -20,20 +20,20 @@ sections:
         alt: Mari Pääkkönen
         photographer: Erlend Štaub
   - type: videos
-    title: Videot
-    subtitle: Katso videoita esityksistämme ja tuotannoistamme
+    title: videot
+    subtitle: ""
     videos:
       - url: https://www.youtube.com/watch?v=dp3RafpNAzg&list=RDdp3RafpNAzg&start_radio=1
         type: youtube
         title: " Ensemble Gamut! - Sicut spinarum (Official Music Video)"
   - type: audio
-    title: Ääninäytteet
-    subtitle: Kuuntele ääninäytteitä musiikistamme
+    title: ""
+    subtitle: ""
     audioFiles:
       - {}
   - type: links
-    title: Media-linkit
-    subtitle: Linkkejä mediasisältöihimme
+    title: medialinkit
+    subtitle: ""
     externalLinks:
       - {}
 ---
