@@ -6,6 +6,6 @@ socialMedia:
   - platform: youtube
     url: https://youtube.com/@pihlafolk
 credit:
-  text: Website by yazdigistudio.com
+  text: website by yazdigistudio.com
   url: https://yazdigistudio.com
 ---
