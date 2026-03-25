@@ -6,6 +6,6 @@ socialMedia:
   - platform: youtube
     url: https://youtube.com/@pihlafolk
 credit:
-  text: "Verkkosivut: Timo Saari/yazdigistudio.com"
+  text: "verkkosivut: Timo Saari/yazdigistudio.com"
   url: https://yazdigistudio.com
 ---
