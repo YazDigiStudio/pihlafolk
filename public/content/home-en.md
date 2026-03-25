@@ -31,19 +31,18 @@ ctaButton2Link: /tietoa
 sections:
   - imagePosition: right
     header: latest!
-    text: >-
+    text: |-
       ### Ensemble Gamut! showcases at Tallinn Music Week
 
 
 
+      Classical:NEXT stage, at Fotografiska, Telliskivi
 
-      ##### Classical:NEXT stage, at Fotografiska, Telliskivi
-
-
-      ##### on Thursday, 9 April 2026 at 22:30
+      on Thursday, 9 April 2026 at 22:30
 
 
-      **[read more about the TMW, tickets and everything else](http://www.tmw.ee)**
+
+      [read more about the TMW, tickets and everything else](https://tmw.ee)
     image: /uploads/621814965_10235783233055848_9221679785291996499_n.jpg
 subtitle: pioneering folk music and traditions since 2002
 ---
