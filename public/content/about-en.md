@@ -42,6 +42,7 @@ sections:
     image: /uploads/474788909_8837020059760290_3873740695400611265_n.jpg
     imagePosition: right
     maxTextLength: 4000
+    photographer: Erlend Štaub
   - text: >-
       In the independent field, I have always been drawn to freedom itself.
       Particularly joyful and meaningful projects include Blood, porn and
@@ -50,8 +51,7 @@ sections:
       As well as Soiva linturetki, a hybrid nature excursion (2021, Jimmy
       Träskelin). In addition to folk music, I have worked in contemporary
       dance, folk dance, performance art, and theatre with i.a. Routa Company,
-      and Dance Theatre Tsuumi, as well as with Reetta-Kaisa Iles, Lauri “Lätsä”
-      Mattila.
+      and Dance Theatre Tsuumi, as well as with Reetta-Kaisa Iles, Onerva Helne.
 
 
       I have continuously updated my education through targeted courses at the Open University, including studies at the Sibelius Academy Folk Music Department (University of the Arts Helsinki), the Theatre Academy (University of the Arts Helsinki) and the University of Eastern Finland. These studies have included folk music history, Viena Karelian language and culture.
