@@ -3,7 +3,6 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { HomePage } from './pages/HomePage';
 import { ArtistsPage } from './pages/ArtistsPage';
 import { AboutPage } from './pages/AboutPage';
-import { ServicesPage } from './pages/ServicesPage';
 import { MediaPage } from './pages/MediaPage';
 import { ProductionsPage } from './pages/ProductionsPage';
 import { ContactPage } from './pages/ContactPage';
@@ -29,7 +28,6 @@ export const PortfolioSite: React.FC = () => {
         <Route path="/" element={<HomePage />} />
         <Route path="/artistit" element={<ArtistsPage />} />
         <Route path="/tietoa" element={<AboutPage />} />
-        <Route path="/palvelut" element={<ServicesPage />} />
         <Route path="/media" element={<MediaPage />} />
         <Route path="/tuotannot" element={<ProductionsPage />} />
         <Route path="/yhteystiedot" element={<ContactPage />} />

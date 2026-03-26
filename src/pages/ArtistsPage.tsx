@@ -29,6 +29,10 @@ interface Artist {
   image: string;
   photographer?: string;
   website: string;
+  link1Url?: string;
+  link1Label?: string;
+  link2Url?: string;
+  link2Label?: string;
   excerpt: string;
   bio: string;
   featured: boolean;
@@ -516,43 +520,111 @@ export const ArtistsPage: React.FC = () => {
                 {selectedArtist.bio}
               </div>
 
-              {/* Website Link */}
-              {selectedArtist.website && (
-                <a
-                  href={selectedArtist.website}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  onClick={(e) => e.stopPropagation()}
-                  style={{
-                    display: 'inline-block',
-                    padding: '0.875rem 2rem',
-                    backgroundColor: 'transparent',
-                    color: palette.colors.accentPrimary,
-                    textDecoration: 'none',
-                    border: `2px solid ${palette.colors.accentPrimary}`,
-                    borderRadius: '4px',
-                    fontSize: '1rem',
-                    fontWeight: 600,
-                    transition: 'all 0.3s ease',
-                    position: 'relative',
-                    overflow: 'hidden'
-                  }}
-                  onMouseEnter={(e) => {
-                    e.currentTarget.style.backgroundColor = palette.colors.accentPrimary;
-                    e.currentTarget.style.color = colors.bgPrimary;
-                    e.currentTarget.style.transform = 'translateY(-2px)';
-                    e.currentTarget.style.boxShadow = '0 6px 16px rgba(255, 0, 0, 0.3)';
-                  }}
-                  onMouseLeave={(e) => {
-                    e.currentTarget.style.backgroundColor = 'transparent';
-                    e.currentTarget.style.color = palette.colors.accentPrimary;
-                    e.currentTarget.style.transform = 'translateY(0)';
-                    e.currentTarget.style.boxShadow = 'none';
-                  }}
-                >
-                  {t.artists.website} →
-                </a>
-              )}
+              {/* Links */}
+              <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem' }}>
+                {selectedArtist.website && (
+                  <a
+                    href={selectedArtist.website}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={(e) => e.stopPropagation()}
+                    style={{
+                      display: 'inline-block',
+                      padding: '0.875rem 2rem',
+                      backgroundColor: 'transparent',
+                      color: palette.colors.accentPrimary,
+                      textDecoration: 'none',
+                      border: `2px solid ${palette.colors.accentPrimary}`,
+                      borderRadius: '4px',
+                      fontSize: '1rem',
+                      fontWeight: 600,
+                      transition: 'all 0.3s ease'
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.backgroundColor = palette.colors.accentPrimary;
+                      e.currentTarget.style.color = colors.bgPrimary;
+                      e.currentTarget.style.transform = 'translateY(-2px)';
+                      e.currentTarget.style.boxShadow = '0 6px 16px rgba(255, 0, 0, 0.3)';
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.backgroundColor = 'transparent';
+                      e.currentTarget.style.color = palette.colors.accentPrimary;
+                      e.currentTarget.style.transform = 'translateY(0)';
+                      e.currentTarget.style.boxShadow = 'none';
+                    }}
+                  >
+                    {t.artists.website} →
+                  </a>
+                )}
+                {selectedArtist.link1Url && selectedArtist.link1Label && (
+                  <a
+                    href={selectedArtist.link1Url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={(e) => e.stopPropagation()}
+                    style={{
+                      display: 'inline-block',
+                      padding: '0.875rem 2rem',
+                      backgroundColor: 'transparent',
+                      color: palette.colors.accentPrimary,
+                      textDecoration: 'none',
+                      border: `2px solid ${palette.colors.accentPrimary}`,
+                      borderRadius: '4px',
+                      fontSize: '1rem',
+                      fontWeight: 600,
+                      transition: 'all 0.3s ease'
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.backgroundColor = palette.colors.accentPrimary;
+                      e.currentTarget.style.color = colors.bgPrimary;
+                      e.currentTarget.style.transform = 'translateY(-2px)';
+                      e.currentTarget.style.boxShadow = '0 6px 16px rgba(255, 0, 0, 0.3)';
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.backgroundColor = 'transparent';
+                      e.currentTarget.style.color = palette.colors.accentPrimary;
+                      e.currentTarget.style.transform = 'translateY(0)';
+                      e.currentTarget.style.boxShadow = 'none';
+                    }}
+                  >
+                    {selectedArtist.link1Label} →
+                  </a>
+                )}
+                {selectedArtist.link2Url && selectedArtist.link2Label && (
+                  <a
+                    href={selectedArtist.link2Url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={(e) => e.stopPropagation()}
+                    style={{
+                      display: 'inline-block',
+                      padding: '0.875rem 2rem',
+                      backgroundColor: 'transparent',
+                      color: palette.colors.accentPrimary,
+                      textDecoration: 'none',
+                      border: `2px solid ${palette.colors.accentPrimary}`,
+                      borderRadius: '4px',
+                      fontSize: '1rem',
+                      fontWeight: 600,
+                      transition: 'all 0.3s ease'
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.backgroundColor = palette.colors.accentPrimary;
+                      e.currentTarget.style.color = colors.bgPrimary;
+                      e.currentTarget.style.transform = 'translateY(-2px)';
+                      e.currentTarget.style.boxShadow = '0 6px 16px rgba(255, 0, 0, 0.3)';
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.backgroundColor = 'transparent';
+                      e.currentTarget.style.color = palette.colors.accentPrimary;
+                      e.currentTarget.style.transform = 'translateY(0)';
+                      e.currentTarget.style.boxShadow = 'none';
+                    }}
+                  >
+                    {selectedArtist.link2Label} →
+                  </a>
+                )}
+              </div>
             </div>
           </div>
         </div>

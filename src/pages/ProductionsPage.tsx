@@ -30,10 +30,7 @@ interface Production {
   year: string;
   image: string;
   photographer?: string;
-  description: {
-    fi: string;
-    en: string;
-  };
+  description: string;
   additionalInfo?: {
     title: string;
     text: string;
@@ -43,17 +40,11 @@ interface Production {
 
 interface ProductionsContent {
   ongoing: {
-    title: {
-      fi: string;
-      en: string;
-    };
+    title: string;
     productions: Production[];
   };
   past: {
-    title: {
-      fi: string;
-      en: string;
-    };
+    title: string;
     productions: Production[];
   };
 }
@@ -186,7 +177,7 @@ export const ProductionsPage: React.FC = () => {
             marginBottom: '1rem'
           }}
         >
-          <ReactMarkdown components={linkComponents}>{production.description[language]}</ReactMarkdown>
+          <ReactMarkdown components={linkComponents}>{production.description}</ReactMarkdown>
         </div>
 
         {/* Additional Info */}
@@ -292,7 +283,7 @@ export const ProductionsPage: React.FC = () => {
                   borderBottom: '2px solid rgba(255, 0, 0, 0.2)'
                 }}
               >
-                {data.ongoing.title[language]}
+                {data.ongoing.title}
               </h2>
               <div>
                 {data.ongoing.productions.map((production, index) => (
@@ -319,7 +310,7 @@ export const ProductionsPage: React.FC = () => {
                   borderBottom: '2px solid rgba(255, 0, 0, 0.2)'
                 }}
               >
-                {data.past.title[language]}
+                {data.past.title}
               </h2>
               <div>
                 {data.past.productions.map((production, index) => (

@@ -34,10 +34,12 @@ artists:
     name: Ensemble Gamut!
     featured: true
     order: 1
+    link1Url: /media#gamut-video
     type: booking-intl
     website: https://yazzo.io
     id: ensemble-gamut
     image: /uploads/artists/ensemble-gamut.jpg
+    link1Label: Ensemble Gamut! - Sicut spinarum (Official Music Video)
   - excerpt: monitaideprojekti arktisista uhanalaisista kukista
     bio: >-
       Ensemble Gamut! feat. Vappu Rossi ja Tuomas Norvio

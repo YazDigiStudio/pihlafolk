@@ -82,6 +82,10 @@ collections:
               - {label: "Kuva", name: "image", widget: "image", required: false}
               - {label: "Kuvaaja", name: "photographer", widget: "string", required: false}
               - {label: "Kotisivu", name: "website", widget: "string", required: false}
+              - {label: "Linkki 1 - URL", name: "link1Url", widget: "string", required: false}
+              - {label: "Linkki 1 - Teksti", name: "link1Label", widget: "string", required: false}
+              - {label: "Linkki 2 - URL", name: "link2Url", widget: "string", required: false}
+              - {label: "Linkki 2 - Teksti", name: "link2Label", widget: "string", required: false}
               - {label: "Lyhyt kuvaus", name: "excerpt", widget: "text", required: false}
               - {label: "Koko bio", name: "bio", widget: "text", required: false}
               - {label: "Featured", name: "featured", widget: "boolean", default: false, required: false}
@@ -96,12 +100,7 @@ collections:
             name: "ongoing"
             widget: "object"
             fields:
-              - label: "Otsikko"
-                name: "title"
-                widget: "object"
-                fields:
-                  - {label: "Suomi", name: "fi", widget: "string"}
-                  - {label: "Englanti", name: "en", widget: "string"}
+              - {label: "Otsikko", name: "title", widget: "string"}
               - label: "Tuotannot"
                 name: "productions"
                 widget: "list"
@@ -114,12 +113,7 @@ collections:
                   - {label: "Vuosi", name: "year", widget: "string"}
                   - {label: "Kuva", name: "image", widget: "image"}
                   - {label: "Kuvaaja", name: "photographer", widget: "string", required: false}
-                  - label: "Kuvaus"
-                    name: "description"
-                    widget: "object"
-                    fields:
-                      - {label: "Suomi", name: "fi", widget: "markdown"}
-                      - {label: "Englanti", name: "en", widget: "markdown"}
+                  - {label: "Kuvaus", name: "description", widget: "markdown"}
                   - {label: "Linkki", name: "link", widget: "string"}
                   - label: "Lisätiedot"
                     name: "additionalInfo"
@@ -133,12 +127,7 @@ collections:
             name: "past"
             widget: "object"
             fields:
-              - label: "Otsikko"
-                name: "title"
-                widget: "object"
-                fields:
-                  - {label: "Suomi", name: "fi", widget: "string"}
-                  - {label: "Englanti", name: "en", widget: "string"}
+              - {label: "Otsikko", name: "title", widget: "string"}
               - label: "Tuotannot"
                 name: "productions"
                 widget: "list"
@@ -151,12 +140,7 @@ collections:
                   - {label: "Vuosi", name: "year", widget: "string"}
                   - {label: "Kuva", name: "image", widget: "image"}
                   - {label: "Kuvaaja", name: "photographer", widget: "string", required: false}
-                  - label: "Kuvaus"
-                    name: "description"
-                    widget: "object"
-                    fields:
-                      - {label: "Suomi", name: "fi", widget: "markdown"}
-                      - {label: "Englanti", name: "en", widget: "markdown"}
+                  - {label: "Kuvaus", name: "description", widget: "markdown"}
                   - {label: "Linkki", name: "link", widget: "string"}
                   - label: "Lisätiedot"
                     name: "additionalInfo"
@@ -167,71 +151,71 @@ collections:
                       - {label: "Otsikko", name: "title", widget: "string", required: false, hint: "Esim. 'Rahoittajat'"}
                       - {label: "Teksti", name: "text", widget: "markdown", required: false}
 
-      # MediaPage - Finnish
+      # MediaPage - Shared (one file for both languages)
       - label: "Media"
-        name: "media-fi"
-        file: "public/content/media-fi.md"
+        name: "media"
+        file: "public/content/media.md"
         fields:
-          - label: "Osiot"
+          - label: "Osiot / Sections"
             name: "sections"
             widget: "list"
             types:
-              - label: "Kuvagalleria (Carousel)"
+              - label: "Kuvagalleria / Photo Gallery"
                 name: "carousel"
                 widget: "object"
                 fields:
                   - {label: "Tyyppi", name: "type", widget: "hidden", default: "carousel"}
-                  - {label: "Otsikko", name: "title", widget: "string", required: false}
-                  - {label: "Alaotsikko", name: "subtitle", widget: "text", required: false}
-                  - label: "Kuvat"
+                  - label: "Kuvat / Images"
                     name: "carousel"
                     widget: "list"
                     fields:
-                      - {label: "Kuva", name: "image", widget: "image", required: false}
-                      - {label: "Kuvateksti", name: "alt", widget: "string", required: false}
-                      - {label: "Kuvaaja", name: "photographer", widget: "string", required: false}
-              - label: "Videot"
+                      - {label: "Kuva / Image", name: "image", widget: "image", required: false}
+                      - {label: "Kuvateksti / Caption", name: "alt", widget: "string", required: false}
+                      - {label: "Kuvaaja / Photographer", name: "photographer", widget: "string", required: false}
+              - label: "Videot / Videos"
                 name: "videos"
                 widget: "object"
                 fields:
                   - {label: "Tyyppi", name: "type", widget: "hidden", default: "videos"}
-                  - {label: "Otsikko", name: "title", widget: "string", required: false}
-                  - {label: "Alaotsikko", name: "subtitle", widget: "text", required: false}
-                  - label: "Videot"
+                  - label: "Videot / Videos"
                     name: "videos"
                     widget: "list"
                     fields:
-                      - {label: "Video Tyyppi", name: "type", widget: "select", options: ["youtube", "vimeo", "direct"], required: false}
+                      - {label: "ID (linkitystä varten)", name: "id", widget: "string", required: false, hint: "Esim. 'ensemble-gamut' → /media#ensemble-gamut"}
+                      - {label: "Video Tyyppi / Type", name: "type", widget: "select", options: ["youtube", "vimeo", "direct"], required: false}
                       - {label: "Video URL", name: "url", widget: "string", required: false}
-                      - {label: "Otsikko", name: "title", widget: "string", required: false}
-                      - {label: "Kuvaus", name: "description", widget: "text", required: false}
-              - label: "Ääninäytteet"
+                      - {label: "Otsikko suomeksi / Title in Finnish", name: "titleFi", widget: "string", required: false}
+                      - {label: "Otsikko englanniksi / Title in English", name: "titleEn", widget: "string", required: false}
+                      - {label: "Kuvaus suomeksi / Description in Finnish", name: "descriptionFi", widget: "text", required: false}
+                      - {label: "Kuvaus englanniksi / Description in English", name: "descriptionEn", widget: "text", required: false}
+              - label: "Ääninäytteet / Audio"
                 name: "audio"
                 widget: "object"
                 fields:
                   - {label: "Tyyppi", name: "type", widget: "hidden", default: "audio"}
-                  - {label: "Otsikko", name: "title", widget: "string", required: false}
-                  - {label: "Alaotsikko", name: "subtitle", widget: "text", required: false}
-                  - label: "Äänitiedostot"
+                  - label: "Äänitiedostot / Audio Files"
                     name: "audioFiles"
                     widget: "list"
                     fields:
-                      - {label: "Äänitiedosto", name: "url", widget: "file", required: false}
-                      - {label: "Otsikko", name: "title", widget: "string", required: false}
-                      - {label: "Kuvaus", name: "description", widget: "text", required: false}
-              - label: "Linkit"
+                      - {label: "ID (linkitystä varten)", name: "id", widget: "string", required: false, hint: "Esim. 'ensemble-gamut' → /media#ensemble-gamut"}
+                      - {label: "Spotify / SoundCloud URL", name: "streamingUrl", widget: "string", required: false, hint: "Liitä Spotify tai SoundCloud linkki tähän"}
+                      - {label: "Äänitiedosto (suora tiedosto) / Direct audio file", name: "url", widget: "file", required: false}
+                      - {label: "Otsikko suomeksi / Title in Finnish", name: "titleFi", widget: "string", required: false}
+                      - {label: "Otsikko englanniksi / Title in English", name: "titleEn", widget: "string", required: false}
+                      - {label: "Kuvaus suomeksi / Description in Finnish", name: "descriptionFi", widget: "text", required: false}
+                      - {label: "Kuvaus englanniksi / Description in English", name: "descriptionEn", widget: "text", required: false}
+              - label: "Linkit / Links"
                 name: "links"
                 widget: "object"
                 fields:
                   - {label: "Tyyppi", name: "type", widget: "hidden", default: "links"}
-                  - {label: "Otsikko", name: "title", widget: "string", required: false}
-                  - {label: "Alaotsikko", name: "subtitle", widget: "text", required: false}
-                  - label: "Ulkoiset linkit"
+                  - label: "Ulkoiset linkit / External Links"
                     name: "externalLinks"
                     widget: "list"
                     fields:
                       - {label: "URL", name: "url", widget: "string", required: false}
-                      - {label: "Napin teksti", name: "buttonText", widget: "string", required: false}
+                      - {label: "Napin teksti suomeksi / Button text in Finnish", name: "buttonTextFi", widget: "string", required: false}
+                      - {label: "Napin teksti englanniksi / Button text in English", name: "buttonTextEn", widget: "string", required: false}
 
       # ContactPage - Finnish
       - label: "Yhteystiedot"
@@ -347,6 +331,10 @@ collections:
               - {label: "Image", name: "image", widget: "image", required: false}
               - {label: "Photographer", name: "photographer", widget: "string", required: false}
               - {label: "Website", name: "website", widget: "string", required: false}
+              - {label: "Link 1 - URL", name: "link1Url", widget: "string", required: false}
+              - {label: "Link 1 - Label", name: "link1Label", widget: "string", required: false}
+              - {label: "Link 2 - URL", name: "link2Url", widget: "string", required: false}
+              - {label: "Link 2 - Label", name: "link2Label", widget: "string", required: false}
               - {label: "Excerpt", name: "excerpt", widget: "text", required: false}
               - {label: "Full Bio", name: "bio", widget: "text", required: false}
               - {label: "Featured", name: "featured", widget: "boolean", default: false, required: false}
@@ -361,13 +349,7 @@ collections:
             name: "ongoing"
             widget: "object"
             fields:
-              - label: "Title"
-                name: "title"
-                widget: "object"
-                required: false
-                fields:
-                  - {label: "Finnish", name: "fi", widget: "string", required: false}
-                  - {label: "English", name: "en", widget: "string", required: false}
+              - {label: "Title", name: "title", widget: "string"}
               - label: "Productions"
                 name: "productions"
                 widget: "list"
@@ -380,13 +362,7 @@ collections:
                   - {label: "Year", name: "year", widget: "string", required: false}
                   - {label: "Image", name: "image", widget: "image", required: false}
                   - {label: "Photographer", name: "photographer", widget: "string", required: false}
-                  - label: "Description"
-                    name: "description"
-                    widget: "object"
-                    required: false
-                    fields:
-                      - {label: "Finnish", name: "fi", widget: "markdown", required: false}
-                      - {label: "English", name: "en", widget: "markdown", required: false}
+                  - {label: "Description", name: "description", widget: "markdown", required: false}
                   - {label: "Link", name: "link", widget: "string", required: false}
                   - label: "Additional Info"
                     name: "additionalInfo"
@@ -400,13 +376,7 @@ collections:
             name: "past"
             widget: "object"
             fields:
-              - label: "Title"
-                name: "title"
-                widget: "object"
-                required: false
-                fields:
-                  - {label: "Finnish", name: "fi", widget: "string", required: false}
-                  - {label: "English", name: "en", widget: "string", required: false}
+              - {label: "Title", name: "title", widget: "string"}
               - label: "Productions"
                 name: "productions"
                 widget: "list"
@@ -419,13 +389,7 @@ collections:
                   - {label: "Year", name: "year", widget: "string", required: false}
                   - {label: "Image", name: "image", widget: "image", required: false}
                   - {label: "Photographer", name: "photographer", widget: "string", required: false}
-                  - label: "Description"
-                    name: "description"
-                    widget: "object"
-                    required: false
-                    fields:
-                      - {label: "Finnish", name: "fi", widget: "markdown", required: false}
-                      - {label: "English", name: "en", widget: "markdown", required: false}
+                  - {label: "Description", name: "description", widget: "markdown", required: false}
                   - {label: "Link", name: "link", widget: "string", required: false}
                   - label: "Additional Info"
                     name: "additionalInfo"
@@ -435,72 +399,6 @@ collections:
                     fields:
                       - {label: "Title", name: "title", widget: "string", required: false, hint: "E.g. 'Funding'"}
                       - {label: "Text", name: "text", widget: "markdown", required: false}
-
-      # MediaPage - English
-      - label: "Media"
-        name: "media-en"
-        file: "public/content/media-en.md"
-        fields:
-          - label: "Sections"
-            name: "sections"
-            widget: "list"
-            types:
-              - label: "Photo Gallery (Carousel)"
-                name: "carousel"
-                widget: "object"
-                fields:
-                  - {label: "Type", name: "type", widget: "hidden", default: "carousel"}
-                  - {label: "Title", name: "title", widget: "string", required: false}
-                  - {label: "Subtitle", name: "subtitle", widget: "text", required: false}
-                  - label: "Images"
-                    name: "carousel"
-                    widget: "list"
-                    fields:
-                      - {label: "Image", name: "image", widget: "image"}
-                      - {label: "Caption", name: "alt", widget: "string"}
-                      - {label: "Photographer", name: "photographer", widget: "string", required: false}
-              - label: "Videos"
-                name: "videos"
-                widget: "object"
-                fields:
-                  - {label: "Type", name: "type", widget: "hidden", default: "videos"}
-                  - {label: "Title", name: "title", widget: "string", required: false}
-                  - {label: "Subtitle", name: "subtitle", widget: "text", required: false}
-                  - label: "Videos"
-                    name: "videos"
-                    widget: "list"
-                    fields:
-                      - {label: "Video Type", name: "type", widget: "select", options: ["youtube", "vimeo", "direct"]}
-                      - {label: "Video URL", name: "url", widget: "string"}
-                      - {label: "Title", name: "title", widget: "string"}
-                      - {label: "Description", name: "description", widget: "text", required: false}
-              - label: "Audio Samples"
-                name: "audio"
-                widget: "object"
-                fields:
-                  - {label: "Type", name: "type", widget: "hidden", default: "audio"}
-                  - {label: "Title", name: "title", widget: "string", required: false}
-                  - {label: "Subtitle", name: "subtitle", widget: "text", required: false}
-                  - label: "Audio Files"
-                    name: "audioFiles"
-                    widget: "list"
-                    fields:
-                      - {label: "Audio File", name: "url", widget: "file"}
-                      - {label: "Title", name: "title", widget: "string"}
-                      - {label: "Description", name: "description", widget: "text", required: false}
-              - label: "Links"
-                name: "links"
-                widget: "object"
-                fields:
-                  - {label: "Type", name: "type", widget: "hidden", default: "links"}
-                  - {label: "Title", name: "title", widget: "string", required: false}
-                  - {label: "Subtitle", name: "subtitle", widget: "text", required: false}
-                  - label: "External Links"
-                    name: "externalLinks"
-                    widget: "list"
-                    fields:
-                      - {label: "URL", name: "url", widget: "string"}
-                      - {label: "Button Text", name: "buttonText", widget: "string"}
 
       # ContactPage - English
       - label: "Contact"

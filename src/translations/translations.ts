@@ -6,7 +6,6 @@ export const translations = {
       artists: 'artistit',
       gallery: 'galleria',
       about: 'pihla folk',
-      services: 'palvelut',
       media: 'media',
       productions: 'tuotannot',
       cv: 'CV',
@@ -28,11 +27,6 @@ export const translations = {
       bookingIntl: 'keikkamyynti Suomessa ja kansainvälisesti',
       managementIntl: 'managerointi Suomessa ja kansainvälisesti',
       readMore: 'lue lisää'
-    },
-    // Services (Media will become Services page)
-    services: {
-      title: 'Palvelut',
-      intro: 'Tarjoamme kattavat palvelut kansanmusiikin ja maailmanmusiikin kentällä.'
     },
     // Productions (CV will become Productions page)
     productions: {
@@ -60,7 +54,10 @@ export const translations = {
       close: 'Sulje'
     },
     media: {
-      title: 'Media'
+      photos: 'kuvat',
+      videos: 'videot',
+      recordings: 'äänitteet',
+      links: 'medialinkit'
     },
     cv: {
       title: 'CV'
@@ -81,40 +78,36 @@ export const translations = {
     // SEO
     seo: {
       home: {
-        title: 'Pihla Folk - Artistimanagerointi ja kansanmusiikkituotanto',
+        title: 'pihla folk - luova tuotanto & agentuuri',
         description: 'Pihla Folk on kansanmusiikin ja -perinteen pioneeri. Tarjoamme artistimanagerointia, keikkamyyntiä ja tuotantopalveluja itämerensuomalaisen perinteen parissa.'
       },
       artists: {
-        title: 'Artistit - Pihla Folk',
+        title: 'artistit - pihla folk',
         description: 'Tutustu Pihla Folkin edustamiin artisteihin: FRÄNDER, Ensemble Gamut, Dänkki Briha, Aizhan Sultan.'
       },
       about: {
-        title: 'Tietoa - Pihla Folk',
+        title: 'tietoa - pihla folk',
         description: 'Pihla Folk on Mari Pääkkösen perustama artistimanagerointi- ja tuotantotoimisto, joka keskittyy itämerensuomalaisiin perinteisiin.'
       },
-      services: {
-        title: 'Palvelut - Pihla Folk',
-        description: 'Tarjoamme kattavat palvelut kansanmusiikin kentällä: artistimanagerointi, keikkamyynti, tuotanto, konsultointi ja mentorointi.'
-      },
       productions: {
-        title: 'Tuotannot - Pihla Folk',
+        title: 'tuotannot - pihla folk',
         description: 'Pihla Folkin tuotannot: Laulettu Kalevala, Ilona Korhonen Ensemble: Piot, Terveh Viro! ja muut projektit.'
       },
       contact: {
-        title: 'Yhteystiedot - Pihla Folk',
+        title: 'yhteystiedot - pihla folk',
         description: 'Ota yhteyttä keikkamyyntiin, artistimanagerointiin tai muihin yhteistyömahdollisuuksiin.'
       },
       // Legacy keys (used by old page components, will be removed when pages are updated)
       gallery: {
-        title: 'Artistit - Pihla Folk',
+        title: 'artistit - pihla folk',
         description: 'Tutustu Pihla Folkin edustamiin artisteihin: FRÄNDER, Ensemble Gamut, Dänkki Briha, Aizhan Sultan.'
       },
       media: {
-        title: 'Palvelut - Pihla Folk',
+        title: 'media - pihla folk',
         description: 'Tarjoamme kattavat palvelut kansanmusiikin kentällä: artistimanagerointi, keikkamyynti, tuotanto, konsultointi ja mentorointi.'
       },
       cv: {
-        title: 'Tuotannot - Pihla Folk',
+        title: 'tuotannot - pihla folk',
         description: 'Pihla Folkin tuotannot: Laulettu Kalevala, Ilona Korhonen Ensemble: Piot, Terveh Viro! ja muut projektit.'
       }
     }
@@ -126,7 +119,6 @@ export const translations = {
       artists: 'artists',
       gallery: 'gallery',
       about: 'pihla folk',
-      services: 'services',
       media: 'media',
       productions: 'productions',
       cv: 'CV',
@@ -148,11 +140,6 @@ export const translations = {
       bookingIntl: 'booking in Finland and internationally',
       managementIntl: 'management in Finland and internationally',
       readMore: 'read more'
-    },
-    // Services (Media will become Services page)
-    services: {
-      title: 'Services',
-      intro: 'We offer comprehensive services in the field of folk and world music.'
     },
     // Productions (CV will become Productions page)
     productions: {
@@ -180,7 +167,10 @@ export const translations = {
       close: 'Close'
     },
     media: {
-      title: 'Media'
+      photos: 'photos',
+      videos: 'videos',
+      recordings: 'recordings',
+      links: 'media links'
     },
     cv: {
       title: 'CV'
@@ -201,40 +191,36 @@ export const translations = {
     // SEO
     seo: {
       home: {
-        title: 'Pihla Folk - Artist Management & Folk Music Production',
+        title: 'pihla folk - creative production & agency',
         description: 'Pihla Folk is a pioneer in folk music and tradition. We offer artist management, booking services, and production in Finnic traditions.'
       },
       artists: {
-        title: 'Artists - Pihla Folk',
+        title: 'artists - pihla folk',
         description: 'Meet the artists represented by Pihla Folk: FRÄNDER, Ensemble Gamut, Dänkki Briha, Aizhan Sultan.'
       },
       about: {
-        title: 'About - Pihla Folk',
+        title: 'about - pihla folk',
         description: 'Pihla Folk is an artist management and production agency founded by Mari Pääkkönen, focusing on Finnic traditions.'
       },
-      services: {
-        title: 'Services - Pihla Folk',
-        description: 'We offer comprehensive services in folk music: artist management, booking, production, consulting, and mentoring.'
-      },
       productions: {
-        title: 'Productions - Pihla Folk',
+        title: 'productions - pihla folk',
         description: 'Pihla Folk productions: Sung Kalevala, Ilona Korhonen Ensemble: Piot, Terveh Viro! and other projects.'
       },
       contact: {
-        title: 'Contact - Pihla Folk',
+        title: 'contact - pihla folk',
         description: 'Contact us regarding concert booking, artist management, or other collaboration opportunities.'
       },
       // Legacy keys (used by old page components, will be removed when pages are updated)
       gallery: {
-        title: 'Artists - Pihla Folk',
+        title: 'artists - pihla folk',
         description: 'Meet the artists represented by Pihla Folk: FRÄNDER, Ensemble Gamut, Dänkki Briha, Aizhan Sultan.'
       },
       media: {
-        title: 'Services - Pihla Folk',
+        title: 'media - pihla folk',
         description: 'We offer comprehensive services in folk music: artist management, booking, production, consulting, and mentoring.'
       },
       cv: {
-        title: 'Productions - Pihla Folk',
+        title: 'productions - pihla folk',
         description: 'Pihla Folk productions: Sung Kalevala, Ilona Korhonen Ensemble: Piot, Terveh Viro! and other projects.'
       }
     }
