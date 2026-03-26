@@ -21,8 +21,8 @@ sections:
     audioFiles:
       - id: gamut-spotify
         streamingUrl: https://open.spotify.com/artist/0wM3VJ8L1LuY2YpLFpIQve
-        titleFi: Kuuntele Gamut Spotifyssa
-        titleEn: Listen to Gamut on Spotify
+        titleFi: Ensemble Gamut! Spotifyssä
+        titleEn: Ensemble Gamut! on Spotify
   - type: videos
     videos:
       - id: gamut-video
@@ -31,8 +31,4 @@ sections:
         titleFi: Ensemble Gamut! - Sicut spinarum (virallinen musiikkivideo)
         titleEn: Ensemble Gamut! - Sicut spinarum (Official Music Video)
   - type: links
-    externalLinks:
-      - url: https://open.spotify.com/track/09WGioLHCliPMqFT9DBn9O
-        buttonTextFi: "Gamut: Piispa Henrikin surmavirsi"
-        buttonTextEn: "Gamut: Piispa Henrikin surmavirsi"
 ---

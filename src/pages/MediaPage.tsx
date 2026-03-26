@@ -117,14 +117,14 @@ type SectionType = 'carousel' | 'videos' | 'audio' | 'links';
 // Maps section type to a URL-friendly hash that matches the visible button label
 const sectionHashMap: Record<SectionType, string> = {
   carousel: 'photos',
-  videos: 'videos',
-  audio: 'recordings',
+  videos: 'video',
+  audio: 'audio',
   links: 'links'
 };
 const hashToSection: Record<string, SectionType> = {
   photos: 'carousel',
-  videos: 'videos',
-  recordings: 'audio',
+  video: 'videos',
+  audio: 'audio',
   links: 'links'
 };
 

@@ -188,12 +188,12 @@ collections:
                       - {label: "Otsikko englanniksi / Title in English", name: "titleEn", widget: "string", required: false}
                       - {label: "Kuvaus suomeksi / Description in Finnish", name: "descriptionFi", widget: "text", required: false}
                       - {label: "Kuvaus englanniksi / Description in English", name: "descriptionEn", widget: "text", required: false}
-              - label: "Ääninäytteet / Audio"
+              - label: "Audio"
                 name: "audio"
                 widget: "object"
                 fields:
                   - {label: "Tyyppi", name: "type", widget: "hidden", default: "audio"}
-                  - label: "Äänitiedostot / Audio Files"
+                  - label: "Audio Files"
                     name: "audioFiles"
                     widget: "list"
                     fields:

@@ -55,9 +55,9 @@ export const translations = {
     },
     media: {
       photos: 'kuvat',
-      videos: 'videot',
-      recordings: 'äänitteet',
-      links: 'medialinkit'
+      videos: 'video',
+      recordings: 'audio',
+      links: 'linkit'
     },
     cv: {
       title: 'CV'
@@ -168,9 +168,9 @@ export const translations = {
     },
     media: {
       photos: 'photos',
-      videos: 'videos',
-      recordings: 'recordings',
-      links: 'media links'
+      videos: 'video',
+      recordings: 'audio',
+      links: 'links'
     },
     cv: {
       title: 'CV'

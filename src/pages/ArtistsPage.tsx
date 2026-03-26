@@ -559,8 +559,8 @@ export const ArtistsPage: React.FC = () => {
                 {selectedArtist.link1Url && selectedArtist.link1Label && (
                   <a
                     href={selectedArtist.link1Url}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    target={selectedArtist.link1Url.startsWith('/') ? '_self' : '_blank'}
+                    rel={selectedArtist.link1Url.startsWith('/') ? undefined : 'noopener noreferrer'}
                     onClick={(e) => e.stopPropagation()}
                     style={{
                       display: 'inline-block',
@@ -593,8 +593,8 @@ export const ArtistsPage: React.FC = () => {
                 {selectedArtist.link2Url && selectedArtist.link2Label && (
                   <a
                     href={selectedArtist.link2Url}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    target={selectedArtist.link2Url.startsWith('/') ? '_self' : '_blank'}
+                    rel={selectedArtist.link2Url.startsWith('/') ? undefined : 'noopener noreferrer'}
                     onClick={(e) => e.stopPropagation()}
                     style={{
                       display: 'inline-block',

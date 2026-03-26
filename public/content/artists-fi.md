@@ -34,11 +34,13 @@ artists:
     name: Ensemble Gamut!
     featured: true
     order: 1
+    link2Url: /media#gamut-spotify
     link1Url: /media#gamut-video
     type: booking-intl
-    website: https://yazzo.io
+    website: https://ensemblegamut.com/
     id: ensemble-gamut
     image: /uploads/artists/ensemble-gamut.jpg
+    link2Label: Kuuntele Ensemble Gamut!
     link1Label: Ensemble Gamut! - Sicut spinarum (Official Music Video)
   - excerpt: monitaideprojekti arktisista uhanalaisista kukista
     bio: >-
