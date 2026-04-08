@@ -32,10 +32,8 @@ sections:
   - imagePosition: right
     header: ajankohtaista! Ensemble Gamut Tallinn Music Week'illä!
     text: >-
-      showcase Classical:NEXT -lavalla torstaina, 8. huhtikuuta klo 22:30
-
-
-      paikkana Fotografiska, Telliskivessä
+      showcase Classical:NEXT -lavalla torstaina, 8. huhtikuuta klo 22:30,
+      paikkana Fotografiska, Telliskivessä.
 
 
       [lue lisää TMW:n nettisivuilta](https://tmw.ee/artists/ensemble-gamut), ja tervetuloa kuuntelemaan ja tapaamaan meitä kaikkia!
