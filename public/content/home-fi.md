@@ -30,15 +30,17 @@ ctaButton2Text: tietoa pihla folkista
 ctaButton2Link: /tietoa
 sections:
   - imagePosition: right
-    header: ajankohtaista! Piot-mesenaattikampanja
+    header: ajankohtaista! Ensemble Gamut Tallinn Music Week'illä!
     text: >-
-      Ilona Korhonen Ensemblen tulevan Piot-albumin tuotantoa ja julkaisemista
-      varten on käynnissä mesanaattikampanja 25. maaliskuuta 2026 saakka.
+      showcase Classical:NEXT -lavalla torstaina, 8. huhtikuuta klo 22:30
 
 
-      Tervetuloa mukaan tukemaan elävää itämerensuomalaista kansanlauluperinnettä, merkittävää kuoroteosta ja kansanmusiikin ammattilaisia!
-    image: /uploads/piot_kuva_maarit_kytöharju.jpg
+      paikkana Fotografiska, Telliskivessä
+
+
+      [lue lisää TMW:n nettisivuilta](https://tmw.ee/artists/ensemble-gamut), ja tervetuloa kuuntelemaan ja tapaamaan meitä kaikkia!
+    image: /uploads/621814965_10235783233055848_9221679785291996499_n.jpg
     maxTextLength: 3000
-    photographer: Maarit Kytöharju
+    photographer: ""
 subtitle: kansanmusiikin ja -perinteen pioneeri vuodesta 2002
 ---
