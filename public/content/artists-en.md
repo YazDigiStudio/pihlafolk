@@ -5,7 +5,7 @@ artists:
     name: KAJOS
     image: /uploads/maagisetmessut-studiosommitelma-sommitelma-6851.jpg
     bio: coming soon
-    excerpt: Karelian & Finnish spell traditions, powerful force of nature
+    excerpt: Karelian & Finnish spell tradition, powerful force of nature
     type: booking-intl
   - excerpt: searching for new ways to perform early music
     bio: >-
