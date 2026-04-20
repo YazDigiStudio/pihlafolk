@@ -25,6 +25,8 @@ artists:
     excerpt: suomalais-karjalaista loitsuperinnettä & jykevää luonnonvoimaa
     image: /uploads/dsc_5228.jpg
     id: kajos
+    type: booking-intl
+    order: 1
   - excerpt: uusien tapojen etsintää vanhan musiikin esittämiselle
     bio: >-
       Aino Peltomaan luotsaama Ensemble Gamut! on noussut nopeasti yhdeksi
