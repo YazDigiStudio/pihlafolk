@@ -30,15 +30,21 @@ ctaButton2Text: tietoa pihla folkista
 ctaButton2Link: /tietoa
 sections:
   - imagePosition: right
-    header: ajankohtaista! Ensemble Gamut Tallinn Music Week'illä!
+    header: ajankohtaista! Laulettu Kalevala -äänikirja valmistuu
     text: >-
-      showcase Classical:NEXT -lavalla torstaina, 8. huhtikuuta klo 22:30,
-      paikkana Fotografiska, Telliskivessä.
+      Laulettu Kalevalan 3. ja viimeinen jakso ilmestyy digitaalisesti
+      Runolaulupäivänä, 25. huhtikuuta. 
 
 
-      [lue lisää TMW:n nettisivuilta](https://tmw.ee/artists/ensemble-gamut), ja tervetuloa kuuntelemaan ja tapaamaan meitä kaikkia!
-    image: /uploads/621814965_10235783233055848_9221679785291996499_n.jpg
+      Äänikirja on tällä hetkellä kuultavana Lauletun Kalevalan uudella YouTube-kanavalla ja Etno-net -sivustolla. 3. jakso tulee molempiin paikkoihin kuultavaksi lauantaina heti puolenyön jälkeen.
+
+
+      **[Laulettu Kalevala YouTube-kanava](https://www.youtube.com/@laulettukalevala)**
+
+
+      Laulettu Kalevala etno.net-sivustolla: **[1. jakso](https://etno.net/julkaisu/aanitteet/laulettu-kalevala-jakso-1-3)** | **[2. jakso](https://etno.net/julkaisu/aanitteet/laulettu-kalevala-jakso-2-3)** | **[3. jakso](https://etno.net/julkaisu/aanitteet/laulettu-kalevala-jakso-3-3)**
+    image: /uploads/3levynkansi.jpg
     maxTextLength: 3000
-    photographer: ""
+    photographer: Tatu Rouvinen
 subtitle: kansanmusiikin ja -perinteen pioneeri vuodesta 2002
 ---
