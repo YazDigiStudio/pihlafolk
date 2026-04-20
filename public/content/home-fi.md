@@ -30,10 +30,10 @@ ctaButton2Text: tietoa pihla folkista
 ctaButton2Link: /tietoa
 sections:
   - imagePosition: right
-    header: ajankohtaista! Laulettu Kalevala -äänikirja valmistuu
+    header: ajankohtaista!
     text: >-
-      Laulettu Kalevalan 3. ja viimeinen jakso ilmestyy digitaalisesti
-      Runolaulupäivänä, 25. huhtikuuta. 
+      **Laulettu Kalevala -äänikirjan 3. ja viimeinen jakso ilmestyy
+      digitaalisesti Runolaulupäivänä, 25. huhtikuuta.** 
 
 
       Äänikirja on tällä hetkellä kuultavana Lauletun Kalevalan uudella YouTube-kanavalla ja Etno-net -sivustolla. 3. jakso tulee molempiin paikkoihin kuultavaksi lauantaina heti puolenyön jälkeen.
