@@ -44,5 +44,6 @@ sections:
 
       **Laulettu Kalevala on etno.net webpage: [1. jakso](https://etno.net/julkaisu/aanitteet/laulettu-kalevala-jakso-1-3)** | **[2. jakso](https://etno.net/julkaisu/aanitteet/laulettu-kalevala-jakso-2-3)** | **[3. jakso](https://etno.net/julkaisu/aanitteet/laulettu-kalevala-jakso-3-3)**
     image: /uploads/3levynkansi.jpg
+    photographer: Tatu Rouvinen
 subtitle: pioneering folk music and traditions since 2002
 ---
