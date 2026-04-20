@@ -1,7 +1,6 @@
 ---
 artists:
-  - featured: false
-    name: KAJOS
+  - excerpt: suomalais & karjalaista loitsuperinnettä, jykevää luonnonvoimaa
     bio: >-
       KAJOS
 
@@ -9,10 +8,10 @@ artists:
       Kajos on tuore nykykansanmusiikkiyhtye, jonka kesällä 2025 julkaistua Nouse Lempi -debyyttisingleä on striimattu jo yli 120 000 kertaa.
 
 
-      Kesän 2026 Tuska-festivaaleillakin esiintyvä Kajos tarjoaa Suomen musiikkikentälle ennenkuulematonta, genrerajoja rikkovaa, itämerensuomalaista kansanperintöä kunnioittavaa ja korkealla ammattitaidolla itse yhtyeen säveltämää sekä tuottamaa musiikkia. 
+      Kesän 2026 Tuska-festivaaleillakin esiintyvä Kajos tarjoaa Suomen musiikkikentälle ennenkuulematonta, genrerajoja rikkovaa, itämerensuomalaisten kansojen perinteitä kunnioittavaa ja korkealla ammattitaidolla itse yhtyeen säveltämää sekä tuottamaa musiikkia. 
 
 
-      Kajoksen musiikki innoittuu suomalais-karjalaisesta loitsuperinteestä ja jykevästä luonnonvoimasta. Kajoksen konsertin myyttisessä todellisuudessa lempeä liehitellään, olutta synnytellään, tulilintua maanitellaan, luontoa nostatetaan ja kipuja hoivataan.
+      Kajoksen musiikki innoittuu suomalaisesta ja karjalaisesta loitsuperinteestä ja jykevästä luonnonvoimasta. Kajoksen konsertin myyttisessä todellisuudessa lempeä liehitellään, olutta synnytellään, tulilintua maanitellaan, luontoa nostatetaan ja kipuja hoivataan.
 
 
       Musiikissa alkuvoimainen ja akrobaattinen äänenkäyttö, koskettava sellonsoitto, jylhät biitit, muinaiset loitsut ja elokuvalliset äänimaisemat kietovat kuulijan myyttiseen, ajattomaan todellisuuteen. Yhtyeen liveä on kuvailtu kylmiä väreitä tuottavaksi, transsendentaaliseksi elämykseksi. 
@@ -22,11 +21,13 @@ artists:
 
 
       Yhtyeen jäsenet Sini Koskelainen, Susanna Syrjäläinen ja Oskari Lehtonen ovat rautaisia musiikin ammattilaisia, joilta ei urakrediittejä puutu.
-    excerpt: suomalais-karjalaista loitsuperinnettä & jykevää luonnonvoimaa
-    image: /uploads/dsc_5228.jpg
-    id: kajos
-    type: booking-intl
+    name: KAJOS
+    featured: false
     order: 1
+    type: booking-intl
+    website: "https://kajosmusic.my.canva.site/website  "
+    id: kajos
+    image: /uploads/maagisetmessut-studiosommitelma-sommitelma-6851.jpg
   - excerpt: uusien tapojen etsintää vanhan musiikin esittämiselle
     bio: >-
       Aino Peltomaan luotsaama Ensemble Gamut! on noussut nopeasti yhdeksi
