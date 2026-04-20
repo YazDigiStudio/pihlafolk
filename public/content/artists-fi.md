@@ -1,6 +1,6 @@
 ---
 artists:
-  - excerpt: suomalais & karjalaista loitsuperinnettä, jykevää luonnonvoimaa
+  - excerpt: karjalaista & suomalaista loitsuperinnettä, jykevää luonnonvoimaa
     bio: >-
       KAJOS
 
@@ -11,7 +11,7 @@ artists:
       Kesän 2026 Tuska-festivaaleillakin esiintyvä Kajos tarjoaa Suomen musiikkikentälle ennenkuulematonta, genrerajoja rikkovaa, itämerensuomalaisten kansojen perinteitä kunnioittavaa ja korkealla ammattitaidolla itse yhtyeen säveltämää sekä tuottamaa musiikkia. 
 
 
-      Kajoksen musiikki innoittuu suomalaisesta ja karjalaisesta loitsuperinteestä ja jykevästä luonnonvoimasta. Kajoksen konsertin myyttisessä todellisuudessa lempeä liehitellään, olutta synnytellään, tulilintua maanitellaan, luontoa nostatetaan ja kipuja hoivataan.
+      Kajoksen musiikki innoittuu karjalaisesta ja suomalaisesta loitsuperinteestä ja jykevästä luonnonvoimasta. Kajoksen konsertin myyttisessä todellisuudessa lempeä liehitellään, olutta synnytellään, tulilintua maanitellaan, luontoa nostatetaan ja kipuja hoivataan.
 
 
       Musiikissa alkuvoimainen ja akrobaattinen äänenkäyttö, koskettava sellonsoitto, jylhät biitit, muinaiset loitsut ja elokuvalliset äänimaisemat kietovat kuulijan myyttiseen, ajattomaan todellisuuteen. Yhtyeen liveä on kuvailtu kylmiä väreitä tuottavaksi, transsendentaaliseksi elämykseksi. 
