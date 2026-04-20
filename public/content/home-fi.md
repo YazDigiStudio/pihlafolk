@@ -36,7 +36,7 @@ sections:
       digitaalisesti Runolaulupäivänä, 25. huhtikuuta.** 
 
 
-      Äänikirja on tällä hetkellä kuultavana Lauletun Kalevalan uudella YouTube-kanavalla ja Etno-net -sivustolla. 3. jakso tulee molempiin paikkoihin kuultavaksi lauantaina heti puolenyön jälkeen.
+      Äänikirja on tällä hetkellä kuultavana Lauletun Kalevalan uudella YouTube-kanavalla ja etno-net-sivustolla. 3. jakso tulee molempiin paikkoihin kuultavaksi lauantaina heti puolenyön jälkeen.
 
 
       **[Laulettu Kalevala YouTube-kanava](https://www.youtube.com/@laulettukalevala)**
