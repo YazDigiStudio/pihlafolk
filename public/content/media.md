@@ -5,6 +5,15 @@ sections:
       - image: /uploads/media/carousel/carousel-2.jpg
         alt: Laulettu Kalevala
         photographer: Tatu Rouvinen
+      - image: /uploads/laulettu-kalevala.jpg
+        alt: Laulettu Kalevala 1/3
+        photographer: Tatu Rouvinen
+      - image: /uploads/2levynkansi.jpg
+        alt: Laulettu Kalevala 2/3
+        photographer: Tatu Rouvinen
+      - image: /uploads/3levynkansi.jpg
+        alt: Laulettu Kalevala 3/3
+        photographer: Tatu Rouvinen
       - image: /uploads/media/carousel/carousel-1.jpg
         alt: Ilona Korhonen Ensemble - Piot
         photographer: Maarit Kytöharju
@@ -18,11 +27,7 @@ sections:
         alt: Mari Pääkkönen
         photographer: Erlend Štaub
   - type: audio
-    audioFiles:
-      - id: gamut-spotify
-        streamingUrl: https://open.spotify.com/artist/0wM3VJ8L1LuY2YpLFpIQve
-        titleFi: Ensemble Gamut! Spotifyssä
-        titleEn: Ensemble Gamut! on Spotify
+    audioFiles: []
   - type: videos
     videos:
       - id: gamut-video
