@@ -1,5 +1,12 @@
 ---
 artists:
+  - featured: false
+    id: kajos
+    name: KAJOS
+    image: /uploads/maagisetmessut-studiosommitelma-sommitelma-6851.jpg
+    bio: coming soon
+    excerpt: Karelian & Finnish spell traditions, powerful force of nature
+    type: booking-intl
   - excerpt: searching for new ways to perform early music
     bio: >-
       Ensemble Gamut! is a fresh, experimental collective of early music and
