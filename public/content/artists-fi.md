@@ -1,5 +1,30 @@
 ---
 artists:
+  - featured: false
+    name: KAJOS
+    bio: >-
+      KAJOS
+
+
+      Kajos on tuore nykykansanmusiikkiyhtye, jonka kesällä 2025 julkaistua Nouse Lempi -debyyttisingleä on striimattu jo yli 120 000 kertaa.
+
+
+      Kesän 2026 Tuska-festivaaleillakin esiintyvä Kajos tarjoaa Suomen musiikkikentälle ennenkuulematonta, genrerajoja rikkovaa, itämerensuomalaista kansanperintöä kunnioittavaa ja korkealla ammattitaidolla itse yhtyeen säveltämää sekä tuottamaa musiikkia. 
+
+
+      Kajoksen musiikki innoittuu suomalais-karjalaisesta loitsuperinteestä ja jykevästä luonnonvoimasta. Kajoksen konsertin myyttisessä todellisuudessa lempeä liehitellään, olutta synnytellään, tulilintua maanitellaan, luontoa nostatetaan ja kipuja hoivataan.
+
+
+      Musiikissa alkuvoimainen ja akrobaattinen äänenkäyttö, koskettava sellonsoitto, jylhät biitit, muinaiset loitsut ja elokuvalliset äänimaisemat kietovat kuulijan myyttiseen, ajattomaan todellisuuteen. Yhtyeen liveä on kuvailtu kylmiä väreitä tuottavaksi, transsendentaaliseksi elämykseksi. 
+
+
+      Kajoksen väkevät live-keikat ovat lumonneet yleisöjä ympäri Suomen. Yhtye on esiintynyt aiemmin mm. Rautakauden Birckalassa, PakanaFestareilla, Heinäveden Muinaisviikoilla ja Wanhan Kaupungin Festiwaaleilla. Yhtye toimi lokakuussa 2025 Hannes Aleksin Maan taju -näyttelyn (Outokumpu) avajaisten esiintyjänä ja tapahtuman avausnumerona. YLE taltioi konserttia Itä-Suomen alueellisiin uutisiin. Vuonna 2021 yhtye teki yhteistyötä metalliyhtye HARMSin kanssa vierailemalla yhtyeen ‘Towards the sixth end’ -singlellä. 
+
+
+      Yhtyeen jäsenet Sini Koskelainen, Susanna Syrjäläinen ja Oskari Lehtonen ovat rautaisia musiikin ammattilaisia, joilta ei urakrediittejä puutu.
+    excerpt: suomalais-karjalaista loitsuperinnettä & jykevää luonnonvoimaa
+    image: /uploads/dsc_5228.jpg
+    id: kajos
   - excerpt: uusien tapojen etsintää vanhan musiikin esittämiselle
     bio: >-
       Aino Peltomaan luotsaama Ensemble Gamut! on noussut nopeasti yhdeksi
