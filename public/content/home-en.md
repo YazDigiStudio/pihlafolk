@@ -30,19 +30,19 @@ ctaButton2Text: about pihla folk
 ctaButton2Link: /tietoa
 sections:
   - imagePosition: right
-    header: latest!
-    text: |-
-      ### Ensemble Gamut! showcases at Tallinn Music Week
+    header: news!
+    text: >-
+      ### Sung (Laulettu) Kalevala audiobook will be completed  on April 25,
+      Runosong Day
 
 
-
-      Classical:NEXT stage, at Fotografiska, Telliskivi
-
-      on Thursday, 9 April 2026 at 22:30
+      You can listen to the audiobook on YouTube and on etno.net webpage. The third and last episode will appear on Saturday just after midnight (UTC+3).
 
 
+      **[Laulettu Kalevala YouTube channel](https://www.youtube.com/@laulettukalevala)**
 
-      [read more about the TMW, tickets and everything else](https://tmw.ee)
-    image: /uploads/621814965_10235783233055848_9221679785291996499_n.jpg
+
+      **Laulettu Kalevala on etno.net webpage: [1. jakso](https://etno.net/julkaisu/aanitteet/laulettu-kalevala-jakso-1-3)** | **[2. jakso](https://etno.net/julkaisu/aanitteet/laulettu-kalevala-jakso-2-3)** | **[3. jakso](https://etno.net/julkaisu/aanitteet/laulettu-kalevala-jakso-3-3)**
+    image: /uploads/3levynkansi.jpg
 subtitle: pioneering folk music and traditions since 2002
 ---
