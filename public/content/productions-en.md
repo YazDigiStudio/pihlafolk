@@ -16,7 +16,7 @@ ongoing:
       type: audiobook
       link: " "
       id: laulettu-kalevala
-      image: /uploads/productions/laulettu-kalevala.jpg
+      image: /uploads/3levynkansi.jpg
       description: >-
         In the Laulettu Kalevala (The Sung Kalevala) audiobook, as the name
         suggests, the Karelian-Finnish epic Kalevala (1849) is sung in its
@@ -32,34 +32,30 @@ ongoing:
         The audio book is available on YouTube (@laulettukalevala) and also on etno.net site.
 
 
-        Working Group
-
+        **Working Group**
 
 
         Runosingers & narrator:
 
 
-
         Voice theather Iki-Turso: Eila Hartikainen, Taito Hoffrén (1974-2024), Maari Kallberg, Ilona Korhonen, Heikki Laitinen & Anna-Kaisa Liedes
-
 
 
         Visual designer: Tatu Rouvinen
 
 
-
         Recording: Taito Hoffrén, poem 25: Alec Havinmaa
-
 
 
         Editing & mastering: Taito Hoffrén & Alec Havinmaa
 
 
-
         Project convenor, producer & publisher: Mari Pääkkönen / pihla folk
 
 
-        The Laulettu Kalevala audiobook is part of the recording series of the Folk Music Department at the Sibelius Academy, University of the Arts Helsinki.
+
+
+        The Laulettu Kalevala audiobook is part of the recording series of the Folk Music Department at the Sibelius Academy, University of the Arts Helsinki
       year: 2020-
     - photographer: Maarit Kytöharju
       status: ongoing
