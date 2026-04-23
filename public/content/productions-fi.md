@@ -31,6 +31,12 @@ ongoing:
         Laulettu Kalevala -äänikirja on kuultavissa tällä hetkellä sen YouTube-kanavalla (tunnus: @laulettukalevala) sekä etno.net-sivustolla.
 
 
+        Laulettu Kalevala -äänikirjan julkaisufestivaaliä vietettiin 26.-28.2.2023 Viinikahvila Feeniks'ess ä, Helsingissä. Festivaali oli osa Sibelius-Aketemian Kansanmusiikkiosaston 40-vuotisjuhlavuotta.
+
+
+        Yleisöä osallistavia julkaisukonsertteja on sen jälkeen kuultu Arhippa Perttunen -symposiumissa, Musiikkijuhla Sommelossa, Olavinlinnan Kekrijuhlassa, Sellosalissa ja Lönnrotin terassilla.
+
+
         **Työryhmä**
 
 
