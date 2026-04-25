@@ -105,28 +105,34 @@ export const Footer: React.FC = () => {
         )}
 
         {/* Credit */}
-        {data.visualIdentity && (
-          <span style={{
-            color: "rgba(244, 244, 244, 0.5)",
-            fontSize: "0.75rem",
-            marginTop: "1rem"
-          }}>
-            {data.visualIdentity}
-          </span>
-        )}
-        <a
-          href={data.credit.url}
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{
-            color: "rgba(244, 244, 244, 0.5)",
-            textDecoration: "none",
-            fontSize: "0.75rem",
-            marginTop: "0.25rem"
-          }}
-        >
-          {data.credit.text}
-        </a>
+        <div style={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          gap: "2px",
+          marginTop: "1rem"
+        }}>
+          {data.visualIdentity && (
+            <span style={{
+              color: "rgba(244, 244, 244, 0.5)",
+              fontSize: "0.75rem"
+            }}>
+              {data.visualIdentity}
+            </span>
+          )}
+          <a
+            href={data.credit.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              color: "rgba(244, 244, 244, 0.5)",
+              textDecoration: "none",
+              fontSize: "0.75rem"
+            }}
+          >
+            {data.credit.text}
+          </a>
+        </div>
       </div>
     </footer>
   );
