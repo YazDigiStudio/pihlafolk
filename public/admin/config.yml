@@ -251,6 +251,7 @@ collections:
             fields:
               - {label: "Alusta", name: "platform", widget: "select", options: ["facebook", "instagram", "youtube", "linkedin"]}
               - {label: "URL", name: "url", widget: "string"}
+          - {label: "Visuaalinen identiteetti", name: "visualIdentity", widget: "string", required: false}
           - label: "Tekijämerkintä"
             name: "credit"
             widget: "object"
@@ -434,6 +435,7 @@ collections:
             fields:
               - {label: "Platform", name: "platform", widget: "select", options: ["facebook", "instagram", "youtube", "linkedin"]}
               - {label: "URL", name: "url", widget: "string"}
+          - {label: "Visual Identity", name: "visualIdentity", widget: "string", required: false}
           - label: "Credit"
             name: "credit"
             widget: "object"
