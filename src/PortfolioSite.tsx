@@ -6,6 +6,7 @@ import { AboutPage } from './pages/AboutPage';
 import { MediaPage } from './pages/MediaPage';
 import { ProductionsPage } from './pages/ProductionsPage';
 import { ContactPage } from './pages/ContactPage';
+import { PrivacyPolicyPage } from './pages/PrivacyPolicyPage';
 import { NotFoundPage } from './pages/NotFoundPage';
 
 /**
@@ -31,6 +32,7 @@ export const PortfolioSite: React.FC = () => {
         <Route path="/media" element={<MediaPage />} />
         <Route path="/tuotannot" element={<ProductionsPage />} />
         <Route path="/yhteystiedot" element={<ContactPage />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </BrowserRouter>

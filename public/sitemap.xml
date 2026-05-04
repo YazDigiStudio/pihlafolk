@@ -48,6 +48,14 @@
     <priority>0.6</priority>
   </url>
 
+  <!-- Privacy Policy -->
+  <url>
+    <loc>https://pihlafolk.com/privacy-policy</loc>
+    <lastmod>2026-05-04</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
   <!-- English Versions -->
   <url>
     <loc>https://pihlafolk.com/?lang=en</loc>

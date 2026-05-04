@@ -1,5 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { useContentData } from "../hooks/useContentData";
+import { useTranslations } from "../hooks/useTranslations";
 import { PIHLA_FOLK_PALETTE } from '../styles/colorPalettes';
 
 interface SocialMedia {
@@ -50,6 +52,7 @@ const getSocialIcon = (platform: string, size: number = 24) => {
 
 export const Footer: React.FC = () => {
   const data = useContentData<FooterContent>("footer.json");
+  const t = useTranslations();
   const colors = PIHLA_FOLK_PALETTE.colors;
 
   if (!data) {
@@ -132,6 +135,16 @@ export const Footer: React.FC = () => {
           >
             {data.credit.text}
           </a>
+          <Link
+            to="/privacy-policy"
+            style={{
+              color: "rgba(244, 244, 244, 0.5)",
+              textDecoration: "none",
+              fontSize: "0.75rem"
+            }}
+          >
+            {t.privacyPolicy.link}
+          </Link>
         </div>
       </div>
     </footer>

@@ -75,6 +75,11 @@ export const translations = {
       homeButton: 'Palaa etusivulle',
       description: 'Sivua ei löydy. Palaa Pihla Folk -etusivulle.'
     },
+    // Privacy Policy
+    privacyPolicy: {
+      title: 'tietosuojaseloste',
+      link: 'tietosuojaseloste'
+    },
     // SEO
     seo: {
       home: {
@@ -109,6 +114,10 @@ export const translations = {
       cv: {
         title: 'tuotannot - pihla folk',
         description: 'Pihla Folkin tuotannot: Laulettu Kalevala, Ilona Korhonen Ensemble: Piot, Terveh Viro! ja muut projektit.'
+      },
+      privacyPolicy: {
+        title: 'tietosuojaseloste - pihla folk',
+        description: 'Tietosuojaseloste sivustolle pihlafolk.com'
       }
     }
   },
@@ -222,7 +231,16 @@ export const translations = {
       cv: {
         title: 'productions - pihla folk',
         description: 'Pihla Folk productions: Sung Kalevala, Ilona Korhonen Ensemble: Piot, Terveh Viro! and other projects.'
+      },
+      privacyPolicy: {
+        title: 'privacy policy - pihla folk',
+        description: 'Privacy policy for pihlafolk.com'
       }
+    },
+    // Privacy Policy
+    privacyPolicy: {
+      title: 'privacy policy',
+      link: 'privacy policy'
     }
   }
 };
