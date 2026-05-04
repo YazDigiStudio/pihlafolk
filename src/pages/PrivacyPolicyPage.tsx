@@ -39,7 +39,7 @@ export const PrivacyPolicyPage: React.FC = () => {
         paddingBottom: "4rem",
         paddingLeft: isMobile ? "1rem" : "2rem",
         paddingRight: isMobile ? "1rem" : "2rem",
-        color: colors.textBody,
+        color: colors.textPrimary,
         fontSize: isMobile ? "0.95rem" : "1rem",
         lineHeight: "1.8"
       }}>
