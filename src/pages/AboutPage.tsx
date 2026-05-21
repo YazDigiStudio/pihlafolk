@@ -143,6 +143,7 @@ export const AboutPage: React.FC = () => {
               const imagePosition = section.imagePosition || 'left';
               const maxLength = section.maxTextLength || (hasImage ? 800 : 10000);
               const displayText = truncateText(section.text, maxLength);
+              const HeadingTag = index === 0 ? 'h1' as const : 'h2' as const;
 
               if (!hasImage) {
                 // Text-only section
@@ -155,7 +156,7 @@ export const AboutPage: React.FC = () => {
                     }}
                   >
                     {section.header && (
-                      <h2
+                      <HeadingTag
                         style={{
                           fontSize: isMobile ? '1.5rem' : '2rem',
                           fontWeight: 700,
@@ -165,7 +166,7 @@ export const AboutPage: React.FC = () => {
                         }}
                       >
                         {section.header}
-                      </h2>
+                      </HeadingTag>
                     )}
                     <div
                       style={{
@@ -189,7 +190,7 @@ export const AboutPage: React.FC = () => {
                   }}
                 >
                   {section.header && (
-                    <h2
+                    <HeadingTag
                       style={{
                         fontSize: isMobile ? '1.5rem' : '2rem',
                         fontWeight: 700,
@@ -199,7 +200,7 @@ export const AboutPage: React.FC = () => {
                       }}
                     >
                       {section.header}
-                    </h2>
+                    </HeadingTag>
                   )}
                   <div
                     style={{

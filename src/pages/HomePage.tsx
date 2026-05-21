@@ -270,7 +270,7 @@ export const HomePage: React.FC = () => {
 
             {/* Red Subtitle */}
             {data.heroParagraph1 && (
-              <h2
+              <h1
                 style={{
                   fontSize: isMobile ? '1.3rem' : '1.6rem',
                   fontWeight: 600,
@@ -281,7 +281,7 @@ export const HomePage: React.FC = () => {
                 }}
               >
                 {data.heroParagraph1}
-              </h2>
+              </h1>
             )}
 
             {/* Main Text Section */}

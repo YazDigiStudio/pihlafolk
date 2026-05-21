@@ -126,6 +126,19 @@ export const ArtistsPage: React.FC = () => {
             paddingBottom: '1.5rem'
           }}
         >
+          <h1
+            style={{
+              textAlign: 'center',
+              fontSize: 'clamp(1.5rem, 4vw, 2.5rem)',
+              fontWeight: 700,
+              color: colors.bgPrimary,
+              margin: '0 0 1.5rem 0',
+              letterSpacing: '0.05em',
+              textShadow: '0 2px 4px rgba(0,0,0,0.4)'
+            }}
+          >
+            {t.artists.title}
+          </h1>
           {/* Filter Buttons */}
           <div
             style={{

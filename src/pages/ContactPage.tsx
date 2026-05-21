@@ -121,6 +121,19 @@ export const ContactPage: React.FC = () => {
                 minHeight: "600px"
               }}
             >
+              <h1
+                style={{
+                  fontSize: 'clamp(1.5rem, 4vw, 2.5rem)',
+                  fontWeight: 700,
+                  color: colors.textPrimary,
+                  marginTop: 0,
+                  marginBottom: '2rem',
+                  letterSpacing: '0.05em'
+                }}
+              >
+                {t.contact.title}
+              </h1>
+
               {/* Email Section */}
               <div style={{ marginBottom: "0.5rem", paddingTop: "2rem" }}>
                 <p style={{ fontSize: "1.1rem", color: colors.textPrimary, margin: "0 0 0.5rem 0", fontWeight: 500 }}>

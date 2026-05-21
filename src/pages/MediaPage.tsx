@@ -336,7 +336,7 @@ export const MediaPage: React.FC = () => {
                 <div key={sectionIndex} id={sectionHashMap[section.type as SectionType]} style={{ marginBottom: '4rem' }}>
                   {sectionTitle && (
                     <div style={{ marginBottom: '2rem' }}>
-                      <h2
+                      <h1
                         style={{
                           fontSize: 'clamp(1.5rem, 4vw, 2rem)',
                           fontWeight: 700,
@@ -345,7 +345,7 @@ export const MediaPage: React.FC = () => {
                         }}
                       >
                         {sectionTitle}
-                      </h2>
+                      </h1>
                       {sectionSubtitle && (
                         <p
                           style={{
