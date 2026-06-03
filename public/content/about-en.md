@@ -66,6 +66,9 @@ sections:
       Currently, I have the honor of serving as a board member of the Juminkeko Foundation, a center for the Kalevala and Karelian culture located in Kuhmo.
 
 
+      In summer 2026 I producer second time Etno-Espa festival in Helsinki.
+
+
       **Work contact details**
 
 
