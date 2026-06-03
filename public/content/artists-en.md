@@ -45,33 +45,4 @@ artists:
     website: " "
     id: ensemble-gamut
     image: /uploads/artists/ensemble-gamut.jpg
-  - excerpt: "interdisciplinary concert concept about endangered flower species "
-    bio: >-
-      FLOS is an interdisciplinary concert concept, brought to life by Aino
-      Peltomaa’s Ensemble Gamut! in collaboration with visual artist Vappu Rossi
-      and sound artist Tuomas Norvio.
-
-
-      The theme of the performance centers on endangered flower species from the Arctic. Vappu Rossi creates large-scale, live-drawn artworks inspired by the flowers and Ensemble Gamut!’s music. Sound artist Tuomas Norvio produces real-time sound from Rossi’s drawing tools, giving the emerging forms of the flowers an audible presence for the audience.
-
-
-      Thus, endangered or already extinct arctic flowers appear to come to life in real time, surrounding the audience, intertwining with the musical soundscape of voice, harp, bells, Karelian bowed lyres, medieval blockflutes and electronic soundscapes.
-
-
-      Aino Peltomaa I voice, harp, percussion, artistic direction, production
-
-      Ilkka Heinonen I jouhikkos, electronics, voice
-
-      Juho Myllylä I blockflutes, electronics, voice
-
-      Tuomas Norvio I live electronics
-
-      Vappu Rossi I live drawing on acoustic wall
-    name: Ensemble Gamut! FLOS
-    featured: false
-    order: 2
-    type: booking-intl
-    website: " "
-    id: flos
-    image: /uploads/flos_highres_photo_by_anna_maria_viksten_horizontal-scaled.jpg
 ---
