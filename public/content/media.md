@@ -30,7 +30,7 @@ sections:
     audioFiles: []
   - type: videos
     videos:
-      - id: gamut-video
+      - id: kajos-video
         url: https://www.youtube.com/watch?v=737KAc9MDG4&list=RD737KAc9MDG4&start_radio=1
         type: youtube
         titleFi: "KAJOS: Laulan luontoni lujaksi - Official Trailer (LIVE)"
