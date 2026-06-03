@@ -62,6 +62,9 @@ sections:
       Tällä hetkellä minulla on kunnia olla Juminkeko-säätiön hallituksen jäsen. Juminkeko on Kuhmossa sijaitseva Kalevalan ja karjalaisen kulttuurin keskus.
 
 
+      Kesällä 2026 tuotan toisen kerran Etno-Espa -festivaalin Helsingissä.
+
+
       **työyhteystietoni**
 
 
