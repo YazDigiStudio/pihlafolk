@@ -32,11 +32,11 @@ sections:
   - imagePosition: right
     header: news!
     text: >-
-      **Sung (Laulettu) Kalevala audiobook will be completed  on April 25,
-      Runosong Day**
+      **Sung (Laulettu) Kalevala audiobook completed  on April 25, Runosong
+      Day**
 
 
-      You can listen to the audiobook on YouTube and on etno.net webpage. The third and last episode will appear on Saturday just after midnight (UTC+3).
+      You can listen to the audiobook:
 
 
       **[Laulettu Kalevala YouTube channel](https://www.youtube.com/@laulettukalevala)**
