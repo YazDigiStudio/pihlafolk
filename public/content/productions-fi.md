@@ -150,13 +150,10 @@ past:
       id: toimeksiannot
       image: /uploads/yksitoista-ihmisen-kuvaa-3000x3000px.jpg
       description: >-
-        **käynnissä oleva**
+        **menneet**
 
 
         Vilma Talvitien OLIO ALIEN -albumijulkaisukiertueen tuotanto 2026
-
-
-        **menneet**
 
 
         muusikon mentorointisessio perinnemusiikin ja kansanmusiikkifuusion kentästä ja sen näkymistä 2020-vuosikymmenellä, joulukuu 2025
