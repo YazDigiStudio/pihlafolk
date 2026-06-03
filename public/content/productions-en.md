@@ -137,13 +137,10 @@ past:
         \- together with Sattuma duo (Arto & Eila Rinne). Karelian and Finnish folk music at Finno-Ugric Days on October 20-21, 2023 at Õpetajate Maja, Tallinn and at Estonian National Museum, Tartu.
       year: "2023"
     - description: >-
-        **ongoing**
+        **past**
 
 
         production of Vilma Talvitie's Olio Alien album release tour, 2026
-
-
-        **past**
 
 
         a mentor session for a musician about the field of traditional and folk music fusion and their perspectives in 2020, December 2025
