@@ -69,7 +69,7 @@ sections:
       In summer 2026 I producer second time Etno-Espa festival in Helsinki.
 
 
-      **Work contact details**
+      **work contact details**
 
 
       mari@pihlafolk.com\
@@ -79,13 +79,13 @@ sections:
       +358 50 3909 794
 
 
-      **International professional events**
+      **international professional events**
 
 
       Tallinn Music Week 2021–2026 | WOMEX 2019, 2021–2023, 2025 | European Folk Network Conference 2024 (Kaustinen) | Budapest RITMO 2024 | by:Larm (Oslo) 2023 – Music Finland export trip | Folkelarm 2022 & Music Finland export trip (Oslo), Folkelarm 2024 | Music x Media 2021-2023 (Tampere) | Folk Alliance: Folk Unlocked Virtual Conference 2021
 
 
-      **Professional associations**
+      **professional associations**
 
 
       Member of TAKU – Trade Union for Arts and Culture Professionals (Akava’s Special Branches), 2006–
