@@ -31,9 +31,9 @@ sections:
   - type: videos
     videos:
       - id: gamut-video
-        url: https://www.youtube.com/watch?v=dp3RafpNAzg&list=RDdp3RafpNAzg&start_radio=1
+        url: https://www.youtube.com/watch?v=737KAc9MDG4&list=RD737KAc9MDG4&start_radio=1
         type: youtube
-        titleFi: Ensemble Gamut! - Sicut spinarum (virallinen musiikkivideo)
-        titleEn: Ensemble Gamut! - Sicut spinarum (Official Music Video)
+        titleFi: "KAJOS: Laulan luontoni lujaksi - Official Trailer (LIVE)"
+        titleEn: "KAJOS: Laulan luontoni lujaksi - Official Trailer (LIVE)"
   - type: links
 ---
