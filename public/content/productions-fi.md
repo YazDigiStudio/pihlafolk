@@ -82,9 +82,6 @@ ongoing:
 
 
         Piot sai kantaesityksensä Tampereen Sävel – kuoro- ja lauluyhtyetapahtuman tilausteoksena kesäkuussa 2023. Vuonna 2026 pihla folk julkaisee teoksesta albumin.
-
-
-        Albumin tuotantoa ja julkaisemista varten on käynnissä mesenaattikampanja 14.2.-25.3.2026!
       year: 2023-
 past:
   title: menneet
