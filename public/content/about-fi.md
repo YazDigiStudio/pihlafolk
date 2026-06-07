@@ -10,7 +10,7 @@ sections:
 
 
       Pihla folkin moderniin toimintaan mahtuvat niin arkaainen, akustinen kuin genrejenvälinen musiikki. Perinteet elävät ja kehittyvät tässä ajassa myös akustisesti ja hienovaraisemmin. Genrejenvälisyys voi puolestaan parhaimmillaan avata uusia, omaleimaisia äänimaailmoita, joissa keskeisenä elementtinä Pihla folkin tapauksessa kuuluu usein elektroniikka.
-    image: /uploads/img_5434.jpeg
+    image: /uploads/img_0171.jpeg
     imagePosition: left
     maxTextLength: 3000
     photographer: Mari Pääkkönen
