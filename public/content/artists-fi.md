@@ -28,48 +28,6 @@ artists:
     website: "https://kajosmusic.my.canva.site/website  "
     id: kajos
     image: /uploads/maagisetmessut-studiosommitelma-sommitelma-6851.jpg
-  - excerpt: uusien tapojen etsintää vanhan musiikin esittämiselle
-    bio: >-
-      Aino Peltomaan luotsaama Ensemble Gamut! on noussut nopeasti yhdeksi
-      Suomen kiinnostavimmista genrejen välimailla sulavasti liikkuvista
-      yhtyeistä. Yhtye on luonut uniikin soundinsa yhdistämällä elementtejä
-      keskiajan musiikista, suomalaisista kansansävelmistä, improvisaatiosta,
-      omista sävellyksistä sekä elektronisista äänimaisemista.
-
-
-      Ensemble Gamut!in kolme albumia ovat tuoneet tunnustuksia ja ylistäviä arvioita. Yhtye on esiintynyt laajalti niin festivaaleilla, klubikeikoilla, museoissa, keskiaikaisissa kirkoissa kuin konserttisaleissakin.
-
-
-      Aino Peltomaa I laulu, harppu, perkussiot, elektroniikka
-
-      Ilkka Heinonen I jouhikot, laulu, perkussiot, elektroniikka
-
-      Juho Myllylä I nokkahuilut, laulu, elektroniikka
-
-
-      Tallinn Music Week 2026 I showcase-esiintyjä
-
-
-      Rondo-lehden lukijoiden albumi 2025 I MI
-
-      Classical:NEXT 2024 I showcase-esiintyjä
-
-      Emma Gaala 2024 I Etno-Emma -ehdokkuus I RE
-
-      YLE 2021 I vuoden albumiehdokkuus I UT
-
-      Vuoden vanhan musiikin teko 2020 (Suomen vanhan musiikin liitto ry) I UT 
-    name: Ensemble Gamut!
-    featured: true
-    order: 1
-    link2Url: /media#gamut-spotify
-    link1Url: /media#gamut-video
-    type: booking-intl
-    website: https://ensemblegamut.com/
-    id: ensemble-gamut
-    image: /uploads/artists/ensemble-gamut.jpg
-    link2Label: Kuuntele Ensemble Gamut!
-    link1Label: Ensemble Gamut! - Sicut spinarum (Official Music Video)
   - excerpt: inkeriläis-karjalais-suomalaista kansanperinnettä ja myyttejä
       urbaanilla estetiikalla
     bio: >-
