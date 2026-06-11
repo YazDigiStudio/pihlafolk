@@ -2,10 +2,8 @@
 artists:
   - excerpt: karjalaista & suomalaista loitsuperinnettä, jykevää luonnonvoimaa
     bio: >-
-      KAJOS
-
-
-      Kajos on tuore nykykansanmusiikkiyhtye, jonka kesällä 2025 julkaistua Nouse Lempi -debyyttisingleä on striimattu jo yli 120 000 kertaa.
+      Kajos on tuore nykykansanmusiikkiyhtye, jonka kesällä 2025 julkaistua
+      Nouse Lempi -debyyttisingleä on striimattu jo yli 120 000 kertaa.
 
 
       Kesän 2026 Tuska-festivaaleillakin esiintyvä Kajos tarjoaa Suomen musiikkikentälle ennenkuulematonta, genrerajoja rikkovaa, itämerensuomalaisten kansojen perinteitä kunnioittavaa ja korkealla ammattitaidolla itse yhtyeen säveltämää sekä tuottamaa musiikkia. 
