@@ -29,7 +29,7 @@ artists:
     id: kajos
     image: /uploads/maagisetmessut-studiosommitelma-sommitelma-6851.jpg
   - featured: false
-    name: Kajos - joulukonsertti
+    name: KAJOS - joulukonsertti
     bio: >
       Kajoksen joulukonsertti PROMO 2026
 
