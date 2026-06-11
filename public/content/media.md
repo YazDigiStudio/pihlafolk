@@ -35,5 +35,9 @@ sections:
         type: youtube
         titleFi: "KAJOS: Laulan luontoni lujaksi - Official Trailer (LIVE)"
         titleEn: "KAJOS: Laulan luontoni lujaksi - Official Trailer (LIVE)"
+      - url: https://youtu.be/hH3qflYuS1g?si=8gvwJB9mcpMzjomB
+        id: kajos
+        type: youtube
+        titleFi: Kajos - Heinillä härkien kaukalon LIVE
   - type: links
 ---
