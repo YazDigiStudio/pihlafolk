@@ -58,6 +58,7 @@ artists:
       "Maagisen hieno ja shamanistisen huumaava setti - oli ilo olla ja kuulla teitä!"
     excerpt: "sydäntä lämmittävä joulukonsertti "
     id: kajos - joulukonsertti
+    type: booking-intl
   - excerpt: inkeriläis-karjalais-suomalaista kansanperinnettä ja myyttejä
       urbaanilla estetiikalla
     bio: >-
