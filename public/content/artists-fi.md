@@ -53,4 +53,33 @@ artists:
     website: " "
     id: dankki-briha
     image: /uploads/artists/dankki-briha.jpg
+  - featured: false
+    name: Kajos - joulukonsertti
+    bio: >
+      Kajoksen joulukonsertti PROMO 2026
+
+
+      Kajoksen joulukonsertti vie sinut talven hiljaisuuteen, kansantaruihin, tuttuihin sävelmiin, sydäntä lämmittäviin tunnelmiin ja nostattaviin yläilmoihin.
+
+
+      Konsertin persoonalliset, villit sekä herkät suomen-, ruotsin- ja englanninkieliset joululaulusovitukset sellolla, laululla, tuulikellolla, kulkusilla ja biiteillä. 
+
+
+      Kajos on monipalkitusta Tuuletar-yhtyeestä tunnetun laulaja-säveltäjä Sini Koskelaisen ja sellisti-säveltäjä Susanna Syrjäläisen väkevä yhtye, jossa pohjoismaiset kaiut, avaruudelliset äänimaisemat, kansanmusiikin vivahteet ja juurevat rytmit muodostavat voimakkaan elämyksen.
+
+
+      Konsertti on vahvistettu ja siinä käytetään myös loopperista soitettavia taustanauhoja.
+
+
+      Yleisön palautetta konserteista:
+
+
+      "Tunnelmat veivät keskiajalle ja talvien hiljaisuuteen, me kuulijat saimme ikimuistoisen lahjan."
+
+
+      "Yksi parhaista joulukonserteista jonka olen koskaan kokenut"
+
+
+      "Maagisen hieno ja shamanistisen huumaava setti - oli ilo olla ja kuulla teitä!"
+    excerpt: "sydäntä lämmittävä joulukonsertti "
 ---
