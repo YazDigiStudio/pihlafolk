@@ -22,4 +22,10 @@ artists:
       KAJOS band members Sini Koskelainen, Susanna Syrjäläinen, Oskari Lehtonen and Teppo Halonen are top-notch professionals of their field with no shortage of career credits. 
     excerpt: Karelian & Finnish spell tradition, powerful force of nature
     type: booking-intl
+  - featured: false
+    id: kajos - Christmas concert
+    name: KAJOS - Christmas concert
+    bio: "coming soon "
+    excerpt: heartwarming Christmas concert
+    image: /uploads/dsc_5228.jpg
 ---
