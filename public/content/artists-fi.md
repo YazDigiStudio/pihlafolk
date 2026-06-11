@@ -59,6 +59,7 @@ artists:
     excerpt: "sydäntä lämmittävä joulukonsertti "
     id: kajos - joulukonsertti
     type: booking-intl
+    image: /uploads/kajos.jpg
   - excerpt: inkeriläis-karjalais-suomalaista kansanperinnettä ja myyttejä
       urbaanilla estetiikalla
     bio: >-
