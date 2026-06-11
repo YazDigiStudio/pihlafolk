@@ -31,10 +31,11 @@ artists:
   - featured: false
     name: KAJOS - joulukonsertti
     bio: >
-      Kajoksen joulukonsertti
-
-
-      Kajoksen joulukonsertti vie sinut talven hiljaisuuteen, kansantaruihin, tuttuihin sävelmiin, sydäntä lämmittäviin tunnelmiin ja nostattaviin yläilmoihin. Konsertin persoonalliset, villit sekä herkät suomen-, ruotsin- ja englanninkieliset joululaulusovitukset sellolla, laululla, tuulikellolla, kulkusilla ja biiteillä. 
+      Kajoksen joulukonsertti vie sinut talven hiljaisuuteen, kansantaruihin,
+      tuttuihin sävelmiin, sydäntä lämmittäviin tunnelmiin ja nostattaviin
+      yläilmoihin. Konsertin persoonalliset, villit sekä herkät suomen-,
+      ruotsin- ja englanninkieliset joululaulusovitukset sellolla, laululla,
+      tuulikellolla, kulkusilla ja biiteillä. 
 
 
       Kajos on monipalkitusta Tuuletar-yhtyeestä tunnetun laulaja-säveltäjä Sini Koskelaisen ja sellisti-säveltäjä Susanna Syrjäläisen väkevä yhtye, jossa pohjoismaiset kaiut, avaruudelliset äänimaisemat, kansanmusiikin vivahteet ja juurevat rytmit muodostavat voimakkaan elämyksen.
