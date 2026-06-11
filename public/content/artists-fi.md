@@ -28,31 +28,6 @@ artists:
     website: "https://kajosmusic.my.canva.site/website  "
     id: kajos
     image: /uploads/maagisetmessut-studiosommitelma-sommitelma-6851.jpg
-  - excerpt: inkeriläis-karjalais-suomalaista kansanperinnettä ja myyttejä
-      urbaanilla estetiikalla
-    bio: >-
-      Dänkki Briha on etnofuturistinen musiikkikollektiivi, joka inspiroituu
-      inkeriläis-karjalais-suomalaisesta kansanperinteestä, myyteistä ja
-      urbaanista estetiikasta. Se yhdistelee teatterillista ilmaisua, ammoisia
-      loruja ja futuristista äänimaisemaa.
-
-
-      Lappeenrantalais-helsinkiläisessä yhtyeessä Juho Liiran ajattomat vokaalit, Matias Kontulan herkkä sähköviulu ja Manu Penttilän kokeellinen tuotanto luovat sykettä nostattavan kokonaisuuden, joka toimii niin levyltä kuin livenäkin. Lauluissa kuullaan niin Suomen kielen kaakkoismurretta kuin pienempiä lähisukukansojen kieliä ja murteita, muun muassa livvinkarjalaa ja vepsää.
-
-
-      Debyyttialbumi Viipurin Kingpin (2024 Sick Boogie Recordings) on ollut suosittu ja soitettu albumi. Toisen albumin vuoro on kesällä 2026.
-
-
-      Kaustinen Showcase 2025
-
-      Etno-Espan Kansanlaulu 2050 -biisikilpailu 2024 I 3. sija
-    name: Dänkki Briha
-    featured: true
-    order: 3
-    type: booking-fi
-    website: " "
-    id: dankki-briha
-    image: /uploads/artists/dankki-briha.jpg
   - featured: false
     name: Kajos - joulukonsertti
     bio: >
@@ -82,4 +57,30 @@ artists:
 
       "Maagisen hieno ja shamanistisen huumaava setti - oli ilo olla ja kuulla teitä!"
     excerpt: "sydäntä lämmittävä joulukonsertti "
+    id: kajos - joulukonsertti
+  - excerpt: inkeriläis-karjalais-suomalaista kansanperinnettä ja myyttejä
+      urbaanilla estetiikalla
+    bio: >-
+      Dänkki Briha on etnofuturistinen musiikkikollektiivi, joka inspiroituu
+      inkeriläis-karjalais-suomalaisesta kansanperinteestä, myyteistä ja
+      urbaanista estetiikasta. Se yhdistelee teatterillista ilmaisua, ammoisia
+      loruja ja futuristista äänimaisemaa.
+
+
+      Lappeenrantalais-helsinkiläisessä yhtyeessä Juho Liiran ajattomat vokaalit, Matias Kontulan herkkä sähköviulu ja Manu Penttilän kokeellinen tuotanto luovat sykettä nostattavan kokonaisuuden, joka toimii niin levyltä kuin livenäkin. Lauluissa kuullaan niin Suomen kielen kaakkoismurretta kuin pienempiä lähisukukansojen kieliä ja murteita, muun muassa livvinkarjalaa ja vepsää.
+
+
+      Debyyttialbumi Viipurin Kingpin (2024 Sick Boogie Recordings) on ollut suosittu ja soitettu albumi. Toisen albumin vuoro on kesällä 2026.
+
+
+      Kaustinen Showcase 2025
+
+      Etno-Espan Kansanlaulu 2050 -biisikilpailu 2024 I 3. sija
+    name: Dänkki Briha
+    featured: true
+    order: 3
+    type: booking-fi
+    website: " "
+    id: dankki-briha
+    image: /uploads/artists/dankki-briha.jpg
 ---
