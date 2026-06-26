@@ -13,7 +13,7 @@ heroParagraph2: >-
 additionalText: ""
 showMedia: true
 mediaType: image
-mediaUrl: /uploads/img_5452.heic
+mediaUrl: /uploads/img_0171.jpeg
 heroPhotographer: Matti Kyllönen
 showLogo: true
 logoPositionHorizontal: left
