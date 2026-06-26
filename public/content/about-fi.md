@@ -3,10 +3,10 @@ sections:
   - header: pihla folk
     text: >-
       Pihla folk on kansanmusiikin ja -perinteen pioneeritoimijoita luovalla
-      tuotanto- ja agentuuritoiminnallaan. 
+      tuotantotoiminnallaan. 
 
 
-      Erityisen siitä tekee keskittyminen ja syventyminen itämerensuomalaisten kansojen perinteisiin ja kieliin. Suomalais-ugrilaisuus on myös oleellinen, laajempi ulottuvuus. Pihla folkin arvomaailma kumpuaa näistä juurista haastaen aikamme yksilökeskeistä ja tempovaa ihmis- ja maailmankuvaa.
+      Erityisen siitä tekee keskittyminen ja syventyminen itämerensuomalaisten kansojen perinteisiin ja kieliin. Suomalais-ugrilaisuus on myös oleellinen, laajempi ulottuvuus. Pihla folkin arvomaailma kumpuaa näistä juurista.
 
 
       Pihla folkin moderniin toimintaan mahtuvat niin arkaainen, akustinen kuin genrejenvälinen musiikki. Perinteet elävät ja kehittyvät tässä ajassa myös akustisesti ja hienovaraisemmin. Genrejenvälisyys voi puolestaan parhaimmillaan avata uusia, omaleimaisia äänimaailmoita, joissa keskeisenä elementtinä Pihla folkin tapauksessa kuuluu usein elektroniikka.
