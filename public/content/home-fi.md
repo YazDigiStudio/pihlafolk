@@ -1,22 +1,12 @@
 ---
 name: pihla folk
 heroParagraph1: pihla folk on kansanmusiikin ja -perinteen pioneeritoimijoita
-  luovalla tuotanto- ja agentuuritoiminnallaan.
-heroParagraph2: >-
-  vuonna 2022 perustettu pihla folk on syntynyt itämerensuomalaisten kansojen
-  musiikkiperinteistä ja kielistä. moderniin toimintaan mahtuvat niin arkaainen,
-  akustinen kuin genrejenvälinen musiikki. suomalais-ugrilaisuus on myös
-  oleellinen, laajempi ulottuvuus. pihla folkin arvomaailma kumpuaakin näistä
-  juurista haastaen aikamme yksilökeskeistä ja tempovaa ihmis- ja maailmankuvaa.
-
-
-
-
-  pihla folkin visuaalinen identiteetti: Tatu Rouvinen
+  luovalla tuotantotoiminnallaan.
+heroParagraph2: ""
 additionalText: ""
 showMedia: true
 mediaType: image
-mediaUrl: /uploads/home/hero-image.jpg
+mediaUrl: /uploads/img_5452.heic
 mediaVideoUrl: ""
 heroPhotographer: Matti Kyllönen
 showLogo: true
