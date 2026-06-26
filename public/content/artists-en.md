@@ -24,7 +24,7 @@ artists:
     type: booking-intl
   - featured: false
     id: kajos - Christmas concert
-    name: KAJOS - Christmas concert
+    name: Kajos - Christmas concert
     bio: "coming soon "
     excerpt: heartwarming Christmas concert
     image: /uploads/dsc_5228.jpg
