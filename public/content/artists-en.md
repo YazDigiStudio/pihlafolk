@@ -2,7 +2,7 @@
 artists:
   - featured: false
     id: kajos
-    name: KAJOS
+    name: Kajos
     image: /uploads/maagisetmessut-studiosommitelma-sommitelma-6851.jpg
     bio: >-
       Kajos is a fresh contemporary folk music band whose debut single Nouse
