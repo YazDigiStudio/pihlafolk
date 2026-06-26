@@ -9,7 +9,7 @@ heroParagraph2: Pihla on (naisen etu)nimi, joka tulee vanhasta
 additionalText: ""
 showMedia: true
 mediaType: image
-mediaUrl: /uploads/img_0171.jpeg
+mediaUrl: /uploads/img_1805.jpeg
 mediaVideoUrl: ""
 heroPhotographer: Matti Kyllönen
 showLogo: true
