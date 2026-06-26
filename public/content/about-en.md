@@ -3,10 +3,10 @@ sections:
   - header: pihla folk
     text: >-
       Pihla folk is a pioneering actor in folk music and tradition through its
-      creative production and acengy work.
+      creative production.
 
 
-      Founded in 2022, Pihla folk is rooted in traditions and languages of Baltic-Finnic peoples. Its modern activities encompass archaic and acoustic expressions as well as cross-genre music. Finno-Ugric also forms an important, broader dimension of Pihla folk’s work. Its value base grows from these roots, challenging the individual-centered and fast-paced worldview that characterizes our time.
+      Founded in 2022, Pihla folk is rooted in traditions and languages of Baltic-Finnic peoples. Its modern activities encompass archaic and acoustic expressions as well as cross-genre music. Finno-Ugric also forms an important, broader dimension of Pihla folk’s work.
     image: /uploads/img_0171.jpeg
     imagePosition: left
     maxTextLength: 5000
@@ -66,7 +66,7 @@ sections:
       Currently, I have the honor of serving as a board member of the Juminkeko Foundation, a center for the Kalevala and Karelian culture located in Kuhmo.
 
 
-      In summer 2026 I producer second time Etno-Espa festival in Helsinki.
+      In summer 2026 I'm producing second time the Etno-Espa festival in Helsinki.
 
 
       **work contact details**
