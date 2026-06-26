@@ -13,8 +13,8 @@ heroParagraph2: >-
 additionalText: ""
 showMedia: true
 mediaType: image
-mediaUrl: /uploads/img_0171.jpeg
-heroPhotographer: Matti Kyllönen
+mediaUrl: /uploads/img_1805.jpeg
+heroPhotographer: ""
 showLogo: true
 logoPositionHorizontal: left
 logoPositionVertical: up
