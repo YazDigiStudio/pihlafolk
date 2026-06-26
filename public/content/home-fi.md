@@ -1,8 +1,11 @@
 ---
 name: pihla folk
-heroParagraph1: pihla folk on kansanmusiikin ja -perinteen pioneeritoimijoita
-  luovalla tuotantotoiminnallaan.
-heroParagraph2: ""
+heroParagraph1: pihla folk (2022) on kansanmusiikin ja -perinteen
+  pioneeritoimijoita luovalla tuotantotoiminnallaan.
+heroParagraph2: Pihla on (naisen etu)nimi, joka tulee vanhasta
+  suomalais-ugrilaisesta sanasta pihlaja, pihjala. sen merkitykset
+  kansanperinteessä ovat vaihdelleet kiehtovasti, esim. pirunpuusta
+  kuukautisvereen ja pyhään puuhun. sitä on käytetty myös loitsuissa.
 additionalText: ""
 showMedia: true
 mediaType: image
