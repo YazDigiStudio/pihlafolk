@@ -19,7 +19,7 @@ artists:
 
 
       Yhtyeen jäsenet Sini Koskelainen, Susanna Syrjäläinen ja Oskari Lehtonen ovat rautaisia musiikin ammattilaisia, joilta ei urakrediittejä puutu.
-    name: KAJOS
+    name: Kajos
     featured: false
     order: 1
     type: booking-intl
@@ -27,7 +27,7 @@ artists:
     id: kajos
     image: /uploads/maagisetmessut-studiosommitelma-sommitelma-6851.jpg
   - featured: false
-    name: KAJOS - joulukonsertti
+    name: Kajos - joulukonsertti
     bio: >
       Kajoksen joulukonsertti vie sinut talven hiljaisuuteen, kansantaruihin,
       tuttuihin sävelmiin, sydäntä lämmittäviin tunnelmiin ja nostattaviin
