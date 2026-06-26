@@ -1,23 +1,19 @@
 ---
 name: pihla folk
-heroParagraph1: pihla folk is a pioneer in the field of folk music and tradition
-  through its creative production and acengy work.
+heroParagraph1: pihla folk (2022) is a pioneer in the field of folk music and
+  tradition through its creative production work.
 heroParagraph2: >-
-  founded in 2022, pihla folk is rooted in traditions and languages of
-  Baltic-Finnic peoples. its modern activities encompass archaic and acoustic
-  expressions as well as cross-genre music. Finno-Ugric also forms an important,
-  broader dimension of pihla folk’s work. its values base grows from these
-  roots, challenging the individual-centered and fast-paced worldview that
-  characterizes our time.
-
-
+  Pihla is a (woman’s first) name, which comes from an old Finno-Ugric word
+  pihlaja, a rowan. its meanings in folklore has varied fascinating eg. from a
+  devils’s tree to a menstruation blood and a sacred tree. and it has been used
+  in spells.
 
 
   pihla folk's visual identity: Tatu Rouvinen
 additionalText: ""
 showMedia: true
 mediaType: image
-mediaUrl: /uploads/home/hero-image.jpg
+mediaUrl: /uploads/img_5452.heic
 heroPhotographer: Matti Kyllönen
 showLogo: true
 logoPositionHorizontal: left
