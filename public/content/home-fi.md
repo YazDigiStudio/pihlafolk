@@ -11,7 +11,7 @@ showMedia: true
 mediaType: image
 mediaUrl: /uploads/img_1805.jpeg
 mediaVideoUrl: ""
-heroPhotographer: Matti Kyllönen
+heroPhotographer: ""
 showLogo: true
 logoPositionHorizontal: left
 logoPositionVertical: up
