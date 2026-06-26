@@ -4,7 +4,7 @@ heroParagraph1: pihla folk (2022) on kansanmusiikin ja -perinteen
   pioneeritoimijoita luovalla tuotantotoiminnallaan.
 heroParagraph2: Pihla on (naisen etu)nimi, joka tulee vanhasta
   suomalais-ugrilaisesta sanasta pihlaja, pihjala. sen merkitykset
-  kansanperinteessä ovat vaihdelleet kiehtovasti, esim. pirunpuusta
+  kansanperinteessä ovat vaihdelleet kiehtovasti, esim. paholaisen puusta
   kuukautisvereen ja pyhään puuhun. sitä on käytetty myös loitsuissa.
 additionalText: ""
 showMedia: true
