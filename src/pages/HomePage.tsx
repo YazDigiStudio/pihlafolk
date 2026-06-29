@@ -69,8 +69,8 @@ export const HomePage: React.FC = () => {
   const colors = PIHLA_FOLK_PALETTE.colors;
   const photoLabel = language === "fi" ? "kuva" : "photo";
 
-  // Shared link renderer for dark background sections
-  const darkLinkComponents: Components = {
+  // Shared link renderer for light background sections
+  const linkComponents: Components = {
     p: ({children}) => (
       <p style={{margin: '0 0 0.75em 0', fontSize: 'inherit', lineHeight: 'inherit', color: 'inherit'}}>{children}</p>
     ),
@@ -149,11 +149,11 @@ export const HomePage: React.FC = () => {
           gap: isMobile ? '1.5rem' : '1rem'
         }}
       >
-        {/* Glassmorphic Container */}
+        {/* Main Container */}
         <div
           style={{
-            backgroundColor: 'rgba(12, 12, 12, 0.85)',
-            backdropFilter: 'blur(15px)',
+            backgroundColor: 'rgba(244, 244, 244, 0.80)',
+            backdropFilter: 'blur(5px)',
             borderRadius: '16px',
             padding: isMobile ? '1.5rem' : '2.5rem',
             boxSizing: 'border-box',
@@ -162,7 +162,7 @@ export const HomePage: React.FC = () => {
             flexDirection: 'column',
             alignItems: 'flex-start',
             width: '100%',
-            color: colors.bgPrimary,
+            color: colors.textPrimary,
             gap: isMobile ? '1.5rem' : '2rem'
           }}
         >
@@ -289,12 +289,12 @@ export const HomePage: React.FC = () => {
               style={{
                 fontSize: isMobile ? '1rem' : '1.1rem',
                 lineHeight: 1.8,
-                color: 'rgba(244, 244, 244, 0.95)',
+                color: colors.textPrimary,
                 marginTop: 0,
                 marginBottom: '1.5rem'
               }}
             >
-              <ReactMarkdown components={darkLinkComponents}>
+              <ReactMarkdown components={linkComponents}>
                 {[data.heroParagraph2, data.additionalText].filter(Boolean).join('\n\n')}
               </ReactMarkdown>
             </div>
@@ -347,24 +347,23 @@ export const HomePage: React.FC = () => {
                     padding: '0.875rem 2rem',
                     fontSize: '1rem',
                     fontWeight: 600,
-                    color: colors.bgPrimary,
-                    backgroundColor: 'rgba(244, 244, 244, 0.1)',
-                    border: '2px solid rgba(244, 244, 244, 0.3)',
+                    color: colors.textPrimary,
+                    backgroundColor: 'transparent',
+                    border: `2px solid ${colors.borderColor}`,
                     borderRadius: '4px',
                     textDecoration: 'none',
                     transition: 'all 0.2s ease',
                     cursor: 'pointer',
-                    textAlign: 'center',
-                    backdropFilter: 'blur(10px)'
+                    textAlign: 'center'
                   }}
                   onMouseEnter={(e) => {
-                    e.currentTarget.style.backgroundColor = 'rgba(244, 244, 244, 0.2)';
-                    e.currentTarget.style.borderColor = 'rgba(244, 244, 244, 0.5)';
+                    e.currentTarget.style.backgroundColor = colors.bgSecondary;
+                    e.currentTarget.style.borderColor = colors.accentPrimary;
                     e.currentTarget.style.transform = 'translateY(-2px)';
                   }}
                   onMouseLeave={(e) => {
-                    e.currentTarget.style.backgroundColor = 'rgba(244, 244, 244, 0.1)';
-                    e.currentTarget.style.borderColor = 'rgba(244, 244, 244, 0.3)';
+                    e.currentTarget.style.backgroundColor = 'transparent';
+                    e.currentTarget.style.borderColor = colors.borderColor;
                     e.currentTarget.style.transform = 'translateY(0)';
                   }}
                 >
@@ -387,7 +386,7 @@ export const HomePage: React.FC = () => {
                   key={index}
                   style={{
                     width: '100%',
-                    color: colors.bgPrimary,
+                    color: colors.textPrimary,
                     paddingTop: isMobile ? '2rem' : '3rem'
                   }}
                 >
@@ -408,10 +407,10 @@ export const HomePage: React.FC = () => {
                     style={{
                       fontSize: isMobile ? '0.95rem' : '1.1rem',
                       lineHeight: 1.8,
-                      color: 'rgba(244, 244, 244, 0.95)'
+                      color: colors.textPrimary
                     }}
                   >
-                    <ReactMarkdown components={darkLinkComponents}>{displayText}</ReactMarkdown>
+                    <ReactMarkdown components={linkComponents}>{displayText}</ReactMarkdown>
                   </div>
                 </div>
               );
@@ -493,7 +492,7 @@ export const HomePage: React.FC = () => {
                   <div
                     style={{
                       flex: 1,
-                      color: colors.bgPrimary,
+                      color: colors.textPrimary,
                       display: 'flex',
                       alignItems: 'center'
                     }}
@@ -502,10 +501,10 @@ export const HomePage: React.FC = () => {
                       style={{
                         fontSize: isMobile ? '0.95rem' : '1.1rem',
                         lineHeight: 1.8,
-                        color: 'rgba(244, 244, 244, 0.95)'
+                        color: colors.textPrimary
                       }}
                     >
-                      <ReactMarkdown components={darkLinkComponents}>{displayText}</ReactMarkdown>
+                      <ReactMarkdown components={linkComponents}>{displayText}</ReactMarkdown>
                     </div>
                   </div>
                 </div>
