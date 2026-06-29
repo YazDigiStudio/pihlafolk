@@ -64,7 +64,7 @@ export const translations = {
     },
     // Contact
     contact: {
-      title: 'Yhteystiedot',
+      title: 'yhteystiedot',
       contactLabel: 'yhteydenotot:'
     },
     // 404 Not Found
@@ -186,7 +186,7 @@ export const translations = {
     },
     // Contact
     contact: {
-      title: 'Contact',
+      title: 'contact',
       contactLabel: 'contact:'
     },
     // 404 Not Found

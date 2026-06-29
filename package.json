@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "concurrently --names \"VITE,CMS\" -c \"bgBlue.bold,bgMagenta.bold\" \"vite\" \"npx decap-server\"",
-    "dev:host": "concurrently --names \"VITE,CMS\" -c \"bgBlue.bold,bgMagenta.bold\" \"vite --host\" \"npx decap-server\"",
+    "dev": "npm run optimize && concurrently --names \"VITE,CMS\" -c \"bgBlue.bold,bgMagenta.bold\" \"vite\" \"npx decap-server\"",
+    "dev:host": "npm run optimize && concurrently --names \"VITE,CMS\" -c \"bgBlue.bold,bgMagenta.bold\" \"vite --host\" \"npx decap-server\"",
     "dev:vite": "vite",
     "dev:cms": "npx decap-server",
     "optimize": "node optimize-images.js",
