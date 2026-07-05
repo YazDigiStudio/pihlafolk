@@ -4,8 +4,6 @@ phone: "+358503909794"
 socialMedia:
   - platform: instagram
     url: https://instagram.com/pihlafolk
-  - platform: youtube
-    url: https://youtube.com/@pihlafolk
 relatedLinks:
   - url: https://pihlafolk.us21.list-manage.com/subscribe?u=518713c0b3e2633f467ace918&id=96f29866d5
     text: join pihla folk's newsletter
