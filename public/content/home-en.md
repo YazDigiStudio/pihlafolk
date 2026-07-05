@@ -2,14 +2,10 @@
 name: pihla folk
 heroParagraph1: pihla folk (2022) is a pioneer in the field of folk music and
   tradition through its creative production work.
-heroParagraph2: >-
-  Pihla is a (woman’s first) name, which comes from an old Finno-Ugric word
-  pihlaja, a rowan. its meanings in folklore has varied fascinating eg. from a
-  devils’s tree to a menstruation blood and a sacred tree. and it has been used
-  in spells.
-
-
-  pihla folk's visual identity: Tatu Rouvinen
+heroParagraph2: Pihla is a (woman’s first) name, which comes from an old
+  Finno-Ugric word pihlaja, a rowan. its meanings in folklore has varied
+  fascinating eg. from a devils’s tree to a menstruation blood and a sacred
+  tree. and it has been used in spells.
 additionalText: ""
 showMedia: true
 mediaType: image
@@ -28,18 +24,14 @@ sections:
   - imagePosition: right
     header: news!
     text: >-
-      **Sung (Laulettu) Kalevala audiobook completed  on April 25, Runosong
-      Day**
+      5/7
 
 
-      You can listen to the audiobook:
+      **pihla folk is on summer holiday from July 8 to 29.**
 
 
-      **[Laulettu Kalevala YouTube channel](https://www.youtube.com/@laulettukalevala)**
-
-
-      Laulettu Kalevala on etno.net webpage: **[1. jakso](https://etno.net/julkaisu/aanitteet/laulettu-kalevala-jakso-1-3)** | **[2. jakso](https://etno.net/julkaisu/aanitteet/laulettu-kalevala-jakso-2-3)** | **[3. jakso](https://etno.net/julkaisu/aanitteet/laulettu-kalevala-jakso-3-3)**
-    image: /uploads/3levynkansi.jpg
-    photographer: Tatu Rouvinen
+      **wishing you all the best summer vibes![](https://etno.net/julkaisu/aanitteet/laulettu-kalevala-jakso-3-3)**
+    image: /uploads/img_6114.jpeg
+    photographer: ""
 subtitle: pioneering folk music and traditions since 2002
 ---
