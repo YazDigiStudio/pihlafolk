@@ -22,7 +22,7 @@ showButton2: true
 ctaButton2Text: tietoa pihla folkista
 ctaButton2Link: /tietoa
 sections:
-  - imagePosition: right
+  - imagePosition: left
     header: ajankohtaista!
     text: >-
       5/7
