@@ -136,7 +136,8 @@ past:
 
         \- yhdessä Sattuma duon (Arto ja Eila Rinne) kanssa. Karjalaista ja suomalaista kansanmusiikkia Suomalais-ugrilaisilla päivillä 20.-21.10.2023 Õpetajate Majalla, Tallinnassa ja Eesti Rahva Museumissa, Tartossa.
       year: "2023"
-    - status: completed
+    - photographer: Suvi Sistonen
+      status: completed
       additionalInfo:
         text: ""
         title: " "
@@ -145,12 +146,18 @@ past:
       type: project
       link: "   "
       id: toimeksiannot
-      image: /uploads/yksitoista-ihmisen-kuvaa-3000x3000px.jpg
+      image: /uploads/melkutus-party-2.jpg
       description: >-
+        **käynnissä**
+
+
+        Melkutus Partyn *Mahti*-albumi- & Kaustinen showcase -tiedotus Suomessa, heinä-syyskuu 2026
+
+
         **menneet**
 
 
-        Vilma Talvitien OLIO ALIEN -albumijulkaisukiertueen tuotanto 2026
+        Vilma Talvitien OLIO ALIEN -albumijulkaisukiertueen tuotanto, tammi-huhtikuu 2026
 
 
         muusikon mentorointisessio perinnemusiikin ja kansanmusiikkifuusion kentästä ja sen näkymistä 2020-vuosikymmenellä, joulukuu 2025
