@@ -7,10 +7,10 @@ artists:
     bio: >-
       Kajos is a fresh contemporary folk music band whose debut single Nouse
       Lempi, released on July 4, 2025, has attracted great interest. The song
-      has already been streamed over 120,000 times.
+      has already been streamed over 170,000 times.
 
 
-      Kajos, who will also perform at the Nordic’s biggest metal festival Tuska on the 28th of June 2026, offers the Finnish music scene unprecedented music that breaks genre boundaries, respects the Baltic Finnish Folk heritage, and is composed and produced by the band itself with high professionalism. 
+      Kajos, who also performed at the Nordic’s biggest metal festival Tuska 2026, offers the Finnish music scene unprecedented music that breaks genre boundaries, respects the Baltic Finnic heritage, and is composed and produced by the band itself with high professionalism. 
 
 
       Band’s music is inspired by Karelian and Finnish mythology and the forces of nature. The music of Kajos is strongly intertwined with primal and mystical vocal expression, touching cello playing, powerful beats, improvisation, ancient spells and cinematic soundscapes, making time stand still. Live music of Kajos has been described as enchanting, cold shivers evoking, transcendental experience that leads you back to your roots. 
@@ -25,7 +25,7 @@ artists:
   - featured: false
     id: kajos - Christmas concert
     name: Kajos - Christmas concert
-    bio: "coming soon "
+    bio: coming...
     excerpt: heartwarming Christmas concert
     image: /uploads/dsc_5228.jpg
 ---
