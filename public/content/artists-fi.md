@@ -3,7 +3,7 @@ artists:
   - excerpt: karjalaista & suomalaista loitsuperinnettä, jykevää luonnonvoimaa
     bio: >-
       Kajos on tuore nykykansanmusiikkiyhtye, jonka kesällä 2025 julkaistua
-      Nouse Lempi -debyyttisingleä on striimattu jo yli 120 000 kertaa.
+      Nouse Lempi -debyyttisingleä on striimattu jo yli 170 000 kertaa.
 
 
       Kesän 2026 Tuska-festivaaleillakin esiintynyt Kajos tarjoaa Suomen musiikkikentälle ennenkuulematonta, genrerajoja rikkovaa, itämerensuomalaisten kansojen perinteitä kunnioittavaa ja korkealla ammattitaidolla itse yhtyeen säveltämää sekä tuottamaa musiikkia. 
@@ -18,7 +18,7 @@ artists:
       Kajoksen väkevät live-keikat ovat lumonneet yleisöjä ympäri Suomen. Yhtye on esiintynyt aiemmin mm. Rautakauden Birckalassa, PakanaFestareilla, Heinäveden Muinaisviikoilla ja Wanhan Kaupungin Festiwaaleilla. Yhtye toimi lokakuussa 2025 Hannes Aleksin Maan taju -näyttelyn (Outokumpu) avajaisten esiintyjänä ja tapahtuman avausnumerona. YLE taltioi konserttia Itä-Suomen alueellisiin uutisiin. Vuonna 2021 yhtye teki yhteistyötä metalliyhtye HARMSin kanssa vierailemalla yhtyeen ‘Towards the sixth end’ -singlellä. 
 
 
-      Yhtyeen jäsenet Sini Koskelainen, Susanna Syrjäläinen ja Oskari Lehtonen ovat rautaisia musiikin ammattilaisia, joilta ei urakrediittejä puutu.
+      Yhtyeen jäsenet Sini Koskelainen, Susanna Syrjäläinen, Oskari Lehtonen  ja Teppo Halonen ovat rautaisia musiikin ammattilaisia, joilta ei urakrediittejä puutu.
     name: Kajos
     featured: false
     order: 1
