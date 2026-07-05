@@ -24,14 +24,16 @@ ctaButton2Link: /tietoa
 sections:
   - imagePosition: right
     header: ajankohtaista!
-    text: |-
+    text: >-
       5/7
 
-      pihla folk kesälomailee 8.-29.7. 
 
-      ihanaa heinäkuuta!
+      **pihla folk kesälomailee 8.-29.7.[](https://etno.net/julkaisu/aanitteet/laulettu-kalevala-jakso-3-3)** 
+
+
+      **ihanaa heinäkuuta!**
     image: /uploads/img_6114.jpeg
     maxTextLength: 3000
-    photographer: Tatu Rouvinen
+    photographer: ""
 subtitle: kansanmusiikin ja -perinteen pioneeri vuodesta 2002
 ---
