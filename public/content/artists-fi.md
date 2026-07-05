@@ -6,7 +6,7 @@ artists:
       Nouse Lempi -debyyttisingleä on striimattu jo yli 120 000 kertaa.
 
 
-      Kesän 2026 Tuska-festivaaleillakin esiintyvä Kajos tarjoaa Suomen musiikkikentälle ennenkuulematonta, genrerajoja rikkovaa, itämerensuomalaisten kansojen perinteitä kunnioittavaa ja korkealla ammattitaidolla itse yhtyeen säveltämää sekä tuottamaa musiikkia. 
+      Kesän 2026 Tuska-festivaaleillakin esiintynyt Kajos tarjoaa Suomen musiikkikentälle ennenkuulematonta, genrerajoja rikkovaa, itämerensuomalaisten kansojen perinteitä kunnioittavaa ja korkealla ammattitaidolla itse yhtyeen säveltämää sekä tuottamaa musiikkia. 
 
 
       Kajoksen musiikki innoittuu karjalaisesta ja suomalaisesta loitsuperinteestä ja jykevästä luonnonvoimasta. Kajoksen konsertin myyttisessä todellisuudessa lempeä liehitellään, olutta synnytellään, tulilintua maanitellaan, luontoa nostatetaan ja kipuja hoivataan.
@@ -65,7 +65,7 @@ artists:
       Lappeenrantalais-helsinkiläisessä yhtyeessä Juho Liiran ajattomat vokaalit, Matias Kontulan herkkä sähköviulu ja Manu Penttilän kokeellinen tuotanto luovat sykettä nostattavan kokonaisuuden, joka toimii niin levyltä kuin livenäkin. Lauluissa kuullaan niin Suomen kielen kaakkoismurretta kuin pienempiä lähisukukansojen kieliä ja murteita, muun muassa livvinkarjalaa ja vepsää.
 
 
-      Debyyttialbumi Viipurin Kingpin (2024 Sick Boogie Recordings) on ollut suosittu ja soitettu albumi. Toisen albumin vuoro on kesällä 2026.
+      Debyyttialbumi Viipurin Kingpin (2024 Sick Boogie Recordings) on ollut suosittu ja soitettu albumi. Toinen albumi, Merjamaa (Sick Boogie Recordings & Panama-levy) ilmestyi kesäkuussa 2026.
 
 
       Kaustinen Showcase 2025
