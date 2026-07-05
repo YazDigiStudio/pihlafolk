@@ -136,7 +136,20 @@ past:
 
         \- together with Sattuma duo (Arto & Eila Rinne). Karelian and Finnish folk music at Finno-Ugric Days on October 20-21, 2023 at Õpetajate Maja, Tallinn and at Estonian National Museum, Tartu.
       year: "2023"
-    - description: >-
+    - photographer: Suvi Sistonen
+      status: ongoing
+      title: commissions
+      type: project
+      link: " "
+      id: commissions
+      image: /uploads/melkutus-party-2.jpg
+      description: >-
+        **ongoing**
+
+
+        Melkutus Party's Mahti album & Kaustinen Showcase publicity in Finland, July - September 2026
+
+
         **past**
 
 
@@ -155,11 +168,5 @@ past:
         album publicity in Finland and/or international
 
         Hurja Halla: Surma hiihti 2025 | Kalle Vainio: The Land Where It Always Rains – Musiikkia sateesta. 2024 | Anna-Kaisa Liedes & Heikki Laitinen: Musiikki elokuvasta 11 ihmisen kuvaa 2023-2024 | MeNaiset: Emyt 2023 | Hanna Ryynänen: Taite 2022
-      id: commissions
-      title: commissions
-      image: /uploads/yksitoista-ihmisen-kuvaa-3000x3000px.jpg
-      type: project
-      status: ongoing
       year: 2022-2026
-      link: " "
 ---
