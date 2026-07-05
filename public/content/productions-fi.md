@@ -151,7 +151,7 @@ past:
         **käynnissä**
 
 
-        Melkutus Partyn *Mahti*-albumin & Kaustinen showcasen -tiedotus Suomessa, heinä-syyskuu 2026
+        Melkutus Partyn *Mahti*-albumin & Kaustinen showcasen tiedotus Suomessa, heinä-syyskuu 2026
 
 
         **menneet**
