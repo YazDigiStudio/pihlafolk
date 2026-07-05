@@ -24,19 +24,13 @@ ctaButton2Link: /tietoa
 sections:
   - imagePosition: right
     header: ajankohtaista!
-    text: >-
-      **Laulettu Kalevala -äänikirjan 3. ja viimeinen jakso ilmestyi
-      digitaalisesti Runolaulupäivänä, 25. huhtikuuta.** 
+    text: |-
+      5/7
 
+      pihla folk kesälomailee 8.-29.7. 
 
-      Äänikirja voi tällä hetkellä kuunnella: 
-
-
-      **[Laulettu Kalevala YouTube-kanava](https://www.youtube.com/@laulettukalevala)**
-
-
-      Laulettu Kalevala etno.net-sivustolla: **[1. jakso](https://etno.net/julkaisu/aanitteet/laulettu-kalevala-jakso-1-3)** | **[2. jakso](https://etno.net/julkaisu/aanitteet/laulettu-kalevala-jakso-2-3)** | **[3. jakso](https://etno.net/julkaisu/aanitteet/laulettu-kalevala-jakso-3-3)**
-    image: /uploads/3levynkansi.jpg
+      ihanaa heinäkuuta!
+    image: /uploads/img_6114.jpeg
     maxTextLength: 3000
     photographer: Tatu Rouvinen
 subtitle: kansanmusiikin ja -perinteen pioneeri vuodesta 2002
