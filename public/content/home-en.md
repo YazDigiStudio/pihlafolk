@@ -22,16 +22,9 @@ ctaButton2Text: about pihla folk
 ctaButton2Link: /tietoa
 sections:
   - imagePosition: right
-    header: news!
-    text: >-
-      5/7
-
-
-      **pihla folk is on summer holiday from July 8 to 29.**
-
-
-      **wishing you all the best summer vibes![](https://etno.net/julkaisu/aanitteet/laulettu-kalevala-jakso-3-3)**
-    image: /uploads/img_6114.jpeg
+    header: ""
+    text: ""
+    image: ""
     photographer: ""
 subtitle: pioneering folk music and traditions since 2002
 ---
