@@ -88,7 +88,7 @@ past:
   productions:
     - photographer: Mari Pääkkönen
       status: completed
-      title: "Itämerensuomalaisen konserttisarja Lönnrotin terassilla "
+      title: "Itämerensuomalainen konserttisarja Lönnrotin terassilla "
       type: project
       link: "  "
       id: lönnrotin-puistikko
