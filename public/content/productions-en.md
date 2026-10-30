@@ -136,7 +136,7 @@ past:
 
         \- together with Sattuma duo (Arto & Eila Rinne). Karelian and Finnish folk music at Finno-Ugric Days on October 20-21, 2023 at Õpetajate Maja, Tallinn and at Estonian National Museum, Tartu.
       year: "2023"
-    - photographer: Suvi Sistonen
+    - photographer: Karoliina Gavrilov
       status: ongoing
       title: commissions & bookings
       type: project
