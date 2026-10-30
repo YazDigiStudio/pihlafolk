@@ -9,7 +9,7 @@ sections:
       Erityisen siitä tekee keskittyminen ja syventyminen itämerensuomalaisten kansojen perinteisiin ja kieliin. Suomalais-ugrilaisuus on myös oleellinen, laajempi ulottuvuus. Pihla folkin arvomaailma kumpuaa näistä juurista.
 
 
-      Pihla folkin moderniin toimintaan mahtuvat niin arkaainen, akustinen kuin genrejenvälinen musiikki. Perinteet elävät ja kehittyvät tässä ajassa myös akustisesti ja hienovaraisemmin. Genrejenvälisyys voi puolestaan parhaimmillaan avata uusia, omaleimaisia äänimaailmoita, joissa keskeisenä elementtinä Pihla folkin tapauksessa kuuluu usein elektroniikka.
+      Pihla folkin moderniin toimintaan mahtuvat niin arkaainen, akustinen kuin genrejenvälinen musiikki. Perinteet elävät ja kehittyvät tässä ajassa myös akustisesti ja hienovaraisemmin. Genrejenvälisyys voi puolestaan parhaimmillaan avata uusia, omaleimaisia äänimaailmoita.
     image: /uploads/img_0171.jpeg
     imagePosition: left
     maxTextLength: 3000
@@ -34,7 +34,7 @@ sections:
       Valmistuin Jyväskylän yliopistosta humanististen tieteiden kandidaatiksi 2008, filosofian maisteriksi 2010. Opiskelin pääaineenani puheviestintää (nykyisin viestintä), jossa minulla oli kaksi painopistealuetta - johtamisviestintä ja vuorovaikutus työyhteisöissä sekä teknologiavälitteinen vuorovaikutus. Sivuaineeni koostuivat monenlaisista opinnoista kulttuurin ja taiteen,  musiikkihallinnon ja -tuotannon sekä yrittäjyystaloustieteen ja palvelumuotoilun parissa. Pro graduni aiheena oli Johtamisviestintä festivaalilla - tapaustutkimuksena Kuhmon Kamarimusiikki. 
 
 
-      Ammattilaisena aloitin kulttuurialalla 2009. Kansanmusiikin ja maailmanmusiikin kentällä minulla on työhistoriaa laajasti tuotannon eri rooleissa, artistimanageroinnista, kansainvälisistä kulttuuriprojekteista, festivaalituotannosta ja viestinnästä alan keskeisten instituuttien, organisaatioiden ja toimijoiden parissa, mm. Musiikkijuhla Sommelo, Kansanmusiikki-Instituutti, Kaustisen Kansanmusiikkijuhla, Maailmanmusiikin Keskus / Etnosoi! festivaali.
+      Ammattilaisena aloitin kulttuurialalla 2009. Kansanmusiikin ja maailmanmusiikin kentällä minulla on työhistoriaa laajasti tuotannon eri rooleissa, artistimanageroinnista, kansainvälisistä kulttuuriprojekteista, festivaalituotannosta ja viestinnästä alan keskeisten instituuttien, organisaatioiden ja toimijoiden parissa, mm. Etno-Espa, Musiikkijuhla Sommelo, Kansanmusiikki-Instituutti, Kaustisen Kansanmusiikkijuhla, Maailmanmusiikin Keskus / Etnosoi! festivaali.
     image: /uploads/474788909_8837020059760290_3873740695400611265_n.jpg
     imagePosition: right
     maxTextLength: 5000
@@ -53,16 +53,12 @@ sections:
       Koulutustani olen päivittänyt täsmäkursseilla avoimen yliopiston kautta niin Taideyliopiston Sibelius-Akatemian Kansanmusiikkiosastolla, Taideyliopiston Teatterikorkeakoulussa kuin Itä-Suomen yliopistossa. Näiden joukosta löytyy mm. kansanmusiikin historiaa sekä vienankarjalan kieltä ja kulttuuria.
 
 
-      2020 vuodesta lähtien käynnissä oleva Laulettu Kalevala -hanke on vaikuttanut minuun monin tavoin. Itä veti vastustamattomasti puoleensa karjalaisten, itämerensuomalaisten ja vielä laajemmin suomalais-ugrilaisten kansojen perinteiden, kulttuurien ja kielten pariin. Ajoitus oli toki huono. Sydämeni särkyi aamulla 24.2.2022. Se särkyi ukrainalaisten puolesta. Se särkyi kaikkien niiden Venäjällä asuvien ihmisten puolesta, jotka eivät ole ikinä äänestäneet Putinia ja vastustavat sotaa. Uskon, että parempi aika vielä koittaa, jolloin meillä on mahdollista luoda uusia, eettisesti kestäviä tapoja ylirajaiseen yhteistyöhön. Viime vuodet ovat avanneet minulle taas sitäkin intensiivisemmin Viroa, ja siitä iloitsen suuresti.
+      2020 vuodesta lähtien käynnissä oleva Laulettu Kalevala -hanke on vaikuttanut minuun monin tavoin. Itä veti vastustamattomasti puoleensa karjalaisten, itämerensuomalaisten ja vielä laajemmin suomalais-ugrilaisten kansojen perinteiden, kulttuurien ja kielten pariin. Ajoitus oli toki huono. Sydämeni särkyi aamulla 24.2.2022. Se särkyi ukrainalaisten puolesta. Se särkyi kaikkien niiden Venäjällä asuvien ihmisten puolesta, jotka eivät ole ikinä äänestäneet Putinia ja vastustavat sotaa. Uskon, että parempi aika vielä koittaa, jolloin meillä on mahdollista luoda uusia, eettisesti kestäviä tapoja ylirajaiseen yhteistyöhön. Viime vuodet ovat avanneet minulle taas sitäkin intensiivisemmin Viroa ja Unkaria.
 
 
-      Näiden kaikkien 20-luvun alun asioiden aalloissa päätin perustaa yrityksen, ja Pihla folk syntyi 1. elokuuta 2022.
+      Näiden kaikkien 20-luvun alun asioiden aalloissa päätin perustaa yrityksen, ja Pihla folk syntyi 2022.
 
 
-      Tällä hetkellä minulla on kunnia olla Juminkeko-säätiön hallituksen jäsen. Juminkeko on Kuhmossa sijaitseva Kalevalan ja karjalaisen kulttuurin keskus.
-
-
-      Kesällä 2026 tuotan toisen kerran Etno-Espa -festivaalin Helsingissä.
 
 
       **työyhteystietoni**
@@ -88,5 +84,11 @@ sections:
 
 
       • osallistujana Creative GPS mentorointiohjelmassa - Taku, Northern Dimension Partnership on Culture (NDPC), Tallinn Cretive Incubator, 2024
+
+
+      **luottamustoimet**
+
+
+      Juminkeko-säätiön hallitus (Kuhmo)
     maxTextLength: 5000
 ---
