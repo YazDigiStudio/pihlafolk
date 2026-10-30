@@ -136,25 +136,37 @@ past:
 
         \- yhdessä Sattuma duon (Arto ja Eila Rinne) kanssa. Karjalaista ja suomalaista kansanmusiikkia Suomalais-ugrilaisilla päivillä 20.-21.10.2023 Õpetajate Majalla, Tallinnassa ja Eesti Rahva Museumissa, Tartossa.
       year: "2023"
-    - photographer: Suvi Sistonen
+    - photographer: ""
       status: completed
       additionalInfo:
         text: ""
         title: " "
       subtitle: " "
-      title: "tilaustyöt "
+      title: "keikkamyynti & tilaustyöt "
       type: project
       link: "   "
-      id: toimeksiannot
-      image: /uploads/melkutus-party-2.jpg
+      id: keikkamyynti & tilaustyöt
+      image: /uploads/dsc_5228.jpg
       description: >-
         **käynnissä**
 
 
-        Melkutus Partyn *Mahti*-albumin & Kaustinen showcasen tiedotus Suomessa, heinä-syyskuu 2026
+        keikkamyynti: Kajos 
+
+
+        Kajos on tuore nykykansanmusiikkiyhtye, jonka kesällä 2025 julkaistua Nouse Lempi -debyyttisingleä on striimattu jo yli 200 000 kertaa.
+
+
+        Kesän 2026 Tuska-festivaaleillakin esiintynyt Kajos tarjoaa Suomen musiikkikentälle ennenkuulematonta, genrerajoja rikkovaa, itämerensuomalaisten kansojen perinteitä kunnioittavaa ja korkealla ammattitaidolla itse yhtyeen säveltämää sekä tuottamaa musiikkia. 
+
+
+        Kajoksen musiikki innoittuu karjalaisesta ja suomalaisesta loitsuperinteestä ja jykevästä luonnonvoimasta. Kajoksen konsertin myyttisessä todellisuudessa lempeä liehitellään, olutta synnytellään, tulilintua maanitellaan, luontoa nostatetaan ja kipuja hoivataan. 
 
 
         **menneet**
+
+
+        Melkutus Partyn *Mahti*-albumin & Kaustinen showcase'n tiedotus Suomessa, heinä-syyskuu 2026
 
 
         Vilma Talvitien OLIO ALIEN -albumijulkaisukiertueen tuotanto, tammi-huhtikuu 2026
