@@ -9,8 +9,8 @@ heroParagraph2: Pihla is a (woman’s first) name, which comes from an old
 additionalText: ""
 showMedia: true
 mediaType: image
-mediaUrl: /uploads/img_1805.jpeg
-heroPhotographer: ""
+mediaUrl: /uploads/img_2177.jpg
+heroPhotographer: Matti Kyllönen
 showLogo: true
 logoPositionHorizontal: left
 logoPositionVertical: up
