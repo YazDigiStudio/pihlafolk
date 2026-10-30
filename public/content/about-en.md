@@ -15,8 +15,7 @@ sections:
       What makes Pihla folk special is its deep focus in traditions and
       languages of Baltic-Finnic peoples. Traditions continue to live and evolve
       through acoustic and more subtle means. At the same time, cross-genre
-      approaches can, at their best, open up new and distinctive soundscapes -
-      often incorporating electronics as a central element in Pihla folk’s case.
+      approaches can, at their best, open up new and distinctive soundscapes.
 
 
       A good knowledge and understanding of traditions, a sensitive working approach, and versatile networks enable successful engagement with cross-border, and at times contested tradition.
@@ -38,7 +37,7 @@ sections:
       I graduated from the University of Jyväskylä with a Bachelor of Arts in Humanities in 2008 and a Master of Arts in 2010. My main subject was Speech Communication (now Communication), with two focus areas: leadership communication and interaction in work communities, and technology-mediated interaction. My minor studies covered a wide range of fields including culture and the arts, music management and production, entrepreneurship economics, and service design. My Master’s thesis focused on leadership communication in a music festival, with the Kuhmo Chamber Music Festival as a case study.
 
 
-      I began my professional career in the cultural sector in 2009. Within the fields of folk and world music, I have extensive experience in various production roles, including artist management, international cultural projects, festival production, and communication, working with key institutions, organizations, and actors in the field such as Music Festival Sommelo, Folk Music Institute, Kaustinen Folk Music Festival, Global Music Centre / Etnosoi! Festival.
+      I started my professional career in the cultural sector in 2009. Within the fields of folk and world music, I have extensive experience in various production roles, including artist management, international cultural projects, festival production, curating, and communication, working with key institutions, organizations, and actors in the field such as Etno-Espa festival, Ethno Music Festival Sommelo, Finnish Folk Music Institute, Kaustinen Folk Music Festival, Global Music Centre / Etnosoi! Festival.
     image: /uploads/474788909_8837020059760290_3873740695400611265_n.jpg
     imagePosition: right
     maxTextLength: 4000
@@ -47,26 +46,20 @@ sections:
       In the independent field, I have always been drawn to freedom itself.
       Particularly joyful and meaningful projects include Blood, porn and
       propaganda, GODDAMMIT!, a feminist folk music series (2018–2020, Amanda
-      Kauranne), which was awarded Phenomenon of the Year at the 2020 Etno Gala.
-      As well as Soiva linturetki, a hybrid nature excursion (2021, Jimmy
+      Kauranne), which was awarded Phenomenon of the Year at the 2020 Ethno
+      Gala. As well as Soiva linturetki, a hybrid nature excursion (2021, Jimmy
       Träskelin). In addition to folk music, I have worked in contemporary
-      dance, folk dance, performance art, and theatre with i.a. Routa Company,
+      dance, folk dance, performing art, and theatre with i.a. Routa Company,
       and Dance Theatre Tsuumi, as well as with Reetta-Kaisa Iles, Onerva Helne.
 
 
-      I have continuously updated my education through targeted courses at the Open University, including studies at the Sibelius Academy Folk Music Department (University of the Arts Helsinki), the Theatre Academy (University of the Arts Helsinki) and the University of Eastern Finland. These studies have included folk music history, Viena Karelian language and culture.
+      I have continuously updated my education through targeted courses at the Open University, including studies at the Sibelius Academy's Folk Music Department (University of the Arts Helsinki), the Theatre Academy (University of the Arts Helsinki) and the University of Eastern Finland. These studies have included i.a.  folk music history, Viena Karelian language and culture.
 
 
-      During the Laulettu Kalevala (The Sung Kalevala) project, ongoing since 2020, the East drew me irresistibly toward Karelian, Baltic-Finnic, and more broadly Finno-Ugric peoples and their traditions, cultures, and languages. The timing, of course, was unfortunate. My heart broke on the morning of 24 February 2022. It broke for the people of Ukraine. It also broke for all those people living in Russia who have never voted for Putin and who oppose the war. I believe that a better time will come, when it will again be possible to create new, ethically sustainable forms of cross-border collaboration. But the last few years have opened up Estonia to me with renewed intensity, which brings me great joy.
+      During the Laulettu Kalevala (The Sung Kalevala) project, ongoing since 2020, the East drew me irresistibly toward Karelian, Baltic-Finnic, and more broadly Finno-Ugric peoples and their traditions, cultures, and languages. The timing, of course, was unfortunate. My heart broke on the morning of 24 February 2022. It broke for the people of Ukraine. It also broke for all those people living in Russia who have never voted for Putin and who oppose the war. I believe that a better time will come, when it will be possible to create new, ethically sustainable forms of cross-border collaboration. But the last few years have opened up Estonia and Hungary to me with renewed intensity.
 
 
       Amid all these currents and waves, I decided to establish a company, and pihla folk was founded in August 2022.
-
-
-      Currently, I have the honor of serving as a board member of the Juminkeko Foundation, a center for the Kalevala and Karelian culture located in Kuhmo.
-
-
-      In summer 2026 I'm producing second time the Etno-Espa festival in Helsinki.
 
 
       **work contact details**
@@ -92,6 +85,12 @@ sections:
 
 
       • Participant in the Creative GPS mentoring programme – TAKU, Northern Dimension Partnership on Culture (NDPC), Tallinn Creative Incubator, 2024
+
+
+      **board membership**
+
+
+      Juminkeko Foundation, a center for the Kalevala and Karelian culture (Kuhmo)
     header: " "
     maxTextLength: 3500
     photographer: Erlend Štaub
