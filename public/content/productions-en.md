@@ -138,16 +138,25 @@ past:
       year: "2023"
     - photographer: Suvi Sistonen
       status: ongoing
-      title: commissions
+      title: commissions & bookings
       type: project
       link: " "
-      id: commissions
-      image: /uploads/melkutus-party-2.jpg
+      id: commissions & bookings
+      image: /uploads/kajos3_photo_karoliina_gavrilov.jpg
       description: >-
         **ongoing**
 
 
-        Melkutus Party's Mahti album & Kaustinen Showcase publicity in Finland, July - September 2026
+        booking: Kajos 
+
+
+        Kajos is a fresh contemporary folk music band whose debut single Nouse Lempi, released on July 4, 2025, has attracted great interest. The song has already been streamed over 200 000 times. Kajos, who also performed at the Nordic’s biggest metal festival Tuska 2026, offers the Finnish music scene unprecedented music that breaks genre boundaries, respects the Baltic Finnic heritage, and is composed and produced by the band itself with high professionalism. Band’s music is inspired by Karelian and Finnish mythology and the forces of nature. The music of Kajos is strongly intertwined with primal and mystical vocal expression, touching cello playing, powerful beats, improvisation, ancient spells and cinematic soundscapes, making time stand still. Live music of Kajos has been described as enchanting, cold shivers evoking, transcendental experience that leads you back to your roots. 
+
+
+
+        Kajos has also an atmospheric Christmas concert.
+
+
 
 
         **past**
@@ -165,8 +174,8 @@ past:
         a presentation on Finnish and Karelian folk music traditions during a visit at Buskerud's Folk Music Center in Prestfoss, Norway on November 21-24, 2024
 
 
-        album publicity in Finland and/or international
+        album publicity in Finland: Melkutus Party's Mahti album & Kaustinen Showcase publicity in Finland 2026
 
-        Hurja Halla: Surma hiihti 2025 | Kalle Vainio: The Land Where It Always Rains – Musiikkia sateesta. 2024 | Anna-Kaisa Liedes & Heikki Laitinen: Musiikki elokuvasta 11 ihmisen kuvaa 2023-2024 | MeNaiset: Emyt 2023 | Hanna Ryynänen: Taite 2022
+        album publicity in Finland and  international: Hurja Halla: Surma hiihti 2025 | Kalle Vainio: The Land Where It Always Rains – Musiikkia sateesta. 2024 | Anna-Kaisa Liedes & Heikki Laitinen: Musiikki elokuvasta 11 ihmisen kuvaa 2023-2024 | MeNaiset: Emyt 2023 | Hanna Ryynänen: Taite 2022
       year: 2022-2026
 ---
