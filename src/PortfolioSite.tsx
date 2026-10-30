@@ -1,7 +1,8 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { HomePage } from './pages/HomePage';
-import { ArtistsPage } from './pages/ArtistsPage';
+// HIDDEN at client request – uncomment to restore Artists page
+// import { ArtistsPage } from './pages/ArtistsPage';
 import { AboutPage } from './pages/AboutPage';
 import { MediaPage } from './pages/MediaPage';
 import { ProductionsPage } from './pages/ProductionsPage';
@@ -14,7 +15,7 @@ import { NotFoundPage } from './pages/NotFoundPage';
  *
  * React Router routing structure:
  * - / -> HomePage (Etusivu)
- * - /artistit -> ArtistsPage (Artists represented by Pihla Folk)
+ * - /artistit -> ArtistsPage (HIDDEN – route commented out, CMS content kept)
  * - /tietoa -> AboutPage (About Pihla Folk and Mari Pääkkönen)
  * - /palvelut -> ServicesPage (Services offered)
  * - /media -> MediaPage (Media resources and press materials)
@@ -27,7 +28,8 @@ export const PortfolioSite: React.FC = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/artistit" element={<ArtistsPage />} />
+        {/* HIDDEN at client request – uncomment to restore Artists page */}
+        {/* <Route path="/artistit" element={<ArtistsPage />} /> */}
         <Route path="/tietoa" element={<AboutPage />} />
         <Route path="/media" element={<MediaPage />} />
         <Route path="/tuotannot" element={<ProductionsPage />} />

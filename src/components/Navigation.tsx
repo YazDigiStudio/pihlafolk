@@ -66,7 +66,8 @@ export const Navigation: React.FC<NavigationProps> = ({ showName = true }) => {
     { label: t.nav.home, to: '/' },
     { label: t.nav.about, to: '/tietoa' },
     { label: t.nav.productions, to: '/tuotannot' },
-    { label: t.nav.artists, to: '/artistit' },
+    // HIDDEN at client request – uncomment to restore Artists page
+    // { label: t.nav.artists, to: '/artistit' },
     { label: t.nav.media, to: '/media' },
     { label: t.nav.contact, to: '/yhteystiedot' }
   ];

@@ -24,14 +24,6 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- Artists Page -->
-  <url>
-    <loc>https://pihlafolk.com/artistit</loc>
-    <lastmod>2026-05-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
   <!-- Media Page -->
   <url>
     <loc>https://pihlafolk.com/media</loc>
