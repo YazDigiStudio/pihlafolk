@@ -136,7 +136,7 @@ past:
 
         \- yhdessä Sattuma duon (Arto ja Eila Rinne) kanssa. Karjalaista ja suomalaista kansanmusiikkia Suomalais-ugrilaisilla päivillä 20.-21.10.2023 Õpetajate Majalla, Tallinnassa ja Eesti Rahva Museumissa, Tartossa.
       year: "2023"
-    - photographer: ""
+    - photographer: Karoliina Gavrilov
       status: completed
       additionalInfo:
         text: ""
@@ -146,7 +146,7 @@ past:
       type: project
       link: "   "
       id: keikkamyynti & tilaustyöt
-      image: /uploads/dsc_5228.jpg
+      image: /uploads/kajos3_photo_karoliina_gavrilov.jpg
       description: >-
         **käynnissä**
 
