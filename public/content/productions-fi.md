@@ -166,9 +166,6 @@ past:
         **menneet**
 
 
-        Melkutus Partyn *Mahti*-albumin & Kaustinen showcase'n tiedotus Suomessa, heinä-syyskuu 2026
-
-
         Vilma Talvitien OLIO ALIEN -albumijulkaisukiertueen tuotanto, tammi-huhtikuu 2026
 
 
@@ -181,6 +178,9 @@ past:
         esitelmä suomalaisista ja karjalaisista kansanmusiikkiperinteistä vierailulla Buskerudin kansanmusiikkikeskuksessa, Norjan Prestfossissa 21.-24.11.2024
 
 
-        *albumitiedotuksia kotimaassa ja/tai kansainvälisesti:* Hurja Halla: Surma hiihti 2025 | Kalle Vainio: The Land Where It Always Rains – Musiikkia sateesta. 2024 | Anna-Kaisa Liedes & Heikki Laitinen: Musiikki elokuvasta 11 ihmisen kuvaa 2023-2024 | MeNaiset: Emyt 2023 | Hanna Ryynänen: Taite 2022
+        *albumitiedotuksia kotimaassa:* Melkutus Party: *Mahti*-albumin & Kaustinen showcase'n tiedotus 2026
+
+
+        *albumitiedotuksia kotimaassa ja kansainvälisesti:* Hurja Halla: Surma hiihti 2025 | Kalle Vainio: The Land Where It Always Rains – Musiikkia sateesta. 2024 | Anna-Kaisa Liedes & Heikki Laitinen: Musiikki elokuvasta 11 ihmisen kuvaa 2023-2024 | MeNaiset: Emyt 2023 | Hanna Ryynänen: Taite 2022
       year: " 2022-2026"
 ---
