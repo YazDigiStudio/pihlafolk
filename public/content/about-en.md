@@ -61,7 +61,7 @@ sections:
       Amid all these currents and waves, I decided to establish a company, and pihla folk was founded in August 2022.
 
 
-      **work contact details**
+      **work contact**
 
 
       mari@pihlafolk.com\
