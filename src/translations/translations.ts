@@ -83,7 +83,7 @@ export const translations = {
     // SEO
     seo: {
       home: {
-        title: 'pihla folk - luova tuotanto & agentuuri',
+        title: 'pihla folk - luova tuotanto',
         description: 'Pihla Folk on kansanmusiikin ja -perinteen pioneeri. Tarjoamme artistimanagerointia, keikkamyyntiä ja tuotantopalveluja itämerensuomalaisen perinteen parissa.'
       },
       artists: {
@@ -200,7 +200,7 @@ export const translations = {
     // SEO
     seo: {
       home: {
-        title: 'pihla folk - creative production & agency',
+        title: 'pihla folk - creative production',
         description: 'Pihla Folk is a pioneer in folk music and tradition. We offer artist management, booking services, and production in Finnic traditions.'
       },
       artists: {
