@@ -154,13 +154,10 @@ past:
         keikkamyynti: Kajos 
 
 
-        Kajos on tuore nykykansanmusiikkiyhtye, jonka kesällä 2025 julkaistua Nouse Lempi -debyyttisingleä on striimattu jo yli 200 000 kertaa.
+        Kajos on tuore nykykansanmusiikkiyhtye, jonka kesällä 2025 julkaistua Nouse Lempi -debyyttisingleä on striimattu jo yli 200 000 kertaa. Kesän 2026 Tuska-festivaalillakin esiintynyt Kajos tarjoaa Suomen musiikkikentälle ennenkuulematonta, genrerajoja rikkovaa, itämerensuomalaisten kansojen perinteitä kunnioittavaa ja korkealla ammattitaidolla itse yhtyeen säveltämää sekä tuottamaa musiikkia. Kajoksen musiikki innoittuu karjalaisesta ja suomalaisesta loitsuperinteestä ja jykevästä luonnonvoimasta. Kajoksen konsertin myyttisessä todellisuudessa lempeä liehitellään, olutta synnytellään, tulilintua maanitellaan, luontoa nostatetaan ja kipuja hoivataan. 
 
 
-        Kesän 2026 Tuska-festivaaleillakin esiintynyt Kajos tarjoaa Suomen musiikkikentälle ennenkuulematonta, genrerajoja rikkovaa, itämerensuomalaisten kansojen perinteitä kunnioittavaa ja korkealla ammattitaidolla itse yhtyeen säveltämää sekä tuottamaa musiikkia. 
-
-
-        Kajoksen musiikki innoittuu karjalaisesta ja suomalaisesta loitsuperinteestä ja jykevästä luonnonvoimasta. Kajoksen konsertin myyttisessä todellisuudessa lempeä liehitellään, olutta synnytellään, tulilintua maanitellaan, luontoa nostatetaan ja kipuja hoivataan. 
+        Yhtyeellä on myös tunnelmallinen joulukonserttikokonaisuus tarjolla.
 
 
         **menneet**
