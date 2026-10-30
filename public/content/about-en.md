@@ -7,18 +7,17 @@ sections:
 
 
       Founded in 2022, Pihla folk is rooted in traditions and languages of Baltic-Finnic peoples. Its modern activities encompass archaic and acoustic expressions as well as cross-genre music. Finno-Ugric also forms an important, broader dimension of Pihla folk’s work.
+
+
+      What makes Pihla folk special is its deep focus in traditions and languages of Baltic-Finnic peoples. Traditions continue to live and evolve through acoustic and more subtle means. At the same time, cross-genre approaches can, at their best, open up new and distinctive soundscapes.
     image: /uploads/img_0171.jpeg
     imagePosition: left
     maxTextLength: 5000
   - imagePosition: right
     text: >-
-      What makes Pihla folk special is its deep focus in traditions and
-      languages of Baltic-Finnic peoples. Traditions continue to live and evolve
-      through acoustic and more subtle means. At the same time, cross-genre
-      approaches can, at their best, open up new and distinctive soundscapes.
-
-
-      A good knowledge and understanding of traditions, a sensitive working approach, and versatile networks enable successful engagement with cross-border, and at times contested tradition.
+      A good knowledge and understanding of traditions, a sensitive working
+      approach, and versatile networks enable successful engagement with
+      cross-border, and at times contested tradition.
 
 
       Pihla folk is generally on the side of peace in the world, but due to its profile, it must be emphasized that it is against the war in Ukraine and Putin's administration.
