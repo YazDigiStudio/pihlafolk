@@ -28,39 +28,24 @@ ongoing:
         All singers in the ensemble are professional musicians and folk singers holding Master's and Doctoral degrees in music: Hanni Autere, Juulia Björn, Charlotta Hagfors, Emilia Kallonen, Amanda Kauranne, Ilona Korhonen, Emmi Kuittinen, Pia Rask, Ulla Silvennoinen, Anni Tolvanen, Mira Törmälä
 
 
-        Piot received its world premiere in June 2023 as a commissioned piece for Tampere Vocal Music Festival (Tampereen Sävel). In 2026, pihla folk will release the piece as an album.
+        Piot received its world premiere in June 2023 as a commissioned piece for Tampere Vocal Music Festival (Tampereen Sävel). In winter 2027, pihla folk will release the piece as an album, and also working as a manager.
       year: 2024-
     - photographer: Tatu Rouvinen
       status: ongoing
       additionalInfo:
         title: Funding
         text: >-
-          The final production and release of the audiobook in 2026 are funded
+          The final production and release of the audiobook in 2026 were funded
           by the Kalevala Society.
 
 
           The project as a whole was funded during 2021–2023 by: Jenny and Antti Wihuri Foundation, Kalevala Society, Finnish Cultural Foundation, Niilo Helander Foundation, and the Arts Promotion Centre Finland.
       title: Laulettu Kalevala
       type: audiobook
-      link: " "
+      link: "linktr.ee/laulettukalevala "
       id: laulettu-kalevala
       image: /uploads/3levynkansi.jpg
-      description: >-
-        Piot \[Feast] depicts joyful celebrations based on texts from the
-        Baltic-Finnic peoples. The work itself is a small celebration, a feast -
-        while at the same time it is a grand celebration of the female voice.
-        Dedicated to folk music, the versatile musician, Doctor of Music, Docent
-        of Folk Music, and Artist Professor Ilona Korhonen has composed and
-        arranged a female choir work that remains faithful to traditional song
-        styles and heritage texts of the Baltic-Finnic region. The piece
-        resonates with the bone-shaking power characteristic of the
-        Baltic-Finnic vocal tradition.
-
-
-        All singers in the ensemble are professional musicians and folk singers holding Master's and Doctoral degrees in music: Hanni Autere, Juulia Björn, Charlotta Hagfors, Emilia Kallonen, Amanda Kauranne, Ilona Korhonen, Emmi Kuittinen, Pia Rask, Ulla Silvennoinen, Anni Tolvanen, Mira Törmälä
-
-
-        Piot received its world premiere in June 2023 as a commissioned piece for Tampere Vocal Music Festival (Tampereen Sävel). In winter 2027, pihla folk will release the piece as an album, and also working as a manager.
+      description: coming back soon...
       year: 2020-
 past:
   title: past
