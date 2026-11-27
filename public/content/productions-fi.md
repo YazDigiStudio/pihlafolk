@@ -14,20 +14,20 @@ ongoing:
       id: piot
       image: /uploads/productions/piot.jpg
       description: >-
-        Piot kuvaa itämerensuomalaisten kansojen tekstien pohjalta riemukkaiden
-        juhlien viettoa. Teos on itsessään pienet juhlat, pidot, mutta samalla
-        se on suurta naisäänen juhlaa. Kansanmusiikille omistautunut
-        monipuolinen muusikko, musiikin tohtori, kansanmusiikin dosentti,
-        taiteilijaprofessori Ilona Korhonen on säveltänyt ja sovittanut vanhojen
-        Itämeren alueen laulutavoille ja perinneteksteille uskollisen
-        naiskuoroteoksen, jossa soi itämerensuomalaisen laulutavan tukkia
-        tutisuttava voima.
+        *Piot* kuvaa itämerensuomalaisten kansojen tekstien pohjalta
+        riemukkaiden juhlien viettoa. Teos on itsessään pienet juhlat, pidot,
+        mutta samalla se on suurta naisäänen juhlaa. Kansanmusiikille
+        omistautunut monipuolinen muusikko, musiikin tohtori, kansanmusiikin
+        dosentti, taiteilijaprofessori Ilona Korhonen on säveltänyt ja
+        sovittanut vanhojen Itämeren alueen laulutavoille ja perinneteksteille
+        uskollisen naiskuoroteoksen, jossa soi itämerensuomalaisen laulutavan
+        tukkia tutisuttava voima.
 
 
         Ensemblen kaikki laulajat ovat ammattimuusikoita, kansanlaulajia, musiikin maistereita ja tohtoreita: Hanni Autere, Juulia Björn, Charlotta Hagfors, Emilia Kallonen, Anna E. Karvonen, Amanda Kauranne, Ilona Korhonen, Emmi Kuittinen, Pia Rask, Ulla Silvennoinen, Anni Tolvanen, Mira Törmälä
 
 
-        Piot sai kantaesityksensä Tampereen Sävel – kuoro- ja lauluyhtyetapahtuman tilausteoksena kesäkuussa 2023. Talvella 2027 pihla folk julkaisee teoksesta albumin.
+        *Piot* sai kantaesityksensä Tampereen Sävel – kuoro- ja lauluyhtyetapahtuman tilausteoksena kesäkuussa 2023. Talvella 2027 pihla folk julkaisee teoksesta albumin, ja toimii myös yhtyeen managerina.
       year: 2023-
     - photographer: Tatu Rouvinen
       status: ongoing
@@ -87,7 +87,7 @@ past:
         10.7. Laulettu Kalevala
 
 
-        23.7. virolainen Duo Ruut Ilmateade-albumin julkaisukonsertillaan - konsertin yhteistyökumppanina oli Viron Suomen-suurlähetystö
+        23.7. virolainen Duo Ruut *Ilmateade*-albumin julkaisukonsertillaan - konsertin yhteistyökumppanina oli Viron Suomen-suurlähetystö
 
 
         16.8. päättäjäiset
@@ -131,7 +131,7 @@ past:
         keikkamyynti: Kajos 
 
 
-        [Kajos](https://www.youtube.com/@kajosofficial) on tuore nykykansanmusiikkiyhtye innoittuen karjalaisesta ja suomalaisesta loitsuperinteestä ja jykevästä luonnonvoimasta. Yhtye tarjoaa Suomen musiikkikentälle ennenkuulematonta, genrerajat ylittävää, itämerensuomalaisten kansojen perinteitä kunnioittavaa ja korkealla ammattitaidolla yhtyeen itse säveltämää sekä tuottamaa musiikkia. Kesällä 2025 julkaistua Nouse Lempi -debyyttisingleä on striimattu jo yli 200 000 kertaa, kesällä 2026 Kajos vangitsi yleisönsä Tuska-festivaalillakin.
+        [Kajos](https://www.youtube.com/@kajosofficial) on tuore nykykansanmusiikkiyhtye innoittuen karjalaisesta ja suomalaisesta loitsuperinteestä ja jykevästä luonnonvoimasta. Yhtye tarjoaa Suomen musiikkikentälle ennenkuulematonta, genrerajat ylittävää, itämerensuomalaisten kansojen perinteitä kunnioittavaa ja korkealla ammattitaidolla yhtyeen itse säveltämää sekä tuottamaa musiikkia. Kesällä 2025 julkaistua *Nouse Lempi* -debyyttisingleä on striimattu jo yli 200 000 kertaa, kesällä 2026 Kajos vangitsi yleisönsä Tuska-festivaalillakin.
 
 
         Yhtyeellä on myös tunnelmallinen [joulukonserttikokonaisuus](https://www.youtube.com/watch?v=hH3qflYuS1g) tarjolla. 
@@ -140,13 +140,13 @@ past:
         **menneet**
 
 
-        Vilma Talvitien OLIO ALIEN -albumijulkaisukiertueen tuotanto, tammi-huhtikuu 2026
+        Vilma Talvitien *OLIO ALIEN* -albumijulkaisukiertueen tuotanto, tammi-huhtikuu 2026
 
 
         muusikon mentorointisessio perinnemusiikin ja kansanmusiikkifuusion kentästä ja sen näkymistä 2020-vuosikymmenellä, joulukuu 2025
 
 
-        llmastoitku (Eila Hartikainen), tuotanto 2024-2025 *ehdokkuus Kuorogaalassa Vuoden tapaukseksi 2025
+        *llmastoitku* (Eila Hartikainen), tuotanto 2024-2025 *ehdokkuus Kuorogaalassa Vuoden tapaukseksi 2025
 
 
         esitelmä suomalaisista ja karjalaisista kansanmusiikkiperinteistä vierailulla Buskerudin kansanmusiikkikeskuksessa, Norjan Prestfossissa 21.-24.11.2024
@@ -155,6 +155,6 @@ past:
         *albumitiedotuksia kotimaassa:* Melkutus Party: *Mahti*-albumin & Kaustinen showcase'n tiedotus 2026
 
 
-        *albumitiedotuksia kotimaassa ja kansainvälisesti:* Hurja Halla: Surma hiihti 2025 | Kalle Vainio: The Land Where It Always Rains – Musiikkia sateesta. 2024 | Anna-Kaisa Liedes & Heikki Laitinen: Musiikki elokuvasta 11 ihmisen kuvaa 2023-2024 | MeNaiset: Emyt 2023 | Hanna Ryynänen: Taite 2022
+        *albumitiedotuksia kotimaassa ja kansainvälisesti:* Hurja Halla: *Surma hiihti* 2025 | Kalle Vainio: *The Land Where It Always Rains – Musiikkia sateesta.* 2024 | Anna-Kaisa Liedes & Heikki Laitinen: *Musiikki elokuvasta 11 ihmisen kuvaa* 2023-2024 | MeNaiset: *Emyt* 2023 | Hanna Ryynänen: *Taite* 2022
       year: " 2022-2026"
 ---
