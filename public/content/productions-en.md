@@ -74,7 +74,7 @@ past:
         10.7. Laulettu Kalevala / Sung Kalevala
 
 
-        23.7. Estonian Duo Ruut's Ilmatead album presentation - in collaboration with the Embassy of the Republic of Estonia
+        23.7. Estonian Duo Ruut's *Ilmateade* album presentation - in collaboration with the Embassy of the Republic of Estonia
 
 
         16.8. closing event: Sattuma duo (Arto & Eila Rinne) - also performing Pekko Käppi (solo)
@@ -124,7 +124,7 @@ past:
         **past**
 
 
-        production of Vilma Talvitie's *Olio Alien* album release tour, 2026
+        production of Vilma Talvitie's *OLIO ALIEN* album release tour, 2026
 
 
         a mentor session for a musician about the field of traditional and folk music fusion and their perspectives in 2020, December 2025
