@@ -2,6 +2,33 @@
 ongoing:
   title: käynnissä olevat
   productions:
+    - photographer: Maarit Kytöharju
+      status: ongoing
+      additionalInfo:
+        title: Rahoittajat
+        text: Kalevalaseura-säätiö
+      subtitle: The Feast
+      title: "Ilona Korhonen Ensemble: Piot"
+      type: performance
+      link: " "
+      id: piot
+      image: /uploads/productions/piot.jpg
+      description: >-
+        Piot kuvaa itämerensuomalaisten kansojen tekstien pohjalta riemukkaiden
+        juhlien viettoa. Teos on itsessään pienet juhlat, pidot, mutta samalla
+        se on suurta naisäänen juhlaa. Kansanmusiikille omistautunut
+        monipuolinen muusikko, musiikin tohtori, kansanmusiikin dosentti,
+        taiteilijaprofessori Ilona Korhonen on säveltänyt ja sovittanut vanhojen
+        Itämeren alueen laulutavoille ja perinneteksteille uskollisen
+        naiskuoroteoksen, jossa soi itämerensuomalaisen laulutavan tukkia
+        tutisuttava voima.
+
+
+        Ensemblen kaikki laulajat ovat ammattimuusikoita, kansanlaulajia, musiikin maistereita ja tohtoreita: Hanni Autere, Juulia Björn, Charlotta Hagfors, Emilia Kallonen, Anna E. Karvonen, Amanda Kauranne, Ilona Korhonen, Emmi Kuittinen, Pia Rask, Ulla Silvennoinen, Anni Tolvanen, Mira Törmälä
+
+
+        Piot sai kantaesityksensä Tampereen Sävel – kuoro- ja lauluyhtyetapahtuman tilausteoksena kesäkuussa 2023. Talvella 2027 pihla folk julkaisee teoksesta albumin.
+      year: 2023-
     - photographer: Tatu Rouvinen
       status: ongoing
       additionalInfo:
@@ -56,33 +83,6 @@ ongoing:
 
         Laulettu Kalevala -äänikirja on osa Taideyliopiston Sibelius-Akatemian Kansanmusiikin aineryhmän äänitesarjaa.
       year: 2020-
-    - photographer: Maarit Kytöharju
-      status: ongoing
-      additionalInfo:
-        title: Rahoittajat
-        text: Kalevalaseura-säätiö
-      subtitle: The Feast
-      title: "Ilona Korhonen Ensemble: Piot"
-      type: performance
-      link: " "
-      id: piot
-      image: /uploads/productions/piot.jpg
-      description: >-
-        Piot kuvaa itämerensuomalaisten kansojen tekstien pohjalta riemukkaiden
-        juhlien viettoa. Teos on itsessään pienet juhlat, pidot, mutta samalla
-        se on suurta naisäänen juhlaa. Kansanmusiikille omistautunut
-        monipuolinen muusikko, musiikin tohtori, kansanmusiikin dosentti,
-        taiteilijaprofessori Ilona Korhonen on säveltänyt ja sovittanut vanhojen
-        Itämeren alueen laulutavoille ja perinneteksteille uskollisen
-        naiskuoroteoksen, jossa soi itämerensuomalaisen laulutavan tukkia
-        tutisuttava voima.
-
-
-        Ensemblen kaikki laulajat ovat ammattimuusikoita, kansanlaulajia, musiikin maistereita ja tohtoreita: Hanni Autere, Juulia Björn, Charlotta Hagfors, Emilia Kallonen, Anna E. Karvonen, Amanda Kauranne, Ilona Korhonen, Emmi Kuittinen, Pia Rask, Ulla Silvennoinen, Anni Tolvanen, Mira Törmälä
-
-
-        Piot sai kantaesityksensä Tampereen Sävel – kuoro- ja lauluyhtyetapahtuman tilausteoksena kesäkuussa 2023. Vuonna 2026 pihla folk julkaisee teoksesta albumin.
-      year: 2023-
 past:
   title: menneet
   productions:
