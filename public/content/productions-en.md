@@ -2,61 +2,6 @@
 ongoing:
   title: ongoing
   productions:
-    - photographer: Tatu Rouvinen
-      status: ongoing
-      additionalInfo:
-        title: Funding
-        text: >-
-          The final production and release of the audiobook in 2026 are funded
-          by the Kalevala Society.
-
-
-          The project as a whole was funded during 2021–2023 by: Jenny and Antti Wihuri Foundation, Kalevala Society, Finnish Cultural Foundation, Niilo Helander Foundation, and the Arts Promotion Centre Finland.
-      title: Laulettu Kalevala
-      type: audiobook
-      link: " "
-      id: laulettu-kalevala
-      image: /uploads/3levynkansi.jpg
-      description: >-
-        In the Laulettu Kalevala (The Sung Kalevala) audiobook, as the name
-        suggests, the Karelian-Finnish epic Kalevala (1849) is sung in its
-        entirety through song, using a variety of traditional folk melodies.
-
-
-        It is essential that the Kalevala, compiled and created by Elias Lönnrot based on Karelian, Finnish, and Ingrian runosongs, is heard and sung specifically as traditional runosong, because that is what the epic really is. The Kalevala can be challenging to read, but through song it can be experienced in an entirely new way. Runosong once came close to extinction, but it has been successfully revived in recent decades. Some of the key figures in this revival can be heard in this audiobook. One of the project's central aims is that, through the familiar epic, the listener may gain access to the vast world of Baltic-Finnic runosong and folk poetry.
-
-
-        The first episode of the audiobook was released digitally on Kalevala Day, 28 February 2023. The second episode on Kalevala Day, 28 February 2026, and the third and last episode on Runosong Day, 25 April 2026.
-
-
-        The audio book is available on YouTube (@laulettukalevala) and also on etno.net site.
-
-
-        **Working Group**
-
-
-        Runosingers & narrator:
-
-
-        Voice theather Iki-Turso: Eila Hartikainen, Taito Hoffrén (1974-2024), Maari Kallberg, Ilona Korhonen, Heikki Laitinen & Anna-Kaisa Liedes
-
-
-        Visual designer: Tatu Rouvinen
-
-
-        Recording: Taito Hoffrén, poem 25: Alec Havinmaa
-
-
-        Editing & mastering: Taito Hoffrén & Alec Havinmaa
-
-
-        Project convenor, producer & publisher: Mari Pääkkönen / pihla folk
-
-
-
-
-        The Laulettu Kalevala audiobook is part of the recording series of the Folk Music Department at the Sibelius Academy, University of the Arts Helsinki
-      year: 2020-
     - photographer: Maarit Kytöharju
       status: ongoing
       additionalInfo:
@@ -85,6 +30,38 @@ ongoing:
 
         Piot received its world premiere in June 2023 as a commissioned piece for Tampere Vocal Music Festival (Tampereen Sävel). In 2026, pihla folk will release the piece as an album.
       year: 2024-
+    - photographer: Tatu Rouvinen
+      status: ongoing
+      additionalInfo:
+        title: Funding
+        text: >-
+          The final production and release of the audiobook in 2026 are funded
+          by the Kalevala Society.
+
+
+          The project as a whole was funded during 2021–2023 by: Jenny and Antti Wihuri Foundation, Kalevala Society, Finnish Cultural Foundation, Niilo Helander Foundation, and the Arts Promotion Centre Finland.
+      title: Laulettu Kalevala
+      type: audiobook
+      link: " "
+      id: laulettu-kalevala
+      image: /uploads/3levynkansi.jpg
+      description: >-
+        Piot \[Feast] depicts joyful celebrations based on texts from the
+        Baltic-Finnic peoples. The work itself is a small celebration, a feast -
+        while at the same time it is a grand celebration of the female voice.
+        Dedicated to folk music, the versatile musician, Doctor of Music, Docent
+        of Folk Music, and Artist Professor Ilona Korhonen has composed and
+        arranged a female choir work that remains faithful to traditional song
+        styles and heritage texts of the Baltic-Finnic region. The piece
+        resonates with the bone-shaking power characteristic of the
+        Baltic-Finnic vocal tradition.
+
+
+        All singers in the ensemble are professional musicians and folk singers holding Master's and Doctoral degrees in music: Hanni Autere, Juulia Björn, Charlotta Hagfors, Emilia Kallonen, Amanda Kauranne, Ilona Korhonen, Emmi Kuittinen, Pia Rask, Ulla Silvennoinen, Anni Tolvanen, Mira Törmälä
+
+
+        Piot received its world premiere in June 2023 as a commissioned piece for Tampere Vocal Music Festival (Tampereen Sävel). In winter 2027, pihla folk will release the piece as an album, and also working as a manager.
+      year: 2020-
 past:
   title: past
   productions:
@@ -150,32 +127,32 @@ past:
         booking: Kajos 
 
 
-        Kajos is a fresh contemporary folk music band whose debut single Nouse Lempi, released on July 4, 2025, has attracted great interest. The song has already been streamed over 200 000 times. Kajos, who also performed at the Nordic’s biggest metal festival Tuska 2026, offers the Finnish music scene unprecedented music that breaks genre boundaries, respects the Baltic Finnic heritage, and is composed and produced by the band itself with high professionalism. Band’s music is inspired by Karelian and Finnish mythology and the forces of nature. The music of Kajos is strongly intertwined with primal and mystical vocal expression, touching cello playing, powerful beats, improvisation, ancient spells and cinematic soundscapes, making time stand still. Live music of Kajos has been described as enchanting, cold shivers evoking, transcendental experience that leads you back to your roots. 
+        [Kajos](https://www.youtube.com/@kajosofficial)'s music is inspired by Karelian and Finnish mythology and the forces of nature. The band offers the music scene unprecedented music that breaks genre boundaries, respects the Baltic Finnic heritage, and is composed and produced by the band itself with high professionalism. The music of Kajos is strongly intertwined with primal and mystical vocal expression, touching cello playing, powerful beats, improvisation, ancient spells and cinematic soundscapes, making time stand still. 
 
 
+        The debut single *[Nouse Lempi](https://www.youtube.com/watch?v=bboFfmo8IQ0)*, released on July 4, 2025, has already been streamed over 200 000 times. And in summer 2026 Kajos performed at the Nordic’s biggest metal festival Tuska in Helsinki.
 
-        Kajos has also an atmospheric Christmas concert.
 
-
+        Kajos has also an atmospheric [Christmas concert](https://www.youtube.com/watch?v=VmkwQaGcCsk).
 
 
         **past**
 
 
-        production of Vilma Talvitie's Olio Alien album release tour, 2026
+        production of Vilma Talvitie's *Olio Alien* album release tour, 2026
 
 
         a mentor session for a musician about the field of traditional and folk music fusion and their perspectives in 2020, December 2025
 
 
-        llmastoitku (Eila Hartikainen), production 2024-2025 *nomination (Finnish) Choir Gala: Case of the Year 2025
+        *llmastoitku* (Eila Hartikainen), production 2024-2025 *nomination (Finnish) Choir Gala: Case of the Year 2025
 
 
         a presentation on Finnish and Karelian folk music traditions during a visit at Buskerud's Folk Music Center in Prestfoss, Norway on November 21-24, 2024
 
 
-        album publicity in Finland: Melkutus Party's Mahti album & Kaustinen Showcase publicity in Finland 2026
+        album publicity in Finland: Melkutus Party's *Mahti* album & Kaustinen Showcase publicity in Finland 2026
 
-        album publicity in Finland and  international: Hurja Halla: Surma hiihti 2025 | Kalle Vainio: The Land Where It Always Rains – Musiikkia sateesta. 2024 | Anna-Kaisa Liedes & Heikki Laitinen: Musiikki elokuvasta 11 ihmisen kuvaa 2023-2024 | MeNaiset: Emyt 2023 | Hanna Ryynänen: Taite 2022
+        album publicity in Finland and  international: Hurja Halla: *Surma hiihti* 2025 | Kalle Vainio: *The Land Where It Always Rains – Musiikkia sateesta.* 2024 | Anna-Kaisa Liedes & Heikki Laitinen: *Musiikki elokuvasta 11 ihmisen kuvaa* 2023-2024 | MeNaiset: *Emyt* 2023 | Hanna Ryynänen: *Taite* 2022
       year: 2022-2026
 ---
