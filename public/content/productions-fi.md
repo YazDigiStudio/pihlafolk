@@ -34,7 +34,7 @@ ongoing:
       additionalInfo:
         title: Rahoittajat
         text: >-
-          Äänikirjan lopputuotantoa ja julkaisemista rahoittaa vuonna 2026
+          Äänikirjan lopputuotantoa ja julkaisemista rahoitti vuonna 2026
           Kalevalaseura
 
 
@@ -44,21 +44,7 @@ ongoing:
       link: https://linktr.ee/laulettu_kalevala
       id: laulettu-kalevala
       image: /uploads/3levynkansi.jpg
-      description: >-
-        Piot kuvaa itämerensuomalaisten kansojen tekstien pohjalta riemukkaiden
-        juhlien viettoa. Teos on itsessään pienet juhlat, pidot, mutta samalla
-        se on suurta naisäänen juhlaa. Kansanmusiikille omistautunut
-        monipuolinen muusikko, musiikin tohtori, kansanmusiikin dosentti,
-        taiteilijaprofessori Ilona Korhonen on säveltänyt ja sovittanut vanhojen
-        Itämeren alueen laulutavoille ja perinneteksteille uskollisen
-        naiskuoroteoksen, jossa soi itämerensuomalaisen laulutavan tukkia
-        tutisuttava voima.
-
-
-        Ensemblen kaikki laulajat ovat ammattimuusikoita, kansanlaulajia, musiikin maistereita ja tohtoreita: Hanni Autere, Juulia Björn, Charlotta Hagfors, Emilia Kallonen, Anna E. Karvonen, Amanda Kauranne, Ilona Korhonen, Emmi Kuittinen, Pia Rask, Ulla Silvennoinen, Anni Tolvanen, Mira Törmälä
-
-
-        Piot sai kantaesityksensä Tampereen Sävel – kuoro- ja lauluyhtyetapahtuman tilausteoksena kesäkuussa 2023. Talvella 2027 pihla folk julkaisee teoksesta albumin, ja toimii myös yhtyeen managerina.
+      description: tulossa pian takaisin...
       year: 2020-
 past:
   title: menneet
