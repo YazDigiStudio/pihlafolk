@@ -131,7 +131,7 @@ past:
         keikkamyynti: Kajos 
 
 
-        [Kajos](https://www.youtube.com/@kajosofficial) on tuore nykykansanmusiikkiyhtye innoittuen karjalaisesta ja suomalaisesta loitsuperinteestä ja jykevästä luonnonvoimasta. Yhtye tarjoaa Suomen musiikkikentälle ennenkuulematonta, genrerajat ylittävää, itämerensuomalaisten kansojen perinteitä kunnioittavaa ja korkealla ammattitaidolla yhtyeen itse säveltämää sekä tuottamaa musiikkia. Kesällä 2025 julkaistua Nouse Lempi -debyyttisingleä on striimattu jo yli 200 000 kertaa, kesällä 2026 Kajos vangitsi yleisönsä [Tuska-festivaalillakin](https://www.youtube.com/watch?v=VmkwQaGcCsk).
+        [Kajos](https://www.youtube.com/@kajosofficial) on tuore nykykansanmusiikkiyhtye innoittuen karjalaisesta ja suomalaisesta loitsuperinteestä ja jykevästä luonnonvoimasta. Yhtye tarjoaa Suomen musiikkikentälle ennenkuulematonta, genrerajat ylittävää, itämerensuomalaisten kansojen perinteitä kunnioittavaa ja korkealla ammattitaidolla yhtyeen itse säveltämää sekä tuottamaa musiikkia. Kesällä 2025 julkaistua Nouse Lempi -debyyttisingleä on striimattu jo yli 200 000 kertaa, kesällä 2026 Kajos vangitsi yleisönsä Tuska-festivaalillakin.
 
 
         Yhtyeellä on myös tunnelmallinen [joulukonserttikokonaisuus](https://www.youtube.com/watch?v=hH3qflYuS1g) tarjolla. 
