@@ -45,43 +45,20 @@ ongoing:
       id: laulettu-kalevala
       image: /uploads/3levynkansi.jpg
       description: >-
-        Laulettu Kalevala -äänikirjassa nimensä mukaisesti lauletaan
-        karjalais-suomalainen eepos (1849) läpi eri kansansävelmin.
+        Piot kuvaa itämerensuomalaisten kansojen tekstien pohjalta riemukkaiden
+        juhlien viettoa. Teos on itsessään pienet juhlat, pidot, mutta samalla
+        se on suurta naisäänen juhlaa. Kansanmusiikille omistautunut
+        monipuolinen muusikko, musiikin tohtori, kansanmusiikin dosentti,
+        taiteilijaprofessori Ilona Korhonen on säveltänyt ja sovittanut vanhojen
+        Itämeren alueen laulutavoille ja perinneteksteille uskollisen
+        naiskuoroteoksen, jossa soi itämerensuomalaisen laulutavan tukkia
+        tutisuttava voima.
 
 
-        On oleellista tuoda Elias Lönnrotin karjalaisten, suomalaisten ja inkeriläisten runojen pohjalle ja pohjalta luoma Kalevala kuultavaksi ja laulettavaksi juuri runolaulettuna, koska siitähän eepoksessa on kysymys. Kalevalaa voi olla haastavaa lukea, mutta laulun kautta sen voi kokea uudella tavalla. Runolaulu ehti välillä jo lähes sammua, mutta sitä on onnistuttu elvyttämään menestyksekkäästi viime vuosikymmeninä. Osaa näistä elvyttäjistä kuullaan tässä äänikirjassa. Hankkeen yhtenä ideana onkin, että tutun eepoksen kautta koko laaja itämerensuomalainen runolaulumaailma ja kansanrunous aukeaisivat kuulijalleen.
+        Ensemblen kaikki laulajat ovat ammattimuusikoita, kansanlaulajia, musiikin maistereita ja tohtoreita: Hanni Autere, Juulia Björn, Charlotta Hagfors, Emilia Kallonen, Anna E. Karvonen, Amanda Kauranne, Ilona Korhonen, Emmi Kuittinen, Pia Rask, Ulla Silvennoinen, Anni Tolvanen, Mira Törmälä
 
 
-        Äänikirjan ensimmäinen jakso julkaistiin digitaalisesti Kalevalan päivänä, 28.2.2023, 2. Kalevalan päivänä, 28. helmikuuta 2026. 3. ja viimeinen jakso julkaistaan Runolaulupäivänä, 25. huhtikuuta.
-
-
-        Laulettu Kalevala -äänikirja on kuultavissa tällä hetkellä sen YouTube-kanavalla (tunnus: @laulettukalevala) sekä etno.net-sivustolla.
-
-
-        Laulettu Kalevala -äänikirjan julkaisufestivaaliä vietettiin 26.-28.2.2023 Viinikahvila Feeniks'essä, Helsingissä. Festivaali oli osa Sibelius-Aketemian Kansanmusiikkiosaston 40-vuotisjuhlavuotta.
-
-
-        Yleisöä osallistavia julkaisukonsertteja on sen jälkeen kuultu Arhippa Perttunen -symposiumissa, Musiikkijuhla Sommelossa, Olavinlinnan Kekrijuhlassa, Sellosalissa ja Lönnrotin terassilla.
-
-
-        **Työryhmä**
-
-
-        Runolaulajat & lukija:
-
-
-        Ääniteatteri Iki-Turso: Eila Hartikainen, Taito Hoffrén (1974-2024), Maari Kallberg, Ilona Korhonen, Heikki Laitinen & Anna-Kaisa Liedes\
-
-        Visuaalinen suunnittelija: Tatu Rouvinen\
-
-        Äänitys: Taito Hoffrén, 25. runo Alec Havinmaa\
-
-        Editointi & masterointi: Taito Hoffrén & Alec Havinmaa\
-
-        Hankkeen koollekutsuja, tuottaja & julkaisija: Mari Pääkkönen / pihla folk
-
-
-        Laulettu Kalevala -äänikirja on osa Taideyliopiston Sibelius-Akatemian Kansanmusiikin aineryhmän äänitesarjaa.
+        Piot sai kantaesityksensä Tampereen Sävel – kuoro- ja lauluyhtyetapahtuman tilausteoksena kesäkuussa 2023. Talvella 2027 pihla folk julkaisee teoksesta albumin, ja toimii myös yhtyeen managerina.
       year: 2020-
 past:
   title: menneet
@@ -154,10 +131,10 @@ past:
         keikkamyynti: Kajos 
 
 
-        Kajos on tuore nykykansanmusiikkiyhtye, jonka kesällä 2025 julkaistua Nouse Lempi -debyyttisingleä on striimattu jo yli 200 000 kertaa. Kesän 2026 Tuska-festivaalillakin esiintynyt Kajos tarjoaa Suomen musiikkikentälle ennenkuulematonta, genrerajoja rikkovaa, itämerensuomalaisten kansojen perinteitä kunnioittavaa ja korkealla ammattitaidolla itse yhtyeen säveltämää sekä tuottamaa musiikkia. Kajoksen musiikki innoittuu karjalaisesta ja suomalaisesta loitsuperinteestä ja jykevästä luonnonvoimasta. Kajoksen konsertin myyttisessä todellisuudessa lempeä liehitellään, olutta synnytellään, tulilintua maanitellaan, luontoa nostatetaan ja kipuja hoivataan. 
+        [Kajos](https://www.youtube.com/@kajosofficial) on tuore nykykansanmusiikkiyhtye innoittuen karjalaisesta ja suomalaisesta loitsuperinteestä ja jykevästä luonnonvoimasta. Yhtye tarjoaa Suomen musiikkikentälle ennenkuulematonta, genrerajat ylittävää, itämerensuomalaisten kansojen perinteitä kunnioittavaa ja korkealla ammattitaidolla yhtyeen itse säveltämää sekä tuottamaa musiikkia. Kesällä 2025 julkaistua Nouse Lempi -debyyttisingleä on striimattu jo yli 200 000 kertaa, kesällä 2026 Kajos vangitsi yleisönsä [Tuska-festivaalillakin](https://www.youtube.com/watch?v=VmkwQaGcCsk).
 
 
-        Yhtyeellä on myös tunnelmallinen joulukonserttikokonaisuus tarjolla.
+        Yhtyeellä on myös tunnelmallinen [joulukonserttikokonaisuus](https://www.youtube.com/watch?v=hH3qflYuS1g) tarjolla. 
 
 
         **menneet**
